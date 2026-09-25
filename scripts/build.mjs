@@ -52,7 +52,7 @@ export function build(outDir) {
   // so it can be cached forever and every deploy busts the cache.
   const clientDirs = ['src/lib', 'src/client', 'src/styles'];
   const hash = createHash('sha256');
-  for (const d of clientDirs) for (const f of walk(join(ROOT, d))) hash.update(relative(ROOT, f).replace(/\\/g, '/')).update(readFileSync(f));
+  for (const d of clientDirs) for (const f of walk(join(ROOT, d))) hash.update(relative(ROOT, f).replace(/\\/g, '/')).update(readFileSync(f, 'utf8').replace(/\r\n/g, '\n'));
   const assetHash = hash.digest('hex').slice(0, 10);
   const assets = `/assets/${assetHash}`;
 
