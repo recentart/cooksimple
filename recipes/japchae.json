@@ -1,0 +1,41 @@
+{
+  "id": "japchae",
+  "title": "Japchae",
+  "description": "Korean stir-fried sweet potato glass noodles with spinach, carrots, mushrooms and onion in a sweet, savory sesame-soy sauce.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "cuisine": "Korean",
+  "mealTypes": ["dinner", "side"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead"],
+  "equipment": ["Large pot", "Large skillet or wok"],
+  "image": {"file": "japchae.svg", "alt": "A plate of glass noodles with spinach, carrot, peppers and sesame"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "noodles", "amount": "8", "unit": "oz", "item": "sweet potato glass noodles", "key": "sweet potato glass noodles"},
+    {"id": "soy", "amount": "1/4", "unit": "cup", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "sugar", "amount": "2", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "sesame", "amount": "2", "unit": "tbsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "thinly sliced"},
+    {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "cut into matchsticks"},
+    {"id": "mushrooms", "amount": "6", "unit": "oz", "item": "shiitake or cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "spinach", "amount": "4", "unit": "cup", "item": "spinach", "key": "spinach"},
+    {"id": "scallions", "amount": "3", "item": "green onion", "key": "green onions", "prep": "cut into {len 2 in} lengths"},
+    {"id": "seeds", "amount": "1", "unit": "tbsp", "item": "sesame seeds", "key": "sesame seeds"}
+  ],
+  "steps": [
+    {"text": "Cook the noodles in boiling water until soft and chewy, {time 6-7 min}. Drain, rinse with cold water and snip them into shorter lengths with scissors.", "uses": ["noodles"]},
+    {"text": "Stir the soy sauce, sugar, sesame oil and garlic together. Toss the noodles with a third of it.", "uses": ["soy", "sugar", "sesame", "garlic"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Stir-fry the onion and carrots for {time 3 min}, then the mushrooms for {time 3 min}.", "uses": ["oil", "onion", "carrots", "mushrooms"]},
+    {"text": "Add the spinach and scallions and stir until just wilted, {time 1 min}.", "uses": ["spinach", "scallions"]},
+    {"text": "Add the noodles and the rest of the sauce and toss until glossy and heated through, {time 2-3 min}. Sprinkle with sesame seeds. Serve warm or at room temperature.", "uses": ["seeds"]}
+  ],
+  "notes": [
+    "Japchae is often served at room temperature, so it’s good for making ahead.",
+    "Sweet potato glass noodles are gluten-free; use tamari to keep the whole dish gluten-free."
+  ]
+}

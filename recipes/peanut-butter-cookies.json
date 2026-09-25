@@ -1,0 +1,40 @@
+{
+  "id": "peanut-butter-cookies",
+  "title": "Peanut Butter Cookies",
+  "description": "Soft, chewy peanut butter cookies with the classic crisscross fork marks and a light sugar crunch on top.",
+  "added": "2026-09-25",
+  "servings": 24,
+  "servingsLabel": "cookies",
+  "scaleOptions": [12,24,48],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["dessert", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["2 baking sheets", "Parchment paper"],
+  "image": {"file": "peanut-butter-cookies.svg", "alt": "Peanut butter cookies with crisscross fork marks"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "flour", "amount": "1 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "soda", "amount": "1", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+    {"id": "pb", "amount": "3/4", "unit": "cup", "item": "creamy peanut butter", "key": "creamy peanut butter", "note": "regular, not natural"},
+    {"id": "brown", "amount": "3/4", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed"},
+    {"id": "sugar", "amount": "1/2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar", "note": "plus 2 tbsp for rolling"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven} and line the baking sheets. Whisk the flour, baking soda and salt.", "uses": ["flour", "soda", "salt"]},
+    {"text": "Beat the butter, peanut butter, brown sugar and sugar until creamy, {time 2 min}. Beat in the egg and vanilla.", "uses": ["butter", "pb", "brown", "sugar", "egg", "vanilla"]},
+    {"text": "Mix in the flour mixture until just combined.", "uses": []},
+    {"text": "Roll the dough into {count 24} balls, roll each in the extra sugar and set them on the sheets. Press each twice with a fork to make a crisscross.", "uses": []},
+    {"text": "Bake until the edges are lightly golden and the tops look just set, {time 9-11 min}. Cool on the sheet for {time 5 min} before moving.", "uses": []}
+  ],
+  "notes": [
+    "Natural peanut butter makes a crumbly, oily dough; regular creamy works best here.",
+    "Contains peanuts."
+  ]
+}

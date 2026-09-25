@@ -1,0 +1,37 @@
+{
+  "id": "baba-ganoush",
+  "title": "Baba Ganoush",
+  "description": "A smoky, silky eggplant dip with tahini, lemon and garlic, made by charring the eggplant until it collapses.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "totalMinutes": 75,
+  "cuisine": "Middle Eastern",
+  "mealTypes": ["snack"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead"],
+  "equipment": ["Rimmed baking sheet or gas burner", "Colander"],
+  "image": {"file": "baba-ganoush.svg", "alt": "Smoky baba ganoush with olive oil and parsley, with pita"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggplant", "amount": "2", "item": "medium eggplant", "key": "eggplant", "note": "about 2 lb total"},
+    {"id": "tahini", "amount": "1/4", "unit": "cup", "item": "tahini", "key": "tahini"},
+    {"id": "lemon", "amount": "3", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "cumin", "amount": "1/4", "unit": "tsp", "item": "ground cumin", "key": "ground cumin", "optional": true},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "extra-virgin olive oil", "key": "olive oil", "prep": "for drizzling"},
+    {"id": "parsley", "amount": "1", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 450F oven}. Prick the eggplants all over with a fork and roast on the sheet, turning once, until blackened and completely collapsed, {time 35-40 min}. For smokier flavor, char them directly over a gas flame first.", "uses": ["eggplant"]},
+    {"text": "When cool enough to handle, split the eggplants and scoop the flesh into the colander. Let it drain for {time 10 min}, then chop it finely.", "uses": []},
+    {"text": "Stir the tahini, lemon juice, garlic, salt and cumin into the eggplant until creamy. Taste and adjust the lemon and salt.", "uses": ["tahini", "lemon", "garlic", "salt", "cumin"]},
+    {"text": "Spread in a shallow bowl, drizzle with olive oil and scatter with parsley.", "uses": ["oil", "parsley"]}
+  ],
+  "notes": [
+    "Draining the eggplant keeps the dip thick instead of watery.",
+    "Keeps 4 days in the fridge; it tastes even better on day two."
+  ]
+}

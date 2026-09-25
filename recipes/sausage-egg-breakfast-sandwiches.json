@@ -1,0 +1,36 @@
+{
+  "id": "sausage-egg-breakfast-sandwiches",
+  "title": "Sausage, Egg and Cheese English Muffins",
+  "description": "Homemade breakfast sandwiches with seasoned sausage patties, a folded egg and melted cheddar on toasted English muffins.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": [],
+  "tags": ["freezer-friendly"],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "sausage-egg-breakfast-sandwiches.svg", "alt": "An English muffin sandwich with sausage, egg and cheese"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "sausage", "amount": "12", "unit": "oz", "item": "breakfast sausage", "key": "breakfast sausage"},
+    {"id": "muffins", "amount": "4", "item": "English muffin", "key": "english muffins", "prep": "split"},
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "cheese", "amount": "4", "unit": "slice", "item": "cheddar cheese", "key": "cheddar cheese"}
+  ],
+  "steps": [
+    {"text": "Divide the sausage into {count 4} pieces and press each into a thin patty a little wider than a muffin; they shrink as they cook.", "uses": ["sausage"]},
+    {"text": "Cook the patties in the skillet over medium heat until browned and cooked through with no pink in the middle, {time 4 min} per side. They should reach {temp 160F internal}. Move to a plate.", "uses": []},
+    {"text": "Toast the English muffins while the sausage cooks.", "uses": ["muffins"]},
+    {"text": "Wipe out the skillet and melt the butter over medium-low heat. Beat the eggs with the salt, pour them in and cook without stirring until almost set, {time 2-3 min}. Fold into quarters with a spatula and cut into {count 4} pieces.", "uses": ["butter", "eggs", "salt"]},
+    {"text": "Top each patty with a slice of cheese and a piece of egg, then return them to the pan for {time 30 sec} to melt the cheese. Sandwich in the toasted muffins.", "uses": ["cheese"]}
+  ],
+  "notes": [
+    "To freeze, wrap cooled sandwiches in foil or paper towels and freeze for up to 2 months. Microwave from frozen, wrapped in a paper towel, for 1½ to 2 minutes, turning once."
+  ]
+}

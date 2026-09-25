@@ -1,0 +1,39 @@
+{
+  "id": "pork-tenderloin-with-apples",
+  "title": "Pork Tenderloin with Apples",
+  "description": "Juicy roasted pork tenderloin with caramelized apples and onions in a quick cider-mustard pan sauce, all in one skillet.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large oven-safe skillet", "Instant-read thermometer"],
+  "image": {"file": "pork-tenderloin-with-apples.svg", "alt": "Sliced pork tenderloin with roasted apples and onions"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "pork", "amount": "1", "item": "pork tenderloin", "key": "pork tenderloin", "note": "about {qty 1 1/4 lb}"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "apples", "amount": "2", "item": "firm apple", "key": "apples", "prep": "cored and cut into wedges"},
+    {"id": "onion", "amount": "1", "item": "red onion", "key": "red onions", "prep": "cut into wedges"},
+    {"id": "cider", "amount": "1/2", "unit": "cup", "item": "apple cider or apple juice", "key": "apple cider"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "apple cider vinegar", "key": "apple cider vinegar"},
+    {"id": "mustard", "amount": "1", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Trim any silvery membrane from the pork and season it all over with the salt, pepper and thyme.", "uses": ["pork", "salt", "pepper", "thyme"]},
+    {"text": "Heat the oil in the skillet over medium-high heat and brown the pork on all sides, {time 6-8 min} total. Move it to a plate.", "uses": ["oil"]},
+    {"text": "Add the butter, apples and onion and cook, turning, until lightly caramelized, {time 4-5 min}. Set the pork on top.", "uses": ["butter", "apples", "onion"]},
+    {"text": "Roast until the thickest part of the pork reads {temp 140F internal}, {time 12-15 min}. Move the pork to a board to rest for {time 5 min}; it will climb to {temp 145F internal}.", "uses": []},
+    {"text": "Set the skillet over medium heat (the handle is hot). Add the cider, vinegar and mustard and simmer, scraping up the browned bits, until slightly syrupy, {time 3 min}. Slice the pork and serve with the apples and sauce.", "uses": ["cider", "vinegar", "mustard"]}
+  ],
+  "notes": [
+    "Tenderloin is lean, so a thermometer makes all the difference. Slightly pink pork at 145°F is safe and juicy."
+  ]
+}

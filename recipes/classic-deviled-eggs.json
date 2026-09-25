@@ -1,0 +1,39 @@
+{
+  "id": "classic-deviled-eggs",
+  "title": "Classic Deviled Eggs",
+  "description": "Hard-cooked egg whites filled with a smooth, tangy yolk mixture and finished with paprika and chives.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "halves",
+  "scaleOptions": [12,24],
+  "prepMinutes": 20,
+  "cookMinutes": 12,
+  "totalMinutes": 45,
+  "cuisine": "American",
+  "mealTypes": ["snack"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Saucepan", "Bowl of ice water", "Piping bag or zip-top bag, optional"],
+  "image": {"file": "classic-deviled-eggs.svg", "alt": "Deviled eggs dusted with paprika and chives on a plate"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggs", "amount": "6", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "mayo", "amount": "1/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "vinegar", "amount": "1", "unit": "tsp", "item": "white vinegar or pickle juice", "key": "white vinegar"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"},
+    {"id": "pepper", "amount": "1", "unit": "pinch", "item": "black pepper", "key": "black pepper"},
+    {"id": "paprika", "amount": "1/4", "unit": "tsp", "item": "sweet or smoked paprika", "key": "sweet paprika"},
+    {"id": "chives", "amount": "1", "unit": "tbsp", "item": "fresh chives", "key": "fresh chives", "prep": "finely chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Lower the eggs into a pan of boiling water, reduce to a simmer and cook for {time 12 min}. Move them straight into the ice water for {time 10 min}.", "uses": ["eggs"]},
+    {"text": "Peel the eggs, halve them lengthwise and pop the yolks into a bowl. Set the whites on a plate.", "uses": []},
+    {"text": "Mash the yolks until fine, then stir in the mayonnaise, mustard, vinegar, salt and pepper until smooth.", "uses": ["mayo", "mustard", "vinegar", "salt", "pepper"]},
+    {"text": "Spoon or pipe the filling into the whites. Dust with paprika and scatter with chives.", "uses": ["paprika", "chives"]}
+  ],
+  "notes": [
+    "Older eggs peel more easily than very fresh ones.",
+    "Make the filling and whites up to a day ahead and keep them separately covered; fill just before serving."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "juicy-baked-chicken-breasts",
+  "title": "Juicy Baked Chicken Breasts",
+  "description": "Simple oven-baked chicken breasts with a garlic-paprika rub, cooked hot and fast so they stay juicy. Great for meal prep.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": ["one-pan", "make-ahead"],
+  "equipment": ["Baking dish or rimmed baking sheet", "Instant-read thermometer"],
+  "image": {"file": "juicy-baked-chicken-breasts.svg", "alt": "Golden baked chicken breasts sliced on a plate with herbs"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "4", "item": "boneless, skinless chicken breast", "key": "chicken breasts", "note": "about {qty 2 lb}"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "1 1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked or sweet paprika", "key": "smoked paprika"},
+    {"id": "garlic", "amount": "1", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "oregano", "amount": "1/2", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. If the breasts are very thick at one end, press or pound them to an even thickness so they cook evenly.", "uses": ["chicken"]},
+    {"text": "Rub the chicken with the oil. Mix the salt, paprika, garlic powder, oregano and pepper and sprinkle it evenly over both sides.", "uses": ["oil", "salt", "paprika", "garlic", "oregano", "pepper"]},
+    {"text": "Lay the breasts in the baking dish with space between them. Bake until the thickest part reads {temp 160F internal}, {time 16-22 min} depending on size.", "uses": []},
+    {"text": "Cover loosely with foil and rest for {time 5 min}; the temperature rises to {temp 165F internal}. Slice and serve, or cool for meal prep.", "uses": []}
+  ],
+  "notes": [
+    "A thermometer is the surest way to avoid dry chicken; pull it out as soon as it’s done.",
+    "Cooked chicken keeps 4 days in the fridge; slice it for salads, wraps and grain bowls."
+  ]
+}

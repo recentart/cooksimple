@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Meal planner | CookSimple</title>
+<meta name="description" content="Plan a week of CookSimple recipes and send all the ingredients to your shopping list. Stored only in your browser.">
+<link rel="canonical" href="https://cooksimple.freewebtoolss.workers.dev/meal-planner/">
+<meta name="robots" content="noindex">
+<meta property="og:site_name" content="CookSimple">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Meal planner">
+<meta property="og:description" content="Plan a week of CookSimple recipes and send all the ingredients to your shopping list. Stored only in your browser.">
+<meta property="og:url" content="https://cooksimple.freewebtoolss.workers.dev/meal-planner/">
+<meta property="og:image" content="https://cooksimple.freewebtoolss.workers.dev/images/social/cooksimple.png">
+<meta property="og:image:alt" content="CookSimple: Recipes without the clutter.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="stylesheet" href="/assets/ce56fe8103/styles/site.css">
+<script>document.documentElement.classList.add('js');try{if(localStorage.getItem('cs-units')==='metric')document.documentElement.setAttribute('data-units','metric')}catch(e){}</script>
+<script type="module" src="/assets/ce56fe8103/client/planner-page.js"></script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><circle class="logo-bg" cx="16" cy="16" r="15"/><path class="logo-fg" d="M9 17.5h14a7 7 0 0 1-14 0Z"/><path class="logo-steam" d="M12.5 13c0-1.6 1.4-1.9 1.4-3.4M16 13c0-1.6 1.4-1.9 1.4-3.4M19.5 13c0-1.6 1.4-1.9 1.4-3.4" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg><span>CookSimple</span></a>
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="/search/"><span class="nav-long">Recipes</span><span class="nav-short" aria-hidden="true">Recipes</span></a></li><li><a href="/what-can-i-make/"><span class="nav-long">What can I make?</span><span class="nav-short" aria-hidden="true">I have…</span></a></li><li><a href="/meal-planner/" aria-current="page"><span class="nav-long">Meal plan</span><span class="nav-short" aria-hidden="true">Plan</span></a></li><li><a href="/saved/"><span class="nav-long">Saved</span><span class="nav-short" aria-hidden="true">Saved</span></a></li><li><a href="/shopping-list/"><span class="nav-long">Shopping list</span><span class="nav-short" aria-hidden="true">List</span><span class="nav-count" data-list-count hidden></span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+<div class="wrap page-head">
+  <h1>Meal planner</h1>
+  <p class="page-lede">Plan the week, then send every ingredient to your shopping list in one go. Saved in this browser only.</p>
+</div>
+<div class="wrap planner" data-planner>
+  <div class="planner-toolbar needs-js">
+    <button type="button" class="btn btn-primary" data-action="plan-to-list">Add the week to my shopping list</button>
+    <button type="button" class="btn btn-danger" data-action="clear-plan">Clear the week</button>
+  </div>
+  <div class="planner-days">
+    <section class="plan-day" data-day="0" aria-labelledby="day-0">
+      <h2 id="day-0">Monday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-0">Add a recipe for Monday</label>
+        <input id="add-0" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section><section class="plan-day" data-day="1" aria-labelledby="day-1">
+      <h2 id="day-1">Tuesday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-1">Add a recipe for Tuesday</label>
+        <input id="add-1" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section><section class="plan-day" data-day="2" aria-labelledby="day-2">
+      <h2 id="day-2">Wednesday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-2">Add a recipe for Wednesday</label>
+        <input id="add-2" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section><section class="plan-day" data-day="3" aria-labelledby="day-3">
+      <h2 id="day-3">Thursday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-3">Add a recipe for Thursday</label>
+        <input id="add-3" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section><section class="plan-day" data-day="4" aria-labelledby="day-4">
+      <h2 id="day-4">Friday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-4">Add a recipe for Friday</label>
+        <input id="add-4" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section><section class="plan-day" data-day="5" aria-labelledby="day-5">
+      <h2 id="day-5">Saturday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-5">Add a recipe for Saturday</label>
+        <input id="add-5" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section><section class="plan-day" data-day="6" aria-labelledby="day-6">
+      <h2 id="day-6">Sunday</h2>
+      <ul class="plan-list" data-list></ul>
+      <form class="plan-add needs-js" data-add>
+        <label class="vh" for="add-6">Add a recipe for Sunday</label>
+        <input id="add-6" list="plan-recipes" placeholder="Add a recipe…" autocomplete="off" maxlength="80">
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </section>
+  </div>
+  <datalist id="plan-recipes" data-plan-options></datalist>
+  <p class="hint">Tip: you can also use the <strong>Plan</strong> button on any recipe page.</p>
+</div>
+<noscript><div class="wrap"><p class="notice">The meal planner needs JavaScript because it is stored in your browser.</p></div></noscript>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p class="footer-brand"><svg class="logo" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><circle class="logo-bg" cx="16" cy="16" r="15"/><path class="logo-fg" d="M9 17.5h14a7 7 0 0 1-14 0Z"/><path class="logo-steam" d="M12.5 13c0-1.6 1.4-1.9 1.4-3.4M16 13c0-1.6 1.4-1.9 1.4-3.4M19.5 13c0-1.6 1.4-1.9 1.4-3.4" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg><span><strong>CookSimple</strong> · Recipes without the clutter.</span></p>
+    <ul class="footer-links">
+      <li><a href="/recipes/">All recipes</a></li>
+      <li><a href="/collections/">Collections</a></li>
+      <li><a href="/meal-planner/">Meal planner</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/about/#privacy">Privacy</a></li>
+      <li><a href="/about/#conversions">How conversions work</a></li>
+    </ul>
+    <p class="footer-note">No accounts, no tracking, no pop-ups. Everything you save stays in your browser.</p>
+  </div>
+</footer>
+<div class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

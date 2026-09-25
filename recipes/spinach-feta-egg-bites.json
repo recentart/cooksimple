@@ -1,0 +1,39 @@
+{
+  "id": "spinach-feta-egg-bites",
+  "title": "Spinach Feta Egg Bites",
+  "description": "Baked egg muffins with spinach, red pepper and feta. Make a tray on Sunday and reheat a couple each morning in under a minute.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "egg bites",
+  "scaleOptions": [6,12,24],
+  "prepMinutes": 15,
+  "cookMinutes": 22,
+  "cuisine": "Mediterranean",
+  "mealTypes": ["breakfast", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["12-cup muffin tin", "Medium skillet"],
+  "image": {"file": "spinach-feta-egg-bites.svg", "alt": "A muffin tin of egg bites with spinach and feta"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil", "note": "plus more for the tin"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "finely diced"},
+    {"id": "spinach", "amount": "3", "unit": "cup", "item": "baby spinach", "key": "spinach", "prep": "roughly chopped"},
+    {"id": "eggs", "amount": "10", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "milk", "amount": "1/4", "unit": "cup", "item": "milk", "key": "milk"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "blackpepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "feta", "amount": "3/4", "unit": "cup", "item": "feta cheese", "key": "feta cheese", "prep": "crumbled"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven} with a rack in the middle. Brush the muffin cups generously with oil, or use silicone liners.", "uses": []},
+    {"text": "Heat the oil in the skillet over medium heat. Cook the bell pepper until soft, {time 4 min}, then add the spinach and stir until wilted, {time 1-2 min}. Let it cool a little.", "uses": ["oil", "pepper", "spinach"]},
+    {"text": "Whisk the eggs, milk, salt and pepper in a large measuring jug or bowl until smooth.", "uses": ["eggs", "milk", "salt", "blackpepper"]},
+    {"text": "Divide the vegetables and feta among the muffin cups, then pour the egg mixture over them, filling each cup about three-quarters full.", "uses": ["feta"]},
+    {"text": "Bake until puffed and set in the center, {time 20-24 min}. Cool in the tin for {time 5 min}, then run a thin knife around each one and lift it out.", "uses": []}
+  ],
+  "notes": [
+    "Refrigerate in a covered container for up to 4 days, or freeze for up to 2 months. Reheat in the microwave for 30 to 60 seconds.",
+    "The bites puff in the oven and settle as they cool; that’s expected."
+  ]
+}

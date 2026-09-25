@@ -9,6 +9,7 @@ import { parseAmount } from '../../src/lib/quantity.js';
 import { unitId, isKnownUnit, dimensionOf } from '../../src/lib/units.js';
 import { tokenErrors, stepTimers, stepTemps } from '../../src/lib/tokens.js';
 import { singularize } from '../../src/lib/text.js';
+import { estimateNutrition, deriveLabels } from './nutrition.mjs';
 
 export const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const RECIPES_DIR = join(ROOT, 'recipes');
@@ -16,7 +17,7 @@ export const VOCAB_FILE = join(ROOT, 'data', 'ingredients.json');
 export const VOCAB_ADDITIONS_DIR = join(ROOT, 'data', 'vocab-additions');
 export const ILLUSTRATIONS_DIR = join(ROOT, 'src', 'illustrations');
 
-export const CUISINES = ['American', 'Mexican', 'Tex-Mex', 'Italian', 'Chinese', 'Chinese-American', 'Indian', 'Middle Eastern', 'Mediterranean', 'North African', 'Thai', 'Japanese', 'Korean', 'French', 'Greek', 'British', 'Global'];
+export const CUISINES = ['American', 'Mexican', 'Tex-Mex', 'Italian', 'Chinese', 'Chinese-American', 'Indian', 'Middle Eastern', 'Mediterranean', 'North African', 'Thai', 'Japanese', 'Korean', 'French', 'Greek', 'British', 'Vietnamese', 'Spanish', 'Caribbean', 'Filipino', 'Southern', 'Eastern European', 'Global'];
 export const MEAL_TYPES = ['breakfast', 'lunch', 'dinner', 'dessert', 'snack', 'side'];
 export const DIETS = ['vegetarian', 'vegan'];
 export const TAGS = ['one-pan', 'make-ahead', 'no-cook', 'freezer-friendly', 'baking'];
@@ -31,7 +32,7 @@ export const AISLES = {
   frozen: 'Frozen',
   other: 'Other',
 };
-export const FLAGS = ['meat', 'fish', 'dairy', 'egg', 'honey', 'rennet'];
+export const FLAGS = ['meat', 'fish', 'dairy', 'egg', 'honey', 'rennet', 'gluten', 'nut'];
 const NOT_VEGETARIAN = ['meat', 'fish', 'rennet'];
 const NOT_VEGAN = [...NOT_VEGETARIAN, 'dairy', 'egg', 'honey'];
 const SCALE_RULES = ['linear', 'fixed', 'whole', 'taste'];
@@ -66,7 +67,10 @@ export function loadVocab() {
       for (const f of v.contains || []) if (!FLAGS.includes(f)) errors.push(`${where}: unknown flag "${f}" in contains`);
       for (const f of Object.keys(v.varies || {})) if (!FLAGS.includes(f)) errors.push(`${where}: unknown flag "${f}" in varies`);
       if (v.gramsPerCup != null && !(v.gramsPerCup > 0)) errors.push(`${where}: gramsPerCup must be a positive number`);
-      const known = new Set(['one', 'aisle', 'family', 'syn', 'pantry', 'contains', 'varies', 'gramsPerCup', 'shop']);
+      const known = new Set(['one', 'aisle', 'family', 'syn', 'pantry', 'contains', 'varies', 'gramsPerCup', 'shop', 'n', 'gCup', 'ug']);
+      if (v.n != null && (!Array.isArray(v.n) || v.n.length !== 4 || v.n.some((x) => typeof x !== 'number' || x < 0))) errors.push(`${where}: n must be [kcal, protein, carbs, fat] per 100 g`);
+      if (v.gCup != null && !(v.gCup > 0)) errors.push(`${where}: gCup must be positive`);
+      if (v.ug != null && (typeof v.ug !== 'object' || Object.values(v.ug).some((x) => !(x > 0)))) errors.push(`${where}: ug must map units to grams`);
       for (const f of Object.keys(v)) if (!known.has(f)) errors.push(`${where}: unknown field "${f}"`);
       vocab[key] = v;
     }
@@ -318,6 +322,8 @@ export function validateRecipe(r, vocab, { file, illustrations = true } = {}) {
     ovenTemps,
     labelChecks,
   };
+  recipe.labels = deriveLabels(recipe, vocab);
+  recipe.nutrition = estimateNutrition(recipe, vocab);
   return { recipe, errors, warnings };
 }
 

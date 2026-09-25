@@ -1,0 +1,47 @@
+{
+  "id": "huevos-rancheros",
+  "title": "Huevos Rancheros",
+  "description": "Fried eggs on crisp corn tortillas with warm refried beans, a quick tomato-chile sauce, crumbled cheese, avocado and cilantro.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "Mexican",
+  "mealTypes": ["breakfast", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Medium saucepan", "Large nonstick skillet"],
+  "image": {"file": "huevos-rancheros.svg", "alt": "Fried eggs on tortillas with salsa, beans and avocado"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the sauce", "items": [
+      {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "onion", "amount": "1/2", "item": "white onion", "key": "white onions", "prep": "chopped"},
+      {"id": "jalapeno", "amount": "1", "item": "jalapeño", "key": "jalapeños", "prep": "seeded and minced"},
+      {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "To assemble", "items": [
+      {"id": "beans", "amount": "1", "unit": "can", "size": "16 oz", "item": "refried beans", "key": "canned refried beans", "note": "vegetarian if needed"},
+      {"id": "tortillas", "amount": "8", "item": "corn tortilla", "key": "corn tortillas"},
+      {"id": "fry-oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+      {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "queso fresco or feta", "key": "queso fresco", "prep": "crumbled"},
+      {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "sliced"},
+      {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true}
+    ] }
+  ],
+  "steps": [
+    {"text": "Make the sauce: heat the oil in the saucepan over medium heat. Cook the onion and jalapeño until soft, {time 4-5 min}, then add the garlic for {time 30 sec}.", "uses": ["oil", "onion", "jalapeno", "garlic"]},
+    {"text": "Add the tomatoes with their juice and the salt. Simmer, mashing the tomatoes a little, until slightly thickened, {time 8-10 min}. Keep warm over low heat.", "uses": ["tomatoes", "salt"]},
+    {"text": "Warm the refried beans in a small pot or the microwave, stirring in a splash of water if they are stiff.", "uses": ["beans"]},
+    {"text": "Heat a little of the oil in the skillet over medium-high heat. Crisp the tortillas one or two at a time until lightly blistered, {time 30-45 sec} per side. Drain on paper towels and set two on each plate, overlapping.", "uses": ["tortillas", "fry-oil"]},
+    {"text": "Lower the heat to medium, add the rest of the oil and fry the eggs until the whites are set and the yolks are as runny as you like, {time 3-4 min}.", "uses": ["eggs"]},
+    {"text": "Spread beans over the tortillas, top each plate with an egg and spoon the warm sauce around it. Finish with cheese, avocado and cilantro.", "uses": ["cheese", "avocado", "cilantro"]}
+  ],
+  "notes": [
+    "The sauce keeps in the fridge for up to 4 days and is good on scrambled eggs too.",
+    "Some canned refried beans are made with lard; choose a vegetarian can if that matters to you."
+  ]
+}

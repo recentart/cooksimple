@@ -1,0 +1,48 @@
+{
+  "id": "bibimbap",
+  "title": "Vegetable Bibimbap",
+  "description": "A Korean rice bowl topped with seasoned spinach, carrots, zucchini, mushrooms and bean sprouts, a fried egg and gochujang sauce.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "cuisine": "Korean",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large nonstick skillet", "Rice cooker or pot"],
+  "image": {"file": "bibimbap.svg", "alt": "A rice bowl with vegetables arranged in sections around a fried egg"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the sauce", "items": [
+      {"id": "gochujang", "amount": "3", "unit": "tbsp", "item": "gochujang", "key": "gochujang"},
+      {"id": "ssesame", "amount": "1", "unit": "tbsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+      {"id": "sugar", "amount": "1", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"}
+    ] },
+    { "group": "For the bowls", "items": [
+      {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "short-grain or jasmine rice", "key": "jasmine rice", "prep": "cooked"},
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+      {"id": "spinach", "amount": "6", "unit": "cup", "item": "spinach", "key": "spinach"},
+      {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "cut into matchsticks"},
+      {"id": "zucchini", "amount": "1", "item": "zucchini", "key": "zucchini", "prep": "cut into matchsticks"},
+      {"id": "mushrooms", "amount": "6", "unit": "oz", "item": "shiitake or cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+      {"id": "sprouts", "amount": "2", "unit": "cup", "item": "bean sprouts", "key": "bean sprouts"},
+      {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "soy", "amount": "2", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+      {"id": "sesame", "amount": "1", "unit": "tbsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+      {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "seeds", "amount": "1", "unit": "tbsp", "item": "sesame seeds", "key": "sesame seeds"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Cook the rice. Stir the gochujang, sesame oil, sugar and vinegar together with 1 tbsp water to make the sauce.", "uses": ["rice", "gochujang", "ssesame", "sugar", "vinegar"]},
+    {"text": "Blanch the spinach and bean sprouts separately in boiling water for {time 30 sec} each, drain and squeeze dry. Toss each with a little of the garlic, soy sauce and sesame oil.", "uses": ["spinach", "sprouts", "garlic", "soy", "sesame"]},
+    {"text": "Heat a little oil in the skillet over medium-high heat and cook the carrots, zucchini and mushrooms one at a time until just tender, {time 2-3 min} each, seasoning each with a splash of soy sauce.", "uses": ["oil", "carrots", "zucchini", "mushrooms"]},
+    {"text": "Fry the eggs in the rest of the oil until the whites are set and the yolks runny, {time 3 min}.", "uses": ["eggs"]},
+    {"text": "Divide the rice among bowls, arrange the vegetables on top in sections, add an egg and sprinkle with sesame seeds. Serve with the sauce to stir in.", "uses": ["seeds"]}
+  ],
+  "notes": [
+    "Add thinly sliced beef bulgogi or crispy tofu for a heartier bowl."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "easy-tiramisu",
+  "title": "Easy Tiramisu",
+  "description": "Coffee-soaked ladyfingers layered with a light mascarpone cream and dusted with cocoa. No raw eggs; it sets overnight in the fridge.",
+  "added": "2026-09-25",
+  "servings": 9,
+  "scaleOptions": [9,18],
+  "scaleNote": "One batch fills an {len 8x8 in} dish; a double batch fits {len 9x13 in}.",
+  "prepMinutes": 25,
+  "cookMinutes": 0,
+  "totalMinutes": 385,
+  "cuisine": "Italian",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "no-cook"],
+  "equipment": ["{len 8x8 in} dish", "Mixer or whisk", "Fine sieve"],
+  "image": {"file": "easy-tiramisu.svg", "alt": "A dish of tiramisu dusted with cocoa and a slice showing its layers"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "coffee", "amount": "1 1/4", "unit": "cup", "item": "strong brewed coffee or espresso", "key": "brewed coffee", "prep": "cooled"},
+    {"id": "cream", "amount": "1", "unit": "cup", "item": "cold heavy cream", "key": "heavy cream"},
+    {"id": "mascarpone", "amount": "16", "unit": "oz", "item": "mascarpone", "key": "mascarpone", "note": "cold"},
+    {"id": "sugar", "amount": "1/2", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "ladyfingers", "amount": "24", "item": "ladyfinger", "key": "ladyfingers", "note": "crisp savoiardi"},
+    {"id": "cocoa", "amount": "2", "unit": "tbsp", "item": "unsweetened cocoa powder", "key": "unsweetened cocoa powder"}
+  ],
+  "steps": [
+    {"text": "Whip the cream to soft peaks. In another bowl, beat the mascarpone, powdered sugar and vanilla until smooth, then fold in the whipped cream.", "uses": ["cream", "mascarpone", "sugar", "vanilla"]},
+    {"text": "Pour the coffee into a shallow dish. Dip each ladyfinger in it for just a second per side; they soak up coffee quickly and turn soggy if left.", "uses": ["coffee", "ladyfingers"]},
+    {"text": "Lay half the dipped ladyfingers in the dish in one layer, breaking them to fit. Spread half the mascarpone cream over them.", "uses": []},
+    {"text": "Repeat with the rest of the ladyfingers and cream, and smooth the top.", "uses": []},
+    {"text": "Cover and chill for at least {time 6 hr notimer}, or overnight. Dust with cocoa through a sieve just before serving.", "uses": ["cocoa"]}
+  ],
+  "notes": [
+    "Traditional tiramisu uses raw egg yolks and whites. This version uses whipped cream instead, so it’s safe for everyone and more stable.",
+    "Add 2 tbsp coffee liqueur or dark rum to the coffee for a grown-up version."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "greek-chicken-souvlaki",
+  "title": "Greek Chicken Souvlaki",
+  "description": "Lemon, garlic and oregano marinated chicken skewers, grilled or broiled, served with homemade tzatziki, pita and tomatoes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 12,
+  "totalMinutes": 70,
+  "cuisine": "Greek",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Skewers (soak wooden ones in water for 30 minutes)", "Grill or broiler pan"],
+  "image": {"file": "greek-chicken-souvlaki.svg", "alt": "Chicken souvlaki skewers with lemon, tzatziki and pita"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the chicken", "items": [
+      {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken breasts or thighs", "key": "chicken breasts", "prep": "cut into {len 1 1/4 in} cubes"},
+      {"id": "oil", "amount": "1/4", "unit": "cup", "item": "olive oil", "key": "olive oil"},
+      {"id": "lemon", "amount": "3", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "oregano", "amount": "2", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+    ] },
+    { "group": "For the tzatziki", "items": [
+      {"id": "yogurt", "amount": "1", "unit": "cup", "item": "plain Greek yogurt", "key": "plain greek yogurt"},
+      {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "grated and squeezed dry"},
+      {"id": "tgarlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "dill", "amount": "1", "unit": "tbsp", "item": "fresh dill", "key": "fresh dill", "prep": "chopped"},
+      {"id": "tlemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"}
+    ] },
+    { "group": "To serve", "items": [
+      {"id": "pita", "amount": "4", "item": "pita", "key": "pita bread", "plural": "pitas"},
+      {"id": "tomatoes", "amount": "2", "item": "tomato", "key": "tomatoes", "prep": "chopped"},
+      {"id": "onion", "amount": "1/2", "item": "red onion", "key": "red onions", "prep": "thinly sliced"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Mix the oil, lemon juice, garlic, oregano, salt and pepper in a bowl, add the chicken and toss. Marinate in the fridge for at least {time 30 min notimer}, up to 8 hours.", "uses": ["chicken", "oil", "lemon", "garlic", "oregano", "salt", "pepper"]},
+    {"text": "Make the tzatziki: stir together the yogurt, squeezed cucumber, garlic, dill and lemon juice with a pinch of salt. Chill until needed.", "uses": ["yogurt", "cucumber", "tgarlic", "dill", "tlemon"]},
+    {"text": "Heat the grill to medium-high, or the broiler with a rack {len 4 in} below it. Thread the chicken onto skewers, leaving small gaps between pieces.", "uses": []},
+    {"text": "Grill or broil, turning every few minutes, until charred in spots and the chicken reads {temp 165F internal}, {time 10-12 min}.", "uses": []},
+    {"text": "Warm the pitas on the grill or in a dry pan. Serve the skewers with pita, tzatziki, tomatoes and red onion.", "uses": ["pita", "tomatoes", "onion"]}
+  ],
+  "notes": [
+    "Thighs stay juicier than breasts on a hot grill; cook them to 175°F.",
+    "Tzatziki keeps 3 days in the fridge and gets more garlicky as it sits."
+  ]
+}

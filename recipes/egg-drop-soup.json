@@ -1,0 +1,37 @@
+{
+  "id": "egg-drop-soup",
+  "title": "Egg Drop Soup",
+  "description": "Silky ribbons of egg in a gingery, lightly thickened chicken broth with scallions and a drop of sesame oil. Ready in 15 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "cuisine": "Chinese",
+  "mealTypes": ["lunch", "side"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Medium saucepan"],
+  "image": {"file": "egg-drop-soup.svg", "alt": "A bowl of golden egg drop soup with ribbons of egg and green onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "broth", "amount": "4", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "finely grated"},
+    {"id": "soy", "amount": "1", "unit": "tsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "ground white pepper", "key": "ground white pepper"},
+    {"id": "cornstarch", "amount": "2", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "sesame", "amount": "1", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "thinly sliced"},
+    {"id": "salt", "item": "kosher salt", "key": "kosher salt", "scale": "taste"}
+  ],
+  "steps": [
+    {"text": "Bring the broth, ginger, soy sauce and white pepper to a simmer in the saucepan.", "uses": ["broth", "ginger", "soy", "pepper"]},
+    {"text": "Stir the cornstarch with {qty 3 tbsp} cold water until smooth, then stir it into the simmering broth. Cook, stirring, until slightly thickened and glossy, {time 1-2 min}.", "uses": ["cornstarch"]},
+    {"text": "Beat the eggs well. Stir the soup in one direction to make a slow whirlpool, then pour in the eggs in a thin stream. Let them set for a few seconds before stirring gently to form ribbons.", "uses": ["eggs"]},
+    {"text": "Take the pan off the heat, stir in the sesame oil and taste for salt. Serve topped with green onions.", "uses": ["sesame", "scallions", "salt"]}
+  ],
+  "notes": [
+    "A thin, steady stream of egg into moving broth is what makes fine ribbons.",
+    "Add a handful of frozen peas or corn with the broth for a more filling soup."
+  ]
+}

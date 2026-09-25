@@ -1,0 +1,36 @@
+{
+  "id": "cacio-e-pepe",
+  "title": "Cacio e Pepe",
+  "description": "Roman pasta with just Pecorino, black pepper and starchy pasta water, tossed into a creamy, peppery sauce in minutes.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "scaleOptions": [2,4],
+  "scaleNote": "Cacio e pepe is easiest in small batches. For 4, use a bigger skillet and toss in two batches if the sauce won’t come together.",
+  "prepMinutes": 5,
+  "cookMinutes": 12,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large skillet", "Medium pot"],
+  "image": {"file": "cacio-e-pepe.svg", "alt": "A plate of spaghetti with pecorino and cracked black pepper"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "8", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "A smaller pot of water concentrates the starch that makes the sauce."},
+    {"id": "pastasalt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "Pecorino is salty, so the water is only lightly salted."},
+    {"id": "pasta", "amount": "8", "unit": "oz", "item": "spaghetti or tonnarelli", "key": "spaghetti"},
+    {"id": "pepper", "amount": "2", "unit": "tsp", "item": "black peppercorns", "key": "black pepper", "prep": "coarsely cracked"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "optional": true},
+    {"id": "cheese", "amount": "1 1/4", "unit": "cup", "item": "Pecorino Romano", "key": "pecorino romano", "prep": "very finely grated", "note": "at room temperature"}
+  ],
+  "steps": [
+    {"text": "Bring the water and salt to a boil in the pot and cook the pasta until just shy of al dente. Save {qty 1 1/2 cup fixed} of the pasta water before draining.", "uses": ["water", "pastasalt", "pasta"]},
+    {"text": "Meanwhile toast the cracked pepper in the dry skillet over medium heat until fragrant, {time 1 min}. Add {qty 1/2 cup fixed} of pasta water and the butter and let it bubble.", "uses": ["pepper", "butter"]},
+    {"text": "Put the cheese in a bowl and whisk in a few tablespoons of warm (not boiling) pasta water to make a smooth, thick paste.", "uses": ["cheese"]},
+    {"text": "Add the pasta to the skillet and toss for {time 1 min} over medium heat. Take the pan off the heat, wait {time 30 sec} so it isn’t too hot, then add the cheese paste and toss vigorously, adding splashes of pasta water until glossy and creamy. Serve right away.", "uses": []}
+  ],
+  "notes": [
+    "If the cheese clumps, the pan was too hot. Add a splash of cool water and keep tossing off the heat.",
+    "Grate the cheese on the finest holes of a grater or use a food processor so it melts smoothly."
+  ]
+}

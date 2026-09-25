@@ -1,0 +1,41 @@
+{
+  "id": "chicken-tinga-tacos",
+  "title": "Chicken Tinga Tacos",
+  "description": "Shredded chicken simmered in a smoky chipotle-tomato sauce with onions, piled into warm tortillas with crema, avocado and cilantro.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "cuisine": "Mexican",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Medium pot", "Large skillet", "Blender"],
+  "image": {"file": "chicken-tinga-tacos.svg", "alt": "Three tacos with shredded chipotle chicken, onion and cilantro"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken breasts or thighs", "key": "chicken breasts"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+    {"id": "chipotle", "amount": "2", "item": "chipotle pepper in adobo", "key": "chipotle peppers in adobo", "plural": "chipotle peppers in adobo", "note": "plus 1 tbsp of the sauce"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "onion", "amount": "1", "item": "white onion", "key": "white onions", "prep": "thinly sliced"},
+    {"id": "tortillas", "amount": "12", "item": "corn tortilla", "key": "corn tortillas"},
+    {"id": "sour", "amount": "1/2", "unit": "cup", "item": "sour cream or crema", "key": "sour cream"},
+    {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "sliced"},
+    {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Put the chicken in the pot, cover with salted water and simmer gently until it reaches {temp 165F internal}, {time 15 min}. Let it cool slightly, then shred. Save {qty 1/2 cup} of the cooking liquid.", "uses": ["chicken"]},
+    {"text": "Blend the tomatoes, chipotles and adobo sauce, garlic, oregano and salt until smooth.", "uses": ["tomatoes", "chipotle", "garlic", "oregano", "salt"]},
+    {"text": "Heat the oil in the skillet over medium heat and cook the onion until soft and lightly golden, {time 6-8 min}.", "uses": ["oil", "onion"]},
+    {"text": "Pour in the sauce and simmer for {time 5 min}. Add the chicken and the saved liquid and simmer until the sauce clings to the chicken, {time 5 min}.", "uses": []},
+    {"text": "Warm the tortillas and fill with the chicken, sour cream, avocado and cilantro.", "uses": ["tortillas", "sour", "avocado", "cilantro"]}
+  ],
+  "notes": [
+    "Chipotles vary in heat; start with one and add more to taste.",
+    "Tinga freezes well and is also good on tostadas or in burritos."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "baked-sweet-potato-fries",
+  "title": "Baked Sweet Potato Fries",
+  "description": "Crisp-edged oven sweet potato fries tossed with a little cornstarch and smoked paprika, baked in a single layer until golden.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "American",
+  "mealTypes": ["side", "snack"],
+  "diets": ["vegan"],
+  "tags": [],
+  "equipment": ["2 rimmed baking sheets", "Parchment paper"],
+  "image": {"file": "baked-sweet-potato-fries.svg", "alt": "Orange sweet potato fries on a sheet pan with a dipping sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "2", "unit": "lb", "item": "sweet potatoes", "key": "sweet potatoes", "prep": "cut into {len 1/4 in} sticks"},
+    {"id": "cornstarch", "amount": "1", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} and line the baking sheets with parchment.", "uses": []},
+    {"text": "Pat the sweet potato sticks dry. Toss them with the cornstarch in a large bowl until lightly dusted, then add the oil and toss again.", "uses": ["potatoes", "cornstarch", "oil"]},
+    {"text": "Spread them in a single layer across both sheets with space between; crowded fries steam and go soft.", "uses": []},
+    {"text": "Bake for {time 15 min}, flip, and bake until browned and crisp at the edges, {time 10-15 min} more.", "uses": []},
+    {"text": "Toss the hot fries with the paprika, garlic powder and salt and serve right away.", "uses": ["paprika", "garlic", "salt"]}
+  ],
+  "notes": [
+    "Sweet potato fries never get quite as crisp as regular fries, but thin, even cuts and plenty of space get them close."
+  ]
+}

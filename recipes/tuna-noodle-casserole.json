@@ -1,0 +1,40 @@
+{
+  "id": "tuna-noodle-casserole",
+  "title": "Tuna Noodle Casserole",
+  "description": "An updated classic: egg noodles and tuna in a creamy mushroom sauce made from scratch, with peas and a crunchy cheddar crumb top.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 35,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "baking"],
+  "equipment": ["Large pot", "Large skillet", "{len 9x13 in} or 3-quart baking dish"],
+  "image": {"file": "tuna-noodle-casserole.svg", "alt": "A casserole of noodles, tuna and peas under a crisp crumb topping"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "noodles", "amount": "8", "unit": "oz", "item": "wide egg noodles", "key": "egg noodles"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "mushrooms", "amount": "8", "unit": "oz", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "flour", "amount": "1/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "broth", "amount": "1 1/2", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "milk", "amount": "1 1/2", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "tuna", "amount": "2", "unit": "can", "size": "5 oz", "item": "tuna", "key": "canned tuna", "prep": "drained and flaked"},
+    {"id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas"},
+    {"id": "cheese", "amount": "1", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded", "note": "divided"},
+    {"id": "panko", "amount": "1/2", "unit": "cup", "item": "panko breadcrumbs", "key": "panko breadcrumbs"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 375F oven}. Cook the noodles in salted boiling water for 2 minutes less than the package says; drain.", "uses": ["noodles"]},
+    {"text": "Melt 2 tbsp butter in the skillet over medium-high heat. Cook the mushrooms and onion until the mushrooms are browned and the onion soft, {time 8 min}.", "uses": ["butter", "mushrooms", "onion"]},
+    {"text": "Sprinkle in the flour and stir for {time 1 min}. Slowly whisk in the broth and milk and simmer, stirring, until thick and creamy, {time 4-5 min}. Season with the salt.", "uses": ["flour", "broth", "milk", "salt"]},
+    {"text": "Fold in the noodles, tuna, peas and half the cheese, and spread in the baking dish.", "uses": ["tuna", "peas", "cheese"]},
+    {"text": "Melt the remaining butter, toss it with the panko and the rest of the cheese, and scatter over the top. Bake until bubbling and golden, {time 20-25 min}.", "uses": ["panko"]}
+  ],
+  "notes": [
+    "Assemble up to a day ahead (keep the crumb topping separate) and bake straight from the fridge, adding 10 minutes."
+  ]
+}

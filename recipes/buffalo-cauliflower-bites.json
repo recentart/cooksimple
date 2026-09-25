@@ -1,0 +1,38 @@
+{
+  "id": "buffalo-cauliflower-bites",
+  "title": "Buffalo Cauliflower Bites",
+  "description": "Cauliflower florets baked in a light, crisp batter and tossed in a tangy butter and hot sauce glaze. Spicy, messy and hard to stop eating.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "cuisine": "American",
+  "mealTypes": ["snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["Rimmed baking sheet", "Parchment paper", "Large bowl"],
+  "image": {"file": "buffalo-cauliflower-bites.svg", "alt": "Cauliflower bites tossed in orange buffalo sauce with celery"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "cauliflower", "amount": "1", "unit": "head", "item": "cauliflower", "key": "cauliflower", "prep": "cut into bite-size florets", "note": "about 2 lb"},
+    {"id": "flour", "amount": "3/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "garlic", "amount": "1", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "water", "amount": "3/4", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "hot", "amount": "1/2", "unit": "cup", "item": "cayenne pepper hot sauce", "key": "hot sauce"},
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"},
+    {"id": "celery", "amount": "3", "unit": "stalk", "item": "celery", "key": "celery", "prep": "cut into sticks", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 450F oven} and line the sheet with parchment.", "uses": []},
+    {"text": "Whisk the flour, garlic powder, paprika, salt and water into a smooth batter like thin pancake batter. Toss the florets in it until coated.", "uses": ["flour", "garlic", "paprika", "salt", "water", "cauliflower"]},
+    {"text": "Spread the florets on the sheet, letting extra batter drip off, with space between them. Bake until the coating is dry and lightly golden, {time 20 min}.", "uses": []},
+    {"text": "Whisk the hot sauce and melted butter. Toss the baked florets in it, spread them out again and bake until the glaze sets and the edges crisp, {time 10-15 min}.", "uses": ["hot", "butter"]},
+    {"text": "Serve right away with celery sticks and your favorite dip.", "uses": ["celery"]}
+  ],
+  "notes": [
+    "Use vegan butter or olive oil in the sauce to make this vegan.",
+    "Swap the flour for a gluten-free blend if you need to, and check your hot sauce label."
+  ]
+}

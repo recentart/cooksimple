@@ -1,0 +1,38 @@
+{
+  "id": "tofu-scramble",
+  "title": "Tofu Scramble",
+  "description": "A savory vegan scramble of crumbled tofu, turmeric, vegetables and spinach that’s on the plate in about fifteen minutes.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 12,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "tofu-scramble.svg", "alt": "A skillet of golden tofu scramble with peppers and spinach"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tofu", "amount": "1", "unit": "block", "size": "14 oz", "item": "firm tofu", "key": "firm tofu", "prep": "drained and patted dry"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1/2", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+    {"id": "pepper", "amount": "1/2", "item": "red bell pepper", "key": "red bell peppers", "prep": "diced"},
+    {"id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "yeast", "amount": "2", "unit": "tbsp", "item": "nutritional yeast", "key": "nutritional yeast", "optional": true},
+    {"id": "spinach", "amount": "2", "unit": "cup", "item": "baby spinach", "key": "spinach"},
+    {"id": "milk", "amount": "2", "unit": "tbsp", "item": "unsweetened plant milk", "key": "plant milk"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium heat. Cook the onion and bell pepper until soft, {time 5 min}.", "uses": ["oil", "onion", "pepper"]},
+    {"text": "Crumble the tofu into the pan with your hands into pieces the size of scrambled egg curds. Sprinkle with the turmeric, garlic powder, salt and nutritional yeast and stir well.", "uses": ["tofu", "turmeric", "garlic", "salt", "yeast"]},
+    {"text": "Cook, stirring now and then, until the tofu is hot and any liquid has evaporated, {time 4-5 min}.", "uses": []},
+    {"text": "Stir in the spinach and plant milk and cook until the spinach wilts and the scramble looks creamy, {time 1-2 min}. Taste for salt and serve.", "uses": ["spinach", "milk"]}
+  ],
+  "notes": [
+    "The turmeric is mostly for color. Kala namak (black salt), if you have it, adds an eggy flavor; stir in a pinch at the end.",
+    "Serve with toast, in tortillas with salsa, or with roasted potatoes."
+  ]
+}

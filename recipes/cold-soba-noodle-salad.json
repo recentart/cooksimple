@@ -1,0 +1,40 @@
+{
+  "id": "cold-soba-noodle-salad",
+  "title": "Cold Soba Noodle Salad",
+  "description": "Chilled buckwheat noodles with edamame, cucumber, carrot and scallions in a sesame, soy and ginger dressing. Great for packed lunches.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "cuisine": "Japanese",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead"],
+  "equipment": ["Large pot", "Colander"],
+  "image": {"file": "cold-soba-noodle-salad.svg", "alt": "A bowl of soba noodles with edamame, cucumber, carrot and sesame"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "12", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "soba", "amount": "8", "unit": "oz", "item": "soba noodles", "key": "soba noodles"},
+    {"id": "edamame", "amount": "1", "unit": "cup", "item": "frozen shelled edamame", "key": "frozen edamame"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "vinegar", "amount": "2", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"},
+    {"id": "sesame", "amount": "2", "unit": "tbsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "syrup", "amount": "1", "unit": "tbsp", "item": "maple syrup", "key": "maple syrup"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "finely grated"},
+    {"id": "cucumber", "amount": "1", "item": "cucumber", "key": "cucumbers", "prep": "cut into matchsticks"},
+    {"id": "carrot", "amount": "1", "item": "carrot", "key": "carrots", "prep": "cut into matchsticks or grated"},
+    {"id": "scallions", "amount": "3", "item": "green onion", "key": "green onions", "prep": "thinly sliced"},
+    {"id": "seeds", "amount": "1", "unit": "tbsp", "item": "sesame seeds", "key": "sesame seeds"}
+  ],
+  "steps": [
+    {"text": "Bring the water to a boil. Add the soba and cook as the package says, usually {time 4-5 min}, adding the edamame for the last {time 2 min notimer}.", "uses": ["water", "soba", "edamame"]},
+    {"text": "Drain and rinse under cold running water, rubbing the noodles gently with your hands to wash off the starch, until completely cool. Shake off as much water as you can.", "uses": []},
+    {"text": "Whisk the soy sauce, vinegar, sesame oil, maple syrup and ginger in a large bowl.", "uses": ["soy", "vinegar", "sesame", "syrup", "ginger"]},
+    {"text": "Add the noodles, edamame, cucumber, carrot and most of the green onions and toss until coated. Top with the rest of the green onions and the sesame seeds.", "uses": ["cucumber", "carrot", "scallions", "seeds"]}
+  ],
+  "notes": [
+    "Most soba contains some wheat. For gluten-free, buy 100% buckwheat soba and use tamari.",
+    "Keeps for 2 days in the fridge; toss with a splash of water or soy sauce to loosen."
+  ]
+}

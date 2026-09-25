@@ -1,0 +1,39 @@
+{
+  "id": "turkish-eggs",
+  "title": "Turkish Eggs (Çılbır)",
+  "description": "Soft poached eggs on garlicky yogurt, drizzled with warm paprika butter and served with crusty bread for dipping.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "cuisine": "Middle Eastern",
+  "mealTypes": ["breakfast", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Wide saucepan", "Slotted spoon", "Small skillet"],
+  "image": {"file": "turkish-eggs.svg", "alt": "Poached eggs on garlicky yogurt with red chile butter"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "yogurt", "amount": "1", "unit": "cup", "item": "plain Greek yogurt", "key": "plain greek yogurt", "note": "at room temperature"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "white or cider vinegar", "key": "apple cider vinegar", "prep": "for the poaching water", "scale": "fixed", "scaleNote": "It flavors the poaching water, which stays the same amount."},
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole", "note": "very fresh"},
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika"},
+    {"id": "flakes", "amount": "1/2", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"},
+    {"id": "dill", "amount": "1", "unit": "tbsp", "item": "fresh dill or parsley", "key": "fresh dill", "prep": "chopped", "optional": true},
+    {"id": "bread", "amount": "4", "unit": "slice", "item": "crusty bread", "key": "crusty bread", "prep": "toasted, for serving"}
+  ],
+  "steps": [
+    {"text": "Stir the yogurt, garlic and salt together and spread it into two shallow bowls.", "uses": ["yogurt", "garlic", "salt"]},
+    {"text": "Bring a wide saucepan of water to a gentle simmer and add the vinegar. Crack each egg into a small cup.", "uses": ["vinegar", "eggs"]},
+    {"text": "Stir the water to make a gentle whirlpool and slide in the eggs one or two at a time. Poach until the whites are set and the yolks still soft, {time 3 min}. Lift out with a slotted spoon and drain on a paper towel.", "uses": []},
+    {"text": "Melt the butter in the small skillet over medium heat until it foams and smells nutty, then take it off the heat and stir in the paprika and pepper flakes.", "uses": ["butter", "paprika", "flakes"]},
+    {"text": "Set two eggs on each bowl of yogurt, spoon the red butter over them and scatter with dill. Serve with the toast for dipping.", "uses": ["dill", "bread"]}
+  ],
+  "notes": [
+    "Cold yogurt cools the eggs fast; take it out of the fridge while you prep, or warm the bowls first.",
+    "Aleppo pepper or Urfa biber, if you have them, are traditional in place of the paprika and flakes."
+  ]
+}

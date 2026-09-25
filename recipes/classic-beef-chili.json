@@ -1,0 +1,43 @@
+{
+  "id": "classic-beef-chili",
+  "title": "Classic Beef Chili",
+  "description": "A thick, hearty chili of ground beef, kidney beans, tomatoes and warm spices that tastes even better the next day.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan", "make-ahead", "freezer-friendly"],
+  "equipment": ["Large Dutch oven or heavy pot"],
+  "image": {"file": "classic-beef-chili.svg", "alt": "A bowl of beef chili with cheddar, sour cream and green onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "beef", "amount": "2", "unit": "lb", "item": "ground beef", "key": "ground beef", "note": "85% lean"},
+    {"id": "onion", "amount": "1", "item": "large yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "pepper", "amount": "1", "item": "green bell pepper", "key": "green bell peppers", "prep": "diced"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "chili", "amount": "3", "unit": "tbsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "28 oz", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+    {"id": "beans", "amount": "2", "unit": "can", "size": "15 oz", "item": "kidney beans", "key": "canned kidney beans", "prep": "drained and rinsed"},
+    {"id": "broth", "amount": "1", "unit": "cup", "item": "beef broth", "key": "beef broth"},
+    {"id": "cheese", "amount": "1", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded, for serving", "optional": true},
+    {"id": "sour", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream", "prep": "for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the pot over medium-high heat. Brown the beef, breaking it up, until no pink remains and some bits are crusty, {time 8-10 min}. Spoon off excess fat, leaving about 2 tbsp.", "uses": ["oil", "beef"]},
+    {"text": "Add the onion and bell pepper and cook until soft, {time 6 min}. Stir in the garlic, chili powder, cumin, oregano, paprika, salt and tomato paste and cook for {time 2 min}.", "uses": ["onion", "pepper", "garlic", "chili", "cumin", "oregano", "paprika", "salt", "paste"]},
+    {"text": "Add the tomatoes, beans and broth. Bring to a boil, then lower the heat, partly cover and simmer, stirring now and then, until thick and deeply flavored, {time 45 min}.", "uses": ["tomatoes", "beans", "broth"]},
+    {"text": "Taste and adjust the salt and chili powder. Serve with cheese, sour cream and anything else you like on chili.", "uses": ["cheese", "sour"]}
+  ],
+  "notes": [
+    "Chili keeps 4 days in the fridge and freezes for 3 months. It thickens overnight; add a splash of water when reheating."
+  ]
+}

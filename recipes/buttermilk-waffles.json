@@ -1,0 +1,41 @@
+{
+  "id": "buttermilk-waffles",
+  "title": "Buttermilk Waffles",
+  "description": "Crisp-edged, fluffy buttermilk waffles with a light batter that’s mixed in minutes. Freeze extras and toast them for busy mornings.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "servingsLabel": "waffles",
+  "scaleOptions": [4,8,16],
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegetarian"],
+  "tags": ["freezer-friendly"],
+  "equipment": ["Waffle iron"],
+  "image": {"file": "buttermilk-waffles.svg", "alt": "A stack of waffles with butter, berries and syrup"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled"},
+    {"id": "sugar", "amount": "2", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "bp", "amount": "2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+    {"id": "soda", "amount": "1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "buttermilk", "amount": "2", "unit": "cup", "item": "buttermilk", "key": "buttermilk"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted and cooled slightly"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "spray", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "prep": "for the waffle iron", "scale": "fixed", "scaleNote": "Only a thin coat is brushed on between waffles, whatever the batch size."}
+  ],
+  "steps": [
+    {"text": "Heat the waffle iron. Heat the oven to {temp 200F oven} and set a wire rack on a baking sheet inside to keep waffles crisp.", "uses": []},
+    {"text": "Whisk the flour, sugar, baking powder, baking soda and salt in a large bowl.", "uses": ["flour", "sugar", "bp", "soda", "salt"]},
+    {"text": "In another bowl whisk the buttermilk, eggs, melted butter and vanilla. Pour into the flour mixture and stir until just combined; a few lumps are fine. Let the batter rest for {time 5 min}.", "uses": ["buttermilk", "eggs", "butter", "vanilla"]},
+    {"text": "Brush the iron lightly with oil. Pour in enough batter to cover about two-thirds of the grid (it spreads) and close the lid.", "uses": ["spray"]},
+    {"text": "Cook until the waffle is deep golden and the steam slows to a trickle, usually {time 4-5 min} depending on your iron. Move it to the rack in the oven and repeat with the rest of the batter.", "uses": []}
+  ],
+  "notes": [
+    "Don’t stack hot waffles; they steam each other soft. The rack keeps them crisp.",
+    "Freeze cooled waffles in a single layer, then bag them. Reheat straight from frozen in a toaster."
+  ]
+}

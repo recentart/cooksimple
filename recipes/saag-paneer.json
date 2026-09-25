@@ -1,0 +1,41 @@
+{
+  "id": "saag-paneer",
+  "title": "Saag Paneer",
+  "description": "Golden cubes of paneer in a smooth, gently spiced spinach sauce with garlic, ginger and a little cream.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "cuisine": "Indian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet", "Blender or immersion blender"],
+  "image": {"file": "saag-paneer.svg", "alt": "A bowl of creamy spinach with golden paneer cubes"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "paneer", "amount": "12", "unit": "oz", "item": "paneer", "key": "paneer", "prep": "cut into {len 3/4 in} cubes"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil or ghee", "key": "neutral oil", "note": "divided"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "cumin seeds", "key": "cumin seeds"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "chile", "amount": "1", "item": "green chile or jalapeño", "key": "jalapeños", "prep": "minced"},
+    {"id": "coriander", "amount": "1", "unit": "tsp", "item": "ground coriander", "key": "ground coriander"},
+    {"id": "garam", "amount": "1", "unit": "tsp", "item": "garam masala", "key": "garam masala"},
+    {"id": "spinach", "amount": "1", "unit": "lb", "item": "spinach", "key": "spinach"},
+    {"id": "water", "amount": "1/2", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "cream", "amount": "1/4", "unit": "cup", "item": "heavy cream", "key": "heavy cream"}
+  ],
+  "steps": [
+    {"text": "Heat 1 tbsp oil in the skillet over medium-high heat and brown the paneer on a couple of sides, {time 4-5 min}. Set aside.", "uses": ["paneer", "oil"]},
+    {"text": "Add the rest of the oil and the cumin seeds and let them sizzle for {time 30 sec}. Cook the onion until golden, {time 8 min}, then add the garlic, ginger and chile for {time 1 min}. Stir in the coriander and garam masala.", "uses": ["cumin", "onion", "garlic", "ginger", "chile", "coriander", "garam"]},
+    {"text": "Add the spinach a handful at a time with the water and salt, stirring until it’s all wilted, {time 4-5 min}.", "uses": ["spinach", "water", "salt"]},
+    {"text": "Blend until fairly smooth, then return it to the pan. Stir in the cream and the paneer and simmer gently until heated through, {time 3-4 min}.", "uses": ["cream"]}
+  ],
+  "notes": [
+    "Frozen chopped spinach (about 1 lb, thawed and squeezed) works well.",
+    "Extra-firm tofu can replace the paneer."
+  ]
+}

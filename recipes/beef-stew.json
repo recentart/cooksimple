@@ -1,0 +1,46 @@
+{
+  "id": "beef-stew",
+  "title": "Beef Stew",
+  "description": "Tender chunks of beef slowly braised with red wine, carrots, potatoes and thyme in a rich, thick gravy. Worth every minute.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 150,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan", "make-ahead", "freezer-friendly"],
+  "equipment": ["Large Dutch oven with a lid"],
+  "image": {"file": "beef-stew.svg", "alt": "A bowl of beef stew with carrots and potatoes"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beef", "amount": "2 1/2", "unit": "lb", "item": "beef chuck", "key": "beef chuck roast", "prep": "cut into {len 1 1/2 in} cubes"},
+    {"id": "salt", "amount": "2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "flour", "amount": "3", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "onion", "amount": "1", "item": "large yellow onion", "key": "yellow onions", "prep": "chopped"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "wine", "amount": "1", "unit": "cup", "item": "dry red wine", "key": "dry red wine", "note": "or more broth"},
+    {"id": "broth", "amount": "3", "unit": "cup", "item": "beef broth", "key": "beef broth"},
+    {"id": "worcestershire", "amount": "1", "unit": "tbsp", "item": "Worcestershire sauce", "key": "worcestershire sauce"},
+    {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "bay", "amount": "2", "item": "bay leaf", "key": "bay leaves", "plural": "bay leaves"},
+    {"id": "carrots", "amount": "4", "item": "carrot", "key": "carrots", "prep": "cut into chunks"},
+    {"id": "potatoes", "amount": "1 1/2", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "cut into chunks"},
+    {"id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 325F oven}. Pat the beef dry, season with 1 tsp of the salt and the pepper, and toss with the flour.", "uses": ["beef", "salt", "pepper", "flour"]},
+    {"text": "Heat 2 tbsp oil in the pot over medium-high heat. Brown the beef in batches, without crowding, until well browned on several sides, {time 5-6 min} per batch. Move to a plate.", "uses": ["oil"]},
+    {"text": "Add the rest of the oil and the onion and cook until soft, {time 5 min}, scraping up the browned bits. Add the garlic and tomato paste and stir for {time 1 min}.", "uses": ["onion", "garlic", "paste"]},
+    {"text": "Pour in the wine and simmer for {time 2 min}. Add the broth, Worcestershire, thyme, bay leaves, the remaining salt and the beef with its juices. Bring to a simmer, cover and move to the oven for {time 1 hr 30 min}.", "uses": ["wine", "broth", "worcestershire", "thyme", "bay"]},
+    {"text": "Stir in the carrots and potatoes, cover and return to the oven until the beef and vegetables are fork-tender, {time 45-60 min}.", "uses": ["carrots", "potatoes"]},
+    {"text": "Remove the bay leaves, stir in the peas and let them warm through for {time 5 min}. Taste for salt and serve.", "uses": ["peas"]}
+  ],
+  "notes": [
+    "Chuck is the right cut: its connective tissue melts into tender, juicy meat. Lean cuts turn dry.",
+    "Like most stews, it’s better the next day. Keeps 4 days, or freeze (without potatoes, which go grainy) for 3 months."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "beef-bulgogi",
+  "title": "Beef Bulgogi",
+  "description": "Thinly sliced beef in a sweet, garlicky soy and sesame marinade, seared quickly until caramelized. Serve with rice and lettuce wraps.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "totalMinutes": 60,
+  "cuisine": "Korean",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large cast-iron skillet"],
+  "image": {"file": "beef-bulgogi.svg", "alt": "Thin slices of marinated beef with sesame and green onion, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beef", "amount": "1 1/2", "unit": "lb", "item": "beef sirloin or ribeye", "key": "beef sirloin", "prep": "very thinly sliced"},
+    {"id": "soy", "amount": "1/4", "unit": "cup", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "sugar", "amount": "2", "unit": "tbsp", "item": "light brown sugar", "key": "light brown sugar"},
+    {"id": "apple", "amount": "1/2", "item": "apple or Asian pear", "key": "apples", "prep": "grated"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "sesame", "amount": "1", "unit": "tbsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "onion", "amount": "1/2", "item": "yellow onion", "key": "yellow onions", "prep": "thinly sliced"},
+    {"id": "scallions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "cut into {len 2 in} lengths"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "seeds", "amount": "1", "unit": "tbsp", "item": "sesame seeds", "key": "sesame seeds"},
+    {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "short-grain or jasmine rice", "key": "jasmine rice", "prep": "cooked, for serving", "note": "measured before cooking", "optional": true}
+  ],
+  "steps": [
+    {"text": "Freeze the beef for {time 20 min notimer} to make it easier to slice, then slice it as thinly as you can across the grain.", "uses": ["beef"]},
+    {"text": "Mix the soy sauce, brown sugar, grated apple, garlic, ginger, sesame oil and pepper in a bowl. Add the beef and onion and toss. Marinate for at least {time 30 min notimer}, or up to overnight.", "uses": ["soy", "sugar", "apple", "garlic", "ginger", "sesame", "pepper", "onion"]},
+    {"text": "Heat the oil in the skillet over high heat until smoking. Add a single layer of beef and let it sear without moving until caramelized underneath, {time 1-2 min}.", "uses": ["oil"]},
+    {"text": "Toss and cook until just done, {time 1 min} more. Repeat with the rest, adding the green onions to the last batch.", "uses": ["scallions"]},
+    {"text": "Sprinkle with sesame seeds and serve with rice, lettuce leaves and kimchi if you have it.", "uses": ["seeds", "rice"]}
+  ],
+  "notes": [
+    "Cooking in small batches in a very hot pan is what gives the beef its caramelized edges instead of a stewed texture."
+  ]
+}

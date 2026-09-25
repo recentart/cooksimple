@@ -1,0 +1,49 @@
+{
+  "id": "classic-meatloaf",
+  "title": "Classic Meatloaf",
+  "description": "A tender, well-seasoned meatloaf with a tangy brown sugar and ketchup glaze. Leftovers make excellent sandwiches.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "totalMinutes": 90,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Rimmed baking sheet lined with foil", "Skillet", "Instant-read thermometer"],
+  "image": {"file": "classic-meatloaf.svg", "alt": "Slices of glazed meatloaf with mashed potatoes"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the meatloaf", "items": [
+      {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+      {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "crumbs", "amount": "3/4", "unit": "cup", "item": "plain breadcrumbs", "key": "plain breadcrumbs"},
+      {"id": "milk", "amount": "1/2", "unit": "cup", "item": "milk", "key": "milk"},
+      {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "beef", "amount": "2", "unit": "lb", "item": "ground beef", "key": "ground beef", "note": "85% lean"},
+      {"id": "worcestershire", "amount": "1", "unit": "tbsp", "item": "Worcestershire sauce", "key": "worcestershire sauce"},
+      {"id": "mustard", "amount": "1", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard"},
+      {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+      {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+    ] },
+    { "group": "For the glaze", "items": [
+      {"id": "ketchup", "amount": "1/2", "unit": "cup", "item": "ketchup", "key": "ketchup"},
+      {"id": "sugar", "amount": "2", "unit": "tbsp", "item": "light brown sugar", "key": "light brown sugar"},
+      {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "apple cider vinegar", "key": "apple cider vinegar"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven}. Cook the onion in the oil in the skillet over medium heat until soft, {time 6 min}, add the garlic for {time 1 min}, and let cool a little.", "uses": ["oil", "onion", "garlic"]},
+    {"text": "In a large bowl, soak the breadcrumbs in the milk and eggs for {time 5 min}. Add the beef, cooked onion, Worcestershire, mustard, thyme, salt and pepper and mix gently with your hands just until combined.", "uses": ["crumbs", "milk", "eggs", "beef", "worcestershire", "mustard", "thyme", "salt", "pepper"]},
+    {"text": "Shape the mixture into a loaf about {len 9x5 in} on the lined baking sheet. A free-form loaf browns better than one in a pan.", "uses": []},
+    {"text": "Stir the ketchup, brown sugar and vinegar together and spread half over the loaf. Bake for {time 40 min}.", "uses": ["ketchup", "sugar", "vinegar"]},
+    {"text": "Spread on the rest of the glaze and bake until the center reads {temp 160F internal}, {time 15-25 min}. Rest for {time 10 min} before slicing.", "uses": []}
+  ],
+  "notes": [
+    "Mix with a light hand; overworking the meat makes a dense, tough loaf.",
+    "Wrapped slices freeze well for 3 months."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cranberry-orange-scones",
+  "title": "Cranberry Orange Scones",
+  "description": "Tender, buttery scones studded with dried cranberries and orange zest, finished with a simple orange glaze.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "servingsLabel": "scones",
+  "scaleOptions": [8,16],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "totalMinutes": 50,
+  "cuisine": "British",
+  "mealTypes": ["breakfast", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["Baking sheet", "Parchment paper"],
+  "image": {"file": "cranberry-orange-scones.svg", "alt": "Cranberry orange scones cut in wedges with a white glaze"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the scones", "items": [
+      {"id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled"},
+      {"id": "sugar", "amount": "1/3", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "bp", "amount": "1", "unit": "tbsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "orange", "amount": "1", "item": "orange", "key": "oranges", "prep": "zested, then juiced for the glaze"},
+      {"id": "butter", "amount": "8", "unit": "tbsp", "item": "cold unsalted butter", "key": "unsalted butter", "prep": "cubed"},
+      {"id": "cranberries", "amount": "3/4", "unit": "cup", "item": "dried cranberries", "key": "dried cranberries"},
+      {"id": "cream", "amount": "1/2", "unit": "cup", "item": "heavy cream", "key": "heavy cream", "note": "plus a little for brushing"},
+      {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"}
+    ] },
+    { "group": "For the glaze", "items": [
+      {"id": "powdered", "amount": "3/4", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar"},
+      {"id": "juice", "amount": "1", "unit": "tbsp", "item": "orange juice", "key": "orange juice", "note": "from the zested orange"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven} and line the baking sheet with parchment.", "uses": []},
+    {"text": "Whisk the flour, sugar, baking powder, salt and orange zest in a large bowl. Rub in the cold butter with your fingertips until the biggest pieces are the size of small peas. Stir in the cranberries.", "uses": ["flour", "sugar", "bp", "salt", "orange", "butter", "cranberries"]},
+    {"text": "Whisk the cream and egg together, pour into the bowl and stir with a fork until the dough just holds together when squeezed.", "uses": ["cream", "egg"]},
+    {"text": "Turn the dough onto a floured counter, pat it into a {len 7 in} round about {len 1 in} thick and cut it into {count 8} wedges. Set them on the sheet with space between and brush the tops with cream.", "uses": []},
+    {"text": "Bake until golden and firm at the edges, {time 18-20 min}. Cool on the sheet for {time 10 min}.", "uses": []},
+    {"text": "Whisk the powdered sugar with enough orange juice to make a thick but pourable glaze, then drizzle it over the warm scones and let it set for {time 10 min notimer}.", "uses": ["powdered", "juice"]}
+  ],
+  "notes": [
+    "Freeze unbaked wedges on a tray, then bag them. Bake from frozen, adding 3 to 5 minutes.",
+    "Scones are best the day they’re baked; refresh day-old ones in a warm oven for a few minutes."
+  ]
+}

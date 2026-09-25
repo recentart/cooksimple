@@ -1,0 +1,41 @@
+{
+  "id": "chilaquiles",
+  "title": "Chilaquiles Rojos",
+  "description": "Tortilla chips simmered briefly in a red chile-tomato sauce until just softened, topped with fried eggs, crema, cheese and onion.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "Mexican",
+  "mealTypes": ["breakfast", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Blender", "Large deep skillet"],
+  "image": {"file": "chilaquiles.svg", "alt": "A skillet of tortilla chips in red sauce with fried eggs, cheese and onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+    {"id": "onion", "amount": "1/2", "item": "white onion", "key": "white onions", "prep": "half roughly chopped, half thinly sliced for serving"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic"},
+    {"id": "chili", "amount": "1", "unit": "tbsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "broth", "amount": "1", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "chips", "amount": "6", "unit": "oz", "item": "sturdy tortilla chips", "key": "tortilla chips"},
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "cream", "amount": "1/4", "unit": "cup", "item": "sour cream or Mexican crema", "key": "sour cream"},
+    {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "cotija or feta", "key": "cotija cheese", "prep": "crumbled"},
+    {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Blend the tomatoes with their juice, the chopped onion, garlic, chili powder, broth and salt until smooth.", "uses": ["tomatoes", "onion", "garlic", "chili", "broth", "salt"]},
+    {"text": "Heat 1 tbsp of the oil in the skillet over medium heat. Pour in the sauce carefully (it will spatter) and simmer until slightly thickened and darker, {time 8-10 min}. Transfer to a bowl and wipe out the skillet.", "uses": ["oil"]},
+    {"text": "Heat the rest of the oil in the skillet and fry the eggs until the whites are set and the yolks still runny, {time 3-4 min}. Move them to a plate.", "uses": ["eggs"]},
+    {"text": "Return the sauce to the skillet and bring to a simmer. Add the chips and fold gently until coated and just starting to soften, {time 1-2 min}. Serve right away, before they turn soggy.", "uses": ["chips"]},
+    {"text": "Top with the fried eggs, dollops of sour cream, the cheese, sliced onion and cilantro.", "uses": ["cream", "cheese", "cilantro"]}
+  ],
+  "notes": [
+    "Thick, restaurant-style chips hold up best; thin chips go soft almost immediately.",
+    "The sauce can be made up to 3 days ahead and kept in the fridge."
+  ]
+}

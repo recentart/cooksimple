@@ -1,0 +1,36 @@
+{
+  "id": "garlic-butter-shrimp",
+  "title": "Garlic Butter Shrimp",
+  "description": "Plump shrimp seared in a hot skillet and tossed in garlicky lemon butter with parsley. Fifteen minutes, one pan.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 8,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet"],
+  "image": {"file": "garlic-butter-shrimp.svg", "alt": "A skillet of shrimp in garlic butter with parsley and lemon"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "shrimp", "amount": "1 1/2", "unit": "lb", "item": "large shrimp", "key": "shrimp", "prep": "peeled and deveined, tails on or off"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "garlic", "amount": "5", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes", "optional": true},
+    {"id": "lemon", "amount": "2", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Pat the shrimp very dry and season with the salt and pepper.", "uses": ["shrimp", "salt", "pepper"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Add the shrimp in a single layer and cook without moving until pink underneath, {time 1-2 min}. Flip and cook {time 1 min} more. Move to a plate.", "uses": ["oil"]},
+    {"text": "Lower the heat to medium and add the butter, garlic and pepper flakes. Stir until the garlic is fragrant but not browned, {time 1 min}.", "uses": ["butter", "garlic", "flakes"]},
+    {"text": "Return the shrimp, add the lemon juice and toss until the shrimp are opaque and glossy with sauce, {time 1 min}. Scatter with parsley and serve with rice, pasta or crusty bread.", "uses": ["lemon", "parsley"]}
+  ],
+  "notes": [
+    "Frozen shrimp are fine; thaw them overnight in the fridge or in a bowl of cold water for 15 minutes."
+  ]
+}

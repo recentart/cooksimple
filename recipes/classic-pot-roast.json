@@ -1,0 +1,43 @@
+{
+  "id": "classic-pot-roast",
+  "title": "Classic Pot Roast",
+  "description": "A beef chuck roast braised low and slow with onions, carrots and potatoes until fork-tender, with the pan juices made into gravy.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 210,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan", "make-ahead"],
+  "equipment": ["Large Dutch oven with a lid"],
+  "image": {"file": "classic-pot-roast.svg", "alt": "Pot roast with carrots and potatoes in gravy"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beef", "amount": "3", "unit": "lb", "item": "boneless beef chuck roast", "key": "beef chuck roast"},
+    {"id": "salt", "amount": "2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "onions", "amount": "2", "item": "yellow onion", "key": "yellow onions", "prep": "cut into wedges"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "smashed"},
+    {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "broth", "amount": "2", "unit": "cup", "item": "beef broth", "key": "beef broth"},
+    {"id": "worcestershire", "amount": "1", "unit": "tbsp", "item": "Worcestershire sauce", "key": "worcestershire sauce"},
+    {"id": "thyme", "amount": "4", "unit": "sprig", "item": "fresh thyme", "key": "fresh thyme"},
+    {"id": "rosemary", "amount": "1", "unit": "sprig", "item": "fresh rosemary", "key": "fresh rosemary"},
+    {"id": "carrots", "amount": "5", "item": "carrot", "key": "carrots", "prep": "cut into large chunks"},
+    {"id": "potatoes", "amount": "1 1/2", "unit": "lb", "item": "small Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "halved"},
+    {"id": "cornstarch", "amount": "1", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch", "prep": "for the gravy"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 300F oven}. Pat the roast dry and season all over with the salt and pepper.", "uses": ["beef", "salt", "pepper"]},
+    {"text": "Heat the oil in the pot over medium-high heat and sear the roast until deeply browned on all sides, {time 10-12 min} total. Move to a plate.", "uses": ["oil"]},
+    {"text": "Add the onions and cook for {time 4 min}, then the garlic and tomato paste for {time 1 min}. Pour in the broth and Worcestershire, scraping up the browned bits.", "uses": ["onions", "garlic", "paste", "broth", "worcestershire"]},
+    {"text": "Return the roast, add the thyme and rosemary, cover and braise in the oven for {time 2 hr}.", "uses": ["thyme", "rosemary"]},
+    {"text": "Add the carrots and potatoes around the roast, cover and return to the oven until the meat pulls apart easily with a fork, {time 60-90 min}.", "uses": ["carrots", "potatoes"]},
+    {"text": "Move the meat and vegetables to a platter. Skim the fat from the juices, bring them to a simmer and whisk in the cornstarch mixed with {qty 2 tbsp} cold water. Simmer until thickened, {time 1-2 min}, and pour over the roast.", "uses": ["cornstarch"]}
+  ],
+  "notes": [
+    "If the roast isn’t tender yet, it needs more time, not less; tough connective tissue only softens with long, gentle cooking."
+  ]
+}

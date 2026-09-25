@@ -1,0 +1,38 @@
+{
+  "id": "philly-cheesesteaks",
+  "title": "Philly Cheesesteaks",
+  "description": "Thinly sliced beef seared on a hot skillet with onions and peppers, melted with provolone and piled into toasted rolls.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large cast-iron skillet or griddle"],
+  "image": {"file": "philly-cheesesteaks.svg", "alt": "A cheesesteak sandwich filled with sliced beef, onions and melted cheese"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beef", "amount": "1 1/2", "unit": "lb", "item": "ribeye or sirloin", "key": "beef sirloin", "prep": "very thinly sliced"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "onion", "amount": "1", "item": "large yellow onion", "key": "yellow onions", "prep": "thinly sliced"},
+    {"id": "pepper", "amount": "1", "item": "green bell pepper", "key": "green bell peppers", "prep": "thinly sliced", "optional": true},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "blackpepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "cheese", "amount": "8", "unit": "slice", "item": "provolone cheese", "key": "provolone cheese"},
+    {"id": "rolls", "amount": "4", "item": "hoagie roll", "key": "hoagie rolls", "prep": "split"}
+  ],
+  "steps": [
+    {"text": "Freeze the beef for {time 20 min notimer} so it slices paper-thin, then slice it and chop it roughly.", "uses": ["beef"]},
+    {"text": "Heat 1 tbsp oil in the skillet over medium heat. Cook the onion and pepper with a pinch of the salt until soft and golden, {time 8-10 min}. Push them to one side.", "uses": ["oil", "onion", "pepper"]},
+    {"text": "Turn the heat to high, add the rest of the oil and the beef in a thin layer, and season with the salt and pepper. Cook, chopping and turning with a spatula, until just browned, {time 2-3 min}.", "uses": ["salt", "blackpepper"]},
+    {"text": "Mix in the onions and divide into {count 4} piles the size of your rolls. Lay 2 slices of cheese over each and let them melt, {time 1 min}.", "uses": ["cheese"]},
+    {"text": "Lay an open roll over each pile, slide the spatula underneath and flip everything into the roll. Serve hot.", "uses": ["rolls"]}
+  ],
+  "notes": [
+    "Some shops sell pre-sliced beef for cheesesteaks or hot pot, which saves the slicing step."
+  ]
+}

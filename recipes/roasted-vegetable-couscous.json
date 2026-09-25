@@ -1,0 +1,43 @@
+{
+  "id": "roasted-vegetable-couscous",
+  "title": "Roasted Vegetable Couscous",
+  "description": "Fluffy couscous tossed with spiced roasted vegetables, chickpeas, raisins, herbs and a lemony dressing. Good warm or cold.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "cuisine": "North African",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead"],
+  "equipment": ["Rimmed baking sheet", "Medium saucepan with a lid"],
+  "image": {"file": "roasted-vegetable-couscous.svg", "alt": "A bowl of couscous with roasted zucchini, peppers, onion and chickpeas"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potato", "amount": "1", "item": "sweet potato", "key": "sweet potatoes", "prep": "cut into {len 3/4 in} cubes"},
+    {"id": "zucchini", "amount": "1", "item": "zucchini", "key": "zucchini", "prep": "chopped"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "chopped"},
+    {"id": "onion", "amount": "1", "item": "red onion", "key": "red onions", "prep": "cut into wedges"},
+    {"id": "chickpeas", "amount": "1", "unit": "can", "size": "15 oz", "item": "chickpeas", "key": "canned chickpeas", "prep": "drained and rinsed"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "olive oil", "key": "olive oil", "note": "divided"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "coriander", "amount": "1", "unit": "tsp", "item": "ground coriander", "key": "ground coriander"},
+    {"id": "cinnamon", "amount": "1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "couscous", "amount": "1 1/4", "unit": "cup", "item": "couscous", "key": "couscous"},
+    {"id": "broth", "amount": "1 1/2", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth", "prep": "boiling"},
+    {"id": "raisins", "amount": "1/3", "unit": "cup", "item": "raisins", "key": "raisins"},
+    {"id": "lemon", "amount": "3", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "herbs", "amount": "1/2", "unit": "cup", "item": "fresh parsley or mint", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Toss the sweet potato, zucchini, pepper, onion and chickpeas with half the oil, the cumin, coriander, cinnamon and 1 tsp salt on the baking sheet.", "uses": ["potato", "zucchini", "pepper", "onion", "chickpeas", "oil", "cumin", "coriander", "cinnamon", "salt"]},
+    {"text": "Roast, stirring once, until the vegetables are tender and browned at the edges, {time 25-30 min}.", "uses": []},
+    {"text": "Meanwhile put the couscous and raisins in the saucepan, pour over the boiling broth, cover and leave off the heat for {time 5 min}. Fluff with a fork.", "uses": ["couscous", "broth", "raisins"]},
+    {"text": "Whisk the rest of the oil with the lemon juice and remaining salt. Toss the couscous with the roasted vegetables, dressing and herbs.", "uses": ["lemon", "herbs"]}
+  ],
+  "notes": [
+    "Keeps 3 days in the fridge and is good cold for lunch.",
+    "Toasted almonds or pistachios add crunch."
+  ]
+}

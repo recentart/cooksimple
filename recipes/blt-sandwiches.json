@@ -1,0 +1,36 @@
+{
+  "id": "blt-sandwiches",
+  "title": "BLT Sandwiches",
+  "description": "Crisp oven-baked bacon, ripe tomato and crunchy lettuce on toasted bread with mayonnaise. Simple, but only as good as the tomatoes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["lunch"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Rimmed baking sheet", "Foil or parchment"],
+  "image": {"file": "blt-sandwiches.svg", "alt": "A BLT sandwich with bacon, lettuce and tomato, cut in half"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "bacon", "amount": "12", "unit": "slice", "item": "bacon", "key": "bacon"},
+    {"id": "bread", "amount": "8", "unit": "slice", "item": "sandwich bread", "key": "sandwich bread"},
+    {"id": "mayo", "amount": "1/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "lettuce", "amount": "8", "item": "lettuce leaf", "key": "romaine lettuce", "plural": "lettuce leaves"},
+    {"id": "tomatoes", "amount": "2", "item": "large ripe tomato", "key": "tomatoes", "prep": "sliced"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "flaky or kosher salt", "key": "flaky salt"},
+    {"id": "pepper", "item": "black pepper", "key": "black pepper", "scale": "taste"}
+  ],
+  "steps": [
+    {"text": "Line the baking sheet with foil or parchment and lay the bacon on it in one layer. Put it in a cold oven, then set the oven to {temp 400F oven}.", "uses": ["bacon"]},
+    {"text": "Bake until the bacon is browned and crisp, {time 17-20 min} from turning on the oven. Drain on paper towels.", "uses": []},
+    {"text": "Toast the bread and spread each slice with mayonnaise.", "uses": ["bread", "mayo"]},
+    {"text": "Sprinkle the tomato slices with the salt and pepper. Layer lettuce, tomatoes and three slices of bacon on half the toast, then close the sandwiches and cut in half.", "uses": ["lettuce", "tomatoes", "salt", "pepper"]}
+  ],
+  "notes": [
+    "Baking bacon means no spatter and flat, evenly crisp strips. Let the fat cool before throwing it away; never pour it down the drain."
+  ]
+}

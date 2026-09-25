@@ -1,0 +1,165 @@
+{
+  "id": "new-york-cheesecake",
+  "title": "New York Cheesecake",
+  "description": "A tall, dense and creamy cheesecake with a graham cracker crust, baked low and slow so it sets without cracking.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "slices",
+  "scaleOptions": [
+    12,
+    24
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 80,
+  "totalMinutes": 585,
+  "cuisine": "American",
+  "mealTypes": [
+    "dessert"
+  ],
+  "diets": [
+    "vegetarian"
+  ],
+  "tags": [
+    "baking",
+    "make-ahead"
+  ],
+  "equipment": [
+    "{len 9 in} springform pan",
+    "Mixer",
+    "Roasting pan for a water bath, optional"
+  ],
+  "image": {
+    "file": "new-york-cheesecake.svg",
+    "alt": "A tall New York cheesecake with a slice cut"
+  },
+  "source": {
+    "type": "original"
+  },
+  "ingredients": [
+    {
+      "group": "For the crust",
+      "items": [
+        {
+          "id": "crumbs",
+          "amount": "1 1/2",
+          "unit": "cup",
+          "item": "graham cracker crumbs",
+          "key": "graham crackers"
+        },
+        {
+          "id": "csugar",
+          "amount": "2",
+          "unit": "tbsp",
+          "item": "granulated sugar",
+          "key": "granulated sugar"
+        },
+        {
+          "id": "cbutter",
+          "amount": "5",
+          "unit": "tbsp",
+          "item": "unsalted butter",
+          "key": "unsalted butter",
+          "prep": "melted"
+        }
+      ]
+    },
+    {
+      "group": "For the filling",
+      "items": [
+        {
+          "id": "cc",
+          "amount": "2",
+          "unit": "lb",
+          "item": "full-fat cream cheese",
+          "key": "cream cheese",
+          "prep": "softened",
+          "note": "four 8 oz blocks"
+        },
+        {
+          "id": "sugar",
+          "amount": "1 1/4",
+          "unit": "cup",
+          "item": "granulated sugar",
+          "key": "granulated sugar"
+        },
+        {
+          "id": "flour",
+          "amount": "2",
+          "unit": "tbsp",
+          "item": "all-purpose flour",
+          "key": "all-purpose flour"
+        },
+        {
+          "id": "sour",
+          "amount": "2/3",
+          "unit": "cup",
+          "item": "sour cream",
+          "key": "sour cream",
+          "note": "at room temperature"
+        },
+        {
+          "id": "vanilla",
+          "amount": "2",
+          "unit": "tsp",
+          "item": "vanilla extract",
+          "key": "vanilla extract"
+        },
+        {
+          "id": "lemon",
+          "amount": "1",
+          "unit": "tsp",
+          "item": "fresh lemon juice",
+          "key": "lemon juice"
+        },
+        {
+          "id": "eggs",
+          "amount": "4",
+          "item": "large egg",
+          "key": "eggs",
+          "scale": "whole",
+          "note": "at room temperature"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to {temp 350F oven}. Mix the crumbs, sugar and melted butter and press firmly into the bottom of the springform pan. Bake for {time 10 min}, then cool. Lower the oven to {temp 325F oven}.",
+      "uses": [
+        "crumbs",
+        "csugar",
+        "cbutter"
+      ]
+    },
+    {
+      "text": "Beat the cream cheese on low until completely smooth, scraping the bowl often. Beat in the sugar and flour, then the sour cream, vanilla and lemon juice.",
+      "uses": [
+        "cc",
+        "sugar",
+        "flour",
+        "sour",
+        "vanilla",
+        "lemon"
+      ]
+    },
+    {
+      "text": "Add the eggs one at a time on low speed, mixing only until each disappears. Too much beating adds air, which causes cracks.",
+      "uses": [
+        "eggs"
+      ]
+    },
+    {
+      "text": "Pour the filling over the crust. Bake until the edges are set but a {len 3 in} circle in the center still wobbles like jelly, {time 60-70 min}. It should read about {temp 150F internal} in the center.",
+      "uses": []
+    },
+    {
+      "text": "Turn off the oven, prop the door open and leave the cheesecake inside for {time 1 hr notimer}. Run a knife around the edge, cool completely, then chill for at least {time 6 hr notimer} before slicing.",
+      "uses": []
+    }
+  ],
+  "notes": [
+    "For the smoothest top, bake in a water bath: wrap the pan in heavy foil and set it in a roasting pan with hot water halfway up the sides.",
+    "Slice with a hot knife wiped clean between cuts. Keeps 5 days in the fridge; freezes for 2 months."
+  ],
+  "scaleNote": "One batch fills a {len 9 in} springform pan; for a double batch, bake two cheesecakes."
+}

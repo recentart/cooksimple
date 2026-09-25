@@ -1,0 +1,42 @@
+{
+  "id": "mushroom-risotto",
+  "title": "Mushroom Risotto",
+  "description": "Creamy arborio rice stirred slowly with hot broth, browned mushrooms, white wine and Parmesan until loose and velvety.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 35,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Large heavy saucepan or deep skillet", "Small pot for broth"],
+  "image": {"file": "mushroom-risotto.svg", "alt": "A bowl of creamy mushroom risotto with Parmesan and thyme"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "broth", "amount": "5", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "mushrooms", "amount": "12", "unit": "oz", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "shallot", "amount": "1", "item": "shallot", "key": "shallots", "prep": "finely chopped"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "arborio rice", "key": "arborio rice"},
+    {"id": "wine", "amount": "1/2", "unit": "cup", "item": "dry white wine", "key": "dry white wine"},
+    {"id": "thyme", "amount": "1/2", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "cheese", "amount": "3/4", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Warm the broth in the small pot and keep it at a bare simmer.", "uses": ["broth"]},
+    {"text": "Heat the oil in the large pan over medium-high heat. Cook the mushrooms with half the salt, stirring only occasionally, until browned and their liquid has evaporated, {time 8 min}. Set aside.", "uses": ["oil", "mushrooms", "salt"]},
+    {"text": "Lower the heat to medium, add 1 tbsp butter and the shallot and cook until soft, {time 3 min}. Add the garlic and rice and stir until the rice edges look translucent, {time 2 min}.", "uses": ["butter", "shallot", "garlic", "rice"]},
+    {"text": "Pour in the wine and stir until absorbed. Add the thyme, the rest of the salt and a ladle of hot broth, and stir until it is almost absorbed.", "uses": ["wine", "thyme"]},
+    {"text": "Keep adding broth a ladle at a time, stirring often, until the rice is tender with a slight bite and the risotto flows like thick porridge, {time 18-22 min}.", "uses": []},
+    {"text": "Stir in the mushrooms, the remaining butter and the cheese off the heat. Add a splash more broth to loosen it, cover and rest for {time 2 min}. Serve with parsley.", "uses": ["cheese", "parsley"]}
+  ],
+  "notes": [
+    "Risotto should spread slowly on the plate. If it holds its shape in a mound, stir in more broth.",
+    "Leftovers make good arancini: roll cold risotto into balls, coat in breadcrumbs and fry."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "vegetable-lo-mein",
+  "title": "Vegetable Lo Mein",
+  "description": "Chewy egg noodles tossed with crisp-tender vegetables in a savory soy and oyster-style sauce. Better than takeout in 25 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Large pot", "Wok or large skillet"],
+  "image": {"file": "vegetable-lo-mein.svg", "alt": "A bowl of lo mein noodles with cabbage, carrot, mushrooms and snow peas"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "noodles", "amount": "12", "unit": "oz", "item": "lo mein or egg noodles", "key": "lo mein noodles"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "hoisin", "amount": "2", "unit": "tbsp", "item": "hoisin sauce", "key": "hoisin sauce"},
+    {"id": "sugar", "amount": "1", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "sesame", "amount": "2", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "minced"},
+    {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "cut into matchsticks"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "sliced"},
+    {"id": "mushrooms", "amount": "4", "unit": "oz", "item": "mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "cabbage", "amount": "3", "unit": "cup", "item": "shredded napa or green cabbage", "key": "green cabbage"},
+    {"id": "scallions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "cut into {len 2 in} lengths"}
+  ],
+  "steps": [
+    {"text": "Cook the noodles as the package says, drain and rinse briefly with cold water so they don’t stick. Toss with a few drops of the sesame oil.", "uses": ["noodles"]},
+    {"text": "Whisk the soy sauce, hoisin, sugar and the rest of the sesame oil in a small bowl.", "uses": ["soy", "hoisin", "sugar", "sesame"]},
+    {"text": "Heat the oil in the wok over high heat. Stir-fry the garlic and ginger for {time 15 sec}, then add the carrots, pepper and mushrooms and stir-fry for {time 3 min}.", "uses": ["oil", "garlic", "ginger", "carrots", "pepper", "mushrooms"]},
+    {"text": "Add the cabbage and scallions and stir-fry until just wilted, {time 1-2 min}.", "uses": ["cabbage", "scallions"]},
+    {"text": "Add the noodles and sauce and toss with tongs until everything is coated and hot, {time 2 min}. Serve right away.", "uses": []}
+  ],
+  "notes": [
+    "Add cooked chicken, shrimp or crispy tofu for extra protein.",
+    "Spaghetti works in a pinch; cook it just past al dente."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "beef-stroganoff",
+  "title": "Beef Stroganoff",
+  "description": "Tender strips of seared beef and mushrooms in a creamy sour cream and mustard sauce, spooned over buttered egg noodles.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "cuisine": "Eastern European",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large skillet", "Large pot"],
+  "image": {"file": "beef-stroganoff.svg", "alt": "Beef and mushrooms in a creamy sauce over egg noodles"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beef", "amount": "1 1/2", "unit": "lb", "item": "beef sirloin", "key": "beef sirloin", "prep": "cut into thin strips"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "mushrooms", "amount": "10", "unit": "oz", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "thinly sliced"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "flour", "amount": "1", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "broth", "amount": "1 1/4", "unit": "cup", "item": "beef broth", "key": "beef broth"},
+    {"id": "mustard", "amount": "1", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "sour", "amount": "3/4", "unit": "cup", "item": "sour cream", "key": "sour cream", "note": "at room temperature"},
+    {"id": "noodles", "amount": "8", "unit": "oz", "item": "wide egg noodles", "key": "egg noodles"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Start a large pot of salted water for the noodles. Season the beef with the salt and pepper.", "uses": ["beef", "salt", "pepper"]},
+    {"text": "Heat the oil in the skillet over high heat. Sear the beef in two batches until browned outside but still pink inside, {time 1-2 min} per batch. Move to a plate.", "uses": ["oil"]},
+    {"text": "Lower the heat to medium-high, add the butter and mushrooms and cook until browned, {time 5 min}. Add the onion and cook until soft, {time 4 min}, then the garlic for {time 30 sec}.", "uses": ["butter", "mushrooms", "onion", "garlic"]},
+    {"text": "Sprinkle in the flour and stir for {time 1 min}. Stir in the broth and mustard and simmer until thickened, {time 3-4 min}. Meanwhile cook the noodles until tender and drain.", "uses": ["flour", "broth", "mustard", "noodles"]},
+    {"text": "Take the pan off the heat and stir in the sour cream until smooth, then return the beef and its juices. Warm gently over low heat without boiling, or the sour cream may curdle.", "uses": ["sour"]},
+    {"text": "Serve over the noodles, sprinkled with parsley.", "uses": ["parsley"]}
+  ],
+  "notes": [
+    "Room-temperature sour cream is less likely to split when it meets the hot sauce."
+  ]
+}

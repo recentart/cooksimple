@@ -1,0 +1,45 @@
+{
+  "id": "lemon-bars",
+  "title": "Lemon Bars",
+  "description": "A buttery shortbread crust topped with a bright, tangy lemon custard and a snow of powdered sugar. Sharp, sweet and sunny.",
+  "added": "2026-09-25",
+  "servings": 16,
+  "servingsLabel": "bars",
+  "scaleOptions": [16,32],
+  "scaleNote": "A single batch fits an {len 8x8 in} pan; a double batch fits a {len 9x13 in} pan with a few extra minutes of baking.",
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "totalMinutes": 185,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead"],
+  "equipment": ["{len 8x8 in} metal baking pan", "Parchment paper"],
+  "image": {"file": "lemon-bars.svg", "alt": "Lemon bars dusted with powdered sugar"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the crust", "items": [
+      {"id": "flour", "amount": "1", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "powdered", "amount": "1/4", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar", "note": "plus more for dusting"},
+      {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"}
+    ] },
+    { "group": "For the filling", "items": [
+      {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "sugar", "amount": "1", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "fflour", "amount": "3", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "lemons", "amount": "2", "item": "lemon", "key": "lemons", "prep": "zested"},
+      {"id": "juice", "amount": "1/2", "unit": "cup", "item": "fresh lemon juice", "key": "lemon juice"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven}. Line the pan with parchment, leaving an overhang on two sides.", "uses": []},
+    {"text": "Stir the flour, powdered sugar, salt and melted butter into a soft dough and press it evenly into the pan. Bake until pale golden at the edges, {time 18-20 min}.", "uses": ["flour", "powdered", "salt", "butter"]},
+    {"text": "Meanwhile whisk the eggs, sugar and flour until smooth, then whisk in the lemon zest and juice.", "uses": ["eggs", "sugar", "fflour", "lemons", "juice"]},
+    {"text": "Pour the filling over the hot crust and bake until the center is set and no longer jiggles, {time 20-25 min}.", "uses": []},
+    {"text": "Cool completely in the pan, then chill for at least {time 2 hr notimer}. Lift out, dust with powdered sugar and cut into {count 16} squares with a knife wiped clean between cuts.", "uses": []}
+  ],
+  "notes": [
+    "Bars keep 4 days in the fridge. Dust with powdered sugar just before serving; it dissolves over time."
+  ]
+}

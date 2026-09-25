@@ -1,0 +1,42 @@
+{
+  "id": "pumpkin-pie",
+  "title": "Pumpkin Pie",
+  "description": "A smooth, gently spiced pumpkin custard in a flaky crust, made with canned pumpkin and evaporated milk. Set it the day before.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "servingsLabel": "slices",
+  "scaleOptions": [8,16],
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "totalMinutes": 315,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead"],
+  "equipment": ["{len 9 in} pie plate", "Rimmed baking sheet"],
+  "image": {"file": "pumpkin-pie.svg", "alt": "A pumpkin pie with whipped cream and a slice cut"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "crust", "amount": "1", "item": "refrigerated pie crust", "key": "refrigerated pie crust"},
+    {"id": "pumpkin", "amount": "1", "unit": "can", "size": "15 oz", "item": "pumpkin purée", "key": "canned pumpkin", "note": "not pumpkin pie filling"},
+    {"id": "milk", "amount": "1", "unit": "can", "size": "12 fl oz", "item": "evaporated milk", "key": "evaporated milk"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "sugar", "amount": "3/4", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed"},
+    {"id": "cinnamon", "amount": "1 1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "ground ginger", "key": "ground ginger"},
+    {"id": "nutmeg", "amount": "1/4", "unit": "tsp", "item": "ground nutmeg", "key": "ground nutmeg"},
+    {"id": "cloves", "amount": "1/8", "unit": "tsp", "item": "ground cloves", "key": "ground cloves"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} with a baking sheet on a rack in the lower third. Fit the crust into the pie plate and crimp the edge.", "uses": ["crust"]},
+    {"text": "Whisk the pumpkin, evaporated milk, eggs, brown sugar, cinnamon, ginger, nutmeg, cloves and salt until completely smooth.", "uses": ["pumpkin", "milk", "eggs", "sugar", "cinnamon", "ginger", "nutmeg", "cloves", "salt"]},
+    {"text": "Pour the filling into the crust and set it on the hot baking sheet. Bake for {time 15 min}.", "uses": []},
+    {"text": "Lower the heat to {temp 350F oven} and bake until the edges are set and the center still wobbles slightly when nudged, {time 40-45 min}. It should read about {temp 175F internal} in the center.", "uses": []},
+    {"text": "Cool on a rack for at least {time 2 hr notimer}, then chill. The custard finishes setting as it cools.", "uses": []}
+  ],
+  "notes": [
+    "Cracks mean the pie baked too long; take it out while the center still jiggles.",
+    "Keeps 3 days in the fridge. Serve with whipped cream."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "jerk-chicken",
+  "title": "Oven Jerk Chicken",
+  "description": "Chicken thighs marinated in a fiery, fragrant blend of scotch bonnet, allspice, thyme, garlic and scallions, then roasted until charred.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "totalMinutes": 295,
+  "cuisine": "Caribbean",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan", "make-ahead"],
+  "equipment": ["Blender", "Rimmed baking sheet with a rack"],
+  "image": {"file": "jerk-chicken.svg", "alt": "Dark spiced jerk chicken thighs on a sheet pan with lime wedges"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "3", "unit": "lb", "item": "bone-in, skin-on chicken thighs and drumsticks", "key": "bone-in chicken thighs"},
+    {"id": "scallions", "amount": "6", "item": "green onion", "key": "green onions", "prep": "roughly chopped"},
+    {"id": "chile", "amount": "1", "item": "scotch bonnet or habanero pepper", "key": "habanero peppers", "prep": "stemmed; seeded for less heat"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "chopped"},
+    {"id": "allspice", "amount": "1", "unit": "tbsp", "item": "ground allspice", "key": "ground allspice"},
+    {"id": "thyme", "amount": "2", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "cinnamon", "amount": "1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "sugar", "amount": "2", "unit": "tbsp", "item": "light brown sugar", "key": "light brown sugar"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "lime", "amount": "3", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+  ],
+  "steps": [
+    {"text": "Blend the green onions, chile, garlic, ginger, allspice, thyme, cinnamon, brown sugar, soy sauce, lime juice, oil and salt into a thick paste. Wear gloves or wash your hands well after handling the chile.", "uses": ["scallions", "chile", "garlic", "ginger", "allspice", "thyme", "cinnamon", "sugar", "soy", "lime", "oil", "salt"]},
+    {"text": "Cut a few deep slashes in each piece of chicken and rub the marinade all over and into the cuts. Refrigerate for at least {time 4 hr notimer}, or overnight.", "uses": ["chicken"]},
+    {"text": "Heat the oven to {temp 425F oven}. Set a rack on the baking sheet and arrange the chicken on it skin side up.", "uses": []},
+    {"text": "Roast until the skin is dark and charred in spots and the meat near the bone reads {temp 175F internal}, {time 35-40 min}.", "uses": []},
+    {"text": "For extra char, broil for {time 2-3 min} at the end, watching closely. Rest for {time 5 min} and serve with rice and peas and lime wedges.", "uses": []}
+  ],
+  "notes": [
+    "Scotch bonnets are very hot. Use half, seeded, for a milder jerk.",
+    "On a grill, cook over medium indirect heat with the lid closed, turning occasionally, for about 35 minutes."
+  ]
+}

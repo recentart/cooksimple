@@ -45,13 +45,13 @@ every common feature. Copy it as a starting point.
 | `scaleNote` | no | Shown when the reader scales. Use it for pan sizes and anything else that changes with batch size. |
 | `prepMinutes`, `cookMinutes` | yes | Whole minutes. Be honest: include chopping. |
 | `totalMinutes` | no | Only when there is extra time (resting, chilling, soaking). Must be at least prep + cook. |
-| `cuisine` | yes | One of: American, Mexican, Tex-Mex, Italian, Chinese, Chinese-American, Indian, Middle Eastern, Mediterranean, North African, Thai, Japanese, Korean, French, Greek, British, Global. |
+| `cuisine` | yes | One of: American, Mexican, Tex-Mex, Italian, Chinese, Chinese-American, Indian, Middle Eastern, Mediterranean, North African, Thai, Japanese, Korean, French, Greek, British, Vietnamese, Spanish, Caribbean, Filipino, Southern, Eastern European, Global. |
 | `mealTypes` | yes | One or more of: breakfast, lunch, dinner, dessert, snack, side. |
 | `diets` | yes | `[]`, `["vegetarian"]` or `["vegan"]` (vegan implies vegetarian). |
 | `tags` | yes | Any of: `one-pan` (everything cooks in one pan, pot or sheet pan), `make-ahead`, `no-cook`, `freezer-friendly`, `baking`. "Quick" is worked out from the total time (30 minutes or less). |
 | `featured` | no | `true` puts the recipe in the home page's hand-picked "Popular recipes" row. |
 | `equipment` | no | Short strings, e.g. `"12-inch oven-safe skillet"`, `"{len 9x13 in} baking dish"`. |
-| `image` | yes | `{ "file": "<id>.svg", "alt": "..." }`. The file lives in `src/illustrations/`. For a licensed photo add `credit`, `license`, `licenseUrl`. |
+| `image` | yes | `{ "file": "<id>.svg", "alt": "..." }`. The file lives in `src/illustrations/` and is drawn by `scripts/illustrations.mjs` (most dishes are one line in `scripts/lib/illo-specs.mjs`). Photos are separate: see "Photos" below. |
 | `source` | yes | `{ "type": "original" }` or a licensed source (see above). |
 | `ingredients` | yes | List of ingredients, or of groups `{ "group": "For the sauce", "items": [ ... ] }`. |
 | `steps` | yes | List of `{ "text": "...", "uses": ["ingredient-id", ...] }`. |
@@ -132,8 +132,27 @@ Give a visual or texture cue alongside every time ("until golden, 8–10 minutes
   the ingredient could stand in for them (chicken thighs → "chicken").
 - `syn`: other names for exactly this ingredient.
 - `pantry: true`: basic staples (salt, pepper, oil, flour, sugar, water).
-- `contains`: meat, fish, dairy, egg, honey, rennet. Used by the diet checks.
+- `contains`: meat, fish, dairy, egg, honey, rennet, gluten, nut. Used by the diet
+  checks and the free-from labels (dairy-free, egg-free, gluten-free, nut-free),
+  which are worked out automatically and never written by hand.
 - `varies`: flags that depend on the brand, with a note shown to readers
   (flour tortillas may contain lard).
 - `gramsPerCup`: only for ingredients that are commonly weighed.
+- `n`: nutrition per 100 g as `[kcal, protein g, carbs g, fat g]` (typical
+  values from standard food composition tables).
+- `gCup`: grams in 1 US cup, for the nutrition estimate only (unlike
+  `gramsPerCup` it doesn't switch the metric display to grams).
+- `ug`: grams per counted unit, e.g. `{ "": 150 }` for one onion or
+  `{ "slice": 21 }`. Every required ingredient needs `n` plus a way to get its
+  weight, or the recipe shows no nutrition estimate.
 - `shop: false`: never goes on a shopping list (water).
+
+## Photos
+
+Some recipes also show a photo of the dish. `node scripts/fetch-photos.mjs` finds
+one on Wikimedia Commons (CC0, public domain, CC BY or CC BY-SA only), saves it
+to `src/photos/<id>.jpg` and records the author, licence and source in
+`data/photos.json`; the recipe page credits it. Check every photo by eye: put a
+wrong or poor match in the script's `REJECT` list and run
+`node scripts/fetch-photos.mjs <id>` again, or add the recipe to `NONE` to keep
+just the illustration.

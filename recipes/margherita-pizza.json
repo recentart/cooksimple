@@ -1,0 +1,48 @@
+{
+  "id": "margherita-pizza",
+  "title": "Margherita Pizza",
+  "description": "Homemade pizza with an easy yeasted dough, simple crushed tomato sauce, fresh mozzarella and basil, baked on a very hot pan.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "servingsLabel": "pizzas",
+  "scaleOptions": [1,2,4],
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "totalMinutes": 135,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["Pizza stone, steel or an upside-down baking sheet", "Rolling pin, optional"],
+  "image": {"file": "margherita-pizza.svg", "alt": "A margherita pizza with tomato, mozzarella and fresh basil"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the dough", "items": [
+      {"id": "flour", "amount": "2 1/2", "unit": "cup", "item": "all-purpose or bread flour", "key": "all-purpose flour", "note": "plus more for dusting"},
+      {"id": "yeast", "amount": "1", "unit": "tsp", "item": "instant yeast", "key": "instant yeast"},
+      {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "water", "amount": "1", "unit": "cup", "item": "warm water", "key": "water"},
+      {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"}
+    ] },
+    { "group": "For the topping", "items": [
+      {"id": "tomatoes", "amount": "1", "unit": "cup", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+      {"id": "tsalt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "mozz", "amount": "8", "unit": "oz", "item": "fresh mozzarella", "key": "mozzarella cheese", "prep": "torn and patted dry"},
+      {"id": "basil", "amount": "1/2", "unit": "cup", "item": "fresh basil leaves", "key": "fresh basil"},
+      {"id": "toil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil", "prep": "for drizzling"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Mix the flour, yeast and salt in a large bowl. Add the warm water and oil and stir into a shaggy dough, then knead on a floured counter until smooth and springy, {time 5-8 min}.", "uses": ["flour", "yeast", "salt", "water", "oil"]},
+    {"text": "Put the dough in an oiled bowl, cover and let it rise until doubled, {time 1 hr 30 min notimer}. Divide into {count 2} balls.", "uses": []},
+    {"text": "Put the pizza stone or baking sheet on a rack in the upper third of the oven and heat it to {temp 500F oven} for at least 30 minutes.", "uses": []},
+    {"text": "Stir the crushed tomatoes with the salt and garlic. Stretch one dough ball into a {len 12 in} round on a floured sheet of parchment, keeping the edge a little thicker.", "uses": ["tomatoes", "tsalt", "garlic"]},
+    {"text": "Spread with a thin layer of sauce and scatter with half the mozzarella. Slide the pizza, on its parchment, onto the hot stone.", "uses": ["mozz"]},
+    {"text": "Bake until the crust is puffed and browned and the cheese is bubbling, {time 8-10 min}. Top with basil and a drizzle of olive oil. Repeat with the second pizza.", "uses": ["basil", "toil"]}
+  ],
+  "notes": [
+    "For more flavor, let the dough rise slowly in the fridge for 1 to 3 days; bring it to room temperature before shaping.",
+    "Less is more with toppings. Too much sauce or wet cheese makes a soggy center."
+  ]
+}

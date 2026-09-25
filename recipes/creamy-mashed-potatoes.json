@@ -1,0 +1,35 @@
+{
+  "id": "creamy-mashed-potatoes",
+  "title": "Creamy Mashed Potatoes",
+  "description": "Fluffy, buttery Yukon Gold mashed potatoes with warm milk and a touch of garlic. The dependable side for roasts and stews.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Large pot", "Potato masher or ricer"],
+  "image": {"file": "creamy-mashed-potatoes.svg", "alt": "A mound of creamy mashed potatoes with butter and chives"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "3", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "peeled and cut into even chunks"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "plus more for the water"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "peeled", "optional": true},
+    {"id": "milk", "amount": "3/4", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "chives", "amount": "1", "unit": "tbsp", "item": "fresh chives", "key": "fresh chives", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Put the potatoes and garlic in the pot, cover with cold water by {len 1 in} and salt the water well. Bring to a boil, then simmer until a knife slides in with no resistance, {time 15-20 min}.", "uses": ["potatoes", "garlic"]},
+    {"text": "Meanwhile warm the milk and butter together until the butter melts.", "uses": ["milk", "butter"]},
+    {"text": "Drain the potatoes well and return them to the hot pot for {time 1 min} to steam off excess water.", "uses": []},
+    {"text": "Mash or rice the potatoes, then stir in the warm milk mixture, salt and pepper until smooth. Don’t overwork them, or they turn gluey. Top with chives.", "uses": ["salt", "pepper", "chives"]}
+  ],
+  "notes": [
+    "Keep mashed potatoes warm in a covered bowl set over a pot of barely simmering water for up to an hour.",
+    "Never mash potatoes in a blender or food processor; they turn to paste."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "breakfast-potato-hash",
+  "title": "Crispy Potato Hash with Eggs",
+  "description": "Crisp golden potatoes with peppers and onions, finished with eggs cooked right in the skillet. A hearty one-pan breakfast.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet fits this amount. Crowd it and the potatoes steam instead of crisping, so cook bigger batches in two pans.",
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["{len 12 in} cast-iron or nonstick skillet with a lid"],
+  "image": {"file": "breakfast-potato-hash.svg", "alt": "A skillet of crispy potatoes with peppers and onions, topped with eggs"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "1 1/2", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "cut into {len 1/2 in} cubes"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "chopped"},
+    {"id": "pepper", "amount": "1", "item": "red or green bell pepper", "key": "bell peppers", "prep": "chopped"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "blackpepper", "item": "black pepper", "key": "black pepper", "scale": "taste"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "sliced", "optional": true}
+  ],
+  "steps": [
+    {"text": "Put the potatoes in a microwave-safe bowl with a splash of water, cover and microwave until just tender, {time 5 min}. Drain and pat dry. This head start makes them crisp faster.", "uses": ["potatoes"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Add the potatoes in an even layer with the salt and leave them alone until browned underneath, {time 5-6 min}. Turn and brown again, {time 5 min}.", "uses": ["oil", "salt"]},
+    {"text": "Add the onion, bell pepper, paprika and garlic powder and cook, turning every couple of minutes, until the vegetables are soft and the potatoes crisp, {time 8-10 min}.", "uses": ["onion", "pepper", "paprika", "garlic"]},
+    {"text": "Lower the heat to medium-low, make four wells in the hash and crack an egg into each. Season the eggs with pepper, cover the pan and cook until the whites are set and the yolks still soft, {time 4-6 min}.", "uses": ["eggs", "blackpepper"]},
+    {"text": "Scatter with green onions and serve from the pan.", "uses": ["scallions"]}
+  ],
+  "notes": [
+    "No microwave? Boil the potato cubes for 5 minutes and drain well before frying.",
+    "For a meaty hash, brown 8 oz breakfast sausage in the pan first, then cook the potatoes in its fat."
+  ]
+}

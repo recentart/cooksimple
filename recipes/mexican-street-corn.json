@@ -1,0 +1,36 @@
+{
+  "id": "mexican-street-corn",
+  "title": "Mexican Street Corn (Elote)",
+  "description": "Charred corn on the cob slathered with a lime-spiked mayo and crema, rolled in cotija and dusted with chili powder.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "servingsLabel": "ears",
+  "scaleOptions": [3,6,12],
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "cuisine": "Mexican",
+  "mealTypes": ["side", "snack"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Grill, grill pan or broiler"],
+  "image": {"file": "mexican-street-corn.svg", "alt": "Grilled corn on the cob with crema, cotija, chili and lime"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "corn", "amount": "6", "item": "ear of corn", "key": "corn on the cob", "plural": "ears of corn", "prep": "husked"},
+    {"id": "mayo", "amount": "1/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "sour", "amount": "1/4", "unit": "cup", "item": "sour cream or crema", "key": "sour cream"},
+    {"id": "lime", "amount": "1", "item": "lime", "key": "limes", "prep": "zested, then cut into wedges"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "cheese", "amount": "3/4", "unit": "cup", "item": "cotija or feta", "key": "cotija cheese", "prep": "finely crumbled"},
+    {"id": "chili", "amount": "1", "unit": "tsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the grill or broiler to high. Cook the corn, turning every couple of minutes, until tender and charred in spots, {time 10-12 min}.", "uses": ["corn"]},
+    {"text": "Stir the mayonnaise, sour cream, lime zest and garlic together.", "uses": ["mayo", "sour", "garlic"]},
+    {"text": "Brush the hot corn all over with the mayo mixture, then roll or sprinkle it in the cheese. Dust with chili powder and cilantro and serve with lime wedges.", "uses": ["lime", "cheese", "chili", "cilantro"]}
+  ],
+  "notes": [
+    "For a bowl version (esquites), char frozen corn kernels in a hot skillet and toss with the same toppings."
+  ]
+}

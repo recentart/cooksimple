@@ -1,0 +1,46 @@
+{
+  "id": "orange-chicken",
+  "title": "Orange Chicken",
+  "description": "Crispy bites of chicken tossed in a sticky, tangy orange sauce with garlic and ginger. Lighter than takeout, with pan-frying.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large skillet", "Small saucepan"],
+  "image": {"file": "orange-chicken.svg", "alt": "A bowl of crispy chicken in a glossy orange sauce with sesame"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the chicken", "items": [
+      {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs", "prep": "cut into {len 1 in} pieces"},
+      {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "starch", "amount": "1/2", "unit": "cup", "item": "cornstarch", "key": "cornstarch"},
+      {"id": "oil", "amount": "1/3", "unit": "cup", "item": "neutral oil", "key": "neutral oil", "prep": "for frying", "scale": "fixed", "scaleNote": "Enough to shallow-fry in batches; most stays in the pan."}
+    ] },
+    { "group": "For the sauce", "items": [
+      {"id": "orange", "amount": "1", "item": "orange", "key": "oranges", "prep": "zested"},
+      {"id": "juice", "amount": "3/4", "unit": "cup", "item": "orange juice", "key": "orange juice"},
+      {"id": "sugar", "amount": "1/4", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar"},
+      {"id": "soy", "amount": "2", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+      {"id": "vinegar", "amount": "2", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"},
+      {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+      {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"},
+      {"id": "scorn", "amount": "1", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+      {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "sliced"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Make the sauce: simmer the orange zest, orange juice, brown sugar, soy sauce, vinegar, garlic, ginger and pepper flakes in the saucepan for {time 5 min}. Stir the cornstarch with {qty 2 tbsp} water, whisk it in and simmer until thick and glossy, {time 1 min}. Keep warm.", "uses": ["orange", "juice", "sugar", "soy", "vinegar", "garlic", "ginger", "flakes", "scorn"]},
+    {"text": "Toss the chicken with the beaten egg and salt, then with the cornstarch until every piece is coated. Shake off the excess.", "uses": ["chicken", "egg", "salt", "starch"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Fry the chicken in two batches, turning, until golden and crisp and cooked through, {time 5-6 min} per batch. Drain on paper towels.", "uses": ["oil"]},
+    {"text": "Toss the crispy chicken with the warm sauce until coated, scatter with green onions and serve right away with rice.", "uses": ["scallions"]}
+  ],
+  "notes": [
+    "Sauce and chicken can be made ahead separately; re-crisp the chicken in a {temp 400F oven} for 8 minutes, then toss with the warmed sauce."
+  ]
+}

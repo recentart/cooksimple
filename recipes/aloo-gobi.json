@@ -1,0 +1,42 @@
+{
+  "id": "aloo-gobi",
+  "title": "Aloo Gobi",
+  "description": "Potatoes and cauliflower cooked with cumin, turmeric, ginger and tomato until tender and golden. A dry curry that’s vegan.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "cuisine": "Indian",
+  "mealTypes": ["dinner", "side"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet with a lid"],
+  "image": {"file": "aloo-gobi.svg", "alt": "A bowl of turmeric potatoes and cauliflower with cilantro"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "cumin seeds", "key": "cumin seeds"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "sliced"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "turmeric", "amount": "1", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric"},
+    {"id": "coriander", "amount": "1", "unit": "tsp", "item": "ground coriander", "key": "ground coriander"},
+    {"id": "cayenne", "amount": "1/4", "unit": "tsp", "item": "cayenne pepper", "key": "cayenne pepper"},
+    {"id": "potatoes", "amount": "1", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "cut into {len 1 in} cubes"},
+    {"id": "cauliflower", "amount": "1", "unit": "head", "item": "cauliflower", "key": "cauliflower", "prep": "cut into florets"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "tomato", "amount": "1", "item": "tomato", "key": "tomatoes", "prep": "chopped"},
+    {"id": "garam", "amount": "1", "unit": "tsp", "item": "garam masala", "key": "garam masala"},
+    {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium heat. Add the cumin seeds and let them sizzle for {time 30 sec}, then cook the onion until soft, {time 5 min}.", "uses": ["oil", "cumin", "onion"]},
+    {"text": "Add the ginger and garlic for {time 1 min}, then the turmeric, coriander and cayenne for {time 30 sec}.", "uses": ["ginger", "garlic", "turmeric", "coriander", "cayenne"]},
+    {"text": "Add the potatoes, cauliflower and salt and toss until everything is coated in the spices. Add {qty 1/4 cup} water, cover and cook over medium-low heat, stirring now and then, until the potatoes are nearly tender, {time 15 min}.", "uses": ["potatoes", "cauliflower", "salt"]},
+    {"text": "Add the tomato, uncover and cook, turning gently, until the vegetables are tender and lightly browned in places, {time 8-10 min}.", "uses": ["tomato"]},
+    {"text": "Sprinkle with the garam masala and cilantro and serve with flatbread or rice and dal.", "uses": ["garam", "cilantro"]}
+  ],
+  "notes": [
+    "Stir gently so the cauliflower keeps its shape."
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "weeknight-dinners",
+    "title": "Weeknight Dinners",
+    "description": "Dinners that are on the table in 45 minutes or less, prep included, with nothing fussy between you and eating.",
+    "intro": "Every recipe here takes 45 minutes or less from start to finish, including chopping.",
+    "match": { "meals": ["dinner"], "maxTime": 45 }
+  },
+  {
+    "slug": "30-minute-meals",
+    "title": "30-Minute Meals",
+    "description": "Breakfasts, lunches and dinners you can make in half an hour or less, from the first chop to the table.",
+    "intro": "Real 30-minute recipes: the time includes prep, not just cooking.",
+    "match": { "quick": true, "notMeals": ["dessert"] }
+  },
+  {
+    "slug": "one-pan-dinners",
+    "title": "One-Pan Dinners",
+    "description": "Complete dinners cooked in a single skillet, pot or sheet pan, so there is less to wash up afterwards.",
+    "intro": "Everything cooks in one skillet, pot, Dutch oven or sheet pan.",
+    "match": { "meals": ["dinner"], "tags": ["one-pan"] }
+  },
+  {
+    "slug": "vegetarian-mains",
+    "title": "Vegetarian Mains",
+    "description": "Satisfying meat-free lunches and dinners, labelled vegetarian only when every ingredient qualifies.",
+    "intro": "Main dishes with no meat or fish. Recipes that use a hard cheese call for a vegetarian one.",
+    "match": { "diets": ["vegetarian"], "meals": ["lunch", "dinner"] }
+  },
+  {
+    "slug": "vegan-recipes",
+    "title": "Vegan Recipes",
+    "description": "Recipes with no meat, fish, dairy, eggs or honey, from breakfast through dessert, checked against every ingredient.",
+    "intro": "Fully plant-based recipes. Check labels on packaged items like bread if you are strict.",
+    "match": { "diets": ["vegan"] }
+  },
+  {
+    "slug": "make-ahead-and-freezer",
+    "title": "Make-Ahead and Freezer Friendly",
+    "description": "Recipes that keep well in the fridge or freezer, for meal prep, busy weeks and cooking once to eat twice.",
+    "intro": "Cook once, eat again later. Storage times are in each recipe's notes.",
+    "match": { "anyTags": ["make-ahead", "freezer-friendly"] }
+  },
+  {
+    "slug": "soups-stews-and-chili",
+    "title": "Soups, Stews and Chili",
+    "description": "Warming soups, hearty stews and pots of chili, most of which reheat well and many of which freeze.",
+    "intro": "Bowls of comfort, from light brothy soups to thick chili.",
+    "match": { "titleMatch": "soup|stew|chili|chowder|bisque|pho|ramen|gumbo|minestrone|dal" }
+  },
+  {
+    "slug": "baking",
+    "title": "Baking",
+    "description": "Cookies, cakes, breads, muffins and bars, with weights alongside cup measures for the flour, sugar and butter.",
+    "intro": "Switch to metric for weights in grams; flour, sugar and butter all have them.",
+    "match": { "tags": ["baking"] }
+  },
+  {
+    "slug": "breakfast-and-brunch",
+    "title": "Breakfast and Brunch",
+    "description": "Pancakes, eggs, oats and other morning recipes, from quick weekday breakfasts to slower weekend brunches.",
+    "intro": "Something for rushed weekdays and slow weekends.",
+    "match": { "meals": ["breakfast"] }
+  },
+  {
+    "slug": "gluten-free",
+    "title": "Gluten-Free Recipes",
+    "description": "Recipes whose listed ingredients contain no wheat, barley, rye or other gluten sources, with label checks noted.",
+    "intro": "None of the listed ingredients contain gluten. If you have coeliac disease, check packaged ingredients such as spices and broth for gluten-free labelling.",
+    "match": { "labels": ["gluten-free"], "notMeals": [] }
+  },
+  {
+    "slug": "desserts",
+    "title": "Desserts",
+    "description": "Cookies, brownies, crisps, puddings and cakes, written with clear doneness cues so they come out right the first time.",
+    "intro": "Sweet things, with pan sizes and doneness cues spelled out.",
+    "match": { "meals": ["dessert"] }
+  },
+  {
+    "slug": "side-dishes",
+    "title": "Side Dishes",
+    "description": "Vegetables, potatoes, rice and salads to serve alongside a main, most ready in the time the main takes to cook.",
+    "intro": "Sides that fit around the main dish.",
+    "match": { "meals": ["side"] }
+  }
+]

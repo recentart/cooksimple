@@ -1,0 +1,41 @@
+{
+  "id": "salmon-cakes",
+  "title": "Salmon Cakes",
+  "description": "Crisp, golden salmon cakes made from canned salmon, panko, herbs and lemon, pan-fried and served with a quick lemony dill sauce.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "servings",
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "totalMinutes": 45,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": ["make-ahead"],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "salmon-cakes.svg", "alt": "Golden salmon cakes with a lemon wedge and sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "salmon", "amount": "2", "unit": "can", "size": "6 oz", "item": "boneless, skinless salmon", "key": "canned salmon", "prep": "drained"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "mayo", "amount": "3", "unit": "tbsp", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "zested and juiced"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "finely sliced"},
+    {"id": "dill", "amount": "2", "unit": "tbsp", "item": "fresh dill or parsley", "key": "fresh dill", "prep": "chopped", "note": "divided"},
+    {"id": "panko", "amount": "3/4", "unit": "cup", "item": "panko breadcrumbs", "key": "panko breadcrumbs", "note": "divided"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "saucemayo", "amount": "1/3", "unit": "cup", "item": "mayonnaise or Greek yogurt", "key": "mayonnaise", "prep": "for the sauce"}
+  ],
+  "steps": [
+    {"text": "Flake the salmon into a bowl. Add the egg, mayonnaise, mustard, lemon zest, 1 tbsp lemon juice, green onions, half the dill, half the panko and the pepper, and mix gently.", "uses": ["salmon", "egg", "mayo", "mustard", "lemon", "scallions", "dill", "pepper"]},
+    {"text": "Shape into {count 8} patties about {len 3/4 in} thick and press them into the rest of the panko. Chill for {time 20 min} if you have time; they’ll hold together better.", "uses": ["panko"]},
+    {"text": "Heat the oil in the skillet over medium heat. Fry the cakes until deep golden and crisp, {time 3-4 min} per side.", "uses": ["oil"]},
+    {"text": "Stir the sauce mayonnaise with the rest of the dill and a squeeze of lemon. Serve with the cakes and a green salad.", "uses": ["saucemayo"]}
+  ],
+  "notes": [
+    "Canned salmon with bones and skin works too; mash the soft bones in, they add calcium.",
+    "Shaped, uncooked cakes keep 1 day in the fridge."
+  ]
+}

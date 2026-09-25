@@ -1,0 +1,39 @@
+{
+  "id": "white-bean-kale-soup",
+  "title": "White Bean and Kale Soup",
+  "description": "A quick Tuscan-style soup of creamy white beans, kale, garlic and rosemary in broth, partly mashed for body. Ready in 35 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "Italian",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "freezer-friendly"],
+  "equipment": ["Large pot"],
+  "image": {"file": "white-bean-kale-soup.svg", "alt": "A bowl of white bean soup with kale"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil", "note": "plus more to serve"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "carrot", "amount": "1", "item": "carrot", "key": "carrots", "prep": "diced"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "sliced"},
+    {"id": "rosemary", "amount": "1", "unit": "sprig", "item": "fresh rosemary", "key": "fresh rosemary"},
+    {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"},
+    {"id": "beans", "amount": "2", "unit": "can", "size": "15 oz", "item": "cannellini beans", "key": "canned cannellini beans", "prep": "drained and rinsed"},
+    {"id": "broth", "amount": "4", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "plus more to taste"},
+    {"id": "kale", "amount": "1", "unit": "bunch", "item": "kale", "key": "kale", "prep": "stems removed, leaves chopped"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the pot over medium heat. Cook the onion and carrot until soft, {time 6-8 min}. Add the garlic, rosemary sprig and pepper flakes and stir for {time 1 min}.", "uses": ["oil", "onion", "carrot", "garlic", "rosemary", "flakes"]},
+    {"text": "Add the beans, broth and salt and bring to a simmer. Cook for {time 10 min}.", "uses": ["beans", "broth", "salt"]},
+    {"text": "Remove the rosemary stem. Mash about a quarter of the beans against the side of the pot to thicken the broth.", "uses": []},
+    {"text": "Stir in the kale and simmer until tender, {time 5-7 min}. Add the lemon juice, taste for salt and serve with a drizzle of olive oil and crusty bread.", "uses": ["kale", "lemon"]}
+  ],
+  "notes": [
+    "Not vegan? Simmer a Parmesan rind with the beans for extra depth, and grate some cheese on top.",
+    "Keeps 4 days in the fridge."
+  ]
+}

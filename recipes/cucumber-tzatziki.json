@@ -1,0 +1,35 @@
+{
+  "id": "cucumber-tzatziki",
+  "title": "Cucumber Tzatziki",
+  "description": "A cool, garlicky Greek yogurt sauce with grated cucumber, dill and lemon. Perfect as a dip or with grilled meat, falafel and pitas.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "totalMinutes": 45,
+  "cuisine": "Greek",
+  "mealTypes": ["snack", "side"],
+  "diets": ["vegetarian"],
+  "tags": ["no-cook", "make-ahead"],
+  "equipment": ["Box grater", "Clean kitchen towel"],
+  "image": {"file": "cucumber-tzatziki.svg", "alt": "A bowl of tzatziki with cucumber and dill, with pita and vegetables"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "cucumber", "amount": "1", "item": "English cucumber", "key": "cucumbers"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "yogurt", "amount": "2", "unit": "cup", "item": "plain Greek yogurt", "key": "plain greek yogurt", "note": "whole-milk is creamiest"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "extra-virgin olive oil", "key": "olive oil"},
+    {"id": "dill", "amount": "2", "unit": "tbsp", "item": "fresh dill", "key": "fresh dill", "prep": "chopped"},
+    {"id": "mint", "amount": "1", "unit": "tbsp", "item": "fresh mint", "key": "fresh mint", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Grate the cucumber on the large holes of the grater, toss with half the salt and leave for {time 10 min}. Wrap in the towel and squeeze out as much liquid as you can.", "uses": ["cucumber", "salt"]},
+    {"text": "Stir the cucumber into the yogurt with the garlic, lemon juice, oil, dill, mint and the rest of the salt.", "uses": ["yogurt", "garlic", "lemon", "oil", "dill", "mint"]},
+    {"text": "Chill for at least {time 30 min notimer} so the garlic mellows into the yogurt. Taste for salt and lemon before serving.", "uses": []}
+  ],
+  "notes": [
+    "Keeps 4 days in the fridge. Stir before serving; a little liquid may separate."
+  ]
+}

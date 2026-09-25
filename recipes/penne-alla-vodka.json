@@ -1,0 +1,40 @@
+{
+  "id": "penne-alla-vodka",
+  "title": "Penne alla Vodka",
+  "description": "Penne in a silky, blush-pink tomato cream sauce with a splash of vodka, garlic, chili flakes and plenty of Parmesan.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large pot", "Large deep skillet"],
+  "image": {"file": "penne-alla-vodka.svg", "alt": "A bowl of penne in a creamy pink tomato sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "pasta", "amount": "1", "unit": "lb", "item": "penne", "key": "short pasta"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "shallot", "amount": "1", "item": "shallot", "key": "shallots", "prep": "finely chopped"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"},
+    {"id": "paste", "amount": "1/3", "unit": "cup", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "vodka", "amount": "1/4", "unit": "cup", "item": "vodka", "key": "vodka"},
+    {"id": "cream", "amount": "3/4", "unit": "cup", "item": "heavy cream", "key": "heavy cream"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "cheese", "amount": "3/4", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated", "note": "or Parmesan if not vegetarian"},
+    {"id": "basil", "amount": "2", "unit": "tbsp", "item": "fresh basil", "key": "fresh basil", "prep": "torn"}
+  ],
+  "steps": [
+    {"text": "Cook the penne in a big pot of salted boiling water until al dente. Save {qty 1 cup fixed} of the pasta water, then drain.", "uses": ["pasta"]},
+    {"text": "Meanwhile melt the butter with the oil in the skillet over medium heat. Cook the shallot until soft, {time 3 min}, then the garlic and pepper flakes for {time 1 min}.", "uses": ["butter", "oil", "shallot", "garlic", "flakes"]},
+    {"text": "Add the tomato paste and cook, stirring, until it darkens to a brick red, {time 3-4 min}.", "uses": ["paste"]},
+    {"text": "Take the pan off the heat and pour in the vodka, then return it to the heat and simmer, scraping, until it mostly evaporates, {time 1-2 min}. Stir in the cream and salt and simmer for {time 2 min}.", "uses": ["vodka", "cream", "salt"]},
+    {"text": "Add the pasta, the cheese and a splash of pasta water and toss until glossy. Serve topped with basil.", "uses": ["cheese", "basil"]}
+  ],
+  "notes": [
+    "The vodka sharpens the tomato flavor; most of the alcohol cooks off. Leave it out and use extra pasta water if you prefer."
+  ]
+}

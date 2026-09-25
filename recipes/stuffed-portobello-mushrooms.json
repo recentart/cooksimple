@@ -1,0 +1,37 @@
+{
+  "id": "stuffed-portobello-mushrooms",
+  "title": "Stuffed Portobello Mushrooms",
+  "description": "Meaty portobello caps filled with spinach, garlic, tomato and melting mozzarella, topped with crisp breadcrumbs and baked.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Rimmed baking sheet", "Skillet"],
+  "image": {"file": "stuffed-portobello-mushrooms.svg", "alt": "Portobello caps filled with a golden, herby cheese stuffing"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "mushrooms", "amount": "4", "item": "large portobello mushroom cap", "key": "portobello mushrooms", "prep": "stems and gills removed"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil", "note": "divided"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "spinach", "amount": "4", "unit": "cup", "item": "baby spinach", "key": "spinach"},
+    {"id": "tomatoes", "amount": "1", "unit": "cup", "item": "cherry tomatoes", "key": "cherry tomatoes", "prep": "quartered"},
+    {"id": "mozz", "amount": "1", "unit": "cup", "item": "mozzarella cheese", "key": "mozzarella cheese", "prep": "shredded"},
+    {"id": "panko", "amount": "1/3", "unit": "cup", "item": "panko breadcrumbs", "key": "panko breadcrumbs"},
+    {"id": "cheese", "amount": "1/4", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated"},
+    {"id": "basil", "amount": "2", "unit": "tbsp", "item": "fresh basil", "key": "fresh basil", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven}. Brush the mushroom caps all over with 1 tbsp oil, sprinkle with half the salt and roast gill side up for {time 10 min}. Pour off any liquid.", "uses": ["mushrooms", "oil", "salt"]},
+    {"text": "Meanwhile heat 1 tbsp oil in the skillet and cook the garlic for {time 30 sec}. Add the spinach and the rest of the salt and cook until wilted, {time 2 min}. Stir in the tomatoes and mozzarella off the heat.", "uses": ["garlic", "spinach", "tomatoes", "mozz"]},
+    {"text": "Toss the panko and grated cheese with the remaining oil.", "uses": ["panko", "cheese"]},
+    {"text": "Fill the mushroom caps with the spinach mixture and top with the crumbs. Bake until the cheese is melted and the crumbs golden, {time 12-15 min}. Scatter with basil.", "uses": ["basil"]}
+  ],
+  "notes": [
+    "Scraping out the dark gills with a spoon keeps the filling from turning muddy."
+  ]
+}

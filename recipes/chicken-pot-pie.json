@@ -1,0 +1,43 @@
+{
+  "id": "chicken-pot-pie",
+  "title": "Chicken Pot Pie",
+  "description": "Chicken and vegetables in a creamy, herby gravy under a flaky golden crust, made easy with a store-bought pie crust.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 55,
+  "totalMinutes": 95,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead"],
+  "equipment": ["Large pot", "{len 9 in} deep-dish pie plate or 2-quart baking dish", "Baking sheet"],
+  "image": {"file": "chicken-pot-pie.svg", "alt": "A golden chicken pot pie with a steam vent in the crust"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "butter", "amount": "5", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "diced"},
+    {"id": "flour", "amount": "1/3", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "broth", "amount": "2", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "milk", "amount": "3/4", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "chicken", "amount": "3", "unit": "cup", "item": "cooked chicken", "key": "cooked chicken", "prep": "shredded or diced"},
+    {"id": "veg", "amount": "1 1/2", "unit": "cup", "item": "frozen peas and carrots", "key": "frozen peas and carrots"},
+    {"id": "crust", "amount": "1", "item": "refrigerated pie crust", "key": "refrigerated pie crust"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole", "prep": "beaten, for brushing"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven}. Melt the butter in the pot over medium heat and cook the onion and celery until soft, {time 6-8 min}.", "uses": ["butter", "onion", "celery"]},
+    {"text": "Sprinkle in the flour and stir for {time 1 min}. Slowly whisk in the broth, then the milk, and simmer, stirring, until thick enough to coat a spoon, {time 3-4 min}.", "uses": ["flour", "broth", "milk"]},
+    {"text": "Stir in the thyme, salt, pepper, chicken and frozen vegetables. Taste for salt and pour the filling into the pie dish.", "uses": ["thyme", "salt", "pepper", "chicken", "veg"]},
+    {"text": "Lay the crust over the filling, tuck or crimp the edges and cut {count 4} slits in the top so steam can escape. Brush with the beaten egg.", "uses": ["crust", "egg"]},
+    {"text": "Set the dish on a baking sheet to catch drips and bake until the crust is deep golden and the filling bubbles through the slits, {time 30-35 min}. Let it rest for {time 15 min} before serving; the filling thickens as it cools.", "uses": []}
+  ],
+  "notes": [
+    "Make the filling up to 2 days ahead and refrigerate it. Add the crust just before baking, and add 10 minutes to the time.",
+    "Leftover roast or rotisserie chicken is perfect here."
+  ]
+}

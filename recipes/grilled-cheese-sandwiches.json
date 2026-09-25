@@ -1,0 +1,33 @@
+{
+  "id": "grilled-cheese-sandwiches",
+  "title": "Grilled Cheese Sandwiches",
+  "description": "Golden, crisp grilled cheese with a gooey middle, cooked low and slow in butter so the cheese melts before the bread burns.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [1,2,4],
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "cuisine": "American",
+  "mealTypes": ["lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large skillet"],
+  "image": {"file": "grilled-cheese-sandwiches.svg", "alt": "A golden grilled cheese sandwich with melting cheese, beside tomato soup"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "bread", "amount": "4", "unit": "slice", "item": "sandwich bread or sourdough", "key": "sandwich bread"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "salted butter", "key": "salted butter", "prep": "softened"},
+    {"id": "cheese", "amount": "1 1/2", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded", "note": "or a mix with Monterey Jack"}
+  ],
+  "steps": [
+    {"text": "Spread one side of each bread slice with butter, right to the edges.", "uses": ["bread", "butter"]},
+    {"text": "Heat the skillet over medium-low heat. Lay two slices in it butter side down, pile the cheese on top, then close with the other slices, butter side up.", "uses": ["cheese"]},
+    {"text": "Cook slowly until the bottom is deep golden and the cheese has started to melt, {time 3-4 min}. Press gently with a spatula.", "uses": []},
+    {"text": "Flip and cook the second side until golden and the cheese is fully melted, {time 3 min}. Rest for {time 1 min} before cutting so the cheese doesn’t all run out.", "uses": []}
+  ],
+  "notes": [
+    "Shredded cheese melts faster and more evenly than slices.",
+    "Covering the pan for the first minute helps thick sandwiches melt through."
+  ]
+}

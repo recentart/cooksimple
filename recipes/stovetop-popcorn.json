@@ -1,0 +1,77 @@
+{
+  "id": "stovetop-popcorn",
+  "title": "Stovetop Popcorn",
+  "description": "Light, fluffy popcorn popped in a pot in about five minutes, with fewer unpopped kernels than the microwave and just the salt you want.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 2,
+  "cookMinutes": 6,
+  "cuisine": "American",
+  "mealTypes": [
+    "snack"
+  ],
+  "diets": [
+    "vegan"
+  ],
+  "tags": [],
+  "equipment": [
+    "Large heavy pot with a lid"
+  ],
+  "image": {
+    "file": "stovetop-popcorn.svg",
+    "alt": "A big bowl of fluffy popcorn"
+  },
+  "source": {
+    "type": "original"
+  },
+  "ingredients": [
+    {
+      "id": "oil",
+      "amount": "3",
+      "unit": "tbsp",
+      "item": "neutral oil",
+      "key": "neutral oil"
+    },
+    {
+      "id": "kernels",
+      "amount": "1/2",
+      "unit": "cup",
+      "item": "popcorn kernels",
+      "key": "popcorn kernels"
+    },
+    {
+      "id": "salt",
+      "amount": "1/2",
+      "unit": "tsp",
+      "item": "fine salt",
+      "key": "fine salt"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oil in the pot over medium-high heat with {count 3} kernels in it. When all three pop, add the rest of the kernels in an even layer.",
+      "uses": [
+        "oil",
+        "kernels"
+      ]
+    },
+    {
+      "text": "Take the pot off the heat, cover and count {time 30 sec}. This brings all the kernels to the same temperature so they pop together.",
+      "uses": []
+    },
+    {
+      "text": "Return to the heat with the lid slightly ajar to let steam out. Shake the pot now and then as the kernels pop.",
+      "uses": []
+    },
+    {
+      "text": "When the popping slows to one pop every few seconds, {time 2-3 min}, pour straight into a big bowl and toss with the salt.",
+      "uses": [
+        "salt"
+      ]
+    }
+  ],
+  "notes": [
+    "Finely ground salt sticks best; whiz regular salt in a spice grinder or crush it in a mortar.",
+    "For buttered popcorn, drizzle with 2 tbsp melted butter (or vegan butter) before salting."
+  ]
+}

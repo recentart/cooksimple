@@ -1,0 +1,42 @@
+{
+  "id": "mushroom-stroganoff",
+  "title": "Mushroom Stroganoff",
+  "description": "A meaty-tasting vegetarian stroganoff of browned mushrooms and onions in a creamy sour cream and mustard sauce over noodles.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "Eastern European",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large skillet", "Large pot"],
+  "image": {"file": "mushroom-stroganoff.svg", "alt": "Mushrooms in a creamy sauce over egg noodles with parsley"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "mushrooms", "amount": "1 1/2", "unit": "lb", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "thickly sliced"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "thinly sliced"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika"},
+    {"id": "flour", "amount": "1", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "broth", "amount": "1 1/4", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "soy", "amount": "1", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "mustard", "amount": "1", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "sour", "amount": "3/4", "unit": "cup", "item": "sour cream", "key": "sour cream", "note": "at room temperature"},
+    {"id": "noodles", "amount": "8", "unit": "oz", "item": "wide egg noodles", "key": "egg noodles"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley or dill", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Start a pot of salted water for the noodles. Heat the butter and oil in the skillet over medium-high heat.", "uses": ["butter", "oil"]},
+    {"text": "Add the mushrooms and cook without stirring until browned underneath, {time 4 min}. Add the salt and cook, stirring, until their liquid evaporates and they’re well browned, {time 6-8 min}.", "uses": ["mushrooms", "salt"]},
+    {"text": "Add the onion and cook until soft, {time 5 min}. Stir in the garlic, paprika and flour for {time 1 min}.", "uses": ["onion", "garlic", "paprika", "flour"]},
+    {"text": "Stir in the broth, soy sauce and mustard and simmer until thickened, {time 4 min}. Meanwhile cook the noodles and drain.", "uses": ["broth", "soy", "mustard", "noodles"]},
+    {"text": "Take the pan off the heat and stir in the sour cream. Warm gently without boiling. Serve over the noodles with parsley.", "uses": ["sour", "parsley"]}
+  ],
+  "notes": [
+    "A mix of mushrooms, such as cremini, shiitake and oyster, gives the best flavor."
+  ]
+}

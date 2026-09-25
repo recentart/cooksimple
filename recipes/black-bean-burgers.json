@@ -1,0 +1,43 @@
+{
+  "id": "black-bean-burgers",
+  "title": "Black Bean Burgers",
+  "description": "Hearty black bean burgers with a crisp crust and smoky spices that hold together on the pan, served on buns with your toppings.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "servingsLabel": "burgers",
+  "scaleOptions": [3,6,12],
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": ["freezer-friendly"],
+  "equipment": ["Rimmed baking sheet", "Large skillet"],
+  "image": {"file": "black-bean-burgers.svg", "alt": "A black bean burger with lettuce, tomato and avocado"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beans", "amount": "2", "unit": "can", "size": "15 oz", "item": "black beans", "key": "canned black beans", "prep": "drained, rinsed and patted dry"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "onion", "amount": "1/2", "item": "red onion", "key": "red onions", "prep": "finely chopped"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "chili", "amount": "1", "unit": "tsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "panko", "amount": "3/4", "unit": "cup", "item": "panko breadcrumbs", "key": "panko breadcrumbs"},
+    {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "buns", "amount": "6", "item": "hamburger bun", "key": "hamburger buns", "prep": "toasted"},
+    {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "sliced", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 325F oven}. Spread the beans on the baking sheet and bake until they look dry and some split open, {time 15 min}. Drying them is what stops the burgers turning mushy.", "uses": ["beans"]},
+    {"text": "Meanwhile heat 1 tbsp oil in the skillet and cook the onion until soft, {time 5 min}. Add the garlic, cumin, paprika and chili powder for {time 1 min}.", "uses": ["oil", "onion", "garlic", "cumin", "paprika", "chili"]},
+    {"text": "Mash the warm beans in a bowl, leaving some chunky. Mix in the onion mixture, egg, panko, cheese and salt until it holds together.", "uses": ["egg", "panko", "cheese", "salt"]},
+    {"text": "Shape into {count 6} patties about {len 3/4 in} thick. Chill for {time 15 min} if they feel soft.", "uses": []},
+    {"text": "Heat the rest of the oil in the skillet over medium heat and cook the patties until crisp and heated through, {time 4-5 min} per side. Serve on toasted buns with avocado and your favorite toppings.", "uses": ["buns", "avocado"]}
+  ],
+  "notes": [
+    "Freeze shaped patties between parchment for up to 3 months; cook from frozen, a few minutes longer per side."
+  ]
+}

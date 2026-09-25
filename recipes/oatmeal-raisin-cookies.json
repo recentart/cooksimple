@@ -1,0 +1,44 @@
+{
+  "id": "oatmeal-raisin-cookies",
+  "title": "Oatmeal Raisin Cookies",
+  "description": "Chewy oatmeal cookies with plump raisins, brown sugar and a hint of cinnamon, with crisp edges and soft, thick centers.",
+  "added": "2026-09-25",
+  "servings": 24,
+  "servingsLabel": "cookies",
+  "scaleOptions": [12,24,48],
+  "prepMinutes": 15,
+  "cookMinutes": 24,
+  "totalMinutes": 70,
+  "cuisine": "American",
+  "mealTypes": ["dessert", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["2 baking sheets", "Parchment paper", "Mixer or sturdy spoon"],
+  "image": {"file": "oatmeal-raisin-cookies.svg", "alt": "Oatmeal raisin cookies on a plate"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "raisins", "amount": "1", "unit": "cup", "item": "raisins", "key": "raisins"},
+    {"id": "flour", "amount": "1 1/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "soda", "amount": "1", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "cinnamon", "amount": "1", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "12", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+    {"id": "brown", "amount": "1", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed"},
+    {"id": "sugar", "amount": "1/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "oats", "amount": "3", "unit": "cup", "item": "rolled oats", "key": "rolled oats"}
+  ],
+  "steps": [
+    {"text": "Cover the raisins with hot water for {time 10 min} to plump them, then drain and pat dry. Heat the oven to {temp 350F oven} and line the baking sheets.", "uses": ["raisins"]},
+    {"text": "Whisk the flour, baking soda, cinnamon and salt in a bowl.", "uses": ["flour", "soda", "cinnamon", "salt"]},
+    {"text": "Beat the butter with both sugars until creamy, {time 2 min}. Beat in the eggs and vanilla.", "uses": ["butter", "brown", "sugar", "eggs", "vanilla"]},
+    {"text": "Mix in the flour mixture, then the oats and raisins, until evenly combined.", "uses": ["oats"]},
+    {"text": "Scoop rounded 2-tablespoon balls onto the sheets with a {len 2 in} gap between them. Bake one sheet at a time until the edges are golden but the centers still look soft, {time 11-13 min}.", "uses": []},
+    {"text": "Cool on the sheet for {time 5 min} before moving to a rack; they firm up as they cool.", "uses": []}
+  ],
+  "notes": [
+    "Chill the dough for 30 minutes for thicker cookies that spread less.",
+    "Keeps 5 days in an airtight tin."
+  ]
+}

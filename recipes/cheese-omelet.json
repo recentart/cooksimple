@@ -1,0 +1,35 @@
+{
+  "id": "cheese-omelet",
+  "title": "Cheese Omelet",
+  "description": "A tender, golden French-style omelet folded around melted cheddar. One pan, three eggs and about ten minutes.",
+  "added": "2026-09-25",
+  "servings": 1,
+  "scaleOptions": [1,2,3,4],
+  "scaleNote": "Make omelets one at a time in the same pan; a bigger batch just means more rounds.",
+  "prepMinutes": 3,
+  "cookMinutes": 5,
+  "cuisine": "French",
+  "mealTypes": ["breakfast", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["{len 8 in} nonstick skillet", "Silicone spatula"],
+  "image": {"file": "cheese-omelet.svg", "alt": "A folded cheese omelet with chives on a plate"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "cheese", "amount": "1/4", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded"},
+    {"id": "chives", "amount": "1", "unit": "tsp", "item": "fresh chives", "key": "fresh chives", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Beat the eggs and salt with a fork until smooth and a little frothy.", "uses": ["eggs", "salt"]},
+    {"text": "Melt the butter in the skillet over medium heat and swirl it to coat. When the foam subsides, pour in the eggs.", "uses": ["butter"]},
+    {"text": "Stir quickly with the spatula while shaking the pan for about {time 20 sec notimer}, until small curds form. Then stop stirring and spread the eggs into an even layer.", "uses": []},
+    {"text": "Cook without stirring until the bottom is set and the top is just barely moist, {time 1-2 min}. Scatter the cheese over one half.", "uses": ["cheese"]},
+    {"text": "Fold the other half over the cheese, let it sit for {time 30 sec} to melt, then slide the omelet onto a plate. Sprinkle with chives.", "uses": ["chives"]}
+  ],
+  "notes": [
+    "Warm fillings such as sautéed mushrooms or spinach can go in with the cheese; keep them to about a quarter cup so the omelet folds neatly."
+  ]
+}

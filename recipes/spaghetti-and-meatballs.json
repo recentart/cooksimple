@@ -1,0 +1,48 @@
+{
+  "id": "spaghetti-and-meatballs",
+  "title": "Spaghetti and Meatballs",
+  "description": "Tender, juicy baked meatballs simmered in a simple tomato sauce and served over spaghetti with Parmesan and basil.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 45,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["freezer-friendly", "make-ahead"],
+  "equipment": ["Rimmed baking sheet", "Large pot", "Large deep skillet or saucepan"],
+  "image": {"file": "spaghetti-and-meatballs.svg", "alt": "A plate of spaghetti with meatballs in tomato sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the meatballs", "items": [
+      {"id": "crumbs", "amount": "1/2", "unit": "cup", "item": "plain breadcrumbs", "key": "plain breadcrumbs"},
+      {"id": "milk", "amount": "1/3", "unit": "cup", "item": "milk", "key": "milk"},
+      {"id": "beef", "amount": "1", "unit": "lb", "item": "ground beef", "key": "ground beef"},
+      {"id": "pork", "amount": "8", "unit": "oz", "item": "ground pork", "key": "ground pork"},
+      {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "parm", "amount": "1/2", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "grated", "note": "plus more to serve"},
+      {"id": "mgarlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"},
+      {"id": "msalt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the sauce and pasta", "items": [
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "sliced"},
+      {"id": "tomatoes", "amount": "2", "unit": "can", "size": "28 oz", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "basil", "amount": "1/4", "unit": "cup", "item": "fresh basil", "key": "fresh basil", "prep": "torn"},
+      {"id": "pasta", "amount": "1", "unit": "lb", "item": "spaghetti", "key": "spaghetti"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} and line the baking sheet with foil. Soak the breadcrumbs in the milk for {time 5 min}; this is what keeps the meatballs soft.", "uses": ["crumbs", "milk"]},
+    {"text": "Add the beef, pork, egg, Parmesan, garlic, parsley and salt and mix gently with your hands just until combined. Roll into {count 18} balls about {len 1 1/2 in} across and set them on the sheet.", "uses": ["beef", "pork", "egg", "parm", "mgarlic", "parsley", "msalt"]},
+    {"text": "Bake until browned, {time 15 min}. They’ll finish cooking in the sauce.", "uses": []},
+    {"text": "Meanwhile warm the oil and sliced garlic in the deep skillet over medium heat until the garlic is pale gold, {time 2 min}. Add the tomatoes and salt and simmer for {time 10 min}.", "uses": ["oil", "garlic", "tomatoes", "salt"]},
+    {"text": "Add the meatballs to the sauce and simmer gently, turning them now and then, until cooked through, {time 20 min}. They should reach {temp 160F internal}. Stir in the basil.", "uses": ["basil"]},
+    {"text": "Cook the spaghetti in a big pot of salted boiling water until al dente, drain and toss with some of the sauce. Serve with meatballs, more sauce and Parmesan.", "uses": ["pasta"]}
+  ],
+  "notes": [
+    "Freeze baked meatballs in their sauce for up to 3 months."
+  ]
+}

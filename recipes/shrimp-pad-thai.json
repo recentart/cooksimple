@@ -1,0 +1,43 @@
+{
+  "id": "shrimp-pad-thai",
+  "title": "Shrimp Pad Thai",
+  "description": "Stir-fried rice noodles with shrimp, egg, bean sprouts and scallions in a tangy tamarind sauce, finished with peanuts and lime.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 12,
+  "cuisine": "Thai",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Wok or large nonstick skillet"],
+  "image": {"file": "shrimp-pad-thai.svg", "alt": "A plate of pad thai with shrimp, peanuts, bean sprouts and lime"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "noodles", "amount": "8", "unit": "oz", "item": "flat rice noodles", "key": "rice noodles", "note": "about {len 1/4 in} wide"},
+    {"id": "tamarind", "amount": "3", "unit": "tbsp", "item": "tamarind paste", "key": "tamarind paste"},
+    {"id": "fishsauce", "amount": "3", "unit": "tbsp", "item": "fish sauce", "key": "fish sauce"},
+    {"id": "sugar", "amount": "3", "unit": "tbsp", "item": "light brown sugar", "key": "light brown sugar"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "shrimp", "amount": "12", "unit": "oz", "item": "medium shrimp", "key": "shrimp", "prep": "peeled and deveined"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "sprouts", "amount": "2", "unit": "cup", "item": "bean sprouts", "key": "bean sprouts"},
+    {"id": "scallions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "cut into {len 1 in} lengths"},
+    {"id": "peanuts", "amount": "1/3", "unit": "cup", "item": "roasted peanuts", "key": "roasted peanuts", "prep": "chopped"},
+    {"id": "lime", "amount": "1", "item": "lime", "key": "limes", "prep": "cut into wedges"},
+    {"id": "flakes", "amount": "1/2", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes", "optional": true}
+  ],
+  "steps": [
+    {"text": "Soak the noodles in hot tap water until pliable but still firm at the center, {time 8-10 min}. Drain; they finish cooking in the pan.", "uses": ["noodles"]},
+    {"text": "Stir the tamarind, fish sauce and brown sugar together until the sugar dissolves. Taste it: it should be sour, salty and sweet all at once.", "uses": ["tamarind", "fishsauce", "sugar"]},
+    {"text": "Heat 1 tbsp oil in the wok over high heat. Stir-fry the shrimp until pink, {time 2 min}, then move to a plate.", "uses": ["oil", "shrimp"]},
+    {"text": "Add the rest of the oil and the garlic, then the drained noodles and the sauce. Toss constantly until the noodles soak up the sauce and turn soft and chewy, {time 2-3 min}. Add a splash of water if they stick.", "uses": ["garlic"]},
+    {"text": "Push the noodles aside, crack in the eggs and scramble them until just set, {time 1 min}, then toss everything together.", "uses": ["eggs"]},
+    {"text": "Add the shrimp, bean sprouts and green onions and toss for {time 1 min}. Serve topped with peanuts, lime wedges and pepper flakes.", "uses": ["sprouts", "scallions", "peanuts", "lime", "flakes"]}
+  ],
+  "notes": [
+    "Don’t over-soak the noodles; mushy noodles are the most common pad thai problem.",
+    "Cook in two batches in a smaller pan so the noodles fry rather than steam."
+  ]
+}

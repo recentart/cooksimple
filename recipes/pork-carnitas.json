@@ -1,0 +1,40 @@
+{
+  "id": "pork-carnitas",
+  "title": "Pork Carnitas",
+  "description": "Pork shoulder braised with orange, garlic and cumin until meltingly tender, then crisped in its own fat for tacos and burritos.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 180,
+  "cuisine": "Mexican",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Dutch oven", "Rimmed baking sheet"],
+  "image": {"file": "pork-carnitas.svg", "alt": "Carnitas tacos with crisp pork, onion, cilantro and lime"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "pork", "amount": "4", "unit": "lb", "item": "boneless pork shoulder", "key": "pork shoulder", "prep": "cut into {len 2 in} chunks"},
+    {"id": "salt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "oregano", "amount": "2", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "onion", "amount": "1", "item": "white onion", "key": "white onions", "prep": "quartered"},
+    {"id": "garlic", "amount": "6", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "smashed"},
+    {"id": "orange", "amount": "1", "item": "orange", "key": "oranges", "prep": "juiced, halves kept"},
+    {"id": "lime", "amount": "2", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "bay", "amount": "2", "item": "bay leaf", "key": "bay leaves", "plural": "bay leaves"},
+    {"id": "water", "amount": "1", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "tortillas", "amount": "16", "item": "corn tortilla", "key": "corn tortillas", "prep": "warmed, for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 325F oven}. Toss the pork with the salt, cumin and oregano and put it in the Dutch oven.", "uses": ["pork", "salt", "cumin", "oregano"]},
+    {"text": "Add the onion, garlic, orange juice and the squeezed orange halves, lime juice, bay leaves and water. The liquid won’t cover the pork; that’s right.", "uses": ["onion", "garlic", "orange", "lime", "bay", "water"]},
+    {"text": "Cover and braise until the pork is fork-tender, {time 2.5-3 hr notimer}.", "uses": []},
+    {"text": "Remove the orange halves, onion and bay leaves. Lift out the pork and shred it into large pieces. Skim the fat from the juices and save it.", "uses": []},
+    {"text": "Heat the broiler. Spread the pork on the baking sheet, drizzle with a few spoonfuls of the fat and some of the juices, and broil until the edges are browned and crisp, {time 5-8 min}, turning once. Serve in tortillas.", "uses": ["tortillas"]}
+  ],
+  "notes": [
+    "Crisping in batches in a hot skillet works too and gives even crunchier edges.",
+    "Freeze shredded pork with some of its juices; crisp it after reheating."
+  ]
+}

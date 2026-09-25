@@ -1,0 +1,52 @@
+{
+  "id": "one-bowl-chocolate-cake",
+  "title": "One-Bowl Chocolate Cake",
+  "description": "A dark, moist chocolate sheet cake mixed in one bowl, with a glossy chocolate frosting. Reliable for birthdays and bake sales.",
+  "added": "2026-09-25",
+  "servings": 15,
+  "servingsLabel": "slices",
+  "scaleOptions": [15,30],
+  "scaleNote": "One batch fills a {len 9x13 in} pan, or two {len 8 in} rounds baked 30 to 35 minutes.",
+  "prepMinutes": 20,
+  "cookMinutes": 35,
+  "totalMinutes": 145,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["{len 9x13 in} baking pan", "Large bowl", "Whisk"],
+  "image": {"file": "one-bowl-chocolate-cake.svg", "alt": "A chocolate layer cake with a slice cut showing the layers"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the cake", "items": [
+      {"id": "flour", "amount": "1 3/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "sugar", "amount": "2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "cocoa", "amount": "3/4", "unit": "cup", "item": "unsweetened cocoa powder", "key": "unsweetened cocoa powder"},
+      {"id": "soda", "amount": "1 1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+      {"id": "bp", "amount": "1 1/2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "buttermilk", "amount": "1", "unit": "cup", "item": "buttermilk", "key": "buttermilk"},
+      {"id": "oil", "amount": "1/2", "unit": "cup", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+      {"id": "coffee", "amount": "1", "unit": "cup", "item": "hot brewed coffee or hot water", "key": "brewed coffee"}
+    ] },
+    { "group": "For the frosting", "items": [
+      {"id": "fbutter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+      {"id": "fcocoa", "amount": "1/2", "unit": "cup", "item": "unsweetened cocoa powder", "key": "unsweetened cocoa powder"},
+      {"id": "powdered", "amount": "2 1/2", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar"},
+      {"id": "milk", "amount": "1/4", "unit": "cup", "item": "milk", "key": "milk"},
+      {"id": "fvanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven}. Grease the pan and line the bottom with parchment.", "uses": []},
+    {"text": "Whisk the flour, sugar, cocoa, baking soda, baking powder and salt in a large bowl. Add the eggs, buttermilk, oil and vanilla and whisk until smooth.", "uses": ["flour", "sugar", "cocoa", "soda", "bp", "salt", "eggs", "buttermilk", "oil", "vanilla"]},
+    {"text": "Whisk in the hot coffee; the batter will be thin. That’s what makes the cake so moist. Pour into the pan.", "uses": ["coffee"]},
+    {"text": "Bake until a toothpick in the center comes out clean or with a few moist crumbs, {time 32-36 min}. Cool completely in the pan, about {time 1 hr notimer}.", "uses": []},
+    {"text": "Beat the butter and cocoa until smooth, then beat in the powdered sugar, milk and vanilla until fluffy. Spread over the cooled cake.", "uses": ["fbutter", "fcocoa", "powdered", "milk", "fvanilla"]}
+  ],
+  "notes": [
+    "The coffee deepens the chocolate flavor without tasting of coffee. Hot water works too."
+  ]
+}

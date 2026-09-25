@@ -1,0 +1,54 @@
+{
+  "id": "tofu-banh-mi",
+  "title": "Crispy Tofu Banh Mi",
+  "description": "Vietnamese-style sandwiches with crisp soy-glazed tofu, quick-pickled carrot and daikon, sriracha mayo, cucumber and cilantro.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "cuisine": "Vietnamese",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "tofu-banh-mi.svg", "alt": "A banh mi sandwich with crispy tofu, pickled carrot, cucumber and cilantro"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the quick pickles", "items": [
+      {"id": "carrot", "amount": "1", "item": "large carrot", "key": "carrots", "prep": "cut into matchsticks"},
+      {"id": "daikon", "amount": "4", "unit": "oz", "item": "daikon radish", "key": "daikon radish", "prep": "cut into matchsticks"},
+      {"id": "vinegar", "amount": "1/2", "unit": "cup", "item": "rice vinegar", "key": "rice vinegar"},
+      {"id": "sugar", "amount": "2", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "psalt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the tofu", "items": [
+      {"id": "tofu", "amount": "1", "unit": "block", "size": "14 oz", "item": "extra-firm tofu", "key": "firm tofu", "prep": "drained, patted dry and cut into {len 1/2 in} slabs"},
+      {"id": "cornstarch", "amount": "2", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "soy", "amount": "2", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+      {"id": "syrup", "amount": "1", "unit": "tbsp", "item": "maple syrup or brown sugar", "key": "maple syrup"},
+      {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"}
+    ] },
+    { "group": "To assemble", "items": [
+      {"id": "mayo", "amount": "1/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+      {"id": "sriracha", "amount": "1", "unit": "tbsp", "item": "sriracha", "key": "sriracha"},
+      {"id": "bread", "amount": "4", "item": "small baguette or sub roll", "key": "crusty bread", "plural": "small baguettes or sub rolls"},
+      {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "cut into thin strips"},
+      {"id": "cilantro", "amount": "1/2", "unit": "cup", "item": "fresh cilantro sprigs", "key": "fresh cilantro"},
+      {"id": "jalapeno", "amount": "1", "item": "jalapeño", "key": "jalapeños", "prep": "thinly sliced", "optional": true}
+    ] }
+  ],
+  "steps": [
+    {"text": "Make the pickles: stir the vinegar, sugar and salt with {qty 1/4 cup} warm water until dissolved. Add the carrot and daikon and leave for at least {time 20 min} while you cook.", "uses": ["carrot", "daikon", "vinegar", "sugar", "psalt"]},
+    {"text": "Toss the tofu slabs gently in the cornstarch. Heat the oil in the skillet over medium-high heat and fry the tofu until golden and crisp, {time 3-4 min} per side.", "uses": ["tofu", "cornstarch", "oil"]},
+    {"text": "Mix the soy sauce, maple syrup and garlic, pour it over the tofu and toss for {time 30 sec} until the glaze turns sticky. Take the pan off the heat.", "uses": ["soy", "syrup", "garlic"]},
+    {"text": "Stir the mayonnaise and sriracha together. Split the rolls, warm them in the oven for a few minutes if you like, and spread the insides with the spicy mayo.", "uses": ["mayo", "sriracha", "bread"]},
+    {"text": "Fill each roll with tofu, drained pickles, cucumber, cilantro and jalapeño.", "uses": ["cucumber", "cilantro", "jalapeno"]}
+  ],
+  "notes": [
+    "The pickles keep in their liquid in the fridge for up to 2 weeks.",
+    "For a vegan banh mi, use vegan mayonnaise."
+  ]
+}

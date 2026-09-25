@@ -1,0 +1,38 @@
+{
+  "id": "gazpacho",
+  "title": "Gazpacho",
+  "description": "Chilled Spanish tomato soup blended with cucumber, pepper, garlic, sherry vinegar and olive oil. No cooking, just ripe summer tomatoes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "totalMinutes": 135,
+  "cuisine": "Spanish",
+  "mealTypes": ["lunch"],
+  "diets": ["vegan"],
+  "tags": ["no-cook", "make-ahead"],
+  "equipment": ["Blender"],
+  "image": {"file": "gazpacho.svg", "alt": "A bowl of chilled tomato gazpacho topped with diced cucumber and pepper"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tomatoes", "amount": "2", "unit": "lb", "item": "very ripe tomatoes", "key": "tomatoes", "prep": "cored and roughly chopped"},
+    {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "peeled and chopped"},
+    {"id": "pepper", "amount": "1/2", "item": "green or red bell pepper", "key": "bell peppers", "prep": "chopped"},
+    {"id": "onion", "amount": "1/4", "item": "red onion", "key": "red onions", "prep": "chopped"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic"},
+    {"id": "bread", "amount": "1", "unit": "slice", "item": "day-old crusty bread", "key": "crusty bread", "prep": "crust removed", "optional": true},
+    {"id": "vinegar", "amount": "2", "unit": "tbsp", "item": "sherry vinegar", "key": "sherry vinegar"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "1/3", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil", "note": "plus more for serving"}
+  ],
+  "steps": [
+    {"text": "Put the tomatoes, cucumber, pepper, onion, garlic, bread (if using), vinegar and salt in the blender.", "uses": ["tomatoes", "cucumber", "pepper", "onion", "garlic", "bread", "vinegar", "salt"]},
+    {"text": "Blend until completely smooth, about {time 1 min notimer}. With the blender running, pour in the oil in a thin stream; the soup will turn a lighter orange-red and creamy.", "uses": ["oil"]},
+    {"text": "Taste and adjust the salt and vinegar. For a silkier soup, press it through a sieve.", "uses": []},
+    {"text": "Chill for at least {time 2 hr notimer}; gazpacho needs to be really cold. Serve in bowls or glasses with a drizzle of olive oil and finely diced cucumber on top.", "uses": []}
+  ],
+  "notes": [
+    "It is only as good as the tomatoes, so make it in summer when they are ripe and sweet.",
+    "Leave out the bread for a gluten-free soup. Keeps 3 days in the fridge."
+  ]
+}

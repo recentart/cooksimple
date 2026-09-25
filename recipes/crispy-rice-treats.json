@@ -1,0 +1,36 @@
+{
+  "id": "crispy-rice-treats",
+  "title": "Brown Butter Crispy Rice Treats",
+  "description": "Chewy, gooey marshmallow and crisp rice cereal squares made extra good with nutty browned butter and a pinch of salt.",
+  "added": "2026-09-25",
+  "servings": 16,
+  "servingsLabel": "squares",
+  "scaleOptions": [16,32],
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "totalMinutes": 75,
+  "cuisine": "American",
+  "mealTypes": ["dessert", "snack"],
+  "diets": [],
+  "tags": ["no-cook", "make-ahead"],
+  "equipment": ["Large pot", "{len 8x8 in} or {len 9x9 in} pan"],
+  "image": {"file": "crispy-rice-treats.svg", "alt": "Squares of crispy rice cereal treats"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "plus more for the pan"},
+    {"id": "marshmallows", "amount": "10", "unit": "oz", "item": "mini marshmallows", "key": "marshmallows"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "cereal", "amount": "6", "unit": "cup", "item": "crisp rice cereal", "key": "crisp rice cereal"}
+  ],
+  "steps": [
+    {"text": "Butter the pan. Melt the butter in the pot over medium heat and keep cooking, swirling, until it smells nutty and turns golden brown with dark flecks, {time 4-5 min}.", "uses": ["butter"]},
+    {"text": "Turn the heat to low, add the marshmallows and salt and stir until completely melted, {time 2-3 min}. Stir in the vanilla.", "uses": ["marshmallows", "salt", "vanilla"]},
+    {"text": "Take the pot off the heat, add the cereal and fold until evenly coated.", "uses": ["cereal"]},
+    {"text": "Press gently into the pan with buttered hands or a spatula; pressing hard makes them dense. Cool for {time 1 hr notimer} before cutting into squares.", "uses": []}
+  ],
+  "notes": [
+    "Most marshmallows contain gelatin, which comes from animals, so these aren’t labelled vegetarian. Vegan marshmallows work the same way.",
+    "Many rice cereals contain barley malt; look for a gluten-free brand if you need it."
+  ]
+}

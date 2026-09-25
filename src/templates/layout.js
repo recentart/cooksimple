@@ -16,7 +16,9 @@ export function layout(ctx, page) {
   const fullTitle = page.path === '/' ? page.title : `${page.title} | ${site.name}`;
   const nav = [
     ['/search/', 'Recipes', 'Recipes'],
-    ['/what-can-i-make/', 'What can I make?', 'What can I make?'],
+    ['/what-can-i-make/', 'What can I make?', 'I have…'],
+    ['/meal-planner/', 'Meal plan', 'Plan'],
+    ['/saved/', 'Saved', 'Saved'],
     ['/shopping-list/', 'Shopping list', 'List'],
   ];
   return html`<!doctype html>
@@ -67,6 +69,8 @@ ${page.body}
     <p class="footer-brand">${LOGO}<span><strong>${site.name}</strong> · ${site.tagline}</span></p>
     <ul class="footer-links">
       <li><a href="/recipes/">All recipes</a></li>
+      <li><a href="/collections/">Collections</a></li>
+      <li><a href="/meal-planner/">Meal planner</a></li>
       <li><a href="/about/">About</a></li>
       <li><a href="/about/#privacy">Privacy</a></li>
       <li><a href="/about/#conversions">How conversions work</a></li>

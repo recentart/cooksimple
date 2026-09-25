@@ -1,0 +1,50 @@
+{
+  "id": "baked-falafel",
+  "title": "Baked Falafel",
+  "description": "Herby falafel made from soaked dried chickpeas and baked until crisp, for stuffing into pita with tahini sauce and salad.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "totalMinutes": 780,
+  "cuisine": "Middle Eastern",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Food processor", "Baking sheet"],
+  "image": {"file": "baked-falafel.svg", "alt": "Baked falafel with tahini sauce, pita and cucumber"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the falafel", "items": [
+      {"id": "chickpeas", "amount": "1", "unit": "cup", "item": "dried chickpeas", "key": "dried chickpeas", "note": "not canned"},
+      {"id": "onion", "amount": "1/2", "item": "yellow onion", "key": "yellow onions", "prep": "roughly chopped"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic"},
+      {"id": "parsley", "amount": "1", "unit": "cup", "item": "fresh parsley", "key": "fresh parsley", "note": "loosely packed"},
+      {"id": "cilantro", "amount": "1/2", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "note": "loosely packed"},
+      {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+      {"id": "coriander", "amount": "1", "unit": "tsp", "item": "ground coriander", "key": "ground coriander"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "soda", "amount": "1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+      {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"}
+    ] },
+    { "group": "To serve", "items": [
+      {"id": "tahini", "amount": "1/3", "unit": "cup", "item": "tahini", "key": "tahini"},
+      {"id": "lemon", "amount": "2", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+      {"id": "pita", "amount": "4", "item": "pita", "key": "pita bread", "plural": "pitas"},
+      {"id": "tomato", "amount": "2", "item": "tomato", "key": "tomatoes", "prep": "diced"},
+      {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "diced"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Cover the dried chickpeas with plenty of cold water and soak for at least {time 12 hr notimer}, or overnight. They will double in size. Drain well and pat dry.", "uses": ["chickpeas"]},
+    {"text": "Heat the oven to {temp 400F oven}. Brush the baking sheet with 1 tbsp of the oil.", "uses": ["oil"]},
+    {"text": "Pulse the soaked chickpeas, onion, garlic, parsley, cilantro, cumin, coriander, salt and baking soda in the food processor, scraping down the sides, until finely chopped and the mixture holds together when squeezed, like coarse wet sand. Don’t make a paste.", "uses": ["onion", "garlic", "parsley", "cilantro", "cumin", "coriander", "salt", "soda"]},
+    {"text": "Shape into {count 16} small patties about {len 1/2 in} thick, set them on the sheet and brush the tops with the remaining oil.", "uses": []},
+    {"text": "Bake for {time 15 min}, flip and bake until deep golden and crisp on both sides, {time 12-15 min}.", "uses": []},
+    {"text": "Whisk the tahini and lemon juice with 3 to 4 tbsp water and a pinch of salt until smooth and pourable. Stuff the falafel into warm pitas with tomato and cucumber and drizzle with the tahini sauce.", "uses": ["tahini", "lemon", "pita", "tomato", "cucumber"]}
+  ],
+  "notes": [
+    "Canned chickpeas are too soft; the falafel will fall apart. Soaked dried chickpeas are essential.",
+    "Freeze shaped, unbaked patties on a tray, then bag them. Bake from frozen, adding 5 minutes."
+  ]
+}

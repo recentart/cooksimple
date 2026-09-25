@@ -1,0 +1,32 @@
+{
+  "id": "garlicky-sauteed-spinach",
+  "title": "Garlicky Sautéed Spinach",
+  "description": "A mountain of spinach wilted in minutes with olive oil, sliced garlic and a pinch of chili, finished with lemon.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "cuisine": "Mediterranean",
+  "mealTypes": ["side"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Large pot or deep skillet"],
+  "image": {"file": "garlicky-sauteed-spinach.svg", "alt": "A skillet of wilted spinach with sliced garlic and lemon"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced"},
+    {"id": "flakes", "amount": "1", "unit": "pinch", "item": "red pepper flakes", "key": "red pepper flakes"},
+    {"id": "spinach", "amount": "1 1/2", "unit": "lb", "item": "spinach", "key": "spinach", "prep": "washed and dried"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"}
+  ],
+  "steps": [
+    {"text": "Warm the oil, garlic and pepper flakes in the pot over medium heat until the garlic is pale golden, {time 2 min}.", "uses": ["oil", "garlic", "flakes"]},
+    {"text": "Add the spinach a big handful at a time with the salt, turning with tongs as it wilts, {time 3-4 min} in all.", "uses": ["spinach", "salt"]},
+    {"text": "Tip off any liquid in the pot, toss with the lemon juice and serve right away.", "uses": ["lemon"]}
+  ],
+  "notes": [
+    "Spinach shrinks to about a tenth of its raw volume; this big pile makes four modest servings."
+  ]
+}

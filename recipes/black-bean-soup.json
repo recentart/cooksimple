@@ -1,0 +1,41 @@
+{
+  "id": "black-bean-soup",
+  "title": "Black Bean Soup",
+  "description": "A thick, smoky black bean soup made from canned beans in about forty minutes, partly blended and finished with lime.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "freezer-friendly"],
+  "equipment": ["Large pot", "Immersion blender or potato masher"],
+  "image": {"file": "black-bean-soup.svg", "alt": "A bowl of black bean soup with sour cream, cilantro and a lime wedge"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "diced"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "beans", "amount": "3", "unit": "can", "size": "15 oz", "item": "black beans", "key": "canned black beans", "prep": "drained and rinsed"},
+    {"id": "broth", "amount": "3", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "lime", "amount": "1", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true},
+    {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "diced", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the pot over medium heat. Cook the onion and bell pepper until soft, {time 6-8 min}. Add the garlic, cumin, paprika and oregano and stir for {time 1 min}.", "uses": ["oil", "onion", "pepper", "garlic", "cumin", "paprika", "oregano"]},
+    {"text": "Add the beans, broth and salt, bring to a boil, then lower the heat and simmer for {time 15-20 min} so the flavors blend.", "uses": ["beans", "broth", "salt"]},
+    {"text": "Blend about half the soup with an immersion blender, or mash it well, leaving plenty of whole beans for texture.", "uses": []},
+    {"text": "Stir in the lime juice and taste for salt. Serve topped with cilantro and avocado.", "uses": ["lime", "cilantro", "avocado"]}
+  ],
+  "notes": [
+    "For non-vegan toppings, sour cream and crumbled cheese are traditional.",
+    "The soup thickens overnight; loosen with water when reheating."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "egg-salad-sandwiches",
+  "title": "Egg Salad Sandwiches",
+  "description": "Creamy egg salad with celery, chives and a little Dijon, piled into soft bread with lettuce. Simple, quick and good for lunchboxes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "totalMinutes": 35,
+  "cuisine": "American",
+  "mealTypes": ["lunch"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Medium saucepan"],
+  "image": {"file": "egg-salad-sandwiches.svg", "alt": "An egg salad sandwich cut in half"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggs", "amount": "8", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "mayo", "amount": "1/3", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "celery", "amount": "1", "unit": "stalk", "item": "celery", "key": "celery", "prep": "finely diced"},
+    {"id": "chives", "amount": "2", "unit": "tbsp", "item": "fresh chives", "key": "fresh chives", "prep": "chopped"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "bread", "amount": "8", "unit": "slice", "item": "sandwich bread", "key": "sandwich bread"},
+    {"id": "lettuce", "amount": "4", "item": "lettuce leaf", "key": "romaine lettuce", "plural": "lettuce leaves"}
+  ],
+  "steps": [
+    {"text": "Put the eggs in the saucepan, cover with cold water by {len 1 in} and bring to a boil. Turn off the heat, cover and leave for {time 11 min}.", "uses": ["eggs"]},
+    {"text": "Drain and cover the eggs with cold water or ice water until cool enough to handle, {time 5 min}. Peel them.", "uses": []},
+    {"text": "Chop the eggs roughly, or mash them with a fork for a smoother salad, in a medium bowl.", "uses": []},
+    {"text": "Stir in the mayonnaise, mustard, celery, chives, salt and pepper. Taste and add more salt if needed.", "uses": ["mayo", "mustard", "celery", "chives", "salt", "pepper"]},
+    {"text": "Layer lettuce on half the bread slices, spoon the egg salad on top and close the sandwiches.", "uses": ["bread", "lettuce"]}
+  ],
+  "notes": [
+    "The egg salad keeps in a covered container in the fridge for up to 3 days. Assemble sandwiches just before eating so the bread stays firm."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "sweet-potato-black-bean-tacos",
+  "title": "Sweet Potato and Black Bean Tacos",
+  "description": "Roasted, chili-spiced sweet potatoes and black beans in warm tortillas with avocado, pickled onion and cilantro-lime slaw.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Rimmed baking sheet"],
+  "image": {"file": "sweet-potato-black-bean-tacos.svg", "alt": "Three tacos with roasted sweet potato, black beans and avocado"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "2", "item": "medium sweet potato", "key": "sweet potatoes", "prep": "peeled and cut into {len 1/2 in} cubes"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "chili", "amount": "2", "unit": "tsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "beans", "amount": "1", "unit": "can", "size": "15 oz", "item": "black beans", "key": "canned black beans", "prep": "drained and rinsed"},
+    {"id": "onion", "amount": "1/2", "item": "red onion", "key": "red onions", "prep": "thinly sliced"},
+    {"id": "lime", "amount": "3", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice", "note": "divided"},
+    {"id": "cabbage", "amount": "2", "unit": "cup", "item": "shredded red or green cabbage", "key": "green cabbage"},
+    {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"},
+    {"id": "tortillas", "amount": "8", "item": "corn tortilla", "key": "corn tortillas"},
+    {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "sliced"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Toss the sweet potatoes with the oil, chili powder, cumin and most of the salt on the baking sheet and roast for {time 15 min}.", "uses": ["potatoes", "oil", "chili", "cumin", "salt"]},
+    {"text": "Stir in the black beans and roast until the potatoes are tender and caramelized at the edges, {time 8-10 min}.", "uses": ["beans"]},
+    {"text": "Meanwhile toss the red onion with 2 tbsp of the lime juice and a pinch of salt and let it quick-pickle. Toss the cabbage and cilantro with the rest of the lime juice.", "uses": ["onion", "lime", "cabbage", "cilantro"]},
+    {"text": "Warm the tortillas in a dry pan. Fill with the sweet potato mixture, slaw, avocado and pickled onion.", "uses": ["tortillas", "avocado"]}
+  ],
+  "notes": [
+    "Crumbled cotija or feta and a spoon of sour cream are good additions if you’re not keeping it vegan."
+  ]
+}

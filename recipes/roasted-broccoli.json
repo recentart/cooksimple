@@ -1,0 +1,34 @@
+{
+  "id": "roasted-broccoli",
+  "title": "Crispy Roasted Broccoli",
+  "description": "Broccoli roasted hot until charred and crisp at the edges, finished with lemon, garlic and a little Parmesan. Ready in 25 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Rimmed baking sheet"],
+  "image": {"file": "roasted-broccoli.svg", "alt": "Crispy roasted broccoli florets on a sheet pan with lemon"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "broccoli", "amount": "1 1/2", "unit": "lb", "item": "broccoli", "key": "broccoli", "prep": "cut into florets, stems peeled and sliced"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "cheese", "amount": "1/4", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated", "optional": true},
+    {"id": "flakes", "amount": "1", "unit": "pinch", "item": "red pepper flakes", "key": "red pepper flakes", "optional": true}
+  ],
+  "steps": [
+    {"text": "Put the baking sheet in the oven and heat to {temp 450F oven}. A preheated pan helps the broccoli brown.", "uses": []},
+    {"text": "Toss the broccoli with the oil and salt until every piece is coated. Dry broccoli roasts crisp, so pat it dry after washing.", "uses": ["broccoli", "oil", "salt"]},
+    {"text": "Carefully spread the broccoli on the hot pan in a single layer and roast until browned and crisp at the edges, {time 15 min}.", "uses": []},
+    {"text": "Scatter the garlic over, toss and roast until the garlic is golden, {time 3-5 min}. Toss with the lemon juice, cheese and pepper flakes.", "uses": ["garlic", "lemon", "cheese", "flakes"]}
+  ],
+  "notes": [
+    "Leave out the cheese for a vegan side."
+  ]
+}

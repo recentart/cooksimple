@@ -1,0 +1,43 @@
+{
+  "id": "butter-chicken",
+  "title": "Butter Chicken",
+  "description": "Tender chicken in a mild, silky tomato and butter sauce with warm spices and a little cream. A family-friendly curry.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "cuisine": "Indian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan", "freezer-friendly"],
+  "equipment": ["Large deep skillet or pot", "Blender or immersion blender"],
+  "image": {"file": "butter-chicken.svg", "alt": "A bowl of creamy orange butter chicken with cilantro, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs", "prep": "cut into bite-size pieces"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "garam", "amount": "2", "unit": "tsp", "item": "garam masala", "key": "garam masala", "note": "divided"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "chopped"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "chopped"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "chili", "amount": "1", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "15 oz", "item": "tomato sauce or passata", "key": "canned tomato sauce"},
+    {"id": "sugar", "amount": "1", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "cream", "amount": "1/2", "unit": "cup", "item": "heavy cream", "key": "heavy cream"},
+    {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Toss the chicken with the salt and half the garam masala. Heat the oil in the skillet over medium-high heat and brown the chicken in batches, {time 4-5 min} per batch. It needn’t be cooked through. Set aside.", "uses": ["chicken", "salt", "garam", "oil"]},
+    {"text": "Lower the heat to medium, add 2 tbsp of the butter and cook the onion until soft and golden, {time 8 min}. Add the garlic, ginger, paprika, cumin and the rest of the garam masala and stir for {time 1 min}.", "uses": ["butter", "onion", "garlic", "ginger", "chili", "cumin"]},
+    {"text": "Add the tomato sauce and sugar and simmer for {time 10 min}. Blend until very smooth, then return the sauce to the pan.", "uses": ["tomatoes", "sugar"]},
+    {"text": "Stir in the cream and the remaining butter, add the chicken and its juices and simmer until the chicken is cooked through, {time 8-10 min}. It should read {temp 165F internal}.", "uses": ["cream"]},
+    {"text": "Taste for salt, scatter with cilantro and serve with basmati rice or naan.", "uses": ["cilantro"]}
+  ],
+  "notes": [
+    "Butter chicken is milder and sweeter than tikka masala. For more heat, add a pinch of cayenne with the spices.",
+    "Freezes well for up to 3 months."
+  ]
+}

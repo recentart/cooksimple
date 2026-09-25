@@ -1,0 +1,33 @@
+{
+  "id": "simple-green-salad",
+  "title": "Simple Green Salad with Vinaigrette",
+  "description": "Crisp mixed greens with a classic shallot and Dijon vinaigrette. The five-minute salad that goes with everything.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "cuisine": "French",
+  "mealTypes": ["side", "lunch"],
+  "diets": ["vegan"],
+  "tags": ["no-cook"],
+  "image": {"file": "simple-green-salad.svg", "alt": "A bowl of mixed greens with shaved radish and vinaigrette"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "shallot", "amount": "1", "unit": "tbsp", "item": "shallot", "key": "shallots", "prep": "finely chopped"},
+    {"id": "vinegar", "amount": "1 1/2", "unit": "tbsp", "item": "red wine vinegar", "key": "red wine vinegar"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil"},
+    {"id": "pepper", "amount": "1", "unit": "pinch", "item": "black pepper", "key": "black pepper"},
+    {"id": "greens", "amount": "8", "unit": "cup", "item": "mixed salad greens", "key": "salad greens", "prep": "washed and dried"}
+  ],
+  "steps": [
+    {"text": "In the bottom of a large salad bowl, stir the shallot, vinegar, mustard and salt and let it stand for {time 5 min} to soften the shallot.", "uses": ["shallot", "vinegar", "mustard", "salt"]},
+    {"text": "Whisk in the olive oil until thick and emulsified, and add the pepper.", "uses": ["oil", "pepper"]},
+    {"text": "Add the greens and toss gently with your hands just before serving, until every leaf is lightly coated.", "uses": ["greens"]}
+  ],
+  "notes": [
+    "Dry greens hold dressing; wet greens water it down. A salad spinner is worth it.",
+    "The vinaigrette keeps a week in the fridge; shake before using."
+  ]
+}

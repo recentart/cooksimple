@@ -1,0 +1,42 @@
+{
+  "id": "tadka-dal",
+  "title": "Tadka Dal",
+  "description": "Creamy red lentils simmered with turmeric and finished with a sizzling tempering of cumin, garlic, chili and tomato in ghee or oil.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "Indian",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "freezer-friendly"],
+  "equipment": ["Medium pot", "Small skillet"],
+  "image": {"file": "tadka-dal.svg", "alt": "A bowl of yellow dal topped with spiced oil, chiles and cilantro"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "lentils", "amount": "1", "unit": "cup", "item": "red lentils", "key": "red lentils", "prep": "rinsed until the water runs clear"},
+    {"id": "water", "amount": "3 1/2", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil or ghee", "key": "neutral oil"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "cumin seeds", "key": "cumin seeds"},
+    {"id": "onion", "amount": "1/2", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "chiles", "amount": "2", "item": "dried red chile", "key": "dried red chiles"},
+    {"id": "tomato", "amount": "1", "item": "tomato", "key": "tomatoes", "prep": "chopped"},
+    {"id": "garam", "amount": "1/2", "unit": "tsp", "item": "garam masala", "key": "garam masala"},
+    {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"}
+  ],
+  "steps": [
+    {"text": "Bring the lentils, water and turmeric to a boil in the pot, skimming off any foam. Lower the heat and simmer, partly covered and stirring now and then, until the lentils collapse into a thick, creamy soup, {time 20-25 min}. Stir in the salt.", "uses": ["lentils", "water", "turmeric", "salt"]},
+    {"text": "For the tadka, heat the oil in the small skillet over medium heat. Add the cumin seeds and chiles and let them sizzle for {time 30 sec}.", "uses": ["oil", "cumin", "chiles"]},
+    {"text": "Add the onion and cook until golden, {time 5 min}. Add the garlic and ginger and cook until the garlic is light golden, {time 1 min}. Add the tomato and cook until soft, {time 2-3 min}.", "uses": ["onion", "garlic", "ginger", "tomato"]},
+    {"text": "Pour the sizzling tadka over the dal, stir in the garam masala and lemon juice, and scatter with cilantro. Serve with rice or flatbread.", "uses": ["garam", "lemon", "cilantro"]}
+  ],
+  "notes": [
+    "Dal thickens as it cools; add hot water to loosen it before serving leftovers.",
+    "Using ghee makes it vegetarian rather than vegan."
+  ]
+}

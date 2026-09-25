@@ -1,0 +1,40 @@
+{
+  "id": "chicken-piccata",
+  "title": "Chicken Piccata",
+  "description": "Thin, golden chicken cutlets in a bright lemon, butter and caper pan sauce. Fast enough for a weeknight, nice enough for company.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet"],
+  "image": {"file": "chicken-piccata.svg", "alt": "Chicken cutlets in lemon butter sauce with capers and lemon slices"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "2", "item": "large boneless, skinless chicken breast", "key": "chicken breasts", "note": "about {qty 1 1/2 lb}"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "flour", "amount": "1/3", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "wine", "amount": "1/3", "unit": "cup", "item": "dry white wine", "key": "dry white wine", "note": "or more broth"},
+    {"id": "broth", "amount": "1/2", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "lemon", "amount": "3", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "capers", "amount": "2", "unit": "tbsp", "item": "capers", "key": "capers", "prep": "rinsed"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Slice each chicken breast horizontally into two thin cutlets and press them to about {len 1/4 in} thick. Season with the salt and pepper and dredge in the flour, shaking off the excess.", "uses": ["chicken", "salt", "pepper", "flour"]},
+    {"text": "Heat the oil and 1 tbsp of the butter in the skillet over medium-high heat. Cook the cutlets in batches until golden and cooked through, {time 2-3 min} per side. Move to a plate.", "uses": ["oil", "butter"]},
+    {"text": "Lower the heat to medium, add the garlic and stir for {time 30 sec}. Pour in the wine and scrape up the browned bits; simmer until mostly reduced, {time 1-2 min}.", "uses": ["garlic", "wine"]},
+    {"text": "Add the broth, lemon juice and capers and simmer until reduced by about a third, {time 3 min}. Take the pan off the heat and swirl in the remaining butter until the sauce is glossy.", "uses": ["broth", "lemon", "capers"]},
+    {"text": "Return the chicken and any juices to the pan, turn to coat in the sauce, and scatter with parsley. Serve with pasta, rice or crusty bread.", "uses": ["parsley"]}
+  ],
+  "notes": [
+    "Thin cutlets are the key to speed and tenderness. If they’re thick, they toughen before the center cooks."
+  ]
+}

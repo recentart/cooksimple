@@ -1,0 +1,40 @@
+{
+  "id": "mapo-tofu",
+  "title": "Mapo Tofu",
+  "description": "Soft tofu in a fiery, savory Sichuan sauce of chili bean paste, a little ground pork, garlic and tingling Sichuan pepper.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "Chinese",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Wok or large skillet"],
+  "image": {"file": "mapo-tofu.svg", "alt": "A bowl of tofu cubes in a red chili sauce with green onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tofu", "amount": "1", "unit": "block", "size": "16 oz", "item": "soft or silken tofu", "key": "silken tofu", "prep": "cut into {len 3/4 in} cubes"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "pork", "amount": "6", "unit": "oz", "item": "ground pork", "key": "ground pork"},
+    {"id": "paste", "amount": "2", "unit": "tbsp", "item": "doubanjiang (chili bean paste)", "key": "doubanjiang"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "minced"},
+    {"id": "broth", "amount": "1", "unit": "cup", "item": "chicken broth or water", "key": "chicken broth"},
+    {"id": "soy", "amount": "1", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "sugar", "amount": "1", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "cornstarch", "amount": "1", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "sichuan", "amount": "1", "unit": "tsp", "item": "Sichuan peppercorns", "key": "sichuan peppercorns", "prep": "toasted and ground"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "sliced"}
+  ],
+  "steps": [
+    {"text": "Slide the tofu into a pot of gently simmering salted water for {time 2 min}; this firms it so it holds together. Drain carefully.", "uses": ["tofu"]},
+    {"text": "Heat the oil in the wok over medium-high heat. Stir-fry the pork until browned and crisp at the edges, {time 3-4 min}.", "uses": ["oil", "pork"]},
+    {"text": "Lower the heat to medium, add the chili bean paste and fry until the oil turns red, {time 1 min}. Add the garlic and ginger for {time 30 sec}.", "uses": ["paste", "garlic", "ginger"]},
+    {"text": "Add the broth, soy sauce and sugar and bring to a simmer. Slide in the tofu and simmer gently, nudging rather than stirring, for {time 3-4 min}.", "uses": ["broth", "soy", "sugar"]},
+    {"text": "Stir the cornstarch with {qty 2 tbsp} water, pour it in and swirl the pan until the sauce thickens and turns glossy, {time 1 min}. Sprinkle with Sichuan pepper and green onions and serve with rice.", "uses": ["cornstarch", "sichuan", "scallions"]}
+  ],
+  "notes": [
+    "For a vegetarian version, replace the pork with finely chopped mushrooms and use vegetable broth."
+  ]
+}

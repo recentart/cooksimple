@@ -1,0 +1,45 @@
+{
+  "id": "fish-tacos",
+  "title": "Crispy Fish Tacos",
+  "description": "Spiced, pan-seared white fish in warm tortillas with crunchy lime slaw and a cool lime crema. Ready in about 30 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "cuisine": "Mexican",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "fish-tacos.svg", "alt": "Three crispy fish tacos with cabbage slaw, crema and lime"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the slaw and crema", "items": [
+      {"id": "cabbage", "amount": "3", "unit": "cup", "item": "shredded cabbage", "key": "green cabbage"},
+      {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"},
+      {"id": "lime", "amount": "3", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice", "note": "divided"},
+      {"id": "ssalt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "sour", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream"},
+      {"id": "mayo", "amount": "2", "unit": "tbsp", "item": "mayonnaise", "key": "mayonnaise"}
+    ] },
+    { "group": "For the fish", "items": [
+      {"id": "fish", "amount": "1 1/2", "unit": "lb", "item": "cod or other firm white fish", "key": "cod fillets"},
+      {"id": "chili", "amount": "1", "unit": "tsp", "item": "chili powder", "key": "chili powder"},
+      {"id": "cumin", "amount": "1/2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+      {"id": "paprika", "amount": "1/2", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+      {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "tortillas", "amount": "8", "item": "corn tortilla", "key": "corn tortillas"},
+      {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "sliced", "optional": true}
+    ] }
+  ],
+  "steps": [
+    {"text": "Toss the cabbage and cilantro with 2 tbsp of the lime juice and the salt. Whisk the sour cream, mayonnaise and the rest of the lime juice into a crema.", "uses": ["cabbage", "cilantro", "lime", "ssalt", "sour", "mayo"]},
+    {"text": "Pat the fish dry. Mix the chili powder, cumin, paprika and salt and sprinkle it over both sides of the fish.", "uses": ["fish", "chili", "cumin", "paprika", "salt"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Cook the fish until golden underneath, {time 3 min}, then flip carefully and cook until it flakes easily with a fork, {time 2-3 min}. Break it into large flakes.", "uses": ["oil"]},
+    {"text": "Warm the tortillas in a dry pan. Fill with fish, slaw, crema and avocado.", "uses": ["tortillas", "avocado"]}
+  ],
+  "notes": [
+    "Fish is cooked when it turns opaque and flakes easily, or reaches 145°F."
+  ]
+}

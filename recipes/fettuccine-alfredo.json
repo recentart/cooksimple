@@ -1,0 +1,37 @@
+{
+  "id": "fettuccine-alfredo",
+  "title": "Fettuccine Alfredo",
+  "description": "Silky fettuccine in a rich sauce of butter, cream and Parmesan that comes together in the time it takes to cook the pasta.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large pot", "Large skillet"],
+  "image": {"file": "fettuccine-alfredo.svg", "alt": "A plate of fettuccine in a creamy Parmesan sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "16", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "pastasalt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "It seasons the pasta water, which stays the same amount."},
+    {"id": "pasta", "amount": "12", "unit": "oz", "item": "fettuccine", "key": "fettuccine"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "cream", "amount": "1", "unit": "cup", "item": "heavy cream", "key": "heavy cream"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated", "optional": true},
+    {"id": "parm", "amount": "1 1/2", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "finely grated"},
+    {"id": "nutmeg", "amount": "1", "unit": "pinch", "item": "ground nutmeg", "key": "ground nutmeg"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "parsley", "amount": "1", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Bring the water and salt to a boil and cook the fettuccine until al dente. Save {qty 1 cup fixed} of the pasta water, then drain.", "uses": ["water", "pastasalt", "pasta"]},
+    {"text": "Meanwhile melt the butter in the skillet over medium heat. Add the cream and garlic and simmer gently until slightly thickened, {time 4 min}.", "uses": ["butter", "cream", "garlic"]},
+    {"text": "Turn the heat to low. Add the pasta and a splash of pasta water, then sprinkle in the Parmesan a handful at a time, tossing constantly until melted and silky.", "uses": ["parm"]},
+    {"text": "Season with the nutmeg and pepper and loosen with more pasta water if needed; the sauce thickens fast as it cools. Serve right away with parsley.", "uses": ["nutmeg", "pepper", "parsley"]}
+  ],
+  "notes": [
+    "Finely grated real Parmesan melts smoothly. Pre-shredded cheese has anti-caking agents that can make the sauce grainy."
+  ]
+}

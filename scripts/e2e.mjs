@@ -5,7 +5,7 @@
 // Screenshots and the print PDF go to .tmp/shots/.
 
 import { spawn } from 'node:child_process';
-import { mkdirSync, writeFileSync, rmSync, readFileSync, readdirSync } from 'node:fs';
+import { mkdirSync, writeFileSync, rmSync, readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT } from './lib/recipes.mjs';
 import { startServer } from './serve.mjs';
@@ -114,6 +114,7 @@ const visibleIngredients = () => evaluate(`[...document.querySelectorAll('.recip
 const noOverflow = () => evaluate('document.documentElement.scrollWidth <= window.innerWidth + 1');
 
 const recipeIds = readdirSync(join(ROOT, 'recipes')).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', ''));
+const photos = existsSync(join(ROOT, 'data', 'photos.json')) ? JSON.parse(readFileSync(join(ROOT, 'data', 'photos.json'), 'utf8')) : {};
 const recipesData = Object.fromEntries(recipeIds.map((id) => [id, JSON.parse(readFileSync(join(ROOT, 'recipes', `${id}.json`), 'utf8'))]));
 
 try {
@@ -140,12 +141,15 @@ try {
         recipe: recipe ? { name: recipe.name, ings: recipe.recipeIngredient.length, steps: recipe.recipeInstructions.length, image: recipe.image, total: recipe.totalTime, yield: recipe.recipeYield } : null,
         imgOk: [...document.images].filter(i => i.loading !== 'lazy').every(i => i.complete && i.naturalWidth > 0),
         h2s: [...document.querySelectorAll('h2')].map(h => h.textContent),
+        credit: document.querySelector('.recipe-img figcaption')?.innerText || '',
+        creditLinks: [...document.querySelectorAll('.recipe-img figcaption a')].map(a => a.href),
       };
     })()`);
     const ingCount = (r.ingredients || []).reduce((n, x) => n + (x.items ? x.items.length : 1), 0);
     const timerCount = r.steps.reduce((n, s) => n + [...s.text.matchAll(/\{time [^}]*\}/g)].filter((m) => !/notimer/.test(m[0])).length, 0);
     check(`recipe ${id}: loads with correct content`, info.h1 === r.title && info.ings === ingCount && info.steps === r.steps.length && info.timers === timerCount && info.jsClass, JSON.stringify({ h1: info.h1, ings: info.ings, want: ingCount, steps: info.steps, timers: info.timers, timerCount }));
-    check(`recipe ${id}: SEO tags + Recipe JSON-LD`, info.title.startsWith(r.title) && info.desc === r.description && info.canonical.endsWith(`/recipes/${id}/`) && info.og && info.recipe && info.recipe.name === r.title && info.recipe.ings === ingCount && info.recipe.steps === r.steps.length && info.recipe.image.length === 3 && info.h2s.includes('Ingredients') && info.h2s.includes('Instructions'), JSON.stringify(info.recipe));
+    check(`recipe ${id}: SEO tags + Recipe JSON-LD`, info.title.startsWith(r.title) && info.desc === r.description && info.canonical.endsWith(`/recipes/${id}/`) && info.og && info.recipe && info.recipe.name === r.title && info.recipe.ings === ingCount && info.recipe.steps === r.steps.length && info.recipe.image.length === (photos[id] ? 4 : 3) && info.h2s.includes('Ingredients') && info.h2s.includes('Instructions'), JSON.stringify(info.recipe));
+    if (photos[id]) check(`recipe ${id}: photo credited with author, licence and source`, info.credit.includes(photos[id].author) && info.credit.includes(photos[id].license) && info.creditLinks.includes(photos[id].sourceUrl) && info.recipe.image[0].endsWith(`/images/photos/${id}.jpg`), info.credit);
     check(`recipe ${id}: images load, no console errors`, info.imgOk && consoleErrors.length === 0, consoleErrors.join(' | '));
   }
 
@@ -379,8 +383,97 @@ try {
   check('mobile: what-can-i-make has no horizontal overflow', await noOverflow());
   await viewport(1366, 900);
 
+  // ---------- Saved recipes, notes, share ----------
+  await go('/recipes/shakshuka/');
+  await evaluate(`localStorage.removeItem('cs:favorites'); localStorage.removeItem('cs:notes:shakshuka')`);
+  await go('/recipes/shakshuka/');
+  await click('[data-action="save"]');
+  check('save: button toggles to Saved', (await evaluate(`document.querySelector('[data-action="save"]').getAttribute('aria-pressed')`)) === 'true' && (await text('[data-save-label]')) === 'Saved');
+  await evaluate(`(() => { const t = document.getElementById('my-notes'); t.value = 'Used 6 eggs <b>not bold</b>'; t.dispatchEvent(new Event('input', {bubbles:true})); })()`);
+  await sleep(700);
+  await go('/recipes/shakshuka/');
+  check('notes: persist after reload', (await evaluate(`document.getElementById('my-notes').value`)) === 'Used 6 eggs <b>not bold</b>' && (await evaluate(`document.querySelector('[data-action="save"]').getAttribute('aria-pressed')`)) === 'true');
+  await go('/saved/');
+  await waitFor(`document.querySelectorAll('[data-saved] .card').length > 0`);
+  check('saved page lists the saved recipe with its note (as text)', (await evaluate(`[...document.querySelectorAll('[data-saved] .card-title a')].map(a => a.textContent).includes('Shakshuka')`)) && (await text('.saved-note')).includes('<b>not bold</b>'));
+  await click('[data-unsave="shakshuka"]');
+  check('saved page: remove works (recipe with notes stays listed)', (await waitFor(`!document.querySelector('[data-unsave]')`)) && (await evaluate(`document.querySelectorAll('[data-saved] .card').length`)) === 1);
+  await go('/recipes/shakshuka/');
+  await evaluate(`(() => { const t = document.getElementById('my-notes'); t.value = ''; t.dispatchEvent(new Event('input', {bubbles:true})); })()`);
+  await sleep(600);
+  check('share button present and does not error', !!(await evaluate(`document.querySelector('[data-action="share"]')`)));
+
+  // ---------- Meal planner ----------
+  await evaluate(`localStorage.removeItem('cs:plan'); localStorage.removeItem('cs:shopping')`);
+  await go('/recipes/lemon-garlic-chicken-thighs/');
+  await click('[data-action="plan"]');
+  check('plan: panel opens inline (no modal)', !(await evaluate(`document.querySelector('[data-plan-form]').hidden`)) && !(await evaluate(`document.querySelector('dialog[open]')`)));
+  await evaluate(`(() => { const f = document.querySelector('[data-plan-form]'); f.elements.day.value = '2'; f.elements.servings.value = '6'; f.requestSubmit(); })()`);
+  await go('/recipes/chicken-fried-rice/');
+  await click('[data-action="plan"]');
+  await evaluate(`(() => { const f = document.querySelector('[data-plan-form]'); f.elements.day.value = '0'; f.elements.servings.value = '0'; f.requestSubmit(); })()`);
+  check('plan: invalid servings rejected', (await evaluate(`localStorage.getItem('cs:plan')`)).split('"id"').length === 2);
+  await evaluate(`(() => { const f = document.querySelector('[data-plan-form]'); f.elements.servings.value = '4'; f.requestSubmit(); })()`);
+  await go('/meal-planner/');
+  await waitFor(`document.querySelector('[data-day="2"] .plan-item')`);
+  const planInfo = await evaluate(`({ wed: document.querySelector('[data-day="2"] .plan-item')?.innerText, mon: document.querySelector('[data-day="0"] .plan-item a')?.textContent })`);
+  check('planner: recipes appear on the chosen days with servings', /Lemon Garlic Chicken Thighs/.test(planInfo.wed) && /6 servings/.test(planInfo.wed) && planInfo.mon === 'Chicken Fried Rice', JSON.stringify(planInfo));
+  await evaluate(`(() => { const f = document.querySelector('[data-day="4"] [data-add]'); f.querySelector('input').value = 'Shakshuka'; f.requestSubmit(); })()`);
+  check('planner: add a recipe by name on the planner page', await waitFor(`document.querySelector('[data-day="4"] .plan-item a')?.textContent === 'Shakshuka'`));
+  await evaluate(`(() => { const f = document.querySelector('[data-day="5"] [data-add]'); f.querySelector('input').value = 'zzz unknown'; f.requestSubmit(); })()`);
+  check('planner: unknown recipe name is refused', !(await evaluate(`document.querySelector('[data-day="5"] .plan-item')`)));
+  await click('[data-day="2"] [data-act="more"]');
+  check('planner: servings stepper', (await text('[data-day="2"] .plan-servings')).includes('7 servings'));
+  await click('[data-action="plan-to-list"]');
+  await waitFor(`!document.querySelector('.toast').hidden`);
+  await go('/shopping-list/');
+  const planShop = await evaluate(`({ recipes: document.querySelectorAll('.shop-recipe-list li').length, items: [...document.querySelectorAll('.shop-item .shop-text')].map(e => e.firstChild.textContent.trim()) })`);
+  check('planner: whole week goes to the shopping list, scaled', planShop.recipes === 3 && planShop.items.some((t) => /^3½ lb bone-in chicken thighs/.test(t)), JSON.stringify(planShop).slice(0, 300));
+  await evaluate(`localStorage.removeItem('cs:plan'); localStorage.removeItem('cs:shopping')`);
+
+  // ---------- Collections, labels, nutrition ----------
+  await go('/collections/');
+  const colLinks = await evaluate(`[...document.querySelectorAll('.collection-tile')].map(a => a.getAttribute('href'))`);
+  check('collections index lists collections', colLinks.length >= 5, colLinks.join(','));
+  await go(colLinks[0]);
+  check('collection page has recipes and ItemList data', (await evaluate(`document.querySelectorAll('.card').length`)) >= 4 && (await evaluate(`[...document.querySelectorAll('script[type="application/ld+json"]')].some(s => JSON.parse(s.textContent)['@type'] === 'ItemList')`)));
+  await go('/search/?label=gluten-free');
+  await waitFor(`document.querySelectorAll('[data-results] .card').length`);
+  found = await searchResults();
+  const idx = await (await fetch(`${BASE}${await evaluate(`document.querySelector('script[type=module]').getAttribute('src').replace(/client\\/.*$/, 'data/index.json')`)}`)).json();
+  const lab = Object.fromEntries(idx.map((e) => [e.id, e.labels]));
+  check('filter: gluten-free uses derived labels', found.length >= 3 && found.every((id) => lab[id].includes('gluten-free')), found.join(','));
+  await go('/search/?label=dairy-free&diet=vegan');
+  found = await searchResults();
+  check('filter: labels combine with diets', found.length >= 1 && found.every((id) => lab[id].includes('dairy-free') && recipesData[id].diets.includes('vegan')));
+  await go('/recipes/coconut-chickpea-curry/');
+  check('recipe shows nutrition estimate and free-from tags', /calories/i.test(await text('.nutrition')) && (await text('.tag-links')).includes('Gluten-free'));
+
+  // ---------- Offline ----------
+  if (BASE.startsWith('https:') || BASE.includes('localhost')) {
+    await go('/recipes/tomato-basil-soup/');
+    await waitFor(`navigator.serviceWorker && navigator.serviceWorker.controller`, 6000);
+    await go('/recipes/tomato-basil-soup/');
+    await sleep(500);
+    await send('Network.enable');
+    await send('Network.emulateNetworkConditions', { offline: true, latency: 0, downloadThroughput: 0, uploadThroughput: 0 });
+    let offlineOk = false;
+    let offlineFallback = false;
+    try {
+      await go('/recipes/tomato-basil-soup/');
+      offlineOk = (await text('h1')) === 'Tomato Basil Soup' && (await evaluate(`getComputedStyle(document.body).backgroundColor !== 'rgba(0, 0, 0, 0)'`));
+      await go('/recipes/fudgy-brownies/?never-visited');
+      offlineFallback = (await text('h1')).includes('offline') || (await text('h1')) === 'Fudgy Brownies';
+    } catch (e) {
+      offlineOk = false;
+    }
+    await send('Network.emulateNetworkConditions', { offline: false, latency: 0, downloadThroughput: -1, uploadThroughput: -1 });
+    check('offline: a visited recipe opens with no connection (styled)', offlineOk);
+    check('offline: other pages fall back to the offline page', offlineFallback);
+  }
+
   // ---------- Layout: every page at phone and desktop sizes ----------
-  const pages = ['/', '/search/', '/what-can-i-make/', '/shopping-list/', '/recipes/', '/about/', ...recipeIds.map((id) => `/recipes/${id}/`)];
+  const pages = ['/', '/search/', '/what-can-i-make/', '/shopping-list/', '/recipes/', '/about/', '/collections/', '/saved/', '/meal-planner/', '/offline/', ...recipeIds.map((id) => `/recipes/${id}/`)];
   let overflow = [];
   await viewport(375, 812, true);
   for (const p of pages) {

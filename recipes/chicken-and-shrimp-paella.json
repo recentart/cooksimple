@@ -1,0 +1,45 @@
+{
+  "id": "chicken-and-shrimp-paella",
+  "title": "Chicken and Shrimp Paella",
+  "description": "Saffron rice cooked in one wide pan with chicken, chorizo, peppers and shrimp until a golden crust forms on the bottom.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "cuisine": "Spanish",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Paella pan or {len 12 in} to {len 14 in} wide skillet"],
+  "image": {"file": "chicken-and-shrimp-paella.svg", "alt": "A wide pan of saffron rice with shrimp, chicken, peas and lemon"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "chicken", "amount": "1", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs", "prep": "cut into chunks"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "chorizo", "amount": "4", "unit": "oz", "item": "Spanish chorizo", "key": "spanish chorizo", "prep": "sliced", "optional": true},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "sliced"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "paprika", "amount": "2", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "tomatoes", "amount": "1/2", "unit": "cup", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+    {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "Spanish paella rice", "key": "paella rice", "note": "or arborio"},
+    {"id": "broth", "amount": "4", "unit": "cup", "item": "chicken broth", "key": "chicken broth", "prep": "hot"},
+    {"id": "saffron", "amount": "1", "unit": "pinch", "item": "saffron threads", "key": "saffron", "prep": "crumbled into the hot broth"},
+    {"id": "shrimp", "amount": "12", "unit": "oz", "item": "large shrimp", "key": "shrimp", "prep": "peeled and deveined"},
+    {"id": "peas", "amount": "1/2", "unit": "cup", "item": "frozen peas", "key": "frozen peas"},
+    {"id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "cut into wedges"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the pan over medium-high heat. Season the chicken with half the salt and brown it with the chorizo, {time 6-8 min}. Push to the edges.", "uses": ["oil", "chicken", "salt", "chorizo"]},
+    {"text": "Add the onion and pepper to the center and cook until soft, {time 5 min}. Stir in the garlic and paprika for {time 30 sec}, then the tomatoes, and cook until thick, {time 2 min}.", "uses": ["onion", "pepper", "garlic", "paprika", "tomatoes"]},
+    {"text": "Scatter in the rice and stir to coat. Pour in the hot saffron broth with the rest of the salt, spread the rice evenly and bring to a boil.", "uses": ["rice", "broth", "saffron"]},
+    {"text": "From now on, don’t stir. Simmer over medium-low heat until the rice has absorbed most of the liquid, {time 15-18 min}, rotating the pan if it cooks unevenly.", "uses": []},
+    {"text": "Press the shrimp into the rice and scatter the peas over. Cook until the shrimp are pink and the rice is tender, {time 5-7 min}. For the crispy bottom, turn up the heat for the last {time 1-2 min} until it crackles and smells toasty.", "uses": ["shrimp", "peas"]},
+    {"text": "Take the pan off the heat, cover loosely with a towel and rest for {time 5 min}. Serve with lemon wedges and parsley.", "uses": ["lemon", "parsley"]}
+  ],
+  "notes": [
+    "The golden crust on the bottom, called socarrat, is the prize. Listen for crackling and stop before it smells burnt."
+  ]
+}

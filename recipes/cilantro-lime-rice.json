@@ -1,0 +1,32 @@
+{
+  "id": "cilantro-lime-rice",
+  "title": "Cilantro Lime Rice",
+  "description": "Fluffy long-grain rice tossed with fresh cilantro, lime zest and juice. The classic side for burritos, tacos and bowls.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 25,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["side"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Medium saucepan with a tight lid"],
+  "image": {"file": "cilantro-lime-rice.svg", "alt": "A bowl of white rice flecked with cilantro and lime zest"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "rice", "amount": "1", "unit": "cup", "item": "long-grain white rice", "key": "long-grain white rice", "prep": "rinsed and drained"},
+    {"id": "water", "amount": "1 3/4", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "lime", "amount": "1", "item": "lime", "key": "limes", "prep": "zested and juiced"},
+    {"id": "cilantro", "amount": "1/3", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Bring the rice, water, oil and salt to a boil in the saucepan.", "uses": ["rice", "water", "oil", "salt"]},
+    {"text": "Cover, turn the heat to low and simmer until the water is absorbed, {time 18 min}. Take off the heat and leave covered for {time 5 min}.", "uses": []},
+    {"text": "Fluff with a fork and fold in the lime zest, juice and cilantro.", "uses": ["lime", "cilantro"]}
+  ],
+  "notes": [
+    "Add the lime and cilantro after cooking; heat dulls their fresh flavor."
+  ]
+}

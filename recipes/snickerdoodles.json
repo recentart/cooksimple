@@ -1,0 +1,40 @@
+{
+  "id": "snickerdoodles",
+  "title": "Snickerdoodles",
+  "description": "Soft, pillowy sugar cookies rolled in cinnamon sugar, with the gentle tang and crackly tops that cream of tartar gives them.",
+  "added": "2026-09-25",
+  "servings": 24,
+  "servingsLabel": "cookies",
+  "scaleOptions": [12,24,48],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["dessert", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["2 baking sheets", "Parchment paper"],
+  "image": {"file": "snickerdoodles.svg", "alt": "Cinnamon sugar snickerdoodle cookies with crackled tops"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "flour", "amount": "2 3/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "tartar", "amount": "2", "unit": "tsp", "item": "cream of tartar", "key": "cream of tartar"},
+    {"id": "soda", "amount": "1", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "1", "unit": "cup", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+    {"id": "sugar", "amount": "1 1/2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "rollsugar", "amount": "1/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar", "prep": "for rolling"},
+    {"id": "cinnamon", "amount": "1", "unit": "tbsp", "item": "ground cinnamon", "key": "ground cinnamon"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 375F oven} and line the baking sheets. Whisk the flour, cream of tartar, baking soda and salt.", "uses": ["flour", "tartar", "soda", "salt"]},
+    {"text": "Beat the butter and sugar until light and fluffy, {time 3 min}. Beat in the eggs and vanilla.", "uses": ["butter", "sugar", "eggs", "vanilla"]},
+    {"text": "Mix in the flour mixture until a soft dough forms.", "uses": []},
+    {"text": "Mix the rolling sugar and cinnamon. Roll the dough into {count 24} balls and coat each in cinnamon sugar. Set them on the sheets with plenty of space.", "uses": ["rollsugar", "cinnamon"]},
+    {"text": "Bake until the edges are set and the tops crackle but the centers still look soft, {time 9-11 min}. Cool on the sheet for {time 5 min}.", "uses": []}
+  ],
+  "notes": [
+    "Cream of tartar gives snickerdoodles their tang and chew. Without it, use 2 tsp baking powder and skip the baking soda; they’ll be softer and less tangy."
+  ]
+}

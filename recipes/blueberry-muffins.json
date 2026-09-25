@@ -1,0 +1,43 @@
+{
+  "id": "blueberry-muffins",
+  "title": "Blueberry Muffins",
+  "description": "Soft, domed blueberry muffins with a crunchy sugar top, made in one bowl with melted butter, yogurt and plenty of berries.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "muffins",
+  "scaleOptions": [6,12,24],
+  "scaleNote": "One standard 12-cup muffin tin holds a single batch. Bake a double batch in two tins on the same rack if they fit, or one after the other.",
+  "prepMinutes": 15,
+  "cookMinutes": 22,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["12-cup muffin tin", "Paper liners"],
+  "image": {"file": "blueberry-muffins.svg", "alt": "Three blueberry muffins with sugary tops"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled"},
+    {"id": "bp", "amount": "2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+    {"id": "soda", "amount": "1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "sugar", "amount": "3/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar", "note": "plus 1 tbsp for the tops"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted and cooled slightly"},
+    {"id": "yogurt", "amount": "3/4", "unit": "cup", "item": "plain yogurt or sour cream", "key": "plain yogurt"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "berries", "amount": "1 1/2", "unit": "cup", "item": "blueberries", "key": "blueberries", "note": "fresh, or frozen straight from the freezer"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven} with a rack in the middle. Line the muffin tin with paper liners.", "uses": []},
+    {"text": "Whisk the flour, baking powder, baking soda and salt in a medium bowl.", "uses": ["flour", "bp", "soda", "salt"]},
+    {"text": "In a large bowl, whisk the sugar and eggs until pale and slightly thick, about {time 1 min notimer}. Whisk in the melted butter, yogurt and vanilla.", "uses": ["sugar", "eggs", "butter", "yogurt", "vanilla"]},
+    {"text": "Add the flour mixture and fold with a spatula until only a few streaks of flour remain. Fold in the blueberries gently, just until no dry flour shows.", "uses": ["berries"]},
+    {"text": "Divide the batter among the cups; they will be full. Sprinkle the tops with the extra sugar.", "uses": []},
+    {"text": "Bake until domed and golden and a toothpick in the center comes out clean, {time 20-24 min}. Cool in the tin for {time 5 min}, then move the muffins to a rack.", "uses": []}
+  ],
+  "notes": [
+    "Don’t thaw frozen blueberries; they bleed less if they go in frozen. Add 2 to 3 minutes to the baking time.",
+    "Muffins keep in a covered container for 2 days, or frozen for up to 3 months."
+  ]
+}

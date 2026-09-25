@@ -1,0 +1,43 @@
+{
+  "id": "chicken-vegetable-stir-fry",
+  "title": "Chicken and Vegetable Stir-Fry",
+  "description": "A quick, colorful stir-fry of tender chicken, broccoli, peppers and snow peas in a savory ginger-garlic sauce. Ready in 30 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 12,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Wok or large skillet"],
+  "image": {"file": "chicken-vegetable-stir-fry.svg", "alt": "A wok of chicken with broccoli, peppers and snap peas in a glossy sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1 1/4", "unit": "lb", "item": "boneless, skinless chicken breasts or thighs", "key": "chicken breasts", "prep": "thinly sliced"},
+    {"id": "ccorn", "amount": "1", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "csoy", "amount": "1", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "oyster", "amount": "2", "unit": "tbsp", "item": "oyster sauce", "key": "oyster sauce"},
+    {"id": "sugar", "amount": "1", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "corn", "amount": "2", "unit": "tsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "broccoli", "amount": "3", "unit": "cup", "item": "broccoli florets", "key": "broccoli"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "sliced"},
+    {"id": "peas", "amount": "1", "unit": "cup", "item": "snow peas", "key": "snow peas", "prep": "trimmed"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "minced"},
+    {"id": "sesame", "amount": "1", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"}
+  ],
+  "steps": [
+    {"text": "Toss the chicken with 1 tbsp cornstarch and 1 tbsp soy sauce. In a small bowl, stir the rest of the soy sauce, the oyster sauce, sugar, 2 tsp cornstarch and {qty 1/3 cup} water.", "uses": ["chicken", "ccorn", "csoy", "soy", "oyster", "sugar", "corn"]},
+    {"text": "Heat 1 tbsp oil in the wok over high heat. Stir-fry the chicken in one layer until browned and just cooked through, {time 3-4 min}. Move to a plate.", "uses": ["oil"]},
+    {"text": "Add another tablespoon of oil and the broccoli with a splash of water. Stir-fry until bright green, {time 2 min}, then add the pepper and snow peas for {time 2 min} more.", "uses": ["broccoli", "pepper", "peas"]},
+    {"text": "Push the vegetables aside, add the last of the oil with the garlic and ginger and stir for {time 30 sec}.", "uses": ["garlic", "ginger"]},
+    {"text": "Return the chicken, stir the sauce and pour it in. Toss until glossy and thickened, {time 1 min}. Drizzle with sesame oil and serve over rice.", "uses": ["sesame"]}
+  ],
+  "notes": [
+    "Have everything chopped before you start; stir-frying moves fast.",
+    "Any quick-cooking vegetables work: sliced carrots, mushrooms, bok choy or zucchini."
+  ]
+}

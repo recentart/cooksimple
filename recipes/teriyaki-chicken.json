@@ -1,0 +1,39 @@
+{
+  "id": "teriyaki-chicken",
+  "title": "Teriyaki Chicken",
+  "description": "Juicy chicken thighs pan-seared and glazed with a glossy homemade teriyaki sauce of soy, mirin, honey and ginger.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "Japanese",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "teriyaki-chicken.svg", "alt": "Sliced teriyaki chicken with sesame seeds and green onion, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "soy", "amount": "1/4", "unit": "cup", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "mirin", "amount": "1/4", "unit": "cup", "item": "mirin", "key": "mirin"},
+    {"id": "honey", "amount": "2", "unit": "tbsp", "item": "honey or brown sugar", "key": "honey"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "seeds", "amount": "1", "unit": "tsp", "item": "sesame seeds", "key": "sesame seeds"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "sliced"},
+    {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "jasmine or short-grain rice", "key": "jasmine rice", "prep": "cooked, for serving", "note": "measured before cooking", "optional": true}
+  ],
+  "steps": [
+    {"text": "If serving rice, start it now. Pat the chicken dry and season lightly with the salt.", "uses": ["rice", "chicken", "salt"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Cook the thighs smooth side down until deep golden, {time 6 min}, then flip and cook until they reach {temp 175F internal}, {time 5-6 min}.", "uses": ["oil"]},
+    {"text": "Mix the soy sauce, mirin, honey, ginger and garlic. Pour off most of the fat in the pan, lower the heat to medium and pour in the sauce.", "uses": ["soy", "mirin", "honey", "ginger", "garlic"]},
+    {"text": "Simmer, turning the chicken in the sauce, until it reduces to a sticky glaze that coats the meat, {time 3-4 min}. Watch it closely at the end; honey burns quickly.", "uses": []},
+    {"text": "Slice the chicken, spoon over the glaze and sprinkle with sesame seeds and green onions. Serve with rice.", "uses": ["seeds", "scallions"]}
+  ],
+  "notes": [
+    "Steamed broccoli or quick-pickled cucumbers are good on the side."
+  ]
+}

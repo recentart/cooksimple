@@ -1,0 +1,36 @@
+{
+  "id": "greek-salad",
+  "title": "Greek Salad",
+  "description": "A chunky village-style salad of tomatoes, cucumber, peppers, red onion, olives and a slab of feta, dressed with oregano and olive oil.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "cuisine": "Greek",
+  "mealTypes": ["lunch", "side"],
+  "diets": ["vegetarian"],
+  "tags": ["no-cook"],
+  "image": {"file": "greek-salad.svg", "alt": "A bowl of Greek salad with tomato, cucumber, olives, onion and feta"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tomatoes", "amount": "4", "item": "ripe tomato", "key": "tomatoes", "prep": "cut into wedges"},
+    {"id": "cucumber", "amount": "1", "item": "cucumber", "key": "cucumbers", "prep": "halved lengthwise and thickly sliced"},
+    {"id": "pepper", "amount": "1", "item": "green bell pepper", "key": "green bell peppers", "prep": "sliced into rings"},
+    {"id": "onion", "amount": "1/2", "item": "red onion", "key": "red onions", "prep": "thinly sliced"},
+    {"id": "olives", "amount": "1/2", "unit": "cup", "item": "Kalamata olives", "key": "kalamata olives"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "red wine vinegar", "key": "red wine vinegar"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "feta", "amount": "7", "unit": "oz", "item": "feta cheese", "key": "feta cheese", "prep": "in one block"}
+  ],
+  "steps": [
+    {"text": "Put the tomatoes, cucumber, green pepper and red onion in a wide bowl. Sprinkle with the salt and toss gently.", "uses": ["tomatoes", "cucumber", "pepper", "onion", "salt"]},
+    {"text": "Scatter the olives over the vegetables and drizzle with the vinegar and most of the olive oil.", "uses": ["olives", "vinegar", "oil"]},
+    {"text": "Set the block of feta on top, drizzle it with the rest of the oil and sprinkle everything with the oregano. Serve with bread to mop up the juices.", "uses": ["feta", "oregano"]}
+  ],
+  "notes": [
+    "Traditional Greek salad has no lettuce. The tomato juices and oil make the dressing, so use the ripest tomatoes you can find.",
+    "Best eaten within an hour of making it."
+  ]
+}

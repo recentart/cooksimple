@@ -1,0 +1,48 @@
+{
+  "id": "chicken-and-dumplings",
+  "title": "Chicken and Dumplings",
+  "description": "Tender chicken and vegetables in a creamy broth topped with fluffy herbed drop dumplings that steam right in the pot.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "cuisine": "Southern",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large Dutch oven or heavy pot with a lid"],
+  "image": {"file": "chicken-and-dumplings.svg", "alt": "A bowl of chicken stew with fluffy dumplings, carrots and peas"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the stew", "items": [
+      {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+      {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "sliced"},
+      {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "sliced"},
+      {"id": "flour", "amount": "1/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "broth", "amount": "6", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+      {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs"},
+      {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "cream", "amount": "1/2", "unit": "cup", "item": "heavy cream", "key": "heavy cream"}
+    ] },
+    { "group": "For the dumplings", "items": [
+      {"id": "dflour", "amount": "1 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "bp", "amount": "2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "dsalt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"},
+      {"id": "milk", "amount": "3/4", "unit": "cup", "item": "milk", "key": "milk"},
+      {"id": "dbutter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Melt the butter in the pot over medium heat. Cook the onion, carrots and celery until softened, {time 8 min}. Sprinkle in the flour and stir for {time 1 min}.", "uses": ["butter", "onion", "carrots", "celery", "flour"]},
+    {"text": "Slowly whisk in the broth. Add the chicken, thyme and salt, bring to a simmer and cook, partly covered, until the chicken is cooked through, {time 20 min}. Lift out the chicken, shred it and return it with the cream.", "uses": ["broth", "chicken", "thyme", "salt", "cream"]},
+    {"text": "For the dumplings, whisk the flour, baking powder, salt and parsley. Stir in the milk and melted butter just until a thick, sticky dough forms.", "uses": ["dflour", "bp", "dsalt", "parsley", "milk", "dbutter"]},
+    {"text": "With the stew at a gentle simmer, drop in heaping spoonfuls of dough, spacing them apart; you’ll get about {count 12}.", "uses": []},
+    {"text": "Cover the pot and simmer without lifting the lid until the dumplings are puffed and cooked through, {time 15 min}. A toothpick in the center of one should come out clean.", "uses": []}
+  ],
+  "notes": [
+    "Keep the lid on while the dumplings cook; the trapped steam is what makes them light."
+  ]
+}

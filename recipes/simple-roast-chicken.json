@@ -1,0 +1,39 @@
+{
+  "id": "simple-roast-chicken",
+  "title": "Simple Roast Chicken",
+  "description": "A whole chicken roasted hot with lemon, garlic and thyme until the skin is crisp and golden and the meat stays juicy.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "scaleNote": "One chicken serves 4. For 8, roast two chickens side by side in a large pan; the time stays about the same.",
+  "prepMinutes": 15,
+  "cookMinutes": 70,
+  "totalMinutes": 100,
+  "cuisine": "French",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Roasting pan or large oven-safe skillet", "Instant-read thermometer", "Kitchen twine, optional"],
+  "image": {"file": "simple-roast-chicken.svg", "alt": "A golden roast chicken on a platter with lemon and herbs"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1", "item": "whole chicken", "key": "whole chicken", "note": "about {qty 4 lb}, patted dry"},
+    {"id": "salt", "amount": "2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+    {"id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "halved"},
+    {"id": "garlic", "amount": "1", "unit": "head", "item": "garlic", "key": "garlic", "prep": "halved crosswise"},
+    {"id": "thyme", "amount": "6", "unit": "sprig", "item": "fresh thyme", "key": "fresh thyme"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "thickly sliced"}
+  ],
+  "steps": [
+    {"text": "If you have time, season the chicken all over with the salt up to a day ahead and leave it uncovered in the fridge; the skin dries and crisps better. Take it out {time 30 min notimer} before roasting.", "uses": ["chicken", "salt"]},
+    {"text": "Heat the oven to {temp 425F oven}. Spread the onion slices in the pan to make a rack for the chicken.", "uses": ["onion"]},
+    {"text": "Pat the chicken dry, rub it with the butter and season with the pepper (and the salt, if you didn’t salt ahead). Put the lemon halves, garlic and thyme inside the cavity. Tie the legs together if you like.", "uses": ["pepper", "butter", "lemon", "garlic", "thyme"]},
+    {"text": "Set the chicken on the onions, breast side up, and roast until the skin is deep golden and the thickest part of the thigh reads {temp 175F internal} (the breast at least {temp 160F internal}), {time 60-75 min}.", "uses": []},
+    {"text": "Let the chicken rest on a board for {time 15 min} before carving; the juices settle and the breast finishes at {temp 165F internal}. Spoon the pan juices over the carved meat.", "uses": []}
+  ],
+  "notes": [
+    "Put a few chunks of potato and carrot around the chicken for the last 45 minutes to cook in the drippings.",
+    "Use the carcass for stock: cover with water, add onion and carrot, and simmer for 2 to 3 hours."
+  ]
+}

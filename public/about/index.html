@@ -21,9 +21,9 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
-<link rel="stylesheet" href="/assets/7527501782/styles/site.css">
+<link rel="stylesheet" href="/assets/ce56fe8103/styles/site.css">
 <script>document.documentElement.classList.add('js');try{if(localStorage.getItem('cs-units')==='metric')document.documentElement.setAttribute('data-units','metric')}catch(e){}</script>
-<script type="module" src="/assets/7527501782/client/home.js"></script>
+<script type="module" src="/assets/ce56fe8103/client/home.js"></script>
 
 </head>
 <body>
@@ -33,7 +33,7 @@
     <a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><circle class="logo-bg" cx="16" cy="16" r="15"/><path class="logo-fg" d="M9 17.5h14a7 7 0 0 1-14 0Z"/><path class="logo-steam" d="M12.5 13c0-1.6 1.4-1.9 1.4-3.4M16 13c0-1.6 1.4-1.9 1.4-3.4M19.5 13c0-1.6 1.4-1.9 1.4-3.4" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg><span>CookSimple</span></a>
     <nav class="main-nav" aria-label="Main">
       <ul>
-        <li><a href="/search/"><span class="nav-long">Recipes</span><span class="nav-short" aria-hidden="true">Recipes</span></a></li><li><a href="/what-can-i-make/"><span class="nav-long">What can I make?</span><span class="nav-short" aria-hidden="true">What can I make?</span></a></li><li><a href="/shopping-list/"><span class="nav-long">Shopping list</span><span class="nav-short" aria-hidden="true">List</span><span class="nav-count" data-list-count hidden></span></a></li>
+        <li><a href="/search/"><span class="nav-long">Recipes</span><span class="nav-short" aria-hidden="true">Recipes</span></a></li><li><a href="/what-can-i-make/"><span class="nav-long">What can I make?</span><span class="nav-short" aria-hidden="true">I have…</span></a></li><li><a href="/meal-planner/"><span class="nav-long">Meal plan</span><span class="nav-short" aria-hidden="true">Plan</span></a></li><li><a href="/saved/"><span class="nav-long">Saved</span><span class="nav-short" aria-hidden="true">Saved</span></a></li><li><a href="/shopping-list/"><span class="nav-long">Shopping list</span><span class="nav-short" aria-hidden="true">List</span><span class="nav-count" data-list-count hidden></span></a></li>
       </ul>
     </nav>
   </div>
@@ -50,11 +50,11 @@
     <li><strong>Serving scaler.</strong> Pick a number of servings and every amount updates, including quantities mentioned in the steps.</li>
     <li><strong>US and metric.</strong> Switch units at any time. Your choice is remembered in this browser.</li>
     <li><strong>Cook Mode</strong> shows one step at a time in large type, keeps your screen awake where the browser allows it, and has built-in timers.</li>
-    <li><strong>Checklists and shopping lists</strong> are saved in your browser, never on a server.</li>
+    <li><strong>Checklists, shopping lists, saved recipes, notes and your meal plan</strong> are saved in your browser, never on a server.</li>
   </ul>
 
   <h2 id="sources">Where the recipes come from</h2>
-  <p>All 24 recipes are original, written for CookSimple. We do not copy recipes, photos or text from other websites or books. If we ever publish a recipe from another source, it will be one we have permission to use or one with an open licence, and the recipe page will credit it. The illustrations are original artwork made for this site.</p>
+  <p>All 224 recipes are original, written for CookSimple. We do not copy recipes, photos or text from other websites or books. If we ever publish a recipe from another source, it will be one we have permission to use or one with an open licence, and the recipe page will credit it. The illustrations are original artwork made for this site.</p>
   <p>Diet labels (vegetarian, vegan) are only applied when every ingredient in the recipe qualifies, and they are checked automatically. We don’t make health or nutrition claims.</p>
 
   <h2 id="scaling">How scaling works</h2>
@@ -74,6 +74,18 @@
     <li>Lengths and pan sizes are converted to centimetres.</li>
   </ul>
 
+  <h2 id="labels">Free-from labels</h2>
+  <p>Dairy-free, egg-free, gluten-free and nut-free labels are worked out automatically from the ingredient list. A recipe only gets a label when none of its ingredients, including optional ones, contain that ingredient or commonly do depending on the brand (for example, some broths contain wheat and some plant milks are made from nuts). These labels are a guide, not a guarantee: if you have an allergy or coeliac disease, always check the labels of packaged ingredients.</p>
+
+  <h2 id="nutrition">Nutrition estimates</h2>
+  <p>Nutrition figures are estimates per serving, calculated from USDA FoodData Central values for each ingredient at the amounts listed. They leave out optional ingredients, to-taste seasoning and things you don’t eat all of (such as oil for greasing a pan or water for boiling pasta). Real values depend on brands, portion sizes and how much fat renders away, so treat them as a rough guide. If an ingredient has no reliable data, the recipe shows no estimate rather than a guess.</p>
+
+  <h2 id="offline">Offline use</h2>
+  <p>Once you have opened a recipe, it keeps working without an internet connection on the same device. Saved recipes are stored for offline use automatically. The shopping list, meal plan, checklists and timers all work offline.</p>
+
+  <h2 id="photos">Photos</h2>
+  <p>Some recipes show a photo of the dish alongside our illustration. The photos come from Wikimedia Commons under free licences and are credited on each page; they show the dish in general, not the exact recipe on the page.</p>
+
   <h2 id="privacy">Privacy</h2>
   <p>There are no accounts, no analytics, no tracking pixels, no advertising networks and no cookies. Your unit choice, ingredient checklists, timers and shopping list are stored with your browser’s local storage on your device. They are never sent to us or anyone else. Clearing your browser data removes them.</p>
 
@@ -89,6 +101,8 @@
     <p class="footer-brand"><svg class="logo" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><circle class="logo-bg" cx="16" cy="16" r="15"/><path class="logo-fg" d="M9 17.5h14a7 7 0 0 1-14 0Z"/><path class="logo-steam" d="M12.5 13c0-1.6 1.4-1.9 1.4-3.4M16 13c0-1.6 1.4-1.9 1.4-3.4M19.5 13c0-1.6 1.4-1.9 1.4-3.4" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg><span><strong>CookSimple</strong> · Recipes without the clutter.</span></p>
     <ul class="footer-links">
       <li><a href="/recipes/">All recipes</a></li>
+      <li><a href="/collections/">Collections</a></li>
+      <li><a href="/meal-planner/">Meal planner</a></li>
       <li><a href="/about/">About</a></li>
       <li><a href="/about/#privacy">Privacy</a></li>
       <li><a href="/about/#conversions">How conversions work</a></li>

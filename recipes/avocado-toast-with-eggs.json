@@ -1,0 +1,35 @@
+{
+  "id": "avocado-toast-with-eggs",
+  "title": "Avocado Toast with Jammy Eggs",
+  "description": "Crisp toast piled with lemony smashed avocado and a soft-boiled egg with a jammy yolk, finished with chili flakes.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Small saucepan", "Toaster"],
+  "image": {"file": "avocado-toast-with-eggs.svg", "alt": "Toast topped with smashed avocado and jammy halved eggs"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "avocado", "amount": "1", "item": "ripe avocado", "key": "avocados"},
+    {"id": "lemon", "amount": "1", "unit": "tsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "flaky or kosher salt", "key": "flaky salt"},
+    {"id": "bread", "amount": "2", "unit": "slice", "item": "crusty bread or sourdough", "key": "crusty bread"},
+    {"id": "oil", "amount": "1", "unit": "tsp", "item": "olive oil", "key": "olive oil", "prep": "for drizzling"},
+    {"id": "flakes", "amount": "1", "unit": "pinch", "item": "red pepper flakes", "key": "red pepper flakes", "optional": true}
+  ],
+  "steps": [
+    {"text": "Bring a small saucepan of water to a boil. Lower in the eggs with a spoon and simmer for exactly {time 6 min 30 sec}. Move them to a bowl of cold water for {time 2 min}, then peel.", "uses": ["eggs"]},
+    {"text": "While the eggs cook, mash the avocado in a bowl with the lemon juice and half the salt, leaving it a little chunky.", "uses": ["avocado", "lemon", "salt"]},
+    {"text": "Toast the bread until deeply golden and crisp.", "uses": ["bread"]},
+    {"text": "Spread the avocado thickly over the toast. Halve the eggs and set them on top, then drizzle with olive oil and sprinkle with the rest of the salt and the pepper flakes.", "uses": ["oil", "flakes"]}
+  ],
+  "notes": [
+    "For a firmer yolk, simmer the eggs for 8 minutes instead.",
+    "Very fresh eggs are hard to peel; eggs that are a week or two old peel more cleanly."
+  ]
+}

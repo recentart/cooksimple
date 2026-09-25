@@ -1,0 +1,47 @@
+{
+  "id": "cobb-salad",
+  "title": "Cobb Salad",
+  "description": "Crisp romaine topped with rows of chicken, bacon, hard-boiled egg, avocado, tomato and blue cheese, with a red wine vinaigrette.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Skillet", "Small saucepan"],
+  "image": {"file": "cobb-salad.svg", "alt": "A cobb salad with rows of chicken, bacon, egg, avocado, tomato and blue cheese"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the salad", "items": [
+      {"id": "chicken", "amount": "1", "unit": "lb", "item": "boneless, skinless chicken breasts", "key": "chicken breasts"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+      {"id": "bacon", "amount": "6", "unit": "slice", "item": "bacon", "key": "bacon"},
+      {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "romaine", "amount": "1", "unit": "head", "item": "romaine lettuce", "key": "romaine lettuce", "prep": "chopped"},
+      {"id": "tomatoes", "amount": "1", "unit": "cup", "item": "cherry tomatoes", "key": "cherry tomatoes", "prep": "halved"},
+      {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "diced"},
+      {"id": "blue", "amount": "1/2", "unit": "cup", "item": "blue cheese", "key": "blue cheese", "prep": "crumbled"}
+    ] },
+    { "group": "For the dressing", "items": [
+      {"id": "doil", "amount": "1/3", "unit": "cup", "item": "olive oil", "key": "olive oil"},
+      {"id": "vinegar", "amount": "3", "unit": "tbsp", "item": "red wine vinegar", "key": "red wine vinegar"},
+      {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+      {"id": "dsalt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Hard-boil the eggs: cover them with cold water in the saucepan, bring to a boil, turn off the heat, cover and leave for {time 11 min}. Cool in cold water, peel and quarter.", "uses": ["eggs"]},
+    {"text": "Cook the bacon in the skillet over medium heat until crisp, {time 8-10 min}. Drain on paper towels, then crumble. Pour off the fat.", "uses": ["bacon"]},
+    {"text": "Season the chicken with the salt. Heat the oil in the skillet over medium-high heat and cook the chicken until golden and it reads {temp 165F internal} in the thickest part, {time 5-6 min} per side. Rest for {time 5 min}, then dice.", "uses": ["chicken", "salt", "oil"]},
+    {"text": "Shake the dressing ingredients together in a jar until blended.", "uses": ["doil", "vinegar", "mustard", "dsalt", "pepper"]},
+    {"text": "Spread the romaine on a large platter. Arrange the chicken, bacon, eggs, tomatoes, avocado and blue cheese over it in rows. Drizzle with dressing just before serving, or serve it on the side.", "uses": ["romaine", "tomatoes", "avocado", "blue"]}
+  ],
+  "notes": [
+    "Leftover roast or rotisserie chicken makes this much quicker; you’ll need about 3 cups diced.",
+    "Store the components separately and the salad keeps for 2 days; dress just before eating."
+  ]
+}

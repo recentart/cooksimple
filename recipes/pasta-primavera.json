@@ -1,0 +1,39 @@
+{
+  "id": "pasta-primavera",
+  "title": "Pasta Primavera",
+  "description": "A bright spring pasta with asparagus, peas, zucchini and cherry tomatoes in a light lemon, garlic and Parmesan sauce.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large pot", "Large skillet"],
+  "image": {"file": "pasta-primavera.svg", "alt": "A plate of pasta with peas, asparagus, zucchini and tomatoes"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "pasta", "amount": "12", "unit": "oz", "item": "short pasta such as farfalle or penne", "key": "short pasta"},
+    {"id": "asparagus", "amount": "1/2", "unit": "bunch", "item": "asparagus", "key": "asparagus", "prep": "trimmed and cut into {len 1 in} pieces"},
+    {"id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "zucchini", "amount": "1", "item": "zucchini", "key": "zucchini", "prep": "diced"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "sliced"},
+    {"id": "tomatoes", "amount": "1", "unit": "cup", "item": "cherry tomatoes", "key": "cherry tomatoes", "prep": "halved"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "zested and juiced"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated"},
+    {"id": "basil", "amount": "1/4", "unit": "cup", "item": "fresh basil", "key": "fresh basil", "prep": "torn"}
+  ],
+  "steps": [
+    {"text": "Cook the pasta in a big pot of salted boiling water. Add the asparagus and peas for the last {time 2 min notimer}. Save {qty 1 cup fixed} of the water, then drain everything together.", "uses": ["pasta", "asparagus", "peas"]},
+    {"text": "Meanwhile heat the oil in the skillet over medium-high heat and cook the zucchini until lightly browned, {time 4 min}. Add the garlic for {time 1 min}.", "uses": ["oil", "zucchini", "garlic"]},
+    {"text": "Add the cherry tomatoes and cook until they start to soften, {time 2 min}.", "uses": ["tomatoes"]},
+    {"text": "Add the pasta and vegetables, butter, lemon zest and juice, salt, cheese and a splash of pasta water and toss until glossy. Scatter with basil and serve.", "uses": ["butter", "lemon", "salt", "cheese", "basil"]}
+  ],
+  "notes": [
+    "Use whatever green vegetables are in season: broccoli, green beans or snap peas all work."
+  ]
+}

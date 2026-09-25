@@ -1,0 +1,45 @@
+{
+  "id": "fish-and-chips",
+  "title": "Fish and Chips",
+  "description": "Crisp beer-battered cod with thick oven chips, lemon wedges and malt vinegar. The chips bake while you fry the fish.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "cuisine": "British",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Rimmed baking sheet", "Heavy pot for frying", "Deep-fry or instant-read thermometer", "Wire rack"],
+  "image": {"file": "fish-and-chips.svg", "alt": "Battered fish and chips with lemon and tartar sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the chips", "items": [
+      {"id": "potatoes", "amount": "2", "unit": "lb", "item": "russet potatoes", "key": "russet potatoes", "prep": "cut into thick wedges"},
+      {"id": "coil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "csalt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the fish", "items": [
+      {"id": "fish", "amount": "1 1/2", "unit": "lb", "item": "thick cod or haddock fillets", "key": "cod fillets", "prep": "cut into 4 pieces"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+      {"id": "flour", "amount": "1 1/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "note": "divided"},
+      {"id": "bp", "amount": "1", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "beer", "amount": "1", "unit": "cup", "item": "cold beer or sparkling water", "key": "beer"},
+      {"id": "oil", "amount": "6", "unit": "cup", "item": "neutral oil", "key": "neutral oil", "prep": "for frying", "scale": "fixed", "scaleNote": "Frying oil fills the pot to a safe depth whatever the batch size; most of it is left over."},
+      {"id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "cut into wedges"},
+      {"id": "vinegar", "amount": "2", "unit": "tbsp", "item": "malt vinegar", "key": "malt vinegar", "prep": "for serving", "optional": true}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 450F oven}. Toss the potato wedges with the oil and salt on the baking sheet and roast, turning once, until golden and crisp, {time 35-40 min}.", "uses": ["potatoes", "coil", "csalt"]},
+    {"text": "Meanwhile heat the frying oil in the heavy pot to {temp 360F oil}. The oil should be at least {len 2 in} deep with plenty of room above it. Never leave hot oil unattended.", "uses": ["oil"]},
+    {"text": "Pat the fish very dry and season with half the salt. Whisk 1 cup of the flour, the baking powder and the rest of the salt, then whisk in the cold beer until just smooth.", "uses": ["fish", "salt", "flour", "bp", "beer"]},
+    {"text": "Dust each piece of fish in the remaining flour, dip it in the batter and let the excess drip off. Lower it gently into the oil, away from you.", "uses": []},
+    {"text": "Fry two pieces at a time until deep golden and crisp, {time 5-6 min}, turning once. Drain on the wire rack and sprinkle with salt. Let the oil come back to temperature between batches.", "uses": []},
+    {"text": "Serve the fish with the chips, lemon wedges and malt vinegar.", "uses": ["lemon", "vinegar"]}
+  ],
+  "notes": [
+    "Cool the frying oil completely before straining and storing or disposing of it; never pour it down the drain.",
+    "Sparkling water makes an equally crisp, alcohol-free batter."
+  ]
+}

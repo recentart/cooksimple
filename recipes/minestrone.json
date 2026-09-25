@@ -1,0 +1,43 @@
+{
+  "id": "minestrone",
+  "title": "Minestrone",
+  "description": "A hearty Italian vegetable soup with beans, small pasta, tomatoes and greens, finished with Parmesan and a drizzle of olive oil.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "cuisine": "Italian",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan", "make-ahead"],
+  "equipment": ["Large pot or Dutch oven"],
+  "image": {"file": "minestrone.svg", "alt": "A bowl of minestrone with beans, pasta and vegetables"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "diced"},
+    {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "diced"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "zucchini", "amount": "1", "item": "zucchini", "key": "zucchini", "prep": "diced"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+    {"id": "broth", "amount": "6", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "plus more to taste"},
+    {"id": "beans", "amount": "1", "unit": "can", "size": "15 oz", "item": "cannellini beans", "key": "canned cannellini beans", "prep": "drained and rinsed"},
+    {"id": "pasta", "amount": "3/4", "unit": "cup", "item": "small pasta such as ditalini", "key": "short pasta"},
+    {"id": "kale", "amount": "2", "unit": "cup", "item": "chopped kale or spinach", "key": "kale"},
+    {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated, for serving"}
+  ],
+  "steps": [
+    {"text": "Heat 2 tbsp of the oil in the pot over medium heat. Add the onion, carrots and celery and cook, stirring now and then, until softened, {time 8-10 min}. Add the garlic and cook for {time 1 min}.", "uses": ["oil", "onion", "carrots", "celery", "garlic"]},
+    {"text": "Stir in the zucchini, tomatoes, broth, oregano and salt. Bring to a boil, then lower the heat and simmer, partly covered, for {time 15 min}.", "uses": ["zucchini", "tomatoes", "broth", "oregano", "salt"]},
+    {"text": "Add the beans and pasta and simmer, stirring now and then, until the pasta is tender, {time 10-12 min}.", "uses": ["beans", "pasta"]},
+    {"text": "Stir in the kale and cook until wilted, {time 2-3 min}. Taste for salt. If the soup is very thick, add a splash of water.", "uses": ["kale"]},
+    {"text": "Ladle into bowls and top with the cheese and a drizzle of the remaining olive oil.", "uses": ["cheese"]}
+  ],
+  "notes": [
+    "The pasta keeps absorbing broth. If you plan to have leftovers, cook the pasta separately and add it to each bowl.",
+    "Keeps in the fridge for 4 days. Freeze without the pasta for up to 3 months."
+  ]
+}

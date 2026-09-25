@@ -1,0 +1,38 @@
+{
+  "id": "butternut-squash-soup",
+  "title": "Roasted Butternut Squash Soup",
+  "description": "Velvety squash soup made with oven-roasted butternut, onion and a hint of warm spice, blended smooth with vegetable broth.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "cuisine": "American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": ["freezer-friendly", "make-ahead"],
+  "equipment": ["Rimmed baking sheet", "Large pot", "Immersion blender or blender"],
+  "image": {"file": "butternut-squash-soup.svg", "alt": "A bowl of smooth orange squash soup with a cream swirl and toasted seeds"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "squash", "amount": "1", "item": "large butternut squash", "key": "butternut squash", "prep": "peeled, seeded and cut into {len 1 in} chunks", "note": "about {qty 3 lb}"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "cut into wedges"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "unpeeled"},
+    {"id": "broth", "amount": "4", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth", "note": "plus more to thin"},
+    {"id": "cinnamon", "amount": "1/4", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "nutmeg", "amount": "1", "unit": "pinch", "item": "ground nutmeg", "key": "ground nutmeg"},
+    {"id": "syrup", "amount": "1", "unit": "tbsp", "item": "maple syrup", "key": "maple syrup", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Toss the squash, onion and garlic with the oil and 1 tsp of the salt on the baking sheet and spread them out in one layer.", "uses": ["squash", "onion", "oil", "salt", "garlic"]},
+    {"text": "Roast, stirring halfway, until the squash is soft and browned at the edges, {time 35-40 min}.", "uses": []},
+    {"text": "Squeeze the garlic out of its skins into the pot and add the roasted squash, onion, broth, cinnamon and nutmeg. Bring to a simmer and cook for {time 10 min}.", "uses": ["broth", "cinnamon", "nutmeg"]},
+    {"text": "Blend until completely smooth, keeping an immersion blender’s blade under the surface, or in batches in a blender with the lid vented and covered with a towel.", "uses": []},
+    {"text": "Thin with more broth if you like, then season with the rest of the salt and the maple syrup to taste.", "uses": ["syrup"]}
+  ],
+  "notes": [
+    "A swirl of coconut milk or a spoon of yogurt and some toasted pumpkin seeds make good toppings.",
+    "Freezes well for up to 3 months."
+  ]
+}

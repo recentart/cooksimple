@@ -1,0 +1,39 @@
+{
+  "id": "tuna-salad-sandwiches",
+  "title": "Tuna Salad Sandwiches",
+  "description": "Classic tuna salad with crunchy celery, red onion, lemon and a little mayonnaise, ready in ten minutes with no cooking.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "cuisine": "American",
+  "mealTypes": ["lunch"],
+  "diets": [],
+  "tags": ["no-cook", "make-ahead"],
+  "image": {"file": "tuna-salad-sandwiches.svg", "alt": "A tuna salad sandwich with lettuce, cut in half"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tuna", "amount": "2", "unit": "can", "size": "5 oz", "item": "tuna", "key": "canned tuna", "prep": "well drained"},
+    {"id": "mayo", "amount": "1/3", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "celery", "amount": "1", "unit": "stalk", "item": "celery", "key": "celery", "prep": "finely diced"},
+    {"id": "onion", "amount": "2", "unit": "tbsp", "item": "red onion", "key": "red onions", "prep": "finely diced"},
+    {"id": "lemon", "amount": "2", "unit": "tsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "salt", "item": "kosher salt", "key": "kosher salt", "scale": "taste"},
+    {"id": "bread", "amount": "8", "unit": "slice", "item": "sandwich bread", "key": "sandwich bread"},
+    {"id": "tomato", "amount": "1", "item": "tomato", "key": "tomatoes", "prep": "sliced"},
+    {"id": "lettuce", "amount": "4", "item": "lettuce leaf", "key": "romaine lettuce", "plural": "lettuce leaves"}
+  ],
+  "steps": [
+    {"text": "Flake the drained tuna into a bowl with a fork.", "uses": ["tuna"]},
+    {"text": "Add the mayonnaise, celery, red onion, lemon juice, mustard and pepper and stir until evenly mixed. Taste, then add salt only if needed; canned tuna is already salted.", "uses": ["mayo", "celery", "onion", "lemon", "mustard", "pepper", "salt"]},
+    {"text": "Toast the bread if you like. Build the sandwiches with lettuce, tomato and a thick layer of tuna salad.", "uses": ["bread", "tomato", "lettuce"]}
+  ],
+  "notes": [
+    "Tuna salad keeps, covered, in the fridge for up to 3 days.",
+    "Swap half the mayonnaise for plain Greek yogurt for a lighter, tangier salad."
+  ]
+}

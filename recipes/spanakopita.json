@@ -1,0 +1,43 @@
+{
+  "id": "spanakopita",
+  "title": "Spanakopita",
+  "description": "Flaky layers of buttered phyllo baked around a filling of spinach, feta, green onions and dill. Greek spinach pie for a crowd.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "pieces",
+  "scaleOptions": [12,24],
+  "scaleNote": "One batch fills a {len 9x13 in} pan.",
+  "prepMinutes": 35,
+  "cookMinutes": 45,
+  "cuisine": "Greek",
+  "mealTypes": ["dinner", "lunch", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead", "freezer-friendly"],
+  "equipment": ["{len 9x13 in} baking dish", "Pastry brush", "Large skillet"],
+  "image": {"file": "spanakopita.svg", "alt": "Flaky phyllo triangles of spinach and feta pie"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onions", "amount": "1", "unit": "bunch", "item": "green onions", "key": "green onions", "prep": "sliced"},
+    {"id": "spinach", "amount": "2", "unit": "lb", "item": "fresh spinach", "key": "spinach", "note": "or {qty 20 oz} frozen, thawed and squeezed dry"},
+    {"id": "feta", "amount": "12", "unit": "oz", "item": "feta cheese", "key": "feta cheese", "prep": "crumbled"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "dill", "amount": "1/2", "unit": "cup", "item": "fresh dill", "key": "fresh dill", "prep": "chopped"},
+    {"id": "parsley", "amount": "1/4", "unit": "cup", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"},
+    {"id": "nutmeg", "amount": "1", "unit": "pinch", "item": "ground nutmeg", "key": "ground nutmeg"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"},
+    {"id": "phyllo", "amount": "16", "unit": "sheet", "item": "phyllo dough", "key": "phyllo dough", "note": "thawed overnight in the fridge"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet and cook the green onions until soft, {time 3 min}. Add the fresh spinach in batches and cook until wilted, {time 5 min}. Cool, then squeeze out as much liquid as you can and chop.", "uses": ["oil", "onions", "spinach"]},
+    {"text": "Mix the spinach with the feta, eggs, dill, parsley, nutmeg and pepper. Heat the oven to {temp 375F oven}.", "uses": ["feta", "eggs", "dill", "parsley", "nutmeg", "pepper"]},
+    {"text": "Brush the dish with butter. Lay in a sheet of phyllo, letting it hang over the sides if it’s large, and brush it with butter. Repeat with 7 more sheets. Keep the waiting phyllo under a damp towel so it doesn’t dry out.", "uses": ["butter", "phyllo"]},
+    {"text": "Spread the filling evenly. Fold any overhanging phyllo over it, then layer the remaining 8 sheets on top, brushing each with butter. Tuck in the edges.", "uses": []},
+    {"text": "Score the top layers into {count 12} pieces with a sharp knife, without cutting through the filling. Bake until deep golden and crisp, {time 45 min}. Cool for {time 15 min}, then cut along the scores.", "uses": []}
+  ],
+  "notes": [
+    "Phyllo tears easily; a few rips don’t matter once it’s layered.",
+    "Freeze unbaked, well wrapped, for up to 2 months and bake from frozen, adding about 20 minutes."
+  ]
+}

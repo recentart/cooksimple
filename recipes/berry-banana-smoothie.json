@@ -1,0 +1,32 @@
+{
+  "id": "berry-banana-smoothie",
+  "title": "Berry Banana Smoothie",
+  "description": "A thick, fruity smoothie of frozen berries, banana, yogurt and a little honey. Five minutes and a blender is all it takes.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["no-cook"],
+  "equipment": ["Blender"],
+  "image": {"file": "berry-banana-smoothie.svg", "alt": "Two glasses of purple berry smoothie with berries and banana"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "berries", "amount": "1 1/2", "unit": "cup", "item": "frozen mixed berries", "key": "frozen berries"},
+    {"id": "banana", "amount": "1", "item": "banana", "key": "bananas", "note": "frozen in chunks for a thicker smoothie"},
+    {"id": "yogurt", "amount": "3/4", "unit": "cup", "item": "plain Greek yogurt", "key": "plain greek yogurt"},
+    {"id": "milk", "amount": "1", "unit": "cup", "item": "milk or plant milk", "key": "milk"},
+    {"id": "honey", "amount": "1", "unit": "tbsp", "item": "honey or maple syrup", "key": "honey", "note": "or to taste"}
+  ],
+  "steps": [
+    {"text": "Pour the milk into the blender first, then add the yogurt, banana, berries and honey. Liquid at the bottom helps the blades catch.", "uses": ["milk", "yogurt", "banana", "berries", "honey"]},
+    {"text": "Blend on low for a few seconds, then on high until completely smooth, about {time 1 min notimer}. If it’s too thick to move, add a splash more milk.", "uses": []},
+    {"text": "Taste and add a little more honey if your fruit is tart, then pour into glasses and serve right away.", "uses": []}
+  ],
+  "notes": [
+    "For a vegan smoothie, use plant milk, a plant-based yogurt and maple syrup instead of honey.",
+    "Freeze ripe bananas peeled and in chunks so they’re ready for smoothies."
+  ]
+}

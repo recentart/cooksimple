@@ -1,0 +1,40 @@
+{
+  "id": "baked-oatmeal",
+  "title": "Baked Oatmeal",
+  "description": "A sliceable, custardy baked oatmeal with berries and cinnamon that you can prep the night before and reheat all week.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "scaleNote": "This fits an {len 8x8 in} baking dish. For 12 servings use a {len 9x13 in} dish; the time stays about the same.",
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "baking"],
+  "equipment": ["{len 8x8 in} baking dish"],
+  "image": {"file": "baked-oatmeal.svg", "alt": "A baking dish of baked oatmeal studded with blueberries"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oats", "amount": "2", "unit": "cup", "item": "rolled oats", "key": "rolled oats"},
+    {"id": "bp", "amount": "1", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+    {"id": "cinnamon", "amount": "1", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "milk", "amount": "1 3/4", "unit": "cup", "item": "milk", "key": "milk"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "syrup", "amount": "1/3", "unit": "cup", "item": "maple syrup", "key": "maple syrup"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted, plus more for the dish"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "berries", "amount": "1 1/2", "unit": "cup", "item": "blueberries or mixed berries", "key": "blueberries", "note": "fresh or frozen"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 375F oven} with a rack in the middle and butter the baking dish.", "uses": []},
+    {"text": "Mix the oats, baking powder, cinnamon and salt in a bowl.", "uses": ["oats", "bp", "cinnamon", "salt"]},
+    {"text": "In a second bowl, whisk the milk, egg, maple syrup, melted butter and vanilla until smooth.", "uses": ["milk", "egg", "syrup", "butter", "vanilla"]},
+    {"text": "Scatter half the berries over the bottom of the dish, spread the oat mixture over them, then pour the milk mixture evenly over the top. Scatter the rest of the berries on top.", "uses": ["berries"]},
+    {"text": "Bake until the top is golden and the center is set and no longer wobbles, {time 38-42 min}. Let it rest for {time 10 min} before cutting into squares.", "uses": []}
+  ],
+  "notes": [
+    "To prep ahead, assemble the dish, cover and refrigerate overnight; bake straight from the fridge, adding about 5 minutes.",
+    "Leftovers keep, covered, in the fridge for up to 5 days. Reheat squares in the microwave with a splash of milk."
+  ]
+}

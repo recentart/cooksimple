@@ -1,0 +1,32 @@
+{
+  "id": "roasted-sweet-potatoes",
+  "title": "Roasted Sweet Potatoes",
+  "description": "Sweet potato cubes roasted with olive oil, smoked paprika and garlic until caramelized outside and creamy inside.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead"],
+  "equipment": ["Rimmed baking sheet"],
+  "image": {"file": "roasted-sweet-potatoes.svg", "alt": "Roasted sweet potato chunks on a sheet pan"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "2", "unit": "lb", "item": "sweet potatoes", "key": "sweet potatoes", "prep": "cut into {len 1 in} cubes, peeled or not"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "parsley", "amount": "1", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Toss the sweet potatoes with the oil, salt, paprika and garlic powder on the baking sheet.", "uses": ["potatoes", "oil", "salt", "paprika", "garlic"]},
+    {"text": "Spread them out in a single layer with space between. Roast, turning once halfway, until tender and caramelized at the edges, {time 25-30 min}.", "uses": []},
+    {"text": "Scatter with parsley and serve.", "uses": ["parsley"]}
+  ],
+  "notes": [
+    "Leftovers are good in grain bowls, tacos and salads."
+  ]
+}

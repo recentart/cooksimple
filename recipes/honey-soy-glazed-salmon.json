@@ -1,0 +1,37 @@
+{
+  "id": "honey-soy-glazed-salmon",
+  "title": "Honey Soy Glazed Salmon",
+  "description": "Salmon fillets brushed with a sticky honey, soy and ginger glaze and roasted until just flaky. Ready in about twenty minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 14,
+  "cuisine": "Global",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Rimmed baking sheet lined with foil", "Small saucepan"],
+  "image": {"file": "honey-soy-glazed-salmon.svg", "alt": "Glazed salmon fillets with sesame and green onion, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "salmon", "amount": "4", "item": "salmon fillet", "key": "salmon fillets", "note": "about {qty 6 oz} each"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "honey", "amount": "3", "unit": "tbsp", "item": "honey", "key": "honey"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"},
+    {"id": "ginger", "amount": "1", "unit": "tsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "cornstarch", "amount": "1", "unit": "tsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "seeds", "amount": "1", "unit": "tsp", "item": "sesame seeds", "key": "sesame seeds"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "sliced"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven}. Pat the salmon dry, season lightly with the salt and lay it skin side down on the baking sheet.", "uses": ["salmon", "salt"]},
+    {"text": "Simmer the honey, soy sauce, vinegar, ginger and garlic in the saucepan for {time 2 min}. Stir the cornstarch with {qty 1 tbsp} water, whisk it in and simmer until glossy and thick, {time 1 min}.", "uses": ["honey", "soy", "vinegar", "ginger", "garlic", "cornstarch"]},
+    {"text": "Brush half the glaze over the salmon and roast until it flakes easily in the thickest part, {time 10-12 min}.", "uses": []},
+    {"text": "Brush with the rest of the glaze and broil for {time 1-2 min} to caramelize, watching closely. Sprinkle with sesame seeds and green onions.", "uses": ["seeds", "scallions"]}
+  ],
+  "notes": [
+    "USDA recommends 145°F for fish. Many cooks pull salmon at 125 to 130°F for a moist, medium center."
+  ]
+}

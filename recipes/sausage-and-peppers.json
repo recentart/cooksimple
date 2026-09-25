@@ -1,0 +1,36 @@
+{
+  "id": "sausage-and-peppers",
+  "title": "Sausage and Peppers",
+  "description": "Browned Italian sausages with sweet peppers and onions cooked down with garlic and a splash of tomato. Serve in rolls or over polenta.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet with a lid"],
+  "image": {"file": "sausage-and-peppers.svg", "alt": "A skillet of sausages with red and green peppers and onions"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "sausage", "amount": "6", "item": "Italian sausage link", "key": "italian sausage", "note": "sweet or hot, about {qty 1 1/2 lb}"},
+    {"id": "onion", "amount": "1", "item": "large yellow onion", "key": "yellow onions", "prep": "sliced"},
+    {"id": "peppers", "amount": "3", "item": "bell pepper", "key": "bell peppers", "prep": "mixed colors, sliced"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "sliced"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "tomatoes", "amount": "1/2", "unit": "cup", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+    {"id": "rolls", "amount": "6", "item": "hoagie roll", "key": "hoagie rolls", "prep": "for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat 1 tbsp oil in the skillet over medium heat. Add the sausages, cover and cook, turning now and then, until browned on all sides, {time 10 min}. Move to a board.", "uses": ["oil", "sausage"]},
+    {"text": "Add the rest of the oil, the onion, peppers, salt and oregano. Cook, stirring now and then, until soft and lightly browned, {time 10 min}. Add the garlic for {time 1 min}.", "uses": ["onion", "peppers", "salt", "oregano", "garlic"]},
+    {"text": "Slice the sausages thickly on an angle and return them to the pan with the tomatoes and a splash of water.", "uses": ["tomatoes"]},
+    {"text": "Cover and simmer until the sausages are cooked through, {time 8-10 min}. They should read {temp 160F internal}. Serve in rolls, over polenta or with crusty bread.", "uses": ["rolls"]}
+  ],
+  "notes": [
+    "Keeps 3 days in the fridge and reheats well."
+  ]
+}

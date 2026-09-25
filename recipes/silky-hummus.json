@@ -1,0 +1,37 @@
+{
+  "id": "silky-hummus",
+  "title": "Silky Hummus",
+  "description": "Ultra-smooth hummus made from canned chickpeas, tahini, lemon and garlic, whipped with ice water until light and creamy.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "cuisine": "Middle Eastern",
+  "mealTypes": ["snack"],
+  "diets": ["vegan"],
+  "tags": ["no-cook", "make-ahead"],
+  "equipment": ["Food processor"],
+  "image": {"file": "silky-hummus.svg", "alt": "A swirl of hummus with olive oil and paprika, with pita wedges"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "lemon", "amount": "1/4", "unit": "cup", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "tahini", "amount": "1/2", "unit": "cup", "item": "tahini", "key": "tahini", "note": "well stirred"},
+    {"id": "water", "amount": "4", "unit": "tbsp", "item": "ice water", "key": "water"},
+    {"id": "chickpeas", "amount": "1", "unit": "can", "size": "15 oz", "item": "chickpeas", "key": "canned chickpeas", "prep": "drained and rinsed"},
+    {"id": "cumin", "amount": "1/4", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "extra-virgin olive oil", "key": "olive oil", "prep": "for drizzling"},
+    {"id": "paprika", "amount": "1", "unit": "pinch", "item": "sweet paprika", "key": "sweet paprika", "optional": true}
+  ],
+  "steps": [
+    {"text": "Blend the lemon juice, garlic and salt in the food processor, then let them sit for {time 5 min} to mellow the garlic.", "uses": ["lemon", "garlic", "salt"]},
+    {"text": "Add the tahini and blend until thick and creamy. With the machine running, add the ice water a spoonful at a time until pale and smooth.", "uses": ["tahini", "water"]},
+    {"text": "Add the chickpeas and cumin and blend for a full {time 3 min}, scraping down once, until very smooth. Add more ice water if it’s too thick.", "uses": ["chickpeas", "cumin"]},
+    {"text": "Spread in a shallow bowl, make a swirl with the back of a spoon, drizzle with oil and dust with paprika.", "uses": ["oil", "paprika"]}
+  ],
+  "notes": [
+    "Blending the tahini with lemon and water first, before the chickpeas, is what makes it so smooth.",
+    "Keeps 5 days in the fridge."
+  ]
+}

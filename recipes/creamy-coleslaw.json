@@ -1,0 +1,35 @@
+{
+  "id": "creamy-coleslaw",
+  "title": "Creamy Coleslaw",
+  "description": "Crunchy shredded cabbage and carrots in a tangy, lightly sweet mayonnaise and cider vinegar dressing. Perfect with barbecue.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "totalMinutes": 45,
+  "cuisine": "Southern",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": ["no-cook", "make-ahead"],
+  "image": {"file": "creamy-coleslaw.svg", "alt": "A bowl of creamy coleslaw with shredded cabbage and carrot"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "cabbage", "amount": "8", "unit": "cup", "item": "shredded green and red cabbage", "key": "green cabbage", "note": "about {qty 1 1/2 lb}"},
+    {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "grated"},
+    {"id": "mayo", "amount": "3/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "vinegar", "amount": "2", "unit": "tbsp", "item": "apple cider vinegar", "key": "apple cider vinegar"},
+    {"id": "sugar", "amount": "1", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+  ],
+  "steps": [
+    {"text": "Whisk the mayonnaise, vinegar, sugar, mustard, salt and pepper in a large bowl.", "uses": ["mayo", "vinegar", "sugar", "mustard", "salt", "pepper"]},
+    {"text": "Add the cabbage and carrots and toss until evenly coated.", "uses": ["cabbage", "carrots"]},
+    {"text": "Chill for at least {time 30 min notimer} so the cabbage softens slightly and the flavors blend. Toss again before serving.", "uses": []}
+  ],
+  "notes": [
+    "A bag of coleslaw mix saves all the shredding.",
+    "Keeps 2 days in the fridge; it gets softer and more watery the longer it sits."
+  ]
+}

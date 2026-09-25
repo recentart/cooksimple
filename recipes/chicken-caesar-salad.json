@@ -1,0 +1,44 @@
+{
+  "id": "chicken-caesar-salad",
+  "title": "Chicken Caesar Salad",
+  "description": "Crisp romaine, garlicky homemade croutons and seared chicken tossed in a quick lemony Caesar dressing with plenty of Parmesan.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large skillet", "Baking sheet"],
+  "image": {"file": "chicken-caesar-salad.svg", "alt": "A bowl of romaine with sliced chicken, croutons and shaved Parmesan"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the croutons and chicken", "items": [
+      {"id": "bread", "amount": "3", "unit": "cup", "item": "crusty bread", "key": "crusty bread", "prep": "torn into bite-size pieces", "note": "about {qty 4 oz}"},
+      {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil", "note": "divided"},
+      {"id": "chicken", "amount": "1 1/4", "unit": "lb", "item": "boneless, skinless chicken breasts", "key": "chicken breasts"},
+      {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the dressing", "items": [
+      {"id": "mayo", "amount": "1/3", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+      {"id": "lemon", "amount": "2", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+      {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+      {"id": "worcestershire", "amount": "1", "unit": "tsp", "item": "Worcestershire sauce", "key": "worcestershire sauce"},
+      {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+      {"id": "parm", "amount": "3/4", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "finely grated", "note": "divided"},
+      {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+    ] },
+    {"id": "romaine", "amount": "2", "unit": "head", "item": "romaine lettuce", "key": "romaine lettuce", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven}. Toss the bread with 2 tbsp of the oil and a pinch of the salt on the baking sheet and bake until golden and crisp, {time 10-12 min}.", "uses": ["bread", "oil"]},
+    {"text": "Season the chicken with the rest of the salt. Heat the remaining oil in the skillet over medium-high heat and cook until golden and it reads {temp 165F internal}, {time 5-6 min} per side. Rest for {time 5 min}, then slice.", "uses": ["chicken", "salt"]},
+    {"text": "Whisk the mayonnaise, lemon juice, garlic, Worcestershire, mustard, half the Parmesan and the pepper until smooth. Thin with a splash of water if it’s too thick to toss.", "uses": ["mayo", "lemon", "garlic", "worcestershire", "mustard", "parm", "pepper"]},
+    {"text": "Toss the romaine with the dressing in a large bowl until every leaf is coated. Top with the chicken, croutons and the rest of the Parmesan.", "uses": ["romaine"]}
+  ],
+  "notes": [
+    "Traditional Caesar dressing uses anchovies; mash 2 fillets into the dressing if you like that savory depth.",
+    "Croutons keep in an airtight container for 3 days."
+  ]
+}

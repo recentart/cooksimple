@@ -1,0 +1,42 @@
+{
+  "id": "beef-and-bean-burritos",
+  "title": "Beef and Bean Burritos",
+  "description": "Big, hearty burritos filled with seasoned beef, refried beans, rice and cheese, then toasted until golden. They freeze well.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "servingsLabel": "burritos",
+  "scaleOptions": [3,6,12],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": ["freezer-friendly", "make-ahead"],
+  "equipment": ["Large skillet"],
+  "image": {"file": "beef-and-bean-burritos.svg", "alt": "Beef and bean burritos cut in half, with salsa"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "beef", "amount": "1", "unit": "lb", "item": "ground beef", "key": "ground beef"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "chili", "amount": "1", "unit": "tbsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "sauce", "amount": "1/2", "unit": "cup", "item": "tomato sauce", "key": "canned tomato sauce"},
+    {"id": "beans", "amount": "1", "unit": "can", "size": "16 oz", "item": "refried beans", "key": "canned refried beans"},
+    {"id": "rice", "amount": "2", "unit": "cup", "item": "cooked white rice", "key": "cooked white rice"},
+    {"id": "cheese", "amount": "1 1/2", "unit": "cup", "item": "cheddar or Monterey Jack cheese", "key": "cheddar cheese", "prep": "shredded"},
+    {"id": "tortillas", "amount": "6", "item": "large flour tortilla", "key": "flour tortillas", "note": "10-inch"},
+    {"id": "salsa", "amount": "1/2", "unit": "cup", "item": "salsa", "key": "salsa", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium-high heat. Brown the beef with the onion, breaking it up, until no pink remains, {time 8 min}.", "uses": ["oil", "beef", "onion"]},
+    {"text": "Stir in the chili powder, cumin and salt for {time 1 min}, then the tomato sauce. Simmer until thick, {time 3 min}. Move to a bowl and wipe out the skillet.", "uses": ["chili", "cumin", "salt", "sauce"]},
+    {"text": "Warm the tortillas so they fold without cracking. Spread each with refried beans, then add rice, beef, cheese and salsa in a line across the lower third.", "uses": ["tortillas", "beans", "rice", "cheese", "salsa"]},
+    {"text": "Fold the bottom over the filling, fold in the sides and roll up tightly.", "uses": []},
+    {"text": "Toast the burritos seam side down in the dry skillet over medium heat until golden and crisp, {time 2-3 min} per side.", "uses": []}
+  ],
+  "notes": [
+    "To freeze, wrap untoasted burritos individually in foil. Reheat from frozen in a {temp 375F oven} for {time 35-40 min notimer}."
+  ]
+}

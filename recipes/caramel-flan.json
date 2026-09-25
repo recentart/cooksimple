@@ -1,0 +1,36 @@
+{
+  "id": "caramel-flan",
+  "title": "Caramel Flan",
+  "description": "A smooth, creamy baked custard with a layer of amber caramel that becomes a sauce when you turn it out. Make it a day ahead.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "totalMinutes": 380,
+  "cuisine": "Mexican",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "baking"],
+  "equipment": ["{len 9 in} round cake pan or flan mold", "Roasting pan for a water bath", "Small saucepan"],
+  "image": {"file": "caramel-flan.svg", "alt": "A caramel flan turned out onto a plate in a pool of caramel"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "sugar", "amount": "3/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar", "prep": "for the caramel"},
+    {"id": "condensed", "amount": "1", "unit": "can", "size": "14 oz", "item": "sweetened condensed milk", "key": "sweetened condensed milk"},
+    {"id": "evaporated", "amount": "1", "unit": "can", "size": "12 fl oz", "item": "evaporated milk", "key": "evaporated milk"},
+    {"id": "eggs", "amount": "5", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 325F oven}. Put the pan near the stove. Put a kettle of water on to boil for the water bath.", "uses": []},
+    {"text": "Heat the sugar with {qty 3 tbsp} water in the saucepan over medium heat, swirling but not stirring, until it melts and turns a deep amber, {time 8-10 min}. Pour it immediately into the pan and tilt to coat the bottom. Caramel is extremely hot; keep hands clear.", "uses": ["sugar"]},
+    {"text": "Whisk the condensed milk, evaporated milk, eggs, vanilla and salt until smooth without whipping in air. Strain through a sieve onto the caramel.", "uses": ["condensed", "evaporated", "eggs", "vanilla", "salt"]},
+    {"text": "Set the pan in the roasting pan and pour boiling water around it to come halfway up the sides. Bake until the edges are set and the center jiggles slightly, {time 50-60 min}.", "uses": []},
+    {"text": "Cool in the water bath, then chill for at least {time 4 hr notimer}. Run a thin knife around the edge, set a rimmed plate on top and flip quickly so the caramel pours over.", "uses": []}
+  ],
+  "notes": [
+    "Some caramel stays stuck to the pan; soak it in hot water to dissolve it.",
+    "Keeps 4 days in the fridge."
+  ]
+}

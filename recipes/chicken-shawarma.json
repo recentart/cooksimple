@@ -1,0 +1,51 @@
+{
+  "id": "chicken-shawarma",
+  "title": "Sheet-Pan Chicken Shawarma",
+  "description": "Warmly spiced chicken thighs and red onion roasted hot on one pan, stuffed into pitas with a garlicky yogurt sauce and salad.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "totalMinutes": 70,
+  "cuisine": "Middle Eastern",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Rimmed baking sheet"],
+  "image": {"file": "chicken-shawarma.svg", "alt": "Spiced chicken strips and red onion on a sheet pan with pita and yogurt sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the chicken", "items": [
+      {"id": "chicken", "amount": "2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs"},
+      {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+      {"id": "lemon", "amount": "2", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+      {"id": "paprika", "amount": "2", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika"},
+      {"id": "coriander", "amount": "1", "unit": "tsp", "item": "ground coriander", "key": "ground coriander"},
+      {"id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric"},
+      {"id": "cinnamon", "amount": "1/4", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+      {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "onion", "amount": "1", "item": "red onion", "key": "red onions", "prep": "cut into wedges"}
+    ] },
+    { "group": "To serve", "items": [
+      {"id": "yogurt", "amount": "3/4", "unit": "cup", "item": "plain Greek yogurt", "key": "plain greek yogurt"},
+      {"id": "ygarlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "pita", "amount": "4", "item": "pita", "key": "pita bread", "plural": "pitas"},
+      {"id": "tomatoes", "amount": "2", "item": "tomato", "key": "tomatoes", "prep": "sliced"},
+      {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "sliced"},
+      {"id": "parsley", "amount": "1/4", "unit": "cup", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Mix the oil, lemon juice, garlic, cumin, paprika, coriander, turmeric, cinnamon and salt in a large bowl. Add the chicken and toss to coat. Marinate for at least {time 30 min notimer} or up to a day in the fridge.", "uses": ["chicken", "oil", "lemon", "garlic", "cumin", "paprika", "coriander", "turmeric", "cinnamon", "salt"]},
+    {"text": "Heat the oven to {temp 450F oven}. Spread the chicken and onion wedges on the baking sheet in one layer.", "uses": ["onion"]},
+    {"text": "Roast until the chicken is charred at the edges and reads {temp 175F internal}, {time 22-25 min}. For extra char, broil for the last {time 2 min notimer}.", "uses": []},
+    {"text": "Stir the yogurt with the grated garlic and a pinch of salt.", "uses": ["yogurt", "ygarlic"]},
+    {"text": "Rest the chicken for {time 5 min}, then slice it thinly. Stuff into warm pitas with the onions, tomatoes, cucumber, parsley and a spoonful of garlic yogurt.", "uses": ["pita", "tomatoes", "cucumber", "parsley"]}
+  ],
+  "notes": [
+    "Also good over rice or a big salad instead of pita.",
+    "Leftover chicken keeps for 4 days and is good cold."
+  ]
+}

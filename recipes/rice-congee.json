@@ -1,0 +1,37 @@
+{
+  "id": "rice-congee",
+  "title": "Ginger Scallion Congee",
+  "description": "Silky rice porridge simmered with ginger, topped with scallions, soy sauce, sesame oil and a soft egg. Gentle and warming.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 60,
+  "cuisine": "Chinese",
+  "mealTypes": ["breakfast", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan", "make-ahead"],
+  "equipment": ["Large heavy pot with a lid"],
+  "image": {"file": "rice-congee.svg", "alt": "A bowl of rice porridge with ginger, green onion and a drizzle of soy"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "rice", "amount": "3/4", "unit": "cup", "item": "jasmine rice", "key": "jasmine rice", "prep": "rinsed"},
+    {"id": "water", "amount": "8", "unit": "cup", "item": "water", "key": "water", "note": "or half water, half vegetable broth"},
+    {"id": "ginger", "amount": "1", "unit": "piece", "item": "fresh ginger", "key": "fresh ginger", "prep": "about {len 2 in}, thinly sliced"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole", "optional": true},
+    {"id": "scallions", "amount": "3", "item": "green onion", "key": "green onions", "prep": "thinly sliced"},
+    {"id": "soy", "amount": "4", "unit": "tsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "sesame", "amount": "2", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"}
+  ],
+  "steps": [
+    {"text": "Put the rice, water, ginger and salt in the pot and bring to a boil over high heat, stirring a few times so the rice doesn’t stick.", "uses": ["rice", "water", "ginger", "salt"]},
+    {"text": "Lower the heat so the pot barely simmers, set the lid slightly ajar and cook, stirring every 10 minutes and scraping the bottom, until the rice has broken down into a thick, silky porridge, {time 55-60 min}.", "uses": []},
+    {"text": "If you want soft eggs, lower them into a separate pot of boiling water for {time 7 min}, then cool in cold water and peel.", "uses": ["eggs"]},
+    {"text": "Pick out the ginger slices. If the congee is thicker than you like, stir in a splash of hot water. Taste for salt.", "uses": []},
+    {"text": "Ladle into bowls and top with a halved egg, the green onions, a drizzle of soy sauce and a few drops of sesame oil.", "uses": ["scallions", "soy", "sesame"]}
+  ],
+  "notes": [
+    "Congee thickens a lot as it cools. Reheat leftovers with a good splash of water, stirring until smooth. Keeps 4 days in the fridge.",
+    "For chicken congee, simmer 2 boneless chicken thighs in the pot for the first 30 minutes, then shred them back in."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "italian-pasta-salad",
+  "title": "Italian Pasta Salad",
+  "description": "Tangy pasta salad with cherry tomatoes, cucumber, olives, mozzarella and red onion in a garlicky red wine vinaigrette.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 15,
+  "cookMinutes": 12,
+  "cuisine": "Italian",
+  "mealTypes": ["lunch", "side"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Large pot", "Colander"],
+  "image": {"file": "italian-pasta-salad.svg", "alt": "A bowl of pasta salad with salami, tomatoes, olives and mozzarella"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "16", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "pastasalt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "It seasons the pasta water, which stays the same amount."},
+    {"id": "pasta", "amount": "1", "unit": "lb", "item": "short pasta such as fusilli or rotini", "key": "short pasta"},
+    {"id": "vinegar", "amount": "1/4", "unit": "cup", "item": "red wine vinegar", "key": "red wine vinegar"},
+    {"id": "oil", "amount": "1/2", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "tomatoes", "amount": "2", "unit": "cup", "item": "cherry tomatoes", "key": "cherry tomatoes", "prep": "halved"},
+    {"id": "cucumber", "amount": "1", "item": "cucumber", "key": "cucumbers", "prep": "diced"},
+    {"id": "olives", "amount": "1/2", "unit": "cup", "item": "Kalamata olives", "key": "kalamata olives", "prep": "halved"},
+    {"id": "onion", "amount": "1/2", "item": "red onion", "key": "red onions", "prep": "thinly sliced"},
+    {"id": "mozz", "amount": "8", "unit": "oz", "item": "fresh mozzarella", "key": "mozzarella cheese", "prep": "cut into small cubes"},
+    {"id": "basil", "amount": "1/4", "unit": "cup", "item": "fresh basil", "key": "fresh basil", "prep": "torn"}
+  ],
+  "steps": [
+    {"text": "Bring the water to a boil with the salt. Cook the pasta until tender, {time 10-12 min}, a minute longer than al dente since it firms up as it cools. Drain and rinse under cold water until cool.", "uses": ["water", "pastasalt", "pasta"]},
+    {"text": "Whisk the vinegar, olive oil, garlic, oregano, salt and pepper in a large bowl.", "uses": ["vinegar", "oil", "garlic", "oregano", "salt", "pepper"]},
+    {"text": "Add the drained pasta and toss well so it soaks up the dressing.", "uses": []},
+    {"text": "Fold in the tomatoes, cucumber, olives, red onion, mozzarella and basil. Taste and adjust the salt and vinegar. Chill for at least {time 30 min notimer} if you have time.", "uses": ["tomatoes", "cucumber", "olives", "onion", "mozz", "basil"]}
+  ],
+  "notes": [
+    "The pasta absorbs dressing as it sits. Keep a couple of spoonfuls back and toss them in just before serving.",
+    "Keeps in the fridge for 3 days."
+  ]
+}

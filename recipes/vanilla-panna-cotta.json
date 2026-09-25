@@ -1,0 +1,39 @@
+{
+  "id": "vanilla-panna-cotta",
+  "title": "Vanilla Panna Cotta with Berries",
+  "description": "A silky Italian cream dessert set with a little gelatin, flavored with vanilla and served with a quick fresh berry sauce.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "totalMinutes": 260,
+  "cuisine": "Italian",
+  "mealTypes": ["dessert"],
+  "diets": [],
+  "tags": ["make-ahead"],
+  "equipment": ["Medium saucepan", "Six small glasses or ramekins"],
+  "image": {"file": "vanilla-panna-cotta.svg", "alt": "A vanilla panna cotta with a mixed berry sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "milk", "amount": "1/2", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "gelatin", "amount": "2 1/4", "unit": "tsp", "item": "unflavored powdered gelatin", "key": "unflavored gelatin", "note": "one packet"},
+    {"id": "cream", "amount": "2 1/2", "unit": "cup", "item": "heavy cream", "key": "heavy cream"},
+    {"id": "sugar", "amount": "1/3", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"},
+    {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "berries", "amount": "2", "unit": "cup", "item": "mixed berries", "key": "mixed berries"},
+    {"id": "bsugar", "amount": "2", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "lemon", "amount": "1", "unit": "tsp", "item": "fresh lemon juice", "key": "lemon juice"}
+  ],
+  "steps": [
+    {"text": "Pour the milk into the saucepan and sprinkle the gelatin evenly over it. Leave it to soften for {time 5 min}.", "uses": ["milk", "gelatin"]},
+    {"text": "Set the pan over low heat and stir until the gelatin dissolves completely, {time 1-2 min}. Don’t let it boil.", "uses": []},
+    {"text": "Stir in the cream, sugar and salt and warm, stirring, until the sugar dissolves and the mixture is steaming. Take off the heat and stir in the vanilla.", "uses": ["cream", "sugar", "salt", "vanilla"]},
+    {"text": "Pour into the glasses and chill until set with a gentle wobble, at least {time 4 hr notimer}.", "uses": []},
+    {"text": "For the sauce, mash half the berries with the sugar and lemon juice, then stir in the rest. Spoon over the panna cotta to serve.", "uses": ["berries", "bsugar", "lemon"]}
+  ],
+  "notes": [
+    "Gelatin is made from animal collagen, so this isn’t vegetarian. Agar-agar can replace it; follow the package, as it must be boiled to set.",
+    "Keeps 3 days covered in the fridge."
+  ]
+}

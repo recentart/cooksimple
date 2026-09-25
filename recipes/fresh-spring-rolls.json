@@ -1,0 +1,48 @@
+{
+  "id": "fresh-spring-rolls",
+  "title": "Fresh Shrimp Spring Rolls",
+  "description": "Rice paper rolls packed with shrimp, rice noodles, lettuce, herbs and crunchy vegetables, with a peanut hoisin dipping sauce.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "rolls",
+  "scaleOptions": [6,12,24],
+  "prepMinutes": 35,
+  "cookMinutes": 5,
+  "cuisine": "Vietnamese",
+  "mealTypes": ["lunch", "snack"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Wide shallow dish for water", "Saucepan"],
+  "image": {"file": "fresh-spring-rolls.svg", "alt": "Fresh rice paper rolls with shrimp and herbs, with dipping sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the rolls", "items": [
+      {"id": "shrimp", "amount": "12", "unit": "oz", "item": "medium shrimp", "key": "shrimp", "prep": "peeled and deveined"},
+      {"id": "noodles", "amount": "3", "unit": "oz", "item": "thin rice noodles (vermicelli)", "key": "rice noodles"},
+      {"id": "wrappers", "amount": "12", "item": "rice paper wrapper", "key": "rice paper wrappers", "note": "{len 8 in} rounds"},
+      {"id": "lettuce", "amount": "6", "item": "lettuce leaf", "key": "romaine lettuce", "plural": "lettuce leaves", "prep": "halved"},
+      {"id": "carrot", "amount": "1", "item": "carrot", "key": "carrots", "prep": "cut into matchsticks"},
+      {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "cut into matchsticks"},
+      {"id": "mint", "amount": "1/2", "unit": "cup", "item": "fresh mint leaves", "key": "fresh mint"},
+      {"id": "cilantro", "amount": "1/2", "unit": "cup", "item": "fresh cilantro sprigs", "key": "fresh cilantro"}
+    ] },
+    { "group": "For the dipping sauce", "items": [
+      {"id": "pb", "amount": "1/4", "unit": "cup", "item": "creamy peanut butter", "key": "creamy peanut butter"},
+      {"id": "hoisin", "amount": "2", "unit": "tbsp", "item": "hoisin sauce", "key": "hoisin sauce"},
+      {"id": "lime", "amount": "1", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+      {"id": "sriracha", "amount": "1", "unit": "tsp", "item": "sriracha", "key": "sriracha", "optional": true}
+    ] }
+  ],
+  "steps": [
+    {"text": "Cook the shrimp in simmering water until pink and opaque, {time 2-3 min}. Drain, cool and halve each one lengthwise.", "uses": ["shrimp"]},
+    {"text": "Soak or boil the rice noodles as the package says, usually {time 3-4 min}, then rinse under cold water and drain well.", "uses": ["noodles"]},
+    {"text": "Whisk the peanut butter, hoisin, lime juice and sriracha with 3 to 4 tbsp warm water until smooth and dippable.", "uses": ["pb", "hoisin", "lime", "sriracha"]},
+    {"text": "Dip one rice paper wrapper in warm water for a few seconds until just pliable, then lay it on a damp board. It keeps softening as you work.", "uses": ["wrappers"]},
+    {"text": "Lay 3 shrimp halves cut side up across the middle, then a lettuce piece, a small bundle of noodles, carrot, cucumber and herbs. Fold the bottom over, fold in the sides and roll up snugly. Repeat.", "uses": ["lettuce", "carrot", "cucumber", "mint", "cilantro"]},
+    {"text": "Serve right away with the dipping sauce, or cover with a damp towel for up to {time 2 hr notimer}.", "uses": []}
+  ],
+  "notes": [
+    "For a vegan version, use strips of pan-fried tofu instead of shrimp; the sauce is already vegan if your hoisin is.",
+    "Rolls stick to each other; keep them apart on the plate."
+  ]
+}

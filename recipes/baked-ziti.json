@@ -1,0 +1,41 @@
+{
+  "id": "baked-ziti",
+  "title": "Baked Ziti",
+  "description": "Ziti tossed in a tomato sauce with pockets of creamy ricotta, then baked under a blanket of melted mozzarella until bubbling.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "freezer-friendly", "baking"],
+  "equipment": ["Large pot", "Large skillet", "{len 9x13 in} baking dish"],
+  "image": {"file": "baked-ziti.svg", "alt": "A baking dish of baked ziti with melted cheese on top"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "pasta", "amount": "1", "unit": "lb", "item": "ziti or penne", "key": "short pasta"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "28 oz", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+    {"id": "sauce", "amount": "1", "unit": "can", "size": "15 oz", "item": "tomato sauce", "key": "canned tomato sauce"},
+    {"id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "ricotta", "amount": "1 1/2", "unit": "cup", "item": "whole-milk ricotta", "key": "ricotta"},
+    {"id": "parm", "amount": "1/2", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated", "note": "divided"},
+    {"id": "basil", "amount": "1/4", "unit": "cup", "item": "fresh basil", "key": "fresh basil", "prep": "chopped"},
+    {"id": "mozz", "amount": "12", "unit": "oz", "item": "low-moisture mozzarella", "key": "mozzarella cheese", "prep": "shredded"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 375F oven}. Cook the pasta in salted boiling water for 2 minutes less than the package says, then drain.", "uses": ["pasta"]},
+    {"text": "Heat the oil in the skillet over medium heat. Cook the onion until soft, {time 6 min}, then add the garlic for {time 1 min}. Add the crushed tomatoes, tomato sauce, oregano and salt and simmer for {time 10 min}.", "uses": ["oil", "onion", "garlic", "tomatoes", "sauce", "oregano", "salt"]},
+    {"text": "Mix the ricotta with half the grated cheese and the basil.", "uses": ["ricotta", "parm", "basil"]},
+    {"text": "Toss the pasta with most of the sauce. Spread half in the baking dish, dot with spoonfuls of the ricotta mixture and a third of the mozzarella, then add the rest of the pasta and spoon over the remaining sauce.", "uses": ["mozz"]},
+    {"text": "Top with the rest of the mozzarella and grated cheese. Bake until bubbling and browned in spots, {time 25-30 min}. Rest for {time 10 min} before serving.", "uses": []}
+  ],
+  "notes": [
+    "Add a pound of browned Italian sausage to the sauce for a meaty version.",
+    "Assemble ahead and refrigerate up to 2 days, or freeze for 3 months."
+  ]
+}

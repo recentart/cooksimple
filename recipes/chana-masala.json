@@ -1,0 +1,45 @@
+{
+  "id": "chana-masala",
+  "title": "Chana Masala",
+  "description": "A tangy, spiced chickpea curry simmered with onions, tomatoes, ginger and garam masala. Vegan, filling and ready in 40 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "Indian",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "freezer-friendly", "make-ahead"],
+  "equipment": ["Large deep skillet or pot"],
+  "image": {"file": "chana-masala.svg", "alt": "A bowl of chickpeas in a spiced tomato sauce with cilantro and lemon"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "cumin seeds", "key": "cumin seeds"},
+    {"id": "onion", "amount": "1", "item": "large yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+    {"id": "chile", "amount": "1", "item": "green chile or jalapeño", "key": "jalapeños", "prep": "minced"},
+    {"id": "coriander", "amount": "2", "unit": "tsp", "item": "ground coriander", "key": "ground coriander"},
+    {"id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric"},
+    {"id": "cayenne", "amount": "1/4", "unit": "tsp", "item": "cayenne pepper", "key": "cayenne pepper"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+    {"id": "chickpeas", "amount": "2", "unit": "can", "size": "15 oz", "item": "chickpeas", "key": "canned chickpeas", "prep": "drained and rinsed"},
+    {"id": "water", "amount": "1", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "garam", "amount": "1", "unit": "tsp", "item": "garam masala", "key": "garam masala"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the pan over medium heat. Add the cumin seeds and let them sizzle for {time 30 sec}, then add the onion and cook until deep golden, {time 10-12 min}.", "uses": ["oil", "cumin", "onion"]},
+    {"text": "Add the garlic, ginger and chile and stir for {time 1 min}. Stir in the coriander, turmeric and cayenne for {time 30 sec}.", "uses": ["garlic", "ginger", "chile", "coriander", "turmeric", "cayenne"]},
+    {"text": "Add the tomatoes and cook, mashing, until they break down and the oil starts to separate at the edges, {time 5-6 min}.", "uses": ["tomatoes"]},
+    {"text": "Add the chickpeas, water and salt. Simmer until thick, {time 10-12 min}, mashing some chickpeas to thicken the sauce.", "uses": ["chickpeas", "water", "salt"]},
+    {"text": "Stir in the garam masala and lemon juice, taste for salt and scatter with cilantro. Serve with rice or flatbread.", "uses": ["garam", "lemon", "cilantro"]}
+  ],
+  "notes": [
+    "Taking the onions to deep golden brown gives the sauce its rich color and flavor.",
+    "Keeps 4 days in the fridge; freezes for 3 months."
+  ]
+}

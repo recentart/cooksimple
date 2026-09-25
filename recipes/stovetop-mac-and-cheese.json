@@ -1,0 +1,38 @@
+{
+  "id": "stovetop-mac-and-cheese",
+  "title": "Stovetop Mac and Cheese",
+  "description": "Ultra-creamy macaroni and cheese made in one pot on the stove with a quick cheddar sauce. Ready in about 25 minutes.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "side"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Large pot"],
+  "image": {"file": "stovetop-mac-and-cheese.svg", "alt": "A bowl of creamy macaroni and cheese"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "pasta", "amount": "1", "unit": "lb", "item": "elbow macaroni", "key": "short pasta"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "flour", "amount": "1/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "milk", "amount": "3", "unit": "cup", "item": "whole milk", "key": "whole milk", "prep": "warmed"},
+    {"id": "mustard", "amount": "1", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "paprika", "amount": "1/4", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika"},
+    {"id": "cheddar", "amount": "3", "unit": "cup", "item": "sharp cheddar", "key": "cheddar cheese", "prep": "shredded"},
+    {"id": "jack", "amount": "1", "unit": "cup", "item": "Monterey Jack cheese", "key": "monterey jack cheese", "prep": "shredded"}
+  ],
+  "steps": [
+    {"text": "Cook the macaroni in a big pot of salted boiling water until just al dente. Drain and set aside.", "uses": ["pasta"]},
+    {"text": "In the same pot, melt the butter over medium heat. Whisk in the flour and cook for {time 1 min} without letting it brown.", "uses": ["butter", "flour"]},
+    {"text": "Slowly whisk in the warm milk. Simmer, whisking, until thick enough to coat a spoon, {time 4-5 min}. Whisk in the mustard, salt and paprika.", "uses": ["milk", "mustard", "salt", "paprika"]},
+    {"text": "Take the pot off the heat and stir in the cheeses a handful at a time until melted and smooth.", "uses": ["cheddar", "jack"]},
+    {"text": "Add the macaroni and stir until coated. Loosen with a splash of milk if needed and serve right away.", "uses": []}
+  ],
+  "notes": [
+    "For baked mac and cheese, spread it in a buttered dish, top with buttered breadcrumbs and bake at 375°F for 20 minutes.",
+    "Grate your own cheese; pre-shredded cheese can make the sauce grainy."
+  ]
+}

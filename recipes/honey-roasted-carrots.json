@@ -1,0 +1,34 @@
+{
+  "id": "honey-roasted-carrots",
+  "title": "Honey Roasted Carrots",
+  "description": "Carrots roasted until tender and caramelized, glazed with honey, butter and thyme and finished with a squeeze of lemon.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Rimmed baking sheet"],
+  "image": {"file": "honey-roasted-carrots.svg", "alt": "Whole roasted carrots glazed with honey and thyme"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "carrots", "amount": "2", "unit": "lb", "item": "carrots", "key": "carrots", "prep": "peeled and halved lengthwise if thick"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "honey", "amount": "2", "unit": "tbsp", "item": "honey", "key": "honey"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"},
+    {"id": "thyme", "amount": "4", "unit": "sprig", "item": "fresh thyme", "key": "fresh thyme"},
+    {"id": "lemon", "amount": "1", "unit": "tsp", "item": "fresh lemon juice", "key": "lemon juice"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Toss the carrots with the oil and salt on the baking sheet and spread them out.", "uses": ["carrots", "oil", "salt"]},
+    {"text": "Roast until tender and browned in spots, {time 20-25 min}, turning once.", "uses": []},
+    {"text": "Mix the honey and melted butter, drizzle it over the carrots, add the thyme and toss. Roast until glazed and sticky, {time 5 min}.", "uses": ["honey", "butter", "thyme"]},
+    {"text": "Squeeze the lemon juice over and serve.", "uses": ["lemon"]}
+  ],
+  "notes": [
+    "Use maple syrup instead of honey and oil instead of butter for a vegan version."
+  ]
+}

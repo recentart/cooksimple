@@ -1,0 +1,48 @@
+{
+  "id": "vanilla-cupcakes",
+  "title": "Vanilla Cupcakes",
+  "description": "Light, tender vanilla cupcakes with a fluffy vanilla buttercream. Simple, reliable, and easy to decorate for any occasion.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "cupcakes",
+  "scaleOptions": [12,24],
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "totalMinutes": 100,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["12-cup muffin tin", "Paper liners", "Hand or stand mixer"],
+  "image": {"file": "vanilla-cupcakes.svg", "alt": "Three vanilla cupcakes with swirled frosting and sprinkles"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the cupcakes", "items": [
+      {"id": "flour", "amount": "1 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "bp", "amount": "1 1/2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+      {"id": "sugar", "amount": "3/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole", "note": "at room temperature"},
+      {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+      {"id": "milk", "amount": "1/2", "unit": "cup", "item": "whole milk", "key": "whole milk", "note": "at room temperature"}
+    ] },
+    { "group": "For the buttercream", "items": [
+      {"id": "fbutter", "amount": "10", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+      {"id": "powdered", "amount": "2 1/2", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar"},
+      {"id": "cream", "amount": "2", "unit": "tbsp", "item": "heavy cream or milk", "key": "heavy cream"},
+      {"id": "fvanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+      {"id": "fsalt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven} and line the muffin tin. Whisk the flour, baking powder and salt.", "uses": ["flour", "bp", "salt"]},
+    {"text": "Beat the butter and sugar until pale and fluffy, {time 3 min}. Beat in the eggs one at a time, then the vanilla.", "uses": ["butter", "sugar", "eggs", "vanilla"]},
+    {"text": "On low speed, add the flour mixture in three parts, alternating with the milk, mixing just until smooth.", "uses": ["milk"]},
+    {"text": "Fill the liners two-thirds full and bake until the tops spring back and a toothpick comes out clean, {time 18-20 min}. Cool completely on a rack.", "uses": []},
+    {"text": "Beat the butter until creamy, then beat in the powdered sugar, cream, vanilla and salt until light and fluffy, {time 3 min}. Pipe or spread onto the cooled cupcakes.", "uses": ["fbutter", "powdered", "cream", "fvanilla", "fsalt"]}
+  ],
+  "notes": [
+    "Room-temperature eggs and milk blend smoothly into the butter; cold ones can make the batter look curdled."
+  ]
+}

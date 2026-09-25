@@ -1,0 +1,33 @@
+{
+  "id": "pico-de-gallo",
+  "title": "Pico de Gallo",
+  "description": "A fresh, crunchy salsa of chopped tomato, onion, jalapeño, cilantro and lime. Great with chips, tacos, eggs and grilled meat.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "cuisine": "Mexican",
+  "mealTypes": ["snack", "side"],
+  "diets": ["vegan"],
+  "tags": ["no-cook"],
+  "equipment": ["Cutting board", "Bowl"],
+  "image": {"file": "pico-de-gallo.svg", "alt": "A bowl of pico de gallo with tomato, onion and cilantro, with chips"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tomatoes", "amount": "1 1/2", "unit": "lb", "item": "ripe tomatoes", "key": "tomatoes", "note": "Roma hold their shape best"},
+    {"id": "onion", "amount": "1/2", "item": "white onion", "key": "white onions"},
+    {"id": "jalapenos", "amount": "1", "item": "jalapeño", "key": "jalapeños", "note": "or 2 for more heat"},
+    {"id": "cilantro", "amount": "1/2", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"},
+    {"id": "lime", "amount": "2", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+  ],
+  "steps": [
+    {"text": "Core and dice the tomatoes into small, even pieces. Finely chop the onion and seed and mince the jalapeño.", "uses": ["tomatoes", "onion", "jalapenos"]},
+    {"text": "Mix everything with the cilantro, lime juice and salt.", "uses": ["cilantro", "lime", "salt"]},
+    {"text": "Let it stand for {time 15 min} so the flavors mingle, then stir and taste for salt. Serve with a slotted spoon.", "uses": []}
+  ],
+  "notes": [
+    "Rinsing the chopped onion in cold water tames its bite.",
+    "Best the day it’s made; it turns watery as it sits."
+  ]
+}

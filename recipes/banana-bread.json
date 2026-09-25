@@ -1,0 +1,43 @@
+{
+  "id": "banana-bread",
+  "title": "Banana Bread",
+  "description": "Moist, tender banana bread made with very ripe bananas, brown sugar and melted butter, stirred together in a single bowl.",
+  "added": "2026-09-25",
+  "servings": 10,
+  "servingsLabel": "slices",
+  "scaleOptions": [10,20],
+  "scaleNote": "Bake a double batch as two loaves rather than one big one, so the center cooks through.",
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "totalMinutes": 105,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "snack", "dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["{len 9x5 in} loaf pan"],
+  "image": {"file": "banana-bread.svg", "alt": "A loaf of banana bread with slices cut"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "bananas", "amount": "3", "item": "very ripe banana", "key": "bananas", "note": "about {qty 1 1/2 cup} mashed"},
+    {"id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"},
+    {"id": "sugar", "amount": "2/3", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "soda", "amount": "1", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "cinnamon", "amount": "1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "flour", "amount": "1 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled"},
+    {"id": "nuts", "amount": "1/2", "unit": "cup", "item": "walnuts or pecans", "key": "walnuts", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven} with a rack in the middle. Grease the loaf pan and line the bottom and long sides with a strip of parchment.", "uses": []},
+    {"text": "Mash the bananas in a large bowl with a fork until mostly smooth. Stir in the melted butter, brown sugar, eggs and vanilla until well combined.", "uses": ["bananas", "butter", "sugar", "eggs", "vanilla"]},
+    {"text": "Sprinkle the baking soda, salt and cinnamon over the batter and stir them in thoroughly. Add the flour and fold just until no dry streaks remain, then fold in the nuts.", "uses": ["soda", "salt", "cinnamon", "flour", "nuts"]},
+    {"text": "Scrape the batter into the pan and smooth the top. Bake until deep golden and a toothpick in the center comes out clean or with a few moist crumbs, {time 55-65 min}. Cover loosely with foil after 40 minutes if the top is browning fast.", "uses": []},
+    {"text": "Cool in the pan for {time 15 min}, then lift the loaf out and let it cool on a rack for at least {time 30 min notimer} before slicing.", "uses": []}
+  ],
+  "notes": [
+    "The riper the bananas, the sweeter and more fragrant the bread. Black-spotted or fully black skins are ideal.",
+    "Wrapped well, the loaf keeps for 3 days at room temperature. Freeze slices with parchment between them for up to 3 months."
+  ]
+}

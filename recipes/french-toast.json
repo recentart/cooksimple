@@ -1,0 +1,40 @@
+{
+  "id": "french-toast",
+  "title": "French Toast",
+  "description": "Thick slices of brioche soaked in a cinnamon-vanilla custard and cooked in butter until crisp outside and soft in the middle.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Large nonstick skillet or griddle", "Shallow dish"],
+  "image": {"file": "french-toast.svg", "alt": "Slices of golden French toast with berries and syrup"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "milk", "amount": "1", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "sugar", "amount": "1", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "cinnamon", "amount": "1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"},
+    {"id": "bread", "amount": "8", "unit": "slice", "item": "brioche or challah", "key": "brioche", "prep": "about {len 3/4 in} thick, a day or two old"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "for the pan"},
+    {"id": "syrup", "amount": "1/2", "unit": "cup", "item": "maple syrup", "key": "maple syrup", "prep": "for serving", "optional": true},
+    {"id": "berries", "amount": "1", "unit": "cup", "item": "fresh berries", "key": "mixed berries", "prep": "for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 200F oven} so you can keep finished slices warm. Whisk the eggs, milk, sugar, vanilla, cinnamon and salt in the shallow dish until no streaks of egg remain.", "uses": ["eggs", "milk", "sugar", "vanilla", "cinnamon", "salt"]},
+    {"text": "Heat the skillet over medium heat and melt about a quarter of the butter in it.", "uses": ["butter"]},
+    {"text": "Lay two slices of bread in the custard and soak for {time 20 sec notimer} per side, until soaked through but not falling apart. Let the extra drip off.", "uses": ["bread"]},
+    {"text": "Cook the slices until deep golden underneath, {time 3 min}. Flip and cook the other side until golden and the center springs back when pressed, {time 2-3 min}.", "uses": []},
+    {"text": "Move the slices to a baking sheet in the warm oven. Repeat with the rest of the bread, adding butter to the pan each round and lowering the heat if the butter browns too fast.", "uses": []},
+    {"text": "Serve hot with maple syrup and berries.", "uses": ["syrup", "berries"]}
+  ],
+  "notes": [
+    "Slightly stale bread soaks up the custard without turning soggy. Fresh bread works if you shorten the soak.",
+    "Sandwich bread works too; it is thinner, so soak it only a few seconds per side."
+  ]
+}

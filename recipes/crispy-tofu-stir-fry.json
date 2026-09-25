@@ -1,0 +1,41 @@
+{
+  "id": "crispy-tofu-stir-fry",
+  "title": "Crispy Tofu Stir-Fry",
+  "description": "Cornstarch-crisped tofu tossed with broccoli, bell pepper and snap peas in a sticky garlic-ginger soy sauce. Vegan and quick.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Large nonstick skillet or wok"],
+  "image": {"file": "crispy-tofu-stir-fry.svg", "alt": "A wok of crispy tofu with broccoli, peppers and a glossy sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tofu", "amount": "1", "unit": "block", "size": "14 oz", "item": "extra-firm tofu", "key": "firm tofu", "prep": "drained, pressed and cut into cubes"},
+    {"id": "starch", "amount": "2", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "broccoli", "amount": "3", "unit": "cup", "item": "broccoli florets", "key": "broccoli"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "sliced"},
+    {"id": "peas", "amount": "1", "unit": "cup", "item": "snap peas", "key": "snow peas"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "minced"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "syrup", "amount": "2", "unit": "tbsp", "item": "maple syrup", "key": "maple syrup"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"},
+    {"id": "cornstarch", "amount": "1", "unit": "tsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "sesame", "amount": "1", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"}
+  ],
+  "steps": [
+    {"text": "Pat the tofu cubes very dry and toss them with the cornstarch until coated.", "uses": ["tofu", "starch"]},
+    {"text": "Heat 2 tbsp oil in the skillet over medium-high heat. Fry the tofu, turning every couple of minutes, until golden and crisp on most sides, {time 8-10 min}. Move to a plate.", "uses": ["oil"]},
+    {"text": "Stir the soy sauce, maple syrup, vinegar, 1 tsp cornstarch and {qty 1/4 cup} water in a small bowl.", "uses": ["soy", "syrup", "vinegar", "cornstarch"]},
+    {"text": "Add the rest of the oil and the broccoli with a splash of water and stir-fry for {time 2 min}. Add the pepper and snap peas for {time 2 min}, then the garlic and ginger for {time 30 sec}.", "uses": ["broccoli", "pepper", "peas", "garlic", "ginger"]},
+    {"text": "Pour in the sauce and stir until it thickens, {time 1 min}. Return the tofu, toss to coat, and finish with sesame oil. Serve with rice.", "uses": ["sesame"]}
+  ],
+  "notes": [
+    "Press the tofu between towels under a heavy pan for 15 minutes for the crispest result."
+  ]
+}

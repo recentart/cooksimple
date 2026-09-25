@@ -1,0 +1,42 @@
+{
+  "id": "buttermilk-biscuits",
+  "title": "Buttermilk Biscuits",
+  "description": "Tall, flaky buttermilk biscuits made with cold butter and a quick fold, ready in about 35 minutes from start to finish.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "servingsLabel": "biscuits",
+  "scaleOptions": [4,8,16],
+  "scaleNote": "A double batch fits on one large baking sheet if the biscuits just touch; bake times stay the same.",
+  "prepMinutes": 15,
+  "cookMinutes": 18,
+  "cuisine": "Southern",
+  "mealTypes": ["breakfast", "side"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["Baking sheet", "Parchment paper", "{len 2 1/2 in} round cutter or a sharp knife"],
+  "image": {"file": "buttermilk-biscuits.svg", "alt": "A pan of tall golden buttermilk biscuits"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "flour", "amount": "2 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled, plus more for the counter"},
+    {"id": "bp", "amount": "1", "unit": "tbsp", "item": "baking powder", "key": "baking powder"},
+    {"id": "soda", "amount": "1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "sugar", "amount": "1", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "10", "unit": "tbsp", "item": "cold unsalted butter", "key": "unsalted butter", "prep": "cut into small cubes"},
+    {"id": "buttermilk", "amount": "1", "unit": "cup", "item": "cold buttermilk", "key": "buttermilk", "note": "plus 1 to 2 tbsp for brushing"},
+    {"id": "melted", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted, for brushing", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 450F oven} with a rack in the upper-middle position. Line the baking sheet with parchment.", "uses": []},
+    {"text": "Whisk the flour, baking powder, baking soda, sugar and salt in a large bowl. Scatter in the cold butter and pinch it into the flour with your fingertips until the largest pieces are the size of peas.", "uses": ["flour", "bp", "soda", "sugar", "salt", "butter"]},
+    {"text": "Pour in the buttermilk and stir with a fork just until a shaggy dough forms. Some dry bits at the bottom are fine.", "uses": ["buttermilk"]},
+    {"text": "Tip the dough onto a floured counter and pat it into a rectangle about {len 1 in} thick. Fold it in thirds like a letter, pat it out again and repeat the fold twice more. The folds make the flaky layers.", "uses": []},
+    {"text": "Pat the dough {len 1 in} thick and cut straight down with the cutter, without twisting. Set the biscuits on the sheet so they just touch. Press the scraps together once and cut the rest.", "uses": []},
+    {"text": "Brush the tops with a little buttermilk and bake until tall and deep golden on top, {time 15-18 min}. Brush with melted butter as they come out, if you like.", "uses": ["melted"]}
+  ],
+  "notes": [
+    "Keep everything cold. If the butter softens while you work, chill the cut biscuits for {time 10 min notimer} before baking.",
+    "No buttermilk? Stir {qty 1 tbsp} lemon juice into {qty 1 cup} milk and let it stand for 5 minutes.",
+    "Biscuits are best warm. Freeze unbaked biscuits on a tray, then bag them; bake from frozen, adding a few minutes."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chicken-marsala",
+  "title": "Chicken Marsala",
+  "description": "Golden chicken cutlets in a savory mushroom and Marsala wine sauce finished with a little butter. A classic that takes 35 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet"],
+  "image": {"file": "chicken-marsala.svg", "alt": "Chicken cutlets in a mushroom Marsala sauce with parsley"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "2", "item": "large boneless, skinless chicken breast", "key": "chicken breasts", "note": "about {qty 1 1/2 lb}"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "flour", "amount": "1/3", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "mushrooms", "amount": "8", "unit": "oz", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "shallot", "amount": "1", "item": "shallot", "key": "shallots", "prep": "minced"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "marsala", "amount": "3/4", "unit": "cup", "item": "dry Marsala wine", "key": "marsala wine"},
+    {"id": "broth", "amount": "1/2", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Slice each breast horizontally into two thin cutlets and press them to an even thickness. Season with the salt and pepper and dredge in the flour.", "uses": ["chicken", "salt", "pepper", "flour"]},
+    {"text": "Heat the oil and 1 tbsp butter in the skillet over medium-high heat. Brown the cutlets in batches until golden and cooked through, {time 3 min} per side. Move to a plate.", "uses": ["oil", "butter"]},
+    {"text": "Add the mushrooms to the pan and cook without stirring until browned underneath, {time 3 min}, then stir and cook until tender, {time 3 min}. Add the shallot and garlic for {time 1 min}.", "uses": ["mushrooms", "shallot", "garlic"]},
+    {"text": "Pour in the Marsala and scrape up the browned bits. Simmer until reduced by half, {time 3-4 min}, then add the broth and simmer until slightly thickened, {time 3 min}.", "uses": ["marsala", "broth"]},
+    {"text": "Off the heat, swirl in the remaining butter. Return the chicken and turn it in the sauce, then scatter with parsley. Serve with mashed potatoes or pasta.", "uses": ["parsley"]}
+  ],
+  "notes": [
+    "Use dry Marsala, not sweet, for a savory sauce."
+  ]
+}

@@ -8,7 +8,8 @@ import { join, dirname, relative } from 'node:path';
 import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { loadAll, ROOT } from './lib/recipes.mjs';
-import { homePage, recipePage, searchPage, discoverPage, shoppingPage, allRecipesPage, aboutPage, notFoundPage } from '../src/templates/pages.js';
+import { homePage, recipePage, searchPage, discoverPage, shoppingPage, allRecipesPage, aboutPage, notFoundPage, searchEntry, clientRecipe } from '../src/templates/pages.js';
+import { collectionsIndexPage, collectionPage, savedPage, plannerPage, offlinePage, collectionRecipes, MIN_COLLECTION } from '../src/templates/extra-pages.js';
 
 const HEAD_SCRIPT = "document.documentElement.classList.add('js');try{if(localStorage.getItem('cs-units')==='metric')document.documentElement.setAttribute('data-units','metric')}catch(e){}";
 
@@ -51,7 +52,20 @@ export function build(outDir) {
   // Client code is served from a folder named after a hash of its contents,
   // so it can be cached forever and every deploy busts the cache.
   const clientDirs = ['src/lib', 'src/client', 'src/styles'];
+  const photosFile = join(ROOT, 'data', 'photos.json');
+  const photos = existsSync(photosFile) ? JSON.parse(readFileSync(photosFile, 'utf8')) : {};
+  for (const id of Object.keys(photos)) if (!existsSync(join(ROOT, 'src', 'photos', `${id}.jpg`))) throw new Error(`photos.json lists ${id} but src/photos/${id}.jpg is missing`);
+
+  // Data the browser fetches: the search index, a small vocabulary for
+  // "What can I make?", and one file per recipe (meal planner -> shopping list).
+  const usedKeys = new Set(recipes.flatMap((r) => r.ingredients.map((i) => i.key)));
+  const miniVocab = {};
+  for (const k of [...usedKeys].sort()) miniVocab[k] = { one: vocab[k].one, family: vocab[k].family, syn: vocab[k].syn, pantry: vocab[k].pantry };
+  const dataFiles = { 'index.json': JSON.stringify(recipes.map((r) => searchEntry(r, vocab))), 'vocab.json': JSON.stringify(miniVocab) };
+  for (const r of recipes) dataFiles[`r/${r.id}.json`] = JSON.stringify(clientRecipe(r, site));
+
   const hash = createHash('sha256');
+  for (const [name, content] of Object.entries(dataFiles)) hash.update(name).update(content);
   for (const d of clientDirs) for (const f of walk(join(ROOT, d))) hash.update(relative(ROOT, f).replace(/\\/g, '/')).update(readFileSync(f, 'utf8').replace(/\r\n/g, '\n'));
   const assetHash = hash.digest('hex').slice(0, 10);
   const assets = `/assets/${assetHash}`;
@@ -62,8 +76,14 @@ export function build(outDir) {
   copyTree(join(ROOT, 'src', 'illustrations'), join(outDir, 'images', 'recipes'), (f) => f.endsWith('.svg'));
   copyTree(join(ROOT, 'src', 'images'), join(outDir, 'images'));
   copyTree(join(ROOT, 'src', 'static'), outDir);
+  copyTree(join(ROOT, 'src', 'photos'), join(outDir, 'images', 'photos'), (f) => f.endsWith('.jpg'));
+  for (const [name, content] of Object.entries(dataFiles)) write(join(outDir, 'assets', assetHash, 'data', name), content);
 
-  const ctx = { site, vocab, recipes, assets, headScript: HEAD_SCRIPT };
+  const collections = JSON.parse(readFileSync(join(ROOT, 'data', 'collections.json'), 'utf8'))
+    .map((c) => ({ ...c, recipes: collectionRecipes(c, recipes) }))
+    .filter((c) => c.recipes.length >= MIN_COLLECTION);
+
+  const ctx = { site, vocab, recipes, assets, headScript: HEAD_SCRIPT, photos, collections };
   const pages = {
     'index.html': homePage(ctx),
     'search/index.html': searchPage(ctx),
@@ -72,7 +92,12 @@ export function build(outDir) {
     'recipes/index.html': allRecipesPage(ctx),
     'about/index.html': aboutPage(ctx),
     '404.html': notFoundPage(ctx),
+    'collections/index.html': collectionsIndexPage(ctx),
+    'saved/index.html': savedPage(ctx),
+    'meal-planner/index.html': plannerPage(ctx),
+    'offline/index.html': offlinePage(ctx),
   };
+  for (const c of collections) pages[`collections/${c.slug}/index.html`] = collectionPage(ctx, c);
   for (const r of recipes) pages[`recipes/${r.id}/index.html`] = recipePage(ctx, r);
   for (const [path, content] of Object.entries(pages)) write(join(outDir, path), String(content));
 
@@ -84,6 +109,8 @@ export function build(outDir) {
     ['/what-can-i-make/', latest],
     ['/recipes/', latest],
     ['/about/', latest],
+    ['/collections/', latest],
+    ...collections.map((c) => [`/collections/${c.slug}/`, c.recipes.map((r) => r.added).sort().at(-1)]),
     ...recipes.map((r) => [`/recipes/${r.id}/`, r.added]),
   ];
   write(
@@ -110,6 +137,9 @@ export function build(outDir) {
 
 /images/*
   Cache-Control: public, max-age=86400
+
+/sw.js
+  Cache-Control: no-cache
 `,
   );
 
@@ -135,6 +165,13 @@ export function build(outDir) {
       2,
     ) + '\n',
   );
+
+  // Service worker for offline use: core pages and this build's assets are
+  // cached on install; recipe pages are cached as they are visited or saved.
+  const core = ['/', '/offline/', '/search/', '/saved/', '/meal-planner/', '/shopping-list/', '/what-can-i-make/', '/collections/', '/favicon.svg', '/manifest.webmanifest'];
+  const assetFiles = walk(join(outDir, 'assets', assetHash)).map((f) => '/' + relative(outDir, f).replace(/\\/g, '/')).filter((f) => !f.includes('/data/r/'));
+  const sw = readFileSync(join(ROOT, 'src', 'sw-template.js'), 'utf8').replace('__VERSION__', assetHash).replace('__PRECACHE__', JSON.stringify([...core, ...assetFiles]));
+  write(join(outDir, 'sw.js'), sw);
 
   return { recipes: recipes.length, pages: Object.keys(pages).length, assetHash, warnings: warnings.length };
 }

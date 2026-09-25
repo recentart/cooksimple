@@ -1,0 +1,46 @@
+{
+  "id": "spaghetti-bolognese",
+  "title": "Spaghetti Bolognese",
+  "description": "A rich, slow-simmered meat sauce of beef, pork, tomato, milk and a splash of wine, tossed with spaghetti and Parmesan.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 120,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Large heavy pot", "Large pot for pasta"],
+  "image": {"file": "spaghetti-bolognese.svg", "alt": "A plate of spaghetti topped with meaty bolognese sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+    {"id": "carrot", "amount": "1", "item": "carrot", "key": "carrots", "prep": "finely chopped"},
+    {"id": "celery", "amount": "1", "unit": "stalk", "item": "celery", "key": "celery", "prep": "finely chopped"},
+    {"id": "beef", "amount": "1", "unit": "lb", "item": "ground beef", "key": "ground beef"},
+    {"id": "pork", "amount": "8", "unit": "oz", "item": "ground pork", "key": "ground pork"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "wine", "amount": "1/2", "unit": "cup", "item": "dry white or red wine", "key": "dry white wine"},
+    {"id": "milk", "amount": "3/4", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "28 oz", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+    {"id": "nutmeg", "amount": "1", "unit": "pinch", "item": "ground nutmeg", "key": "ground nutmeg"},
+    {"id": "water", "amount": "16", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "pastasalt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "It seasons the pasta water, which stays the same amount."},
+    {"id": "pasta", "amount": "1", "unit": "lb", "item": "spaghetti or tagliatelle", "key": "spaghetti"},
+    {"id": "parm", "amount": "1/2", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "grated, for serving"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the heavy pot over medium heat. Cook the onion, carrot and celery until very soft and lightly golden, {time 10 min}.", "uses": ["oil", "onion", "carrot", "celery"]},
+    {"text": "Turn the heat up to medium-high, add the beef, pork and salt and cook, breaking up the meat, until it loses its pink color, {time 6-8 min}. Stir in the tomato paste for {time 1 min}.", "uses": ["beef", "pork", "salt", "paste"]},
+    {"text": "Pour in the wine and simmer until it evaporates, {time 3 min}. Add the milk and simmer until it’s mostly absorbed, {time 5 min}. The milk makes the meat tender.", "uses": ["wine", "milk"]},
+    {"text": "Stir in the tomatoes and nutmeg, bring to a bare simmer and cook uncovered, stirring now and then, for {time 1 hr 30 min}. Add a splash of water if it gets too thick before then.", "uses": ["tomatoes", "nutmeg"]},
+    {"text": "Near the end, bring the water and pasta salt to a boil and cook the pasta until al dente. Save {qty 1/2 cup fixed} of the water, then drain.", "uses": ["water", "pastasalt", "pasta"]},
+    {"text": "Toss the pasta with about two-thirds of the sauce and a splash of pasta water until coated. Serve topped with the rest of the sauce and Parmesan.", "uses": ["parm"]}
+  ],
+  "notes": [
+    "The sauce keeps 4 days in the fridge and freezes for 3 months, so it’s worth making a double batch.",
+    "A long, gentle simmer is what makes it rich and velvety."
+  ]
+}

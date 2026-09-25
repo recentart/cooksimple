@@ -1,0 +1,35 @@
+{
+  "id": "smashed-cucumber-salad",
+  "title": "Smashed Cucumber Salad",
+  "description": "Cucumbers smashed and tossed with garlic, rice vinegar, soy sauce, sesame oil and chili. Crunchy, tangy and ready in 15 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "cuisine": "Chinese",
+  "mealTypes": ["side"],
+  "diets": ["vegan"],
+  "tags": ["no-cook"],
+  "image": {"file": "smashed-cucumber-salad.svg", "alt": "A bowl of smashed cucumbers in a glossy garlic chili dressing"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "cucumbers", "amount": "2", "item": "English cucumber", "key": "cucumbers"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "sugar", "amount": "1", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+    {"id": "vinegar", "amount": "1 1/2", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"},
+    {"id": "soy", "amount": "1", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "sesame", "amount": "2", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "flakes", "amount": "1/2", "unit": "tsp", "item": "red pepper flakes or chili crisp", "key": "red pepper flakes"},
+    {"id": "seeds", "amount": "1", "unit": "tsp", "item": "sesame seeds", "key": "sesame seeds"}
+  ],
+  "steps": [
+    {"text": "Lay the cucumbers on a board and whack them firmly along their length with the flat of a big knife or a rolling pin until they split. Cut into bite-size chunks.", "uses": ["cucumbers"]},
+    {"text": "Toss the cucumbers with the salt and sugar in a colander and let them drain for {time 10 min}.", "uses": ["salt", "sugar"]},
+    {"text": "Mix the garlic, vinegar, soy sauce, sesame oil and pepper flakes in a bowl.", "uses": ["garlic", "vinegar", "soy", "sesame", "flakes"]},
+    {"text": "Shake off the cucumber liquid, toss the cucumbers in the dressing and sprinkle with sesame seeds. Serve soon, while still crunchy.", "uses": ["seeds"]}
+  ],
+  "notes": [
+    "Smashing makes rough edges that soak up more dressing than neat slices."
+  ]
+}

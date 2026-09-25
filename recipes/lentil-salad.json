@@ -1,0 +1,39 @@
+{
+  "id": "lentil-salad",
+  "title": "French Lentil Salad",
+  "description": "Firm green lentils tossed warm with a mustardy shallot vinaigrette, crunchy vegetables, parsley and a little feta.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "cuisine": "French",
+  "mealTypes": ["lunch", "side"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Medium saucepan"],
+  "image": {"file": "lentil-salad.svg", "alt": "A bowl of green lentils with diced vegetables and herbs"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "lentils", "amount": "1", "unit": "cup", "item": "green or French lentils", "key": "green lentils", "prep": "rinsed"},
+    {"id": "bay", "amount": "1", "item": "bay leaf", "key": "bay leaves", "plural": "bay leaves"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "shallot", "amount": "1", "item": "shallot", "key": "shallots", "prep": "finely chopped"},
+    {"id": "vinegar", "amount": "3", "unit": "tbsp", "item": "red wine vinegar", "key": "red wine vinegar"},
+    {"id": "mustard", "amount": "2", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil"},
+    {"id": "carrot", "amount": "1", "item": "carrot", "key": "carrots", "prep": "finely diced"},
+    {"id": "celery", "amount": "1", "unit": "stalk", "item": "celery", "key": "celery", "prep": "finely diced"},
+    {"id": "parsley", "amount": "1/2", "unit": "cup", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"},
+    {"id": "feta", "amount": "1/2", "unit": "cup", "item": "feta cheese", "key": "feta cheese", "prep": "crumbled", "optional": true}
+  ],
+  "steps": [
+    {"text": "Put the lentils and bay leaf in the saucepan and cover with water by {len 2 in}. Bring to a boil, then simmer until tender but still holding their shape, {time 20-25 min}. Stir in half the salt for the last {time 5 min notimer}.", "uses": ["lentils", "bay", "salt"]},
+    {"text": "While the lentils cook, whisk the shallot, vinegar, mustard and the rest of the salt in a large bowl and let it stand so the shallot mellows. Whisk in the oil.", "uses": ["shallot", "vinegar", "mustard", "oil"]},
+    {"text": "Drain the lentils well, discard the bay leaf, and add them to the dressing while still warm. Toss and let them soak it up for {time 10 min}.", "uses": []},
+    {"text": "Fold in the carrot, celery and parsley, taste for salt and top with feta. Serve warm or at room temperature.", "uses": ["carrot", "celery", "parsley", "feta"]}
+  ],
+  "notes": [
+    "French (Puy) lentils hold their shape best. Red lentils won’t work here; they turn to mush.",
+    "Keeps for 4 days in the fridge, which makes it a good make-ahead lunch."
+  ]
+}

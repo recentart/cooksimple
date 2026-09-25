@@ -1,0 +1,39 @@
+{
+  "id": "peach-cobbler",
+  "title": "Peach Cobbler",
+  "description": "Juicy cinnamon peaches baked under a buttery, golden batter topping that rises up around the fruit. Serve warm with ice cream.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "cuisine": "Southern",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["{len 9x13 in} baking dish"],
+  "image": {"file": "peach-cobbler.svg", "alt": "A baking dish of peach cobbler with golden biscuit topping"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "peaches", "amount": "2", "unit": "lb", "item": "sliced peaches", "key": "peaches", "note": "fresh or frozen (thawed)"},
+    {"id": "psugar", "amount": "1/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "cinnamon", "amount": "1", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "flour", "amount": "1", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "sugar", "amount": "3/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "bp", "amount": "2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "milk", "amount": "1", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven}. Put the butter in the baking dish and set it in the oven until melted, {time 5 min}.", "uses": ["butter"]},
+    {"text": "Toss the peaches with the sugar, cinnamon and lemon juice.", "uses": ["peaches", "psugar", "cinnamon", "lemon"]},
+    {"text": "Whisk the flour, sugar, baking powder and salt, then whisk in the milk and vanilla until smooth.", "uses": ["flour", "sugar", "bp", "salt", "milk", "vanilla"]},
+    {"text": "Pour the batter evenly over the melted butter; don’t stir. Spoon the peaches and their juice over the batter; don’t stir again.", "uses": []},
+    {"text": "Bake until the topping is puffed and golden and the fruit bubbles at the edges, {time 40-45 min}. Cool for {time 15 min} before serving.", "uses": []}
+  ],
+  "notes": [
+    "The batter rises up through the fruit as it bakes; that’s what makes the cobbler’s crisp edges and soft middle."
+  ]
+}

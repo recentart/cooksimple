@@ -1,0 +1,44 @@
+{
+  "id": "chicken-tortilla-soup",
+  "title": "Chicken Tortilla Soup",
+  "description": "A brothy, smoky chicken soup with tomatoes, black beans and corn, topped with crisp tortilla strips, avocado, lime and cilantro.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "cuisine": "Mexican",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": [],
+  "tags": ["freezer-friendly"],
+  "equipment": ["Large pot", "Baking sheet"],
+  "image": {"file": "chicken-tortilla-soup.svg", "alt": "A bowl of red tortilla soup topped with tortilla strips, avocado and lime"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tortillas", "amount": "6", "item": "corn tortilla", "key": "corn tortillas", "prep": "cut into thin strips"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "jalapeno", "amount": "1", "item": "jalapeño", "key": "jalapeños", "prep": "seeded and minced"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "chili", "amount": "2", "unit": "tsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+    {"id": "broth", "amount": "6", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "chicken", "amount": "1 1/4", "unit": "lb", "item": "boneless, skinless chicken breasts", "key": "chicken breasts"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "beans", "amount": "1", "unit": "can", "size": "15 oz", "item": "black beans", "key": "canned black beans", "prep": "drained and rinsed"},
+    {"id": "corn", "amount": "1", "unit": "cup", "item": "frozen corn", "key": "frozen corn"},
+    {"id": "lime", "amount": "2", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "diced"},
+    {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven}. Toss the tortilla strips with 1 tbsp of the oil and a pinch of salt and bake until crisp and golden, {time 8-10 min}, stirring once.", "uses": ["tortillas", "oil"]},
+    {"text": "Heat the rest of the oil in the pot over medium heat. Cook the onion and jalapeño until soft, {time 5 min}. Add the garlic, cumin and chili powder and stir for {time 1 min}.", "uses": ["onion", "jalapeno", "garlic", "cumin", "chili"]},
+    {"text": "Add the tomatoes, broth, whole chicken breasts and salt. Bring to a boil, then simmer gently until the chicken reaches {temp 165F internal}, {time 15-20 min}.", "uses": ["tomatoes", "broth", "chicken", "salt"]},
+    {"text": "Lift out the chicken, shred it with two forks and return it to the pot with the beans and corn. Simmer for {time 5 min}.", "uses": ["beans", "corn"]},
+    {"text": "Stir in the lime juice and taste for salt. Serve topped with tortilla strips, avocado and cilantro.", "uses": ["lime", "avocado", "cilantro"]}
+  ],
+  "notes": [
+    "Freeze the soup without toppings for up to 3 months. Crisp fresh tortilla strips when you serve it."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "strawberry-shortcake",
+  "title": "Strawberry Shortcake",
+  "description": "Tender, lightly sweet cream biscuits split and piled with juicy sugared strawberries and softly whipped cream.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 25,
+  "cookMinutes": 16,
+  "totalMinutes": 70,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["Baking sheet", "Parchment paper", "Mixer or whisk"],
+  "image": {"file": "strawberry-shortcake.svg", "alt": "A split biscuit filled with strawberries and whipped cream"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the strawberries", "items": [
+      {"id": "berries", "amount": "2", "unit": "lb", "item": "strawberries", "key": "strawberries", "prep": "hulled and sliced"},
+      {"id": "bsugar", "amount": "1/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"}
+    ] },
+    { "group": "For the shortcakes", "items": [
+      {"id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "sugar", "amount": "3", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar", "note": "plus 1 tbsp for sprinkling"},
+      {"id": "bp", "amount": "1", "unit": "tbsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "butter", "amount": "6", "unit": "tbsp", "item": "cold unsalted butter", "key": "unsalted butter", "prep": "cubed"},
+      {"id": "scream", "amount": "3/4", "unit": "cup", "item": "heavy cream", "key": "heavy cream", "note": "plus more for brushing"}
+    ] },
+    { "group": "For the whipped cream", "items": [
+      {"id": "cream", "amount": "1", "unit": "cup", "item": "cold heavy cream", "key": "heavy cream"},
+      {"id": "powdered", "amount": "2", "unit": "tbsp", "item": "powdered sugar", "key": "powdered sugar"},
+      {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Toss the strawberries with the sugar and leave them to release their juices while you make the shortcakes, at least {time 20 min}.", "uses": ["berries", "bsugar"]},
+    {"text": "Heat the oven to {temp 425F oven} and line the baking sheet. Whisk the flour, sugar, baking powder and salt, then rub in the butter until it looks like coarse crumbs.", "uses": ["flour", "sugar", "bp", "salt", "butter"]},
+    {"text": "Stir in the cream with a fork until the dough just holds together. Pat it {len 3/4 in} thick and cut into {count 8} squares or rounds. Brush with cream and sprinkle with sugar.", "uses": ["scream"]},
+    {"text": "Bake until golden, {time 14-16 min}. Cool for {time 10 min}.", "uses": []},
+    {"text": "Whip the cream with the powdered sugar and vanilla to soft peaks. Split the shortcakes, fill with strawberries and their juice and a big spoonful of cream, and replace the tops.", "uses": ["cream", "powdered", "vanilla"]}
+  ],
+  "notes": [
+    "Assemble just before serving so the shortcakes stay crisp on the outside."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "tabbouleh",
+  "title": "Tabbouleh",
+  "description": "A bright, herb-heavy parsley salad with a little bulgur, tomato, cucumber, mint and a sharp lemon and olive oil dressing.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 0,
+  "totalMinutes": 40,
+  "cuisine": "Middle Eastern",
+  "mealTypes": ["lunch", "side"],
+  "diets": ["vegan"],
+  "tags": ["no-cook", "make-ahead"],
+  "image": {"file": "tabbouleh.svg", "alt": "A bowl of parsley and bulgur salad with tomato and mint"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "bulgur", "amount": "1/3", "unit": "cup", "item": "fine bulgur", "key": "bulgur"},
+    {"id": "lemon", "amount": "1/4", "unit": "cup", "item": "fresh lemon juice", "key": "lemon juice", "note": "divided"},
+    {"id": "parsley", "amount": "3", "unit": "bunch", "item": "flat-leaf parsley", "key": "fresh parsley", "prep": "leaves finely chopped", "note": "about {qty 3 cup} chopped"},
+    {"id": "mint", "amount": "1/2", "unit": "cup", "item": "fresh mint", "key": "fresh mint", "prep": "leaves finely chopped"},
+    {"id": "tomatoes", "amount": "3", "item": "tomato", "key": "tomatoes", "prep": "finely diced"},
+    {"id": "cucumber", "amount": "1/2", "item": "cucumber", "key": "cucumbers", "prep": "finely diced"},
+    {"id": "onions", "amount": "3", "item": "green onion", "key": "green onions", "prep": "thinly sliced"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil"}
+  ],
+  "steps": [
+    {"text": "Put the bulgur in a small bowl, pour over half the lemon juice and a tablespoon of water, and let it soften for {time 15 min} while you chop.", "uses": ["bulgur", "lemon"]},
+    {"text": "Chop the parsley and mint very finely with a sharp knife. Dry herbs chop cleanly; wet ones bruise, so dry them well after washing.", "uses": ["parsley", "mint"]},
+    {"text": "Put the herbs in a large bowl with the tomatoes, cucumber and green onions. Add the softened bulgur.", "uses": ["tomatoes", "cucumber", "onions"]},
+    {"text": "Dress with the rest of the lemon juice, the salt and the olive oil and toss well. Taste; it should be bright and lemony. Serve within a few hours.", "uses": ["salt", "oil"]}
+  ],
+  "notes": [
+    "Tabbouleh is a parsley salad with a little grain, not the other way around.",
+    "For a gluten-free version, swap the bulgur for cooked quinoa."
+  ]
+}

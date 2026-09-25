@@ -1,0 +1,35 @@
+{
+  "id": "baked-chicken-wings",
+  "title": "Crispy Baked Chicken Wings",
+  "description": "Oven-baked wings with properly crisp skin thanks to a little baking powder, tossed in buffalo sauce or served plain with lemon.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 50,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "snack"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Rimmed baking sheet", "Wire rack", "Foil"],
+  "image": {"file": "baked-chicken-wings.svg", "alt": "Crispy golden chicken wings on a sheet pan with celery and dip"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "wings", "amount": "3", "unit": "lb", "item": "chicken wings", "key": "chicken wings", "note": "flats and drums separated"},
+    {"id": "bp", "amount": "1", "unit": "tbsp", "item": "baking powder", "key": "baking powder", "note": "not baking soda"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "hot", "amount": "1/3", "unit": "cup", "item": "Louisiana-style hot sauce", "key": "hot sauce"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted"},
+    {"id": "celery", "amount": "4", "unit": "stalk", "item": "celery", "key": "celery", "prep": "cut into sticks, for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} with a rack in the upper-middle position. Line the baking sheet with foil and set the wire rack on top.", "uses": []},
+    {"text": "Pat the wings very dry with paper towels. Toss them in a large bowl with the baking powder, salt and garlic powder until evenly coated.", "uses": ["wings", "bp", "salt", "garlic"]},
+    {"text": "Arrange the wings on the rack in one layer without touching. Bake for {time 25 min}, flip them and bake until deep golden and crisp, {time 20-25 min} more.", "uses": []},
+    {"text": "Whisk the hot sauce and melted butter in a large bowl. Add the hot wings and toss to coat. Serve right away with celery sticks.", "uses": ["hot", "butter", "celery"]}
+  ],
+  "notes": [
+    "Baking powder raises the skin’s pH so it browns and crisps; use aluminum-free if you notice a metallic taste.",
+    "For plain wings, skip the buffalo sauce and squeeze over lemon with a pinch of flaky salt."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cottage-pie",
+  "title": "Cottage Pie",
+  "description": "Savory ground beef and vegetables in a rich gravy under a fluffy, golden mashed potato topping. British comfort food at its best.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 55,
+  "cuisine": "British",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Large pot", "Large skillet", "{len 9x13 in} or 3-quart baking dish"],
+  "image": {"file": "cottage-pie.svg", "alt": "A baking dish of cottage pie with a golden mashed potato top"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the topping", "items": [
+      {"id": "potatoes", "amount": "2 1/2", "unit": "lb", "item": "russet or Yukon Gold potatoes", "key": "russet potatoes", "prep": "peeled and cut into chunks"},
+      {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+      {"id": "milk", "amount": "1/2", "unit": "cup", "item": "whole milk", "key": "whole milk", "prep": "warm"},
+      {"id": "psalt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded", "optional": true}
+    ] },
+    { "group": "For the filling", "items": [
+      {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "beef", "amount": "1 1/2", "unit": "lb", "item": "ground beef", "key": "ground beef"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+      {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "diced"},
+      {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "flour", "amount": "2", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+      {"id": "broth", "amount": "1 1/2", "unit": "cup", "item": "beef broth", "key": "beef broth"},
+      {"id": "worcestershire", "amount": "1", "unit": "tbsp", "item": "Worcestershire sauce", "key": "worcestershire sauce"},
+      {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Cover the potatoes with cold salted water, bring to a boil and cook until very tender, {time 15-18 min}. Drain, return to the pot and mash with the butter, warm milk and salt until smooth.", "uses": ["potatoes", "butter", "milk", "psalt"]},
+    {"text": "Meanwhile heat the oven to {temp 400F oven}. Heat the oil in the skillet over medium-high heat and brown the beef, breaking it up, {time 6-8 min}. Spoon off excess fat.", "uses": ["oil", "beef"]},
+    {"text": "Add the onion and carrots and cook until softened, {time 6 min}. Stir in the garlic, flour and tomato paste for {time 1 min}.", "uses": ["onion", "carrots", "garlic", "flour", "paste"]},
+    {"text": "Stir in the broth, Worcestershire, thyme and salt and simmer until thick and gravy-like, {time 8-10 min}. Stir in the peas and spread the filling in the baking dish.", "uses": ["broth", "worcestershire", "thyme", "salt", "peas"]},
+    {"text": "Spoon the mash over the top, spread it to the edges and rough up the surface with a fork. Sprinkle with cheese, if using.", "uses": ["cheese"]},
+    {"text": "Bake until the filling bubbles at the edges and the top is golden, {time 20-25 min}. Rest for {time 10 min} before serving.", "uses": []}
+  ],
+  "notes": [
+    "Made with ground lamb instead of beef, it becomes shepherd’s pie.",
+    "Assemble ahead and refrigerate for up to 2 days, or freeze for 3 months. Bake from the fridge, adding 15 minutes."
+  ]
+}

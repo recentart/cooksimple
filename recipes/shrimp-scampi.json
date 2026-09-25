@@ -1,0 +1,40 @@
+{
+  "id": "shrimp-scampi",
+  "title": "Shrimp Scampi with Linguine",
+  "description": "Juicy shrimp in a buttery garlic, lemon and white wine sauce tossed with linguine and parsley. On the table in 25 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large pot", "Large skillet"],
+  "image": {"file": "shrimp-scampi.svg", "alt": "A plate of linguine with garlicky shrimp, parsley and lemon"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "16", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "pastasalt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "It seasons the pasta water, which stays the same amount."},
+    {"id": "pasta", "amount": "12", "unit": "oz", "item": "linguine or spaghetti", "key": "spaghetti"},
+    {"id": "shrimp", "amount": "1 1/4", "unit": "lb", "item": "large shrimp", "key": "shrimp", "prep": "peeled and deveined"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "garlic", "amount": "5", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced"},
+    {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"},
+    {"id": "wine", "amount": "1/2", "unit": "cup", "item": "dry white wine", "key": "dry white wine"},
+    {"id": "lemon", "amount": "3", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "parsley", "amount": "1/4", "unit": "cup", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Bring the water and pasta salt to a boil and cook the linguine until just al dente. Save {qty 1 cup fixed} of the pasta water, then drain.", "uses": ["water", "pastasalt", "pasta"]},
+    {"text": "Meanwhile pat the shrimp dry and season with the salt. Heat the oil and 1 tbsp butter in the skillet over medium-high heat. Cook the shrimp in one layer until pink on the bottom, {time 1 min}, then turn and cook for {time 1 min} more. Move to a plate; they’ll finish in the sauce.", "uses": ["shrimp", "salt", "oil", "butter"]},
+    {"text": "Lower the heat to medium, add the garlic and pepper flakes and stir until the garlic is pale golden, {time 1 min}.", "uses": ["garlic", "flakes"]},
+    {"text": "Add the wine and lemon juice and simmer until reduced by half, {time 2 min}. Swirl in the remaining butter.", "uses": ["wine", "lemon"]},
+    {"text": "Add the pasta, shrimp and a splash of pasta water and toss until the sauce is glossy and the shrimp are opaque, {time 1 min}. Toss in the parsley and serve.", "uses": ["parsley"]}
+  ],
+  "notes": [
+    "Shrimp overcook fast; they’re done as soon as they turn opaque and curl into a loose C shape."
+  ]
+}

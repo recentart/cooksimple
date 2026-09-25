@@ -1,0 +1,39 @@
+{
+  "id": "classic-potato-salad",
+  "title": "Classic Potato Salad",
+  "description": "Tender potatoes tossed while warm with a little vinegar, then folded into a creamy dressing with celery, eggs and herbs.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "totalMinutes": 100,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Large pot"],
+  "image": {"file": "classic-potato-salad.svg", "alt": "A bowl of creamy potato salad with celery, egg and chives"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "3", "unit": "lb", "item": "Yukon Gold or red potatoes", "key": "yukon gold potatoes", "prep": "cut into {len 3/4 in} chunks"},
+    {"id": "vinegar", "amount": "2", "unit": "tbsp", "item": "apple cider vinegar", "key": "apple cider vinegar"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole", "prep": "hard-boiled and chopped"},
+    {"id": "mayo", "amount": "3/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "mustard", "amount": "1", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard"},
+    {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "finely diced"},
+    {"id": "onion", "amount": "1/4", "item": "red onion", "key": "red onions", "prep": "finely diced"},
+    {"id": "dill", "amount": "2", "unit": "tbsp", "item": "fresh dill or parsley", "key": "fresh dill", "prep": "chopped"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"}
+  ],
+  "steps": [
+    {"text": "Cover the potatoes with cold, well-salted water, bring to a boil and simmer until just tender when pierced, {time 10-12 min}. Don’t let them fall apart.", "uses": ["potatoes"]},
+    {"text": "Drain and spread on a tray, then sprinkle with the vinegar while hot; warm potatoes soak up the flavor. Cool to room temperature, {time 20 min}.", "uses": ["vinegar"]},
+    {"text": "Stir the mayonnaise, mustard, salt and pepper together in a large bowl.", "uses": ["mayo", "mustard", "salt", "pepper"]},
+    {"text": "Fold in the potatoes, eggs, celery, onion and dill. Chill for at least {time 1 hr notimer} before serving.", "uses": ["eggs", "celery", "onion", "dill"]}
+  ],
+  "notes": [
+    "Keep mayonnaise-based salads cold. Don’t leave them out for more than 2 hours (1 hour on a hot day).",
+    "Keeps 3 days in the fridge."
+  ]
+}

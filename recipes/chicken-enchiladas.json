@@ -1,0 +1,48 @@
+{
+  "id": "chicken-enchiladas",
+  "title": "Chicken Enchiladas",
+  "description": "Corn tortillas rolled around shredded chicken and cheese, smothered in a homemade red enchilada sauce and baked until bubbling.",
+  "added": "2026-09-25",
+  "servings": 5,
+  "prepMinutes": 30,
+  "cookMinutes": 40,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Medium saucepan", "{len 9x13 in} baking dish"],
+  "image": {"file": "chicken-enchiladas.svg", "alt": "A baking dish of rolled enchiladas in red sauce with melted cheese and cilantro"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the sauce", "items": [
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "flour", "amount": "2", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "chili", "amount": "3", "unit": "tbsp", "item": "chili powder", "key": "chili powder"},
+      {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+      {"id": "garlic", "amount": "1", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+      {"id": "oregano", "amount": "1/2", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+      {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+      {"id": "broth", "amount": "2", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the enchiladas", "items": [
+      {"id": "chicken", "amount": "3", "unit": "cup", "item": "cooked chicken", "key": "cooked chicken", "prep": "shredded", "note": "about {qty 1 1/4 lb} raw, or a rotisserie chicken"},
+      {"id": "cheese", "amount": "2", "unit": "cup", "item": "Monterey Jack cheese", "key": "monterey jack cheese", "prep": "shredded", "note": "divided"},
+      {"id": "tortillas", "amount": "10", "item": "corn tortilla", "key": "corn tortillas"},
+      {"id": "sour", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream", "prep": "for serving", "optional": true},
+      {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true}
+    ] }
+  ],
+  "steps": [
+    {"text": "Make the sauce: heat the oil in the saucepan over medium heat, whisk in the flour and cook for {time 1 min}. Whisk in the chili powder, cumin, garlic powder, oregano and tomato paste for {time 30 sec}.", "uses": ["oil", "flour", "chili", "cumin", "garlic", "oregano", "paste"]},
+    {"text": "Slowly whisk in the broth, add the salt and simmer until slightly thickened, {time 8-10 min}. Heat the oven to {temp 375F oven}.", "uses": ["broth", "salt"]},
+    {"text": "Mix the chicken with {qty 1/2 cup} of the sauce and half the cheese. Spread a thin layer of sauce in the baking dish.", "uses": ["chicken", "cheese"]},
+    {"text": "Warm the tortillas briefly in the microwave, wrapped in a damp towel, so they roll without cracking. Fill each with chicken, roll up and set seam side down in the dish.", "uses": ["tortillas"]},
+    {"text": "Pour the rest of the sauce over the top and sprinkle with the remaining cheese. Bake until bubbling and the cheese is melted, {time 20-25 min}.", "uses": []},
+    {"text": "Rest for {time 5 min}, then serve with sour cream and cilantro.", "uses": ["sour", "cilantro"]}
+  ],
+  "notes": [
+    "Assemble up to a day ahead and refrigerate, covered; bake straight from the fridge, adding 10 minutes.",
+    "For quick cooked chicken, simmer breasts in salted water until they reach 165°F, about 15 minutes."
+  ]
+}

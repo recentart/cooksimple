@@ -1,0 +1,40 @@
+{
+  "id": "breakfast-burritos",
+  "title": "Breakfast Burritos",
+  "description": "Flour tortillas filled with crispy potatoes, browned sausage, scrambled eggs, cheddar and salsa. They freeze well for busy mornings.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "servingsLabel": "burritos",
+  "scaleOptions": [3,6,12],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["breakfast"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "breakfast-burritos.svg", "alt": "Breakfast burritos cut in half showing egg, potato and sausage"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "potatoes", "amount": "1", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "cut into {len 1/2 in} cubes"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "sausage", "amount": "12", "unit": "oz", "item": "breakfast sausage", "key": "breakfast sausage", "prep": "removed from casings if needed"},
+    {"id": "eggs", "amount": "8", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "tortillas", "amount": "6", "item": "large flour tortilla", "key": "flour tortillas", "note": "10-inch"},
+    {"id": "cheese", "amount": "1 1/2", "unit": "cup", "item": "cheddar cheese", "key": "cheddar cheese", "prep": "shredded"},
+    {"id": "salsa", "amount": "3/4", "unit": "cup", "item": "salsa", "key": "salsa"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium-high heat. Add the potatoes and half the salt and cook, turning every few minutes, until golden and tender, {time 12-15 min}. Move them to a large bowl.", "uses": ["oil", "potatoes", "salt"]},
+    {"text": "Add the sausage to the same skillet and cook, breaking it into small crumbles, until browned with no pink left, {time 6-8 min}. Add it to the potatoes, leaving the fat behind.", "uses": ["sausage"]},
+    {"text": "Beat the eggs with the rest of the salt. Pour off all but a thin film of fat, lower the heat to medium-low and scramble the eggs until just set, {time 2-3 min}. Fold them into the potatoes and sausage.", "uses": ["eggs"]},
+    {"text": "Warm the tortillas in a dry skillet or in the microwave for a few seconds so they fold without cracking.", "uses": ["tortillas"]},
+    {"text": "Divide the filling among the tortillas, top with the cheese and a spoonful of salsa, then fold in the sides and roll up tightly.", "uses": ["cheese", "salsa"]},
+    {"text": "To crisp them, set the burritos seam side down in the skillet over medium heat and toast until golden, {time 2 min} per side.", "uses": []}
+  ],
+  "notes": [
+    "To freeze, cool the rolled burritos, wrap each in foil and freeze for up to 3 months. Reheat from frozen in a {temp 375F oven} for {time 30-35 min notimer}, or unwrap and microwave for 2 to 3 minutes, turning halfway.",
+    "For a vegetarian version, skip the sausage and add a drained can of black beans."
+  ]
+}

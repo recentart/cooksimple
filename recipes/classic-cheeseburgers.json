@@ -1,0 +1,42 @@
+{
+  "id": "classic-cheeseburgers",
+  "title": "Classic Cheeseburgers",
+  "description": "Juicy smashed-style cheeseburgers seared hard in a hot skillet, topped with melted cheddar and your favorite fixings.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "servingsLabel": "burgers",
+  "scaleOptions": [2,4,8],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "cuisine": "American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large cast-iron skillet or griddle", "Sturdy metal spatula"],
+  "image": {"file": "classic-cheeseburgers.svg", "alt": "A cheeseburger with lettuce, tomato and melted cheese"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "beef", "amount": "1 1/2", "unit": "lb", "item": "ground beef", "key": "ground beef", "note": "80% lean is best"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "cheese", "amount": "4", "unit": "slice", "item": "cheddar cheese", "key": "cheddar cheese"},
+    {"id": "buns", "amount": "4", "item": "hamburger bun", "key": "hamburger buns", "prep": "split"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened, for the buns"},
+    {"id": "lettuce", "amount": "4", "item": "lettuce leaf", "key": "romaine lettuce", "plural": "lettuce leaves"},
+    {"id": "tomato", "amount": "1", "item": "tomato", "key": "tomatoes", "prep": "sliced"},
+    {"id": "onion", "amount": "1/2", "item": "red onion", "key": "red onions", "prep": "thinly sliced", "optional": true},
+    {"id": "pickles", "amount": "8", "unit": "slice", "item": "dill pickle", "key": "dill pickles", "optional": true},
+    {"id": "ketchup", "amount": "1/4", "unit": "cup", "item": "ketchup", "key": "ketchup", "optional": true}
+  ],
+  "steps": [
+    {"text": "Divide the beef into {count 4} loose balls without packing them tightly. Keep them cold until the pan is hot.", "uses": ["beef"]},
+    {"text": "Butter the cut sides of the buns and toast them in the skillet over medium heat until golden, {time 1-2 min}. Set aside.", "uses": ["buns", "butter"]},
+    {"text": "Turn the heat to high. When the pan is very hot, add the beef balls and press each one firmly into a thin patty with the spatula. Season the tops with the salt and pepper.", "uses": ["salt", "pepper"]},
+    {"text": "Cook without moving until a dark crust forms, {time 2-3 min}. Scrape under each patty, flip, top with cheese and cook until the cheese melts and the burgers reach {temp 160F internal}, {time 1-2 min}.", "uses": ["cheese"]},
+    {"text": "Build the burgers on the toasted buns with lettuce, tomato, onion, pickles and ketchup.", "uses": ["lettuce", "tomato", "onion", "pickles", "ketchup"]}
+  ],
+  "notes": [
+    "Press the burgers only once, right after they hit the pan. Pressing later squeezes out the juices.",
+    "Ground beef should be cooked to 160°F for safety."
+  ]
+}

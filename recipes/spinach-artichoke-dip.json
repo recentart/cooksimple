@@ -1,0 +1,38 @@
+{
+  "id": "spinach-artichoke-dip",
+  "title": "Hot Spinach Artichoke Dip",
+  "description": "A bubbling, cheesy baked dip of spinach and artichoke hearts in a garlicky cream cheese base, browned on top.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "cuisine": "American",
+  "mealTypes": ["snack"],
+  "diets": [],
+  "tags": ["make-ahead", "baking"],
+  "equipment": ["1 1/2 quart baking dish", "Mixer or sturdy spoon"],
+  "image": {"file": "spinach-artichoke-dip.svg", "alt": "A baking dish of bubbling spinach artichoke dip with chips"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "spinach", "amount": "10", "unit": "oz", "item": "frozen chopped spinach", "key": "spinach", "prep": "thawed and squeezed very dry"},
+    {"id": "artichokes", "amount": "1", "unit": "can", "size": "14 oz", "item": "artichoke hearts", "key": "artichoke hearts", "prep": "drained and chopped"},
+    {"id": "cc", "amount": "8", "unit": "oz", "item": "cream cheese", "key": "cream cheese", "prep": "softened"},
+    {"id": "sour", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream"},
+    {"id": "mayo", "amount": "1/4", "unit": "cup", "item": "mayonnaise", "key": "mayonnaise"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+    {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"},
+    {"id": "mozz", "amount": "1", "unit": "cup", "item": "shredded mozzarella", "key": "mozzarella cheese", "note": "divided"},
+    {"id": "parm", "amount": "1/2", "unit": "cup", "item": "grated Parmesan", "key": "parmesan"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 375F oven}.", "uses": []},
+    {"text": "Beat the cream cheese, sour cream, mayonnaise, garlic and pepper flakes until smooth.", "uses": ["cc", "sour", "mayo", "garlic", "flakes"]},
+    {"text": "Stir in the spinach, artichokes, the Parmesan and half the mozzarella. Spread in the baking dish and top with the rest of the mozzarella.", "uses": ["spinach", "artichokes", "parm", "mozz"]},
+    {"text": "Bake until bubbling at the edges and golden on top, {time 20-25 min}. Serve hot with chips, crackers or bread.", "uses": []}
+  ],
+  "notes": [
+    "Squeeze the spinach hard in a towel; leftover water makes a runny dip.",
+    "Traditional Parmesan is made with animal rennet. Use a vegetarian hard cheese to make this vegetarian.",
+    "Assemble up to a day ahead and bake straight from the fridge, adding 5 to 10 minutes."
+  ]
+}

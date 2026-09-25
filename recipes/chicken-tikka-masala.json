@@ -1,0 +1,50 @@
+{
+  "id": "chicken-tikka-masala",
+  "title": "Chicken Tikka Masala",
+  "description": "Yogurt-marinated chicken charred under the broiler, then simmered in a creamy, spiced tomato sauce. Serve with rice or naan.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "totalMinutes": 90,
+  "cuisine": "Indian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["freezer-friendly"],
+  "equipment": ["Rimmed baking sheet", "Large skillet or pot"],
+  "image": {"file": "chicken-tikka-masala.svg", "alt": "A bowl of chicken tikka masala with a cream swirl, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the chicken", "items": [
+      {"id": "chicken", "amount": "2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs", "prep": "cut into {len 1 1/2 in} pieces"},
+      {"id": "yogurt", "amount": "1/2", "unit": "cup", "item": "plain yogurt", "key": "plain yogurt"},
+      {"id": "garam", "amount": "2", "unit": "tsp", "item": "garam masala", "key": "garam masala", "note": "divided"},
+      {"id": "cgarlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "grated"},
+      {"id": "csalt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the sauce", "items": [
+      {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter or ghee", "key": "unsalted butter"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "grated"},
+      {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+      {"id": "paprika", "amount": "2", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika"},
+      {"id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric"},
+      {"id": "cayenne", "amount": "1/4", "unit": "tsp", "item": "cayenne pepper", "key": "cayenne pepper"},
+      {"id": "tomato", "amount": "1", "unit": "can", "size": "15 oz", "item": "tomato sauce or passata", "key": "canned tomato sauce"},
+      {"id": "cream", "amount": "3/4", "unit": "cup", "item": "heavy cream", "key": "heavy cream"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Mix the chicken with the yogurt, half the garam masala, the grated garlic and the salt. Marinate in the fridge for at least {time 30 min notimer}, or up to overnight.", "uses": ["chicken", "yogurt", "garam", "cgarlic", "csalt"]},
+    {"text": "Heat the broiler with a rack about {len 6 in} from the heat. Spread the chicken on a foil-lined baking sheet and broil, turning once, until charred in spots, {time 10-12 min}. It will finish in the sauce.", "uses": []},
+    {"text": "Melt the butter in the skillet over medium heat. Cook the onion until soft and golden, {time 8-10 min}. Add the garlic, ginger, cumin, paprika, turmeric, cayenne and the rest of the garam masala and stir for {time 1 min}.", "uses": ["butter", "onion", "garlic", "ginger", "cumin", "paprika", "turmeric", "cayenne"]},
+    {"text": "Add the tomato sauce and salt and simmer, stirring, until thick and darker, {time 10 min}. Stir in the cream.", "uses": ["tomato", "cream", "salt"]},
+    {"text": "Add the chicken and its juices and simmer gently until cooked through, {time 8-10 min}. The thickest piece should read {temp 165F internal}. Scatter with cilantro and serve with rice or naan.", "uses": ["cilantro"]}
+  ],
+  "notes": [
+    "Freezes well for up to 3 months. The sauce thickens in the fridge; loosen with water when reheating."
+  ]
+}

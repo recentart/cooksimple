@@ -1,0 +1,33 @@
+{
+  "id": "garlic-bread",
+  "title": "Garlic Bread",
+  "description": "Crusty bread spread with butter mashed with fresh garlic, parsley and a little Parmesan, baked until golden and crisp at the edges.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "cuisine": "Italian",
+  "mealTypes": ["side"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Baking sheet", "Foil"],
+  "image": {"file": "garlic-bread.svg", "alt": "Slices of golden garlic bread with parsley"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "bread", "amount": "1", "item": "large loaf Italian bread or baguette", "key": "crusty bread", "plural": "large loaves Italian bread or baguettes", "note": "about {qty 1 lb}"},
+    {"id": "butter", "amount": "8", "unit": "tbsp", "item": "salted butter", "key": "salted butter", "prep": "softened"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "finely chopped"},
+    {"id": "parm", "amount": "1/4", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "finely grated", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 400F oven}. Mash the butter with the garlic, parsley and Parmesan until evenly mixed.", "uses": ["butter", "garlic", "parsley", "parm"]},
+    {"text": "Split the loaf in half lengthwise and spread the cut sides thickly with the garlic butter, right to the edges.", "uses": ["bread"]},
+    {"text": "Set the halves cut side up on the baking sheet and bake until the butter is melted and the edges are golden, {time 10-12 min}. For a crisper top, broil for the last {time 1 min notimer}, watching closely.", "uses": []},
+    {"text": "Cut into thick slices and serve hot.", "uses": []}
+  ],
+  "notes": [
+    "For soft garlic bread, press the halves back together, wrap in foil and bake for 15 minutes.",
+    "The garlic butter keeps a week in the fridge."
+  ]
+}

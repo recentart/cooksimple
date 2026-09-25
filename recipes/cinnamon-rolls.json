@@ -1,0 +1,54 @@
+{
+  "id": "cinnamon-rolls",
+  "title": "Cinnamon Rolls",
+  "description": "Soft, fluffy yeasted cinnamon rolls with a buttery brown sugar swirl and cream cheese frosting, made with instant yeast.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "rolls",
+  "scaleOptions": [12,24],
+  "scaleNote": "A double batch needs two {len 9x13 in} pans.",
+  "prepMinutes": 35,
+  "cookMinutes": 25,
+  "totalMinutes": 180,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead"],
+  "equipment": ["{len 9x13 in} baking pan", "Stand mixer with dough hook, or a big bowl and some elbow grease"],
+  "image": {"file": "cinnamon-rolls.svg", "alt": "A pan of cinnamon rolls with swirls and white glaze"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the dough", "items": [
+      {"id": "milk", "amount": "1", "unit": "cup", "item": "whole milk", "key": "whole milk", "prep": "warmed to about {temp 110F}"},
+      {"id": "yeast", "amount": "2 1/4", "unit": "tsp", "item": "instant yeast", "key": "instant yeast", "note": "one packet"},
+      {"id": "sugar", "amount": "1/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole", "note": "at room temperature"},
+      {"id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+      {"id": "flour", "amount": "4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "note": "plus more as needed"},
+      {"id": "salt", "amount": "1", "unit": "tsp", "item": "fine salt", "key": "fine salt"}
+    ] },
+    { "group": "For the filling", "items": [
+      {"id": "fbutter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "very soft"},
+      {"id": "brown", "amount": "3/4", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed"},
+      {"id": "cinnamon", "amount": "1", "unit": "tbsp", "item": "ground cinnamon", "key": "ground cinnamon"}
+    ] },
+    { "group": "For the frosting", "items": [
+      {"id": "cc", "amount": "4", "unit": "oz", "item": "cream cheese", "key": "cream cheese", "prep": "softened"},
+      {"id": "cbutter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+      {"id": "powdered", "amount": "1", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar"},
+      {"id": "vanilla", "amount": "1/2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+    ] }
+  ],
+  "steps": [
+    {"text": "In the mixer bowl, stir the warm milk, yeast and sugar together. Add the eggs and softened butter, then the flour and salt. Knead with the dough hook on medium-low until smooth and slightly tacky, {time 6-8 min}.", "uses": ["milk", "yeast", "sugar", "eggs", "butter", "flour", "salt"]},
+    {"text": "Cover the bowl and let the dough rise somewhere warm until doubled, {time 1 hr notimer}.", "uses": []},
+    {"text": "Grease the baking pan. Roll the dough on a floured counter into a {len 16x12 in} rectangle. Spread the soft butter over it, then sprinkle evenly with the brown sugar and cinnamon.", "uses": ["fbutter", "brown", "cinnamon"]},
+    {"text": "Roll it up tightly from a long side and pinch the seam closed. Cut into {count 12} even rolls with a sharp knife or dental floss and set them cut side up in the pan.", "uses": []},
+    {"text": "Cover and let rise until puffy and touching, {time 30-45 min notimer}. Meanwhile heat the oven to {temp 350F oven}.", "uses": []},
+    {"text": "Bake until golden and the center rolls read {temp 190F internal}, {time 22-26 min}. Beat the cream cheese, butter, powdered sugar and vanilla until smooth, and spread it over the warm rolls.", "uses": ["cc", "cbutter", "powdered", "vanilla"]}
+  ],
+  "notes": [
+    "Overnight: after shaping, cover the pan and refrigerate for up to 16 hours. Let the rolls sit at room temperature for 45 minutes before baking.",
+    "Warm milk should feel like a warm bath. Too hot and it kills the yeast."
+  ]
+}

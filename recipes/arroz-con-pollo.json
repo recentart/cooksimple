@@ -1,0 +1,43 @@
+{
+  "id": "arroz-con-pollo",
+  "title": "Arroz con Pollo",
+  "description": "Chicken and golden rice cooked together in one pot with peppers, onion, tomato, peas and olives. A complete, comforting meal.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "cuisine": "Spanish",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large Dutch oven or deep skillet with a lid"],
+  "image": {"file": "arroz-con-pollo.svg", "alt": "A pan of yellow rice with chicken, peas and red peppers"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "2 1/2", "unit": "lb", "item": "bone-in, skin-on chicken thighs", "key": "bone-in chicken thighs"},
+    {"id": "salt", "amount": "2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "divided"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "pepper", "amount": "1", "item": "green bell pepper", "key": "green bell peppers", "prep": "diced"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric", "note": "or a pinch of saffron"},
+    {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "long-grain white rice", "key": "long-grain white rice", "prep": "rinsed"},
+    {"id": "broth", "amount": "2 3/4", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+    {"id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas"},
+    {"id": "olives", "amount": "1/3", "unit": "cup", "item": "green or Kalamata olives", "key": "kalamata olives", "optional": true},
+    {"id": "cilantro", "amount": "2", "unit": "tbsp", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Season the chicken with 1 tsp of the salt and the cumin. Heat the oil in the pot over medium-high heat and brown the chicken skin side down until golden, {time 6-8 min}. Turn and brown for {time 2 min}, then set aside.", "uses": ["chicken", "salt", "cumin", "oil"]},
+    {"text": "Pour off all but 2 tbsp of the fat. Cook the onion and green pepper over medium heat until soft, {time 6 min}. Add the garlic, paprika, turmeric and tomato paste and stir for {time 1 min}.", "uses": ["onion", "pepper", "garlic", "paprika", "turmeric", "paste"]},
+    {"text": "Add the rice and stir until coated, {time 1 min}. Pour in the broth with the remaining salt and bring to a boil.", "uses": ["rice", "broth"]},
+    {"text": "Nestle the chicken into the rice skin side up. Cover tightly, lower the heat and cook without lifting the lid until the rice is tender and the chicken reads {temp 175F internal}, {time 25-30 min}.", "uses": []},
+    {"text": "Scatter the peas and olives over the top, cover again and let stand off the heat for {time 10 min}. Fluff the rice, scatter with cilantro and serve.", "uses": ["peas", "olives", "cilantro"]}
+  ],
+  "notes": [
+    "A tight lid is essential; if yours is loose, lay a sheet of foil under it."
+  ]
+}

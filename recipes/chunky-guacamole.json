@@ -1,0 +1,34 @@
+{
+  "id": "chunky-guacamole",
+  "title": "Chunky Guacamole",
+  "description": "Ripe avocados mashed with lime, onion, jalapeño and cilantro, left a little chunky. Ready in ten minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "cuisine": "Mexican",
+  "mealTypes": ["snack"],
+  "diets": ["vegan"],
+  "tags": ["no-cook"],
+  "equipment": ["Bowl", "Fork or potato masher"],
+  "image": {"file": "chunky-guacamole.svg", "alt": "A bowl of chunky guacamole with onion and cilantro, surrounded by chips"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "onion", "amount": "1/4", "item": "white onion", "key": "white onions", "prep": "finely chopped"},
+    {"id": "jalapeno", "amount": "1", "item": "jalapeño", "key": "jalapeños", "prep": "seeded and minced"},
+    {"id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "avocados", "amount": "3", "item": "ripe avocado", "key": "avocados", "scale": "whole"},
+    {"id": "lime", "amount": "2", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "tomato", "amount": "1", "item": "small tomato", "key": "tomatoes", "prep": "seeded and diced", "optional": true}
+  ],
+  "steps": [
+    {"text": "Mash the onion, jalapeño, half the cilantro and the salt together in the bowl with a fork to release their flavor.", "uses": ["onion", "jalapeno", "cilantro", "salt"]},
+    {"text": "Halve the avocados, remove the pits and scoop the flesh into the bowl. Add the lime juice and mash, leaving plenty of chunks.", "uses": ["avocados", "lime"]},
+    {"text": "Fold in the rest of the cilantro and the tomato, if using. Taste and add more salt or lime until it tastes bright.", "uses": ["tomato"]}
+  ],
+  "notes": [
+    "A ripe avocado yields to gentle pressure near the stem.",
+    "To store, press plastic wrap right onto the surface; it keeps a day in the fridge. Any browning on top is harmless; stir it in or scrape it off."
+  ]
+}

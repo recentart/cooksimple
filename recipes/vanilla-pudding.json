@@ -1,0 +1,36 @@
+{
+  "id": "vanilla-pudding",
+  "title": "Homemade Vanilla Pudding",
+  "description": "Smooth, creamy stovetop vanilla pudding thickened with cornstarch and egg yolks. Far better than the boxed kind, and quick.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 12,
+  "totalMinutes": 137,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Medium saucepan", "Whisk"],
+  "image": {"file": "vanilla-pudding.svg", "alt": "Three glasses of vanilla pudding with whipped cream"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "sugar", "amount": "1/2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "cornstarch", "amount": "3", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "milk", "amount": "2 1/2", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "eggs", "amount": "3", "item": "large egg yolk", "key": "eggs", "scale": "whole", "plural": "large egg yolks"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+  ],
+  "steps": [
+    {"text": "Whisk the sugar, cornstarch and salt in the saucepan, then whisk in the milk and yolks until smooth.", "uses": ["sugar", "cornstarch", "salt", "milk", "eggs"]},
+    {"text": "Cook over medium heat, whisking constantly and reaching into the corners, until the mixture thickens and a few big bubbles pop at the surface, {time 8-10 min}. Keep whisking for {time 1 min} more.", "uses": []},
+    {"text": "Take the pan off the heat and whisk in the butter and vanilla until smooth. For extra-silky pudding, press it through a sieve.", "uses": ["butter", "vanilla"]},
+    {"text": "Pour into dishes, press plastic wrap onto the surface to stop a skin forming and chill until set, at least {time 2 hr notimer}.", "uses": []}
+  ],
+  "notes": [
+    "Save the egg whites for meringues or an omelet.",
+    "Keeps 4 days in the fridge."
+  ]
+}

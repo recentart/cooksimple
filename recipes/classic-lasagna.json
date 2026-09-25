@@ -1,0 +1,52 @@
+{
+  "id": "classic-lasagna",
+  "title": "Classic Lasagna",
+  "description": "Layers of pasta, meaty tomato sauce, creamy ricotta and plenty of mozzarella, baked until golden and bubbling at the edges.",
+  "added": "2026-09-25",
+  "servings": 10,
+  "scaleOptions": [10,20],
+  "scaleNote": "One batch fills a {len 9x13 in} dish. For 20, assemble two dishes and bake them side by side, rotating halfway.",
+  "prepMinutes": 40,
+  "cookMinutes": 75,
+  "totalMinutes": 135,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly", "baking"],
+  "equipment": ["{len 9x13 in} baking dish", "Large skillet", "Large pot"],
+  "image": {"file": "classic-lasagna.svg", "alt": "A pan of lasagna with bubbling cheese and a slice cut out"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the meat sauce", "items": [
+      {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+      {"id": "beef", "amount": "1", "unit": "lb", "item": "ground beef", "key": "ground beef"},
+      {"id": "pork", "amount": "8", "unit": "oz", "item": "ground pork or Italian sausage", "key": "ground pork"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+      {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "tomatoes", "amount": "1", "unit": "can", "size": "28 oz", "item": "crushed tomatoes", "key": "canned crushed tomatoes"},
+      {"id": "sauce", "amount": "1", "unit": "can", "size": "15 oz", "item": "tomato sauce", "key": "canned tomato sauce"},
+      {"id": "oregano", "amount": "2", "unit": "tsp", "item": "dried oregano", "key": "dried oregano"},
+      {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the layers", "items": [
+      {"id": "noodles", "amount": "12", "item": "lasagna noodle", "key": "lasagna noodles"},
+      {"id": "ricotta", "amount": "2", "unit": "cup", "item": "whole-milk ricotta", "key": "ricotta"},
+      {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "parm", "amount": "1", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "grated", "note": "divided"},
+      {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"},
+      {"id": "mozz", "amount": "1", "unit": "lb", "item": "low-moisture mozzarella", "key": "mozzarella cheese", "prep": "shredded"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium-high heat. Brown the beef and pork with the onion, breaking up the meat, {time 8-10 min}. Add the garlic for {time 1 min}, then the crushed tomatoes, tomato sauce, oregano and salt. Simmer for {time 20 min}.", "uses": ["oil", "beef", "pork", "onion", "garlic", "tomatoes", "sauce", "oregano", "salt"]},
+    {"text": "Meanwhile cook the noodles in a big pot of salted boiling water until just flexible, about 2 minutes short of the package time. Drain and lay them flat on oiled foil so they don’t stick. Heat the oven to {temp 375F oven}.", "uses": ["noodles"]},
+    {"text": "Mix the ricotta, egg, half the Parmesan and the parsley.", "uses": ["ricotta", "egg", "parm", "parsley"]},
+    {"text": "Spread a cup of meat sauce in the dish. Layer 3 or 4 noodles, a third of the ricotta, a quarter of the sauce and a quarter of the mozzarella. Repeat twice, then finish with noodles, the rest of the sauce, mozzarella and Parmesan.", "uses": ["mozz"]},
+    {"text": "Cover with foil (tented so it doesn’t touch the cheese) and bake for {time 25 min}. Uncover and bake until bubbling and golden, {time 20-25 min}.", "uses": []},
+    {"text": "Let the lasagna rest for at least {time 20 min} before cutting, or it will slide apart.", "uses": []}
+  ],
+  "notes": [
+    "Assemble up to a day ahead and refrigerate, covered. Add 15 minutes to the covered baking time.",
+    "Freeze unbaked or baked for up to 3 months; thaw overnight in the fridge before baking."
+  ]
+}

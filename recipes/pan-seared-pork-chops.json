@@ -1,0 +1,36 @@
+{
+  "id": "pan-seared-pork-chops",
+  "title": "Pan-Seared Pork Chops",
+  "description": "Thick, juicy bone-in pork chops seared golden in a skillet and basted with garlic, thyme and butter. Dinner in 25 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large cast-iron or heavy skillet", "Instant-read thermometer"],
+  "image": {"file": "pan-seared-pork-chops.svg", "alt": "Two golden seared pork chops with thyme and garlic"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chops", "amount": "4", "item": "bone-in pork chop", "key": "bone-in pork chops", "note": "about {len 1 in} thick"},
+    {"id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "butter", "amount": "3", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "smashed"},
+    {"id": "thyme", "amount": "4", "unit": "sprig", "item": "fresh thyme or rosemary", "key": "fresh thyme"}
+  ],
+  "steps": [
+    {"text": "Pat the chops very dry and season all over with the salt and pepper. If you have time, leave them uncovered in the fridge for an hour or up to a day.", "uses": ["chops", "salt", "pepper"]},
+    {"text": "Heat the oil in the skillet over medium-high heat until shimmering. Add the chops and sear without moving until deeply browned, {time 4-5 min}.", "uses": ["oil"]},
+    {"text": "Flip and lower the heat to medium. Add the butter, garlic and thyme.", "uses": ["butter", "garlic", "thyme"]},
+    {"text": "Tilt the pan and spoon the foaming butter over the chops again and again until they read {temp 140F internal} near the bone, {time 4-6 min}.", "uses": []},
+    {"text": "Rest the chops on a plate for {time 5 min}; they’ll rise to {temp 145F internal}, slightly pink and juicy. Spoon the garlic butter over them to serve.", "uses": []}
+  ],
+  "notes": [
+    "Pork is safe at 145°F with a 3-minute rest. Cooking it much beyond that is what makes chops dry.",
+    "Thin chops cook in half the time; watch them closely."
+  ]
+}

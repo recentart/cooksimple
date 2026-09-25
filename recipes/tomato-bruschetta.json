@@ -1,0 +1,38 @@
+{
+  "id": "tomato-bruschetta",
+  "title": "Tomato Bruschetta",
+  "description": "Grilled or toasted bread rubbed with garlic and piled with juicy chopped tomatoes, basil and good olive oil. A summer classic.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "toasts",
+  "scaleOptions": [6,12,24],
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "totalMinutes": 35,
+  "cuisine": "Italian",
+  "mealTypes": ["snack"],
+  "diets": ["vegan"],
+  "tags": [],
+  "equipment": ["Baking sheet or grill pan", "Bowl"],
+  "image": {"file": "tomato-bruschetta.svg", "alt": "Toasts topped with chopped tomato and basil"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "tomatoes", "amount": "1 1/2", "unit": "lb", "item": "ripe tomatoes", "key": "tomatoes", "prep": "seeded and diced"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "basil", "amount": "1/4", "unit": "cup", "item": "fresh basil", "key": "fresh basil", "prep": "thinly sliced"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "extra-virgin olive oil", "key": "olive oil", "note": "plus more for brushing"},
+    {"id": "vinegar", "amount": "1", "unit": "tsp", "item": "red wine vinegar", "key": "red wine vinegar", "optional": true},
+    {"id": "bread", "amount": "12", "unit": "slice", "item": "crusty bread", "key": "crusty bread", "prep": "cut 1/2 inch thick"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "halved"}
+  ],
+  "steps": [
+    {"text": "Toss the tomatoes with the salt in a bowl and let them stand for {time 15 min}. Drain off most of the juice, then stir in the basil, oil and vinegar.", "uses": ["tomatoes", "salt", "basil", "oil", "vinegar"]},
+    {"text": "Brush the bread lightly with oil and toast under the broiler or on a grill pan until golden and crisp on the outside, {time 1-2 min} per side.", "uses": ["bread"]},
+    {"text": "Rub each hot toast with the cut side of the garlic.", "uses": ["garlic"]},
+    {"text": "Spoon the tomatoes onto the toasts just before serving so the bread stays crisp.", "uses": []}
+  ],
+  "notes": [
+    "Use the best, ripest tomatoes you can find; this dish depends on them.",
+    "Check the bread label; a few loaves contain milk."
+  ]
+}

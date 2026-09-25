@@ -1,0 +1,39 @@
+{
+  "id": "vegetable-fried-rice",
+  "title": "Vegetable Fried Rice",
+  "description": "Day-old rice stir-fried hot with eggs, peas, carrots, corn and scallions in soy and sesame. A fast way to use up leftovers.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Wok or large skillet"],
+  "image": {"file": "vegetable-fried-rice.svg", "alt": "A bowl of fried rice with egg, peas, carrot and green onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole", "prep": "beaten"},
+    {"id": "scallions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "sliced, whites and greens separated"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "rice", "amount": "4", "unit": "cup", "item": "cold cooked rice", "key": "cooked white rice"},
+    {"id": "veg", "amount": "1 1/2", "unit": "cup", "item": "frozen peas and carrots", "key": "frozen peas and carrots"},
+    {"id": "corn", "amount": "1/2", "unit": "cup", "item": "frozen corn", "key": "frozen corn"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "sesame", "amount": "2", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "ground white pepper", "key": "ground white pepper", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat 1 tbsp oil in the wok over medium heat. Scramble the eggs until just set, {time 1 min}, then move them to a plate.", "uses": ["oil", "eggs"]},
+    {"text": "Turn the heat to high, add the rest of the oil and the scallion whites and garlic and stir for {time 30 sec}.", "uses": ["scallions", "garlic"]},
+    {"text": "Add the rice, breaking up any clumps, and spread it out. Let it sizzle without stirring for {time 1 min}, then toss and repeat until hot and some grains are crisp, {time 4-5 min}.", "uses": ["rice"]},
+    {"text": "Add the peas and carrots and corn and stir-fry until hot, {time 2-3 min}.", "uses": ["veg", "corn"]},
+    {"text": "Drizzle the soy sauce around the pan, return the eggs, and toss until evenly colored. Finish with sesame oil, white pepper and the scallion greens.", "uses": ["soy", "sesame", "pepper"]}
+  ],
+  "notes": [
+    "Freshly cooked rice turns mushy. If that’s all you have, spread it on a tray and chill it uncovered for an hour first.",
+    "Use tamari and skip the eggs to make it vegan and gluten-free."
+  ]
+}

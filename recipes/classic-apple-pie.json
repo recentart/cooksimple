@@ -1,0 +1,44 @@
+{
+  "id": "classic-apple-pie",
+  "title": "Classic Apple Pie",
+  "description": "A double-crust apple pie with tender, cinnamon-spiced apples in a thick filling that holds together when you slice it.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "servingsLabel": "slices",
+  "scaleOptions": [8,16],
+  "scaleNote": "One batch makes one {len 9 in} pie. Bake a second pie for 16 slices.",
+  "prepMinutes": 30,
+  "cookMinutes": 65,
+  "totalMinutes": 335,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead"],
+  "equipment": ["{len 9 in} pie plate", "Rimmed baking sheet"],
+  "image": {"file": "classic-apple-pie.svg", "alt": "A lattice-topped apple pie with a slice cut"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "crust", "amount": "2", "item": "refrigerated pie crust", "key": "refrigerated pie crust", "note": "or homemade double crust"},
+    {"id": "apples", "amount": "3", "unit": "lb", "item": "baking apples", "key": "apples", "prep": "peeled, cored and sliced {len 1/4 in} thick", "note": "about {count 7} medium; mix tart and sweet"},
+    {"id": "sugar", "amount": "2/3", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "cornstarch", "amount": "3", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "cinnamon", "amount": "1 1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+    {"id": "nutmeg", "amount": "1/4", "unit": "tsp", "item": "ground nutmeg", "key": "ground nutmeg"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "cut into small pieces"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole", "prep": "beaten, for brushing"},
+    {"id": "topsugar", "amount": "1", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar", "prep": "for sprinkling"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} with a rack in the lower third and a baking sheet on it. Line the pie plate with one crust.", "uses": ["crust"]},
+    {"text": "Toss the apples with the sugar, cornstarch, cinnamon, nutmeg, salt and lemon juice. Pile them into the crust, mounding them in the center, and dot with the butter.", "uses": ["apples", "sugar", "cornstarch", "cinnamon", "nutmeg", "salt", "lemon", "butter"]},
+    {"text": "Lay the second crust over the top, trim, fold the edges under and crimp to seal. Cut {count 5} slits in the top. Brush with the egg and sprinkle with sugar.", "uses": ["egg", "topsugar"]},
+    {"text": "Bake on the hot baking sheet for {time 20 min}. Lower the heat to {temp 375F oven} and bake until the crust is deep golden and the filling bubbles thickly through the slits, {time 40-50 min}. Cover the edges with foil if they brown too fast.", "uses": []},
+    {"text": "Cool the pie completely, at least {time 4 hr notimer}, before slicing, or the filling will run.", "uses": []}
+  ],
+  "notes": [
+    "Some store-bought pie crusts are made with lard; check the label, or use an all-butter crust.",
+    "The pie keeps 2 days at room temperature, loosely covered."
+  ]
+}

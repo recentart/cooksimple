@@ -1,0 +1,37 @@
+{
+  "id": "skillet-cornbread",
+  "title": "Skillet Cornbread",
+  "description": "Golden, crisp-edged cornbread baked in a hot buttered cast-iron skillet, lightly sweet with a tender, moist crumb.",
+  "added": "2026-09-25",
+  "servings": 8,
+  "prepMinutes": 10,
+  "cookMinutes": 22,
+  "cuisine": "Southern",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["{len 10 in} cast-iron skillet"],
+  "image": {"file": "skillet-cornbread.svg", "alt": "Golden cornbread in a cast-iron skillet with butter"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "note": "divided"},
+    {"id": "cornmeal", "amount": "1 1/4", "unit": "cup", "item": "yellow cornmeal", "key": "cornmeal"},
+    {"id": "flour", "amount": "3/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "sugar", "amount": "1/4", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "bp", "amount": "2", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+    {"id": "soda", "amount": "1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "buttermilk", "amount": "1 1/4", "unit": "cup", "item": "buttermilk", "key": "buttermilk"},
+    {"id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole"}
+  ],
+  "steps": [
+    {"text": "Put 1 tbsp of the butter in the skillet and set it in the oven. Heat the oven to {temp 425F oven}. Melt the rest of the butter.", "uses": ["butter"]},
+    {"text": "Whisk the cornmeal, flour, sugar, baking powder, baking soda and salt in a large bowl.", "uses": ["cornmeal", "flour", "sugar", "bp", "soda", "salt"]},
+    {"text": "Whisk the buttermilk, eggs and melted butter in another bowl, then stir into the dry ingredients until just combined.", "uses": ["buttermilk", "eggs"]},
+    {"text": "Take out the hot skillet with oven mitts, swirl the butter to coat and pour in the batter; it should sizzle.", "uses": []},
+    {"text": "Bake until golden and a toothpick in the center comes out clean, {time 18-22 min}. Cool for {time 10 min} in the skillet before cutting into wedges.", "uses": []}
+  ],
+  "notes": [
+    "Fold in a cup of corn kernels or a chopped jalapeño with some cheddar for variations."
+  ]
+}

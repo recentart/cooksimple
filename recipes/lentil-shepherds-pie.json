@@ -1,0 +1,48 @@
+{
+  "id": "lentil-shepherds-pie",
+  "title": "Lentil Shepherd’s Pie",
+  "description": "A hearty vegetarian shepherd’s pie of lentils, carrots, mushrooms and peas in a rich gravy under buttery mashed potatoes.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 60,
+  "cuisine": "British",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Large pot", "Large skillet", "{len 9x13 in} or 3-quart baking dish"],
+  "image": {"file": "lentil-shepherds-pie.svg", "alt": "A baking dish of lentil shepherd’s pie with a golden potato top"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the topping", "items": [
+      {"id": "potatoes", "amount": "2 1/2", "unit": "lb", "item": "russet potatoes", "key": "russet potatoes", "prep": "peeled and cut into chunks"},
+      {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+      {"id": "milk", "amount": "1/2", "unit": "cup", "item": "milk", "key": "milk", "prep": "warm"},
+      {"id": "psalt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the filling", "items": [
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+      {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "diced"},
+      {"id": "mushrooms", "amount": "8", "unit": "oz", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "chopped"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+      {"id": "lentils", "amount": "1", "unit": "cup", "item": "green or brown lentils", "key": "green lentils", "prep": "rinsed"},
+      {"id": "broth", "amount": "3", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+      {"id": "soy", "amount": "1", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+      {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+      {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium heat. Cook the onion, carrots and mushrooms until soft and the mushroom liquid evaporates, {time 10 min}. Stir in the garlic and tomato paste for {time 1 min}.", "uses": ["oil", "onion", "carrots", "mushrooms", "garlic", "paste"]},
+    {"text": "Add the lentils, broth, soy sauce, thyme and salt. Simmer, partly covered, until the lentils are tender and the liquid has thickened to a gravy, {time 30-35 min}. Stir in the peas.", "uses": ["lentils", "broth", "soy", "thyme", "salt", "peas"]},
+    {"text": "Meanwhile boil the potatoes in salted water until very tender, {time 15-18 min}. Drain and mash with the butter, warm milk and salt.", "uses": ["potatoes", "butter", "milk", "psalt"]},
+    {"text": "Heat the oven to {temp 400F oven}. Spread the lentil filling in the baking dish, top with the mash and rough up the surface with a fork.", "uses": []},
+    {"text": "Bake until bubbling at the edges and golden on top, {time 20-25 min}. Rest for {time 10 min} before serving.", "uses": []}
+  ],
+  "notes": [
+    "Use plant milk and olive oil in the mash for a vegan pie."
+  ]
+}

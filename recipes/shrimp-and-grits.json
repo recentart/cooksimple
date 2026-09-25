@@ -1,0 +1,45 @@
+{
+  "id": "shrimp-and-grits",
+  "title": "Shrimp and Grits",
+  "description": "Creamy cheddar grits topped with shrimp in a smoky bacon, garlic and lemon pan sauce. A Southern classic for dinner or brunch.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "Southern",
+  "mealTypes": ["dinner", "breakfast"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Medium saucepan", "Large skillet"],
+  "image": {"file": "shrimp-and-grits.svg", "alt": "A bowl of creamy grits topped with shrimp, bacon and green onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the grits", "items": [
+      {"id": "water", "amount": "2", "unit": "cup", "item": "water", "key": "water"},
+      {"id": "milk", "amount": "2", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+      {"id": "gsalt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "grits", "amount": "1", "unit": "cup", "item": "grits", "key": "corn grits", "note": "not instant"},
+      {"id": "gbutter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+      {"id": "cheese", "amount": "1", "unit": "cup", "item": "sharp cheddar", "key": "cheddar cheese", "prep": "shredded"}
+    ] },
+    { "group": "For the shrimp", "items": [
+      {"id": "bacon", "amount": "4", "unit": "slice", "item": "bacon", "key": "bacon", "prep": "chopped"},
+      {"id": "shrimp", "amount": "1 1/4", "unit": "lb", "item": "large shrimp", "key": "shrimp", "prep": "peeled and deveined"},
+      {"id": "paprika", "amount": "1/2", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+      {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+      {"id": "broth", "amount": "1/3", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+      {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+      {"id": "scallions", "amount": "3", "item": "green onion", "key": "green onions", "prep": "sliced"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Bring the water, milk and salt to a simmer in the saucepan. Slowly whisk in the grits, then lower the heat and cook, stirring often, until thick and creamy, {time 20-25 min}. Stir in the butter and cheese; keep warm, adding a splash of water if they get too stiff.", "uses": ["water", "milk", "gsalt", "grits", "gbutter", "cheese"]},
+    {"text": "Meanwhile cook the bacon in the skillet over medium heat until crisp, {time 6-8 min}. Lift it out, leaving the fat.", "uses": ["bacon"]},
+    {"text": "Toss the shrimp with the paprika. Cook in the bacon fat over medium-high heat until pink, {time 1-2 min} per side. Add the garlic for {time 30 sec}.", "uses": ["shrimp", "paprika", "garlic"]},
+    {"text": "Add the broth and lemon juice and simmer for {time 1 min}, scraping up the browned bits. Stir in the bacon and most of the green onions.", "uses": ["broth", "lemon", "scallions"]},
+    {"text": "Spoon the grits into bowls and top with the shrimp and pan sauce. Scatter with the rest of the green onions.", "uses": []}
+  ],
+  "notes": [
+    "Stone-ground grits take longer, 40 to 50 minutes; follow the package and keep them loose with extra liquid."
+  ]
+}

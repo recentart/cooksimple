@@ -1,0 +1,36 @@
+{
+  "id": "soft-scrambled-eggs",
+  "title": "Soft Scrambled Eggs",
+  "description": "Creamy, gently cooked scrambled eggs with small soft curds, finished with butter and chives. Ready in about ten minutes.",
+  "added": "2026-09-25",
+  "servings": 2,
+  "prepMinutes": 3,
+  "cookMinutes": 6,
+  "cuisine": "French",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Small nonstick skillet", "Heatproof silicone spatula"],
+  "image": {"file": "soft-scrambled-eggs.svg", "alt": "Soft scrambled eggs with chives and toast"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "cream", "amount": "1", "unit": "tbsp", "item": "heavy cream or milk", "key": "heavy cream", "optional": true},
+    {"id": "chives", "amount": "1", "unit": "tbsp", "item": "fresh chives", "key": "fresh chives", "prep": "finely chopped", "optional": true},
+    {"id": "pepper", "item": "black pepper", "key": "black pepper", "scale": "taste"},
+    {"id": "toast", "amount": "2", "unit": "slice", "item": "toast", "key": "sandwich bread", "prep": "for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Crack the eggs into a bowl, add the salt and beat with a fork until completely smooth, with no streaks of white.", "uses": ["eggs", "salt"]},
+    {"text": "Melt the butter in the skillet over medium-low heat until it foams but doesn’t brown. Pour in the eggs.", "uses": ["butter"]},
+    {"text": "Let the eggs sit until the edges just start to set, about {time 30 sec notimer}. Then stir slowly and constantly, sweeping the spatula across the bottom so small, soft curds form.", "uses": []},
+    {"text": "Keep stirring until the eggs are mostly set but still glossy and a little loose, {time 3-5 min}. Take the pan off the heat while they still look slightly underdone; they finish in the pan.", "uses": []},
+    {"text": "Stir in the cream, if using, then scatter over the chives and a grind of pepper. Serve at once, on toast if you like.", "uses": ["cream", "chives", "pepper", "toast"]}
+  ],
+  "notes": [
+    "Low heat and constant stirring are what make the eggs creamy. If the pan sizzles loudly, it’s too hot.",
+    "For firmer eggs, keep cooking for another minute until no glossy patches remain."
+  ]
+}

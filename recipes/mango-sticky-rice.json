@@ -1,0 +1,37 @@
+{
+  "id": "mango-sticky-rice",
+  "title": "Mango Sticky Rice",
+  "description": "Soaked and steamed glutinous rice soaked in sweet, salty coconut milk, served with ripe mango and a drizzle of coconut sauce.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "totalMinutes": 285,
+  "cuisine": "Thai",
+  "mealTypes": ["dessert"],
+  "diets": ["vegan"],
+  "tags": [],
+  "equipment": ["Steamer basket lined with cheesecloth, or a microwave-safe bowl", "Small saucepan"],
+  "image": {"file": "mango-sticky-rice.svg", "alt": "Sticky rice with sliced ripe mango and coconut sauce"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "rice", "amount": "1", "unit": "cup", "item": "Thai glutinous (sticky) rice", "key": "glutinous rice", "note": "not regular rice"},
+    {"id": "coconut", "amount": "1", "unit": "can", "size": "13.5 oz", "item": "coconut milk", "key": "canned coconut milk", "note": "divided"},
+    {"id": "sugar", "amount": "1/3", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar", "note": "divided"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt", "note": "divided"},
+    {"id": "cornstarch", "amount": "1", "unit": "tsp", "item": "cornstarch", "key": "cornstarch"},
+    {"id": "mangoes", "amount": "2", "item": "ripe mango", "key": "mangoes", "prep": "peeled and sliced"},
+    {"id": "seeds", "amount": "1", "unit": "tsp", "item": "toasted sesame seeds", "key": "sesame seeds", "optional": true}
+  ],
+  "steps": [
+    {"text": "Rinse the rice until the water runs clear, then cover with water and soak for at least {time 4 hr notimer}, or overnight. Drain.", "uses": ["rice"]},
+    {"text": "Steam the rice in the lined steamer over boiling water until tender and translucent, {time 20-25 min}.", "uses": []},
+    {"text": "Meanwhile warm three-quarters of the coconut milk with most of the sugar and half the salt until dissolved; don’t boil. Stir the hot rice into it, cover and let it soak up the coconut milk for {time 20 min}.", "uses": ["coconut", "sugar", "salt"]},
+    {"text": "Simmer the rest of the coconut milk with the remaining sugar and salt and the cornstarch mixed with a splash of water until slightly thickened, {time 2 min}.", "uses": ["cornstarch"]},
+    {"text": "Serve the rice with mango slices, drizzled with the coconut sauce and sprinkled with sesame seeds.", "uses": ["mangoes", "seeds"]}
+  ],
+  "notes": [
+    "Glutinous rice contains no gluten; the name refers to its sticky texture.",
+    "Best eaten the day it’s made, while the rice is soft."
+  ]
+}

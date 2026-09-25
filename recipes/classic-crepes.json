@@ -1,0 +1,38 @@
+{
+  "id": "classic-crepes",
+  "title": "Classic Crepes",
+  "description": "Thin, tender French crepes made from a quick blender batter. Fill them sweet with jam or lemon and sugar, or savory with ham and cheese.",
+  "added": "2026-09-25",
+  "servings": 10,
+  "servingsLabel": "crepes",
+  "scaleOptions": [5,10,20],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "totalMinutes": 60,
+  "cuisine": "French",
+  "mealTypes": ["breakfast", "dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Blender or whisk", "{len 8 in} or {len 10 in} nonstick skillet"],
+  "image": {"file": "classic-crepes.svg", "alt": "Folded crepes with berries and powdered sugar"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "flour", "amount": "1", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "milk", "amount": "1 1/4", "unit": "cup", "item": "whole milk", "key": "whole milk"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted, plus more for the pan"},
+    {"id": "sugar", "amount": "1", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar", "note": "leave out for savory crepes"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"}
+  ],
+  "steps": [
+    {"text": "Blend the flour, milk, eggs, melted butter, sugar and salt until completely smooth, scraping down the sides once. Let the batter rest in the fridge for at least {time 30 min notimer} so the crepes are tender.", "uses": ["flour", "milk", "eggs", "butter", "sugar", "salt"]},
+    {"text": "Heat the skillet over medium heat and brush it with a little butter. Stir the batter, which may have separated.", "uses": []},
+    {"text": "Pour in about {qty 1/4 cup fixed} of batter while tilting and swirling the pan so it coats the bottom in a thin, even layer.", "uses": []},
+    {"text": "Cook until the edges lift and the underside is lightly golden, {time 1 min}. Loosen with a spatula, flip and cook the second side for {time 20-30 sec}.", "uses": []},
+    {"text": "Slide the crepe onto a plate and repeat with the rest of the batter, stacking them. Brush the pan with butter every couple of crepes. The first one is often a test; that’s normal.", "uses": []}
+  ],
+  "notes": [
+    "Stacked crepes keep, wrapped, in the fridge for 3 days or frozen for 2 months. Warm them in a dry pan.",
+    "Classic fillings: lemon juice and sugar, jam, sliced bananas with chocolate spread, or ham and grated cheese warmed in the pan."
+  ]
+}

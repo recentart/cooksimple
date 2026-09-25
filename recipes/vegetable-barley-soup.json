@@ -1,0 +1,43 @@
+{
+  "id": "vegetable-barley-soup",
+  "title": "Vegetable Barley Soup",
+  "description": "A hearty, chewy barley soup loaded with carrots, celery, mushrooms, tomatoes and green beans in a savory vegetable broth.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "cuisine": "American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "freezer-friendly", "make-ahead"],
+  "equipment": ["Large pot"],
+  "image": {"file": "vegetable-barley-soup.svg", "alt": "A bowl of vegetable barley soup with carrots and green beans"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "diced"},
+    {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "diced"},
+    {"id": "mushrooms", "amount": "8", "unit": "oz", "item": "cremini mushrooms", "key": "cremini mushrooms", "prep": "sliced"},
+    {"id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "paste", "amount": "1", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste"},
+    {"id": "barley", "amount": "3/4", "unit": "cup", "item": "pearl barley", "key": "pearl barley", "prep": "rinsed"},
+    {"id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes"},
+    {"id": "broth", "amount": "8", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth"},
+    {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "bay", "amount": "1", "item": "bay leaf", "key": "bay leaves", "plural": "bay leaves"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "plus more to taste"},
+    {"id": "beans", "amount": "1", "unit": "cup", "item": "green beans", "key": "green beans", "prep": "cut into {len 1 in} pieces"},
+    {"id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the pot over medium heat. Cook the onion, carrots and celery until softened, {time 8 min}.", "uses": ["oil", "onion", "carrots", "celery"]},
+    {"text": "Add the mushrooms and cook until they release their liquid and it evaporates, {time 6-8 min}. Stir in the garlic and tomato paste for {time 1 min}.", "uses": ["mushrooms", "garlic", "paste"]},
+    {"text": "Add the barley, tomatoes, broth, thyme, bay leaf and salt. Bring to a boil, then lower the heat and simmer, partly covered, until the barley is chewy-tender, {time 35-40 min}.", "uses": ["barley", "tomatoes", "broth", "thyme", "bay", "salt"]},
+    {"text": "Add the green beans for the last {time 8 min} of cooking. Remove the bay leaf, taste for salt and stir in the parsley.", "uses": ["beans", "parsley"]}
+  ],
+  "notes": [
+    "Barley keeps soaking up broth as the soup sits. Add water or broth when reheating.",
+    "Keeps 5 days in the fridge and freezes for 3 months."
+  ]
+}

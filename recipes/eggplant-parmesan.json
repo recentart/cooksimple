@@ -1,0 +1,39 @@
+{
+  "id": "eggplant-parmesan",
+  "title": "Eggplant Parmesan",
+  "description": "Crisp oven-baked eggplant slices layered with marinara, mozzarella and cheese, then baked until golden and bubbling.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 30,
+  "cookMinutes": 55,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead", "baking"],
+  "equipment": ["2 rimmed baking sheets", "{len 9x13 in} baking dish", "Three shallow dishes"],
+  "image": {"file": "eggplant-parmesan.svg", "alt": "A baking dish of eggplant Parmesan with tomato sauce, melted cheese and basil"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "eggplant", "amount": "2", "item": "medium eggplant", "key": "eggplant", "prep": "sliced into {len 1/2 in} rounds"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "flour", "amount": "1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "panko", "amount": "2", "unit": "cup", "item": "panko breadcrumbs", "key": "panko breadcrumbs"},
+    {"id": "cheese", "amount": "1", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated", "note": "divided"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "olive oil", "key": "olive oil"},
+    {"id": "sauce", "amount": "3", "unit": "cup", "item": "marinara sauce", "key": "canned tomato sauce"},
+    {"id": "mozz", "amount": "12", "unit": "oz", "item": "mozzarella cheese", "key": "mozzarella cheese", "prep": "shredded"},
+    {"id": "basil", "amount": "1/4", "unit": "cup", "item": "fresh basil", "key": "fresh basil", "prep": "torn"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} and brush the baking sheets with half the oil. Season the eggplant slices with the salt.", "uses": ["eggplant", "salt", "oil"]},
+    {"text": "Set out the flour, the beaten eggs, and the panko mixed with half the grated cheese. Coat each slice in flour, then egg, then crumbs, pressing to stick. Lay them on the sheets and drizzle with the rest of the oil.", "uses": ["flour", "eggs", "panko", "cheese"]},
+    {"text": "Bake until golden and tender, flipping halfway, {time 25-30 min}. Lower the oven to {temp 375F oven}.", "uses": []},
+    {"text": "Spread a cup of sauce in the baking dish. Layer half the eggplant, a third of the sauce and half the mozzarella. Repeat, finishing with sauce, mozzarella and the remaining grated cheese.", "uses": ["sauce", "mozz"]},
+    {"text": "Bake until bubbling and golden, {time 25 min}. Rest for {time 10 min}, then scatter with basil.", "uses": ["basil"]}
+  ],
+  "notes": [
+    "Baking instead of frying keeps the eggplant crisp and far less greasy.",
+    "It reheats well and is even easier to slice the next day."
+  ]
+}

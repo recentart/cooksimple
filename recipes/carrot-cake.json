@@ -1,0 +1,54 @@
+{
+  "id": "carrot-cake",
+  "title": "Carrot Cake with Cream Cheese Frosting",
+  "description": "A moist, warmly spiced carrot cake with walnuts, baked in one pan and topped with a thick layer of tangy cream cheese frosting.",
+  "added": "2026-09-25",
+  "servings": 15,
+  "servingsLabel": "slices",
+  "scaleOptions": [15,30],
+  "scaleNote": "One batch fills a {len 9x13 in} pan.",
+  "prepMinutes": 25,
+  "cookMinutes": 40,
+  "totalMinutes": 155,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead"],
+  "equipment": ["{len 9x13 in} baking pan", "Box grater", "Hand or stand mixer"],
+  "image": {"file": "carrot-cake.svg", "alt": "A carrot cake with cream cheese frosting and walnuts"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the cake", "items": [
+      {"id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+      {"id": "soda", "amount": "1 1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda"},
+      {"id": "bp", "amount": "1", "unit": "tsp", "item": "baking powder", "key": "baking powder"},
+      {"id": "cinnamon", "amount": "2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon"},
+      {"id": "nutmeg", "amount": "1/2", "unit": "tsp", "item": "ground nutmeg", "key": "ground nutmeg"},
+      {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+      {"id": "eggs", "amount": "4", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "brown", "amount": "1", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed"},
+      {"id": "sugar", "amount": "1/2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar"},
+      {"id": "oil", "amount": "1", "unit": "cup", "item": "neutral oil", "key": "neutral oil"},
+      {"id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+      {"id": "carrots", "amount": "3", "unit": "cup", "item": "carrots", "key": "carrots", "prep": "finely grated", "note": "about {count 5} medium"},
+      {"id": "walnuts", "amount": "1", "unit": "cup", "item": "walnuts", "key": "walnuts", "prep": "chopped", "optional": true}
+    ] },
+    { "group": "For the frosting", "items": [
+      {"id": "cc", "amount": "8", "unit": "oz", "item": "cream cheese", "key": "cream cheese", "prep": "softened"},
+      {"id": "fbutter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+      {"id": "powdered", "amount": "2 1/2", "unit": "cup", "item": "powdered sugar", "key": "powdered sugar"},
+      {"id": "fvanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 350F oven} and grease and line the pan. Whisk the flour, baking soda, baking powder, cinnamon, nutmeg and salt.", "uses": ["flour", "soda", "bp", "cinnamon", "nutmeg", "salt"]},
+    {"text": "In a large bowl, whisk the eggs with both sugars until smooth, then whisk in the oil and vanilla.", "uses": ["eggs", "brown", "sugar", "oil", "vanilla"]},
+    {"text": "Stir in the flour mixture until just combined, then fold in the carrots and walnuts. Spread in the pan.", "uses": ["carrots", "walnuts"]},
+    {"text": "Bake until the top springs back and a toothpick in the center comes out clean, {time 35-40 min}. Cool completely in the pan, at least {time 1 hr notimer}.", "uses": []},
+    {"text": "Beat the cream cheese and butter until smooth, then beat in the powdered sugar and vanilla until fluffy. Spread over the cooled cake.", "uses": ["cc", "fbutter", "powdered", "fvanilla"]}
+  ],
+  "notes": [
+    "Grate the carrots finely; coarse shreds make a drier, patchy cake.",
+    "Store the frosted cake in the fridge for up to 5 days; let slices sit out 20 minutes before serving."
+  ]
+}

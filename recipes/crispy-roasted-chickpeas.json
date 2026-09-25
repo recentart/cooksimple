@@ -1,0 +1,33 @@
+{
+  "id": "crispy-roasted-chickpeas",
+  "title": "Crispy Roasted Chickpeas",
+  "description": "Canned chickpeas dried well and roasted until crunchy, then tossed with smoky paprika, cumin and garlic. A crunchy, high-fiber snack.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 35,
+  "cuisine": "Global",
+  "mealTypes": ["snack"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Rimmed baking sheet", "Clean kitchen towel"],
+  "image": {"file": "crispy-roasted-chickpeas.svg", "alt": "A bowl of crunchy roasted chickpeas dusted with paprika"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chickpeas", "amount": "2", "unit": "can", "size": "15 oz", "item": "chickpeas", "key": "canned chickpeas", "prep": "drained and rinsed"},
+    {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "cumin", "amount": "1/2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven}. Roll the chickpeas in the towel to dry them well, letting any loose skins fall away.", "uses": ["chickpeas"]},
+    {"text": "Toss the chickpeas with the oil and half the salt and spread them out on the sheet.", "uses": ["oil", "salt"]},
+    {"text": "Roast, shaking the pan every {time 10 min notimer}, until deep golden and crunchy, {time 30-35 min}.", "uses": []},
+    {"text": "Toss the hot chickpeas with the paprika, cumin, garlic powder and remaining salt. They crisp up more as they cool.", "uses": ["paprika", "cumin", "garlic"]}
+  ],
+  "notes": [
+    "Best within a day. Store uncovered or loosely covered; an airtight container softens them."
+  ]
+}

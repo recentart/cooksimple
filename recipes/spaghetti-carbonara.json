@@ -1,0 +1,35 @@
+{
+  "id": "spaghetti-carbonara",
+  "title": "Spaghetti Carbonara",
+  "description": "Roman-style pasta tossed with crisp pancetta, eggs, Pecorino and black pepper into a creamy sauce with no cream at all.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large pot", "Large skillet"],
+  "image": {"file": "spaghetti-carbonara.svg", "alt": "A plate of spaghetti carbonara with crisp pork and black pepper"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "16", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "pastasalt", "amount": "2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "It seasons the pasta water; the pancetta and cheese are salty, so go easy."},
+    {"id": "pasta", "amount": "12", "unit": "oz", "item": "spaghetti", "key": "spaghetti"},
+    {"id": "pancetta", "amount": "6", "unit": "oz", "item": "pancetta or guanciale", "key": "pancetta", "prep": "cut into small strips"},
+    {"id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "scale": "whole", "note": "plus 1 extra yolk if you have it"},
+    {"id": "cheese", "amount": "1", "unit": "cup", "item": "Pecorino Romano or Parmesan", "key": "pecorino romano", "prep": "finely grated"},
+    {"id": "pepper", "amount": "1", "unit": "tsp", "item": "black pepper", "key": "black pepper", "prep": "coarsely ground"}
+  ],
+  "steps": [
+    {"text": "Bring the water and salt to a boil and cook the spaghetti until al dente. Save {qty 1 cup fixed} of pasta water before draining.", "uses": ["water", "pastasalt", "pasta"]},
+    {"text": "Meanwhile cook the pancetta in the skillet over medium heat until crisp and the fat has rendered, {time 6-8 min}. Take the pan off the heat.", "uses": ["pancetta"]},
+    {"text": "Whisk the eggs, cheese and most of the pepper in a bowl into a thick paste.", "uses": ["eggs", "cheese", "pepper"]},
+    {"text": "Add the drained pasta to the pancetta and toss. Let it cool for {time 1 min} so the eggs won’t scramble.", "uses": []},
+    {"text": "Pour in the egg mixture with a splash of pasta water and toss quickly and constantly until a glossy, creamy sauce coats the pasta. Add more pasta water as needed. Serve right away with the rest of the pepper.", "uses": []}
+  ],
+  "notes": [
+    "The pan must be warm but not hot when the eggs go in. If the sauce looks thin, toss over the lowest heat for a few seconds; if it clumps, add pasta water and toss off the heat."
+  ]
+}

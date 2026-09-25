@@ -1,0 +1,46 @@
+{
+  "id": "italian-wedding-soup",
+  "title": "Italian Wedding Soup",
+  "description": "Tiny Parmesan meatballs simmered in chicken broth with small pasta, carrots and spinach. A cozy, complete meal in a bowl.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "cuisine": "Italian",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large pot"],
+  "image": {"file": "italian-wedding-soup.svg", "alt": "A bowl of wedding soup with tiny meatballs, greens and pasta"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the meatballs", "items": [
+      {"id": "beef", "amount": "1", "unit": "lb", "item": "ground beef", "key": "ground beef"},
+      {"id": "crumbs", "amount": "1/3", "unit": "cup", "item": "plain breadcrumbs", "key": "plain breadcrumbs"},
+      {"id": "parm", "amount": "1/3", "unit": "cup", "item": "Parmesan", "key": "parmesan", "prep": "finely grated", "note": "plus more for serving"},
+      {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+      {"id": "mgarlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated"},
+      {"id": "msalt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"}
+    ] },
+    { "group": "For the soup", "items": [
+      {"id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+      {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+      {"id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "diced"},
+      {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "diced"},
+      {"id": "broth", "amount": "8", "unit": "cup", "item": "chicken broth", "key": "chicken broth"},
+      {"id": "pasta", "amount": "3/4", "unit": "cup", "item": "small pasta such as acini di pepe or orzo", "key": "short pasta"},
+      {"id": "spinach", "amount": "4", "unit": "cup", "item": "baby spinach", "key": "spinach"},
+      {"id": "salt", "item": "kosher salt", "key": "kosher salt", "scale": "taste"}
+    ] }
+  ],
+  "steps": [
+    {"text": "Mix the beef, breadcrumbs, Parmesan, egg, garlic and salt with your hands until just combined. Roll into small meatballs about {len 3/4 in} across; you’ll get about {count 40}.", "uses": ["beef", "crumbs", "parm", "egg", "mgarlic", "msalt"]},
+    {"text": "Heat the oil in the pot over medium heat. Cook the onion, carrots and celery until soft, {time 8 min}.", "uses": ["oil", "onion", "carrots", "celery"]},
+    {"text": "Add the broth and bring to a boil. Drop in the meatballs one at a time, lower the heat and simmer gently until they float and are cooked through, {time 10 min}.", "uses": ["broth"]},
+    {"text": "Stir in the pasta and simmer until tender, {time 8-10 min}. Add the spinach and stir until wilted, {time 1 min}. Taste for salt and serve with extra Parmesan.", "uses": ["pasta", "spinach", "salt"]}
+  ],
+  "notes": [
+    "Roll the meatballs with damp hands so the mixture doesn’t stick.",
+    "Freeze the soup without the pasta; add freshly cooked pasta when reheating."
+  ]
+}

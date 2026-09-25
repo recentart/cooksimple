@@ -1,0 +1,40 @@
+{
+  "id": "thai-red-curry-shrimp",
+  "title": "Thai Red Curry with Shrimp",
+  "description": "Shrimp and vegetables simmered in a fragrant coconut red curry sauce with lime and basil. Ready in about 25 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "Thai",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large deep skillet or wok"],
+  "image": {"file": "thai-red-curry-shrimp.svg", "alt": "A bowl of red curry with shrimp, peppers and basil, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "paste", "amount": "3", "unit": "tbsp", "item": "Thai red curry paste", "key": "thai red curry paste", "note": "more or less to taste"},
+    {"id": "coconut", "amount": "1", "unit": "can", "size": "13.5 oz", "item": "coconut milk", "key": "canned coconut milk"},
+    {"id": "broth", "amount": "1/2", "unit": "cup", "item": "chicken broth or water", "key": "chicken broth"},
+    {"id": "fish", "amount": "1", "unit": "tbsp", "item": "fish sauce", "key": "fish sauce"},
+    {"id": "sugar", "amount": "2", "unit": "tsp", "item": "light brown sugar", "key": "light brown sugar"},
+    {"id": "pepper", "amount": "1", "item": "red bell pepper", "key": "red bell peppers", "prep": "sliced"},
+    {"id": "zucchini", "amount": "1", "item": "zucchini", "key": "zucchini", "prep": "halved and sliced"},
+    {"id": "shrimp", "amount": "1 1/4", "unit": "lb", "item": "large shrimp", "key": "shrimp", "prep": "peeled and deveined"},
+    {"id": "lime", "amount": "1", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "basil", "amount": "1/2", "unit": "cup", "item": "Thai or regular basil leaves", "key": "fresh basil"},
+    {"id": "rice", "amount": "1 1/2", "unit": "cup", "item": "jasmine rice", "key": "jasmine rice", "prep": "cooked, for serving", "note": "measured before cooking", "optional": true}
+  ],
+  "steps": [
+    {"text": "Start the rice if you’re serving it. Heat the oil in the skillet over medium heat, add the curry paste and fry, stirring, until fragrant, {time 1 min}.", "uses": ["rice", "oil", "paste"]},
+    {"text": "Stir in the coconut milk, broth, fish sauce and brown sugar and bring to a simmer.", "uses": ["coconut", "broth", "fish", "sugar"]},
+    {"text": "Add the bell pepper and zucchini and simmer until just tender, {time 5 min}.", "uses": ["pepper", "zucchini"]},
+    {"text": "Add the shrimp and simmer until pink and opaque, {time 3-4 min}. Take the pan off the heat and stir in the lime juice and basil. Taste and add more fish sauce or lime if needed. Serve over rice.", "uses": ["shrimp", "lime", "basil"]}
+  ],
+  "notes": [
+    "Curry pastes vary a lot in heat. Start with less and add more once you’ve tasted the sauce.",
+    "Chicken thigh strips work in place of shrimp; simmer them for 8 to 10 minutes."
+  ]
+}

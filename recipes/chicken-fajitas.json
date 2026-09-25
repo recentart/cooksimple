@@ -1,0 +1,43 @@
+{
+  "id": "chicken-fajitas",
+  "title": "Chicken Fajitas",
+  "description": "Smoky, lime-marinated chicken seared hot with peppers and onions, served in warm tortillas with your favorite toppings.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "totalMinutes": 45,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Large cast-iron skillet"],
+  "image": {"file": "chicken-fajitas.svg", "alt": "A skillet of sizzling chicken strips with peppers and onions, with tortillas"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs or breasts", "key": "boneless chicken thighs", "prep": "sliced into thin strips"},
+    {"id": "lime", "amount": "2", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "divided"},
+    {"id": "chili", "amount": "2", "unit": "tsp", "item": "chili powder", "key": "chili powder"},
+    {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika"},
+    {"id": "garlic", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "peppers", "amount": "3", "item": "bell pepper", "key": "bell peppers", "prep": "mixed colors, sliced"},
+    {"id": "onion", "amount": "1", "item": "red onion", "key": "red onions", "prep": "sliced"},
+    {"id": "tortillas", "amount": "8", "item": "flour tortilla", "key": "flour tortillas", "note": "6- to 8-inch"},
+    {"id": "sour", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream", "optional": true},
+    {"id": "salsa", "amount": "1/2", "unit": "cup", "item": "salsa", "key": "salsa", "optional": true},
+    {"id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "sliced", "optional": true}
+  ],
+  "steps": [
+    {"text": "Toss the chicken with the lime juice, 1 tbsp of the oil, the chili powder, cumin, paprika, garlic powder and salt. Let it sit for {time 15 min} while you slice the vegetables.", "uses": ["chicken", "lime", "oil", "chili", "cumin", "paprika", "garlic", "salt"]},
+    {"text": "Heat 1 tbsp oil in the skillet over high heat until smoking. Add the peppers and onion and cook, stirring only now and then, until charred in spots but still a little crisp, {time 5-6 min}. Move to a plate.", "uses": ["peppers", "onion"]},
+    {"text": "Add the rest of the oil and the chicken in a single layer. Sear without moving for {time 2 min}, then stir and cook until browned and cooked through, {time 3-4 min} more.", "uses": []},
+    {"text": "Return the vegetables to the pan and toss together for {time 1 min}.", "uses": []},
+    {"text": "Warm the tortillas in a dry pan or wrapped in foil in the oven. Serve the fajitas straight from the skillet with the tortillas, sour cream, salsa and avocado.", "uses": ["tortillas", "sour", "salsa", "avocado"]}
+  ],
+  "notes": [
+    "A very hot pan is what gives fajitas their char; don’t crowd it, or they’ll steam. Cook in two batches if needed."
+  ]
+}

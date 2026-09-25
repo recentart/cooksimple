@@ -1,0 +1,40 @@
+{
+  "id": "soft-dinner-rolls",
+  "title": "Soft Dinner Rolls",
+  "description": "Pillowy, buttery pull-apart dinner rolls made with instant yeast and brushed with melted butter as they come out of the oven.",
+  "added": "2026-09-25",
+  "servings": 12,
+  "servingsLabel": "rolls",
+  "scaleOptions": [12,24],
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "totalMinutes": 150,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly", "make-ahead"],
+  "equipment": ["{len 9x13 in} baking pan", "Stand mixer or large bowl"],
+  "image": {"file": "soft-dinner-rolls.svg", "alt": "A pan of soft, shiny dinner rolls"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "milk", "amount": "1", "unit": "cup", "item": "whole milk", "key": "whole milk", "prep": "warmed to about {temp 110F}"},
+    {"id": "yeast", "amount": "2 1/4", "unit": "tsp", "item": "instant yeast", "key": "instant yeast", "note": "one packet"},
+    {"id": "sugar", "amount": "3", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar"},
+    {"id": "egg", "amount": "1", "item": "large egg", "key": "eggs", "scale": "whole"},
+    {"id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened"},
+    {"id": "flour", "amount": "3 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "note": "plus more as needed"},
+    {"id": "salt", "amount": "1 1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"},
+    {"id": "melted", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted, for brushing"}
+  ],
+  "steps": [
+    {"text": "Stir the warm milk, yeast and sugar together in a large bowl. Add the egg, softened butter, flour and salt and mix into a soft dough.", "uses": ["milk", "yeast", "sugar", "egg", "butter", "flour", "salt"]},
+    {"text": "Knead by machine on medium-low or by hand until smooth, elastic and just slightly tacky, {time 6-8 min}. Add flour a spoonful at a time only if it’s very sticky.", "uses": []},
+    {"text": "Cover and let rise in a warm place until doubled, {time 1 hr notimer}.", "uses": []},
+    {"text": "Butter the pan. Divide the dough into {count 12} pieces, roll each into a tight ball and set them in the pan in rows. Cover and let rise until puffy and touching, {time 30-40 min notimer}. Heat the oven to {temp 375F oven}.", "uses": []},
+    {"text": "Bake until golden brown and the center rolls read {temp 190F internal}, {time 18-22 min}. Brush with the melted butter right away.", "uses": ["melted"]}
+  ],
+  "notes": [
+    "Make ahead: shape the rolls, cover and refrigerate overnight. Let them rise at room temperature for about an hour, then bake.",
+    "Baked rolls freeze for 3 months; warm them wrapped in foil."
+  ]
+}

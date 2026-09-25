@@ -1,0 +1,42 @@
+{
+  "id": "carne-asada",
+  "title": "Carne Asada",
+  "description": "Citrus, garlic and cumin marinated flank steak seared hot and sliced thin for tacos, burritos or rice bowls.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 12,
+  "totalMinutes": 150,
+  "cuisine": "Mexican",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "equipment": ["Grill or large cast-iron skillet", "Instant-read thermometer"],
+  "image": {"file": "carne-asada.svg", "alt": "Sliced grilled steak with lime, salsa and cilantro"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "steak", "amount": "2", "unit": "lb", "item": "flank or skirt steak", "key": "flank steak"},
+    {"id": "orange", "amount": "1/2", "unit": "cup", "item": "orange juice", "key": "orange juice"},
+    {"id": "lime", "amount": "1/4", "unit": "cup", "item": "fresh lime juice", "key": "lime juice"},
+    {"id": "oil", "amount": "1/4", "unit": "cup", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "jalapeno", "amount": "1", "item": "jalapeño", "key": "jalapeños", "prep": "minced"},
+    {"id": "cilantro", "amount": "1/2", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "note": "plus more to serve"},
+    {"id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+    {"id": "salt", "amount": "2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "tortillas", "amount": "12", "item": "corn tortilla", "key": "corn tortillas", "prep": "warmed, for serving"},
+    {"id": "onion", "amount": "1/2", "item": "white onion", "key": "white onions", "prep": "finely chopped, for serving"},
+    {"id": "salsa", "amount": "1", "unit": "cup", "item": "salsa", "key": "salsa", "optional": true}
+  ],
+  "steps": [
+    {"text": "Whisk the orange juice, lime juice, oil, garlic, jalapeño, cilantro, cumin and salt in a dish. Add the steak and turn to coat. Refrigerate for at least {time 2 hr notimer}, up to 8 hours; the acid softens the meat too much after that.", "uses": ["steak", "orange", "lime", "oil", "garlic", "jalapeno", "cilantro", "cumin", "salt"]},
+    {"text": "Heat the grill or skillet over high heat until very hot. Lift the steak out of the marinade, let the excess drip off and pat it mostly dry.", "uses": []},
+    {"text": "Sear the steak until well charred and it reads {temp 130F internal} in the thickest part for medium-rare, {time 4-6 min} per side.", "uses": []},
+    {"text": "Rest the steak on a board for {time 10 min}. Slice thinly across the grain, which makes it tender.", "uses": []},
+    {"text": "Serve in warm tortillas with chopped onion, cilantro and salsa.", "uses": ["tortillas", "onion", "salsa"]}
+  ],
+  "notes": [
+    "Look for the lines running along the steak and slice across them, not with them.",
+    "USDA guidance is 145°F plus a 3-minute rest for whole cuts of beef; cook it longer if you prefer."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "brown-butter-gnocchi",
+  "title": "Brown Butter Gnocchi with Sage",
+  "description": "Pan-crisped potato gnocchi tossed in nutty brown butter with crisp sage leaves, lemon and cheese. Dinner in 20 minutes.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["Large nonstick skillet"],
+  "image": {"file": "brown-butter-gnocchi.svg", "alt": "Golden gnocchi in brown butter with crisp sage leaves"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "gnocchi", "amount": "2", "unit": "lb", "item": "shelf-stable or refrigerated potato gnocchi", "key": "potato gnocchi"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "butter", "amount": "5", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "sage", "amount": "16", "item": "fresh sage leaf", "key": "fresh sage", "plural": "fresh sage leaves"},
+    {"id": "garlic", "amount": "1", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "flaky or kosher salt", "key": "flaky salt"},
+    {"id": "cheese", "amount": "1/2", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "grated"},
+    {"id": "pepper", "item": "black pepper", "key": "black pepper", "scale": "taste"}
+  ],
+  "steps": [
+    {"text": "Heat the oil in the skillet over medium-high heat. Add the gnocchi straight from the package in a single layer (in batches if needed) and cook until golden and crisp on both sides, {time 6-8 min}. Move to a plate.", "uses": ["gnocchi", "oil"]},
+    {"text": "Lower the heat to medium and add the butter. When it foams, add the sage leaves and garlic.", "uses": ["butter", "sage", "garlic"]},
+    {"text": "Swirl the pan until the butter smells nutty and turns light brown with dark flecks, and the sage is crisp, {time 2-3 min}. Watch closely; it goes from brown to burnt quickly.", "uses": []},
+    {"text": "Take the pan off the heat, add the lemon juice, then return the gnocchi and toss. Season with the salt and pepper and top with the cheese.", "uses": ["lemon", "salt", "pepper", "cheese"]}
+  ],
+  "notes": [
+    "Pan-frying shelf-stable gnocchi without boiling makes them crisp outside and fluffy inside.",
+    "Toss in a few handfuls of spinach or roasted squash to make it a fuller meal."
+  ]
+}

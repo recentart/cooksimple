@@ -1,0 +1,34 @@
+{
+  "id": "roasted-brussels-sprouts",
+  "title": "Crispy Roasted Brussels Sprouts",
+  "description": "Brussels sprouts roasted cut side down until deeply caramelized and crisp, then tossed with honey, balsamic-style vinegar and chili.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Rimmed baking sheet"],
+  "image": {"file": "roasted-brussels-sprouts.svg", "alt": "Halved roasted Brussels sprouts on a sheet pan"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "sprouts", "amount": "1 1/2", "unit": "lb", "item": "Brussels sprouts", "key": "brussels sprouts", "prep": "trimmed and halved"},
+    {"id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil"},
+    {"id": "salt", "amount": "3/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "honey", "amount": "1", "unit": "tbsp", "item": "honey", "key": "honey"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "red wine or sherry vinegar", "key": "red wine vinegar"},
+    {"id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 425F oven} with a rack in the lower third.", "uses": []},
+    {"text": "Toss the sprouts with the oil and salt, then arrange them cut side down on the baking sheet with space between.", "uses": ["sprouts", "oil", "salt"]},
+    {"text": "Roast without stirring until the cut sides are deep brown and the sprouts are tender, {time 20-25 min}.", "uses": []},
+    {"text": "Whisk the honey, vinegar and pepper flakes, drizzle over the hot sprouts and toss.", "uses": ["honey", "vinegar", "flakes"]}
+  ],
+  "notes": [
+    "Cut side down against the hot pan is what gives them their dark, sweet crust.",
+    "Use maple syrup instead of honey for a vegan side."
+  ]
+}

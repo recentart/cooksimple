@@ -1,0 +1,40 @@
+{
+  "id": "corn-chowder",
+  "title": "Corn Chowder",
+  "description": "A creamy, sweet corn and potato chowder with smoky bacon, thyme and a splash of cream, made with frozen or fresh corn.",
+  "added": "2026-09-25",
+  "servings": 6,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "cuisine": "American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large pot", "Immersion blender, optional"],
+  "image": {"file": "corn-chowder.svg", "alt": "A bowl of creamy corn chowder with potatoes, bacon bits and chives"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "bacon", "amount": "4", "unit": "slice", "item": "bacon", "key": "bacon", "prep": "chopped"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced"},
+    {"id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "diced"},
+    {"id": "flour", "amount": "3", "unit": "tbsp", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "broth", "amount": "4", "unit": "cup", "item": "chicken or vegetable broth", "key": "chicken broth"},
+    {"id": "potatoes", "amount": "1", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "diced"},
+    {"id": "thyme", "amount": "1", "unit": "tsp", "item": "dried thyme", "key": "dried thyme"},
+    {"id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "corn", "amount": "4", "unit": "cup", "item": "frozen corn", "key": "frozen corn", "note": "or kernels from 5 ears"},
+    {"id": "cream", "amount": "1/2", "unit": "cup", "item": "heavy cream", "key": "heavy cream"},
+    {"id": "chives", "amount": "2", "unit": "tbsp", "item": "fresh chives", "key": "fresh chives", "prep": "chopped", "optional": true}
+  ],
+  "steps": [
+    {"text": "Cook the bacon in the pot over medium heat until crisp, {time 6-8 min}. Lift it out onto a paper towel, leaving the fat.", "uses": ["bacon"]},
+    {"text": "Add the butter, onion and celery to the fat and cook until soft, {time 6 min}. Sprinkle in the flour and stir for {time 1 min}.", "uses": ["butter", "onion", "celery", "flour"]},
+    {"text": "Slowly pour in the broth while stirring so no lumps form. Add the potatoes, thyme and salt, bring to a boil, then simmer until the potatoes are tender, {time 12-15 min}.", "uses": ["broth", "potatoes", "thyme", "salt"]},
+    {"text": "Add the corn and simmer for {time 5 min}. For a thicker chowder, blend a few pulses with an immersion blender or mash some potatoes against the pot.", "uses": ["corn"]},
+    {"text": "Stir in the cream and heat through without boiling. Taste for salt and serve topped with the bacon and chives.", "uses": ["cream", "chives"]}
+  ],
+  "notes": [
+    "For a vegetarian chowder, skip the bacon, use 3 tbsp butter and vegetable broth, and add a pinch of smoked paprika."
+  ]
+}

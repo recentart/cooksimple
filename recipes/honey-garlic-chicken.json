@@ -1,0 +1,38 @@
+{
+  "id": "honey-garlic-chicken",
+  "title": "Honey Garlic Chicken",
+  "description": "Pan-seared chicken thighs in a sticky honey, garlic and soy glaze. A 25-minute weeknight dinner that works with rice or noodles.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large skillet"],
+  "image": {"file": "honey-garlic-chicken.svg", "alt": "Glazed chicken thighs with sesame seeds and green onion, beside rice"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+    {"id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil"},
+    {"id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter"},
+    {"id": "garlic", "amount": "5", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced"},
+    {"id": "honey", "amount": "1/3", "unit": "cup", "item": "honey", "key": "honey"},
+    {"id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce"},
+    {"id": "vinegar", "amount": "1", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "sliced", "optional": true}
+  ],
+  "steps": [
+    {"text": "Pat the chicken dry and season with the salt and pepper.", "uses": ["chicken", "salt", "pepper"]},
+    {"text": "Heat the oil in the skillet over medium-high heat. Cook the chicken until golden, {time 5-6 min}, then flip and cook until it reaches {temp 175F internal}, {time 5 min}. Move to a plate and pour off most of the fat.", "uses": ["oil"]},
+    {"text": "Lower the heat to medium, add the butter and garlic and stir until fragrant, {time 30 sec}.", "uses": ["butter", "garlic"]},
+    {"text": "Add the honey, soy sauce and vinegar and simmer, stirring, until slightly thickened and bubbly, {time 2 min}.", "uses": ["honey", "soy", "vinegar"]},
+    {"text": "Return the chicken and turn it in the sauce until glazed, {time 1-2 min}. Scatter with green onions and serve.", "uses": ["scallions"]}
+  ],
+  "notes": [
+    "The glaze thickens quickly as it cools; add a splash of water if it gets too sticky."
+  ]
+}

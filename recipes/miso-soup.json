@@ -1,0 +1,34 @@
+{
+  "id": "miso-soup",
+  "title": "Miso Soup with Tofu",
+  "description": "A quick, comforting miso soup with silken tofu, wakame seaweed and scallions, made with a simple kombu broth.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "cuisine": "Japanese",
+  "mealTypes": ["lunch", "side"],
+  "diets": ["vegan"],
+  "tags": ["one-pan"],
+  "equipment": ["Medium saucepan"],
+  "image": {"file": "miso-soup.svg", "alt": "A bowl of miso soup with tofu cubes, seaweed and green onion"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "4", "unit": "cup", "item": "water", "key": "water"},
+    {"id": "kombu", "amount": "1", "unit": "piece", "item": "kombu", "key": "kombu", "note": "about {len 4 in} square", "optional": true},
+    {"id": "wakame", "amount": "2", "unit": "tbsp", "item": "dried wakame", "key": "dried wakame"},
+    {"id": "miso", "amount": "3", "unit": "tbsp", "item": "white miso", "key": "white miso"},
+    {"id": "tofu", "amount": "7", "unit": "oz", "item": "silken or soft tofu", "key": "silken tofu", "prep": "cut into small cubes"},
+    {"id": "scallions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "thinly sliced"}
+  ],
+  "steps": [
+    {"text": "Put the water and kombu in the saucepan and heat slowly over medium-low until small bubbles appear, {time 10 min}. Remove the kombu just before it boils.", "uses": ["water", "kombu"]},
+    {"text": "Soak the wakame in a small bowl of warm water until it unfolds, {time 5 min}, then drain.", "uses": ["wakame"]},
+    {"text": "Turn the heat to low. Put the miso in a ladle or small bowl, add a little of the hot broth and stir until smooth, then stir it into the pot. Don’t let the soup boil once the miso is in.", "uses": ["miso"]},
+    {"text": "Add the tofu and wakame and warm through for {time 1-2 min}. Ladle into bowls and top with green onions.", "uses": ["tofu", "scallions"]}
+  ],
+  "notes": [
+    "Traditional miso soup uses dashi made with bonito flakes (fish). This kombu broth keeps it vegan; dashi powder is a quick non-vegan alternative.",
+    "Miso varies in saltiness; start with less and add more to taste."
+  ]
+}

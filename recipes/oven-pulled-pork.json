@@ -1,0 +1,48 @@
+{
+  "id": "oven-pulled-pork",
+  "title": "Oven Pulled Pork",
+  "description": "Pork shoulder rubbed with smoky spices and roasted low and slow until it falls apart, then tossed with a tangy barbecue sauce.",
+  "added": "2026-09-25",
+  "servings": 10,
+  "prepMinutes": 20,
+  "cookMinutes": 360,
+  "cuisine": "Southern",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["make-ahead", "freezer-friendly"],
+  "equipment": ["Dutch oven or roasting pan with a lid or foil", "Small saucepan"],
+  "image": {"file": "oven-pulled-pork.svg", "alt": "A pulled pork sandwich with barbecue sauce and coleslaw"},
+  "source": {"type": "original"},
+  "ingredients": [
+    { "group": "For the pork", "items": [
+      {"id": "pork", "amount": "5", "unit": "lb", "item": "boneless pork shoulder", "key": "pork shoulder"},
+      {"id": "sugar", "amount": "3", "unit": "tbsp", "item": "light brown sugar", "key": "light brown sugar"},
+      {"id": "paprika", "amount": "2", "unit": "tbsp", "item": "smoked paprika", "key": "smoked paprika"},
+      {"id": "salt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt"},
+      {"id": "garlic", "amount": "2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder"},
+      {"id": "onionp", "amount": "2", "unit": "tsp", "item": "onion powder", "key": "onion powder"},
+      {"id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin"},
+      {"id": "pepper", "amount": "1", "unit": "tsp", "item": "black pepper", "key": "black pepper"},
+      {"id": "vinegar", "amount": "1/2", "unit": "cup", "item": "apple cider vinegar", "key": "apple cider vinegar"}
+    ] },
+    { "group": "For the sauce", "items": [
+      {"id": "ketchup", "amount": "1", "unit": "cup", "item": "ketchup", "key": "ketchup"},
+      {"id": "svinegar", "amount": "1/4", "unit": "cup", "item": "apple cider vinegar", "key": "apple cider vinegar"},
+      {"id": "brown", "amount": "1/4", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar"},
+      {"id": "worcestershire", "amount": "1", "unit": "tbsp", "item": "Worcestershire sauce", "key": "worcestershire sauce"},
+      {"id": "mustard", "amount": "1", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard"}
+    ] },
+    {"id": "buns", "amount": "10", "item": "hamburger bun", "key": "hamburger buns", "prep": "for serving", "optional": true}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 300F oven}. Mix the brown sugar, paprika, salt, garlic powder, onion powder, cumin and pepper and rub it all over the pork.", "uses": ["pork", "sugar", "paprika", "salt", "garlic", "onionp", "cumin", "pepper"]},
+    {"text": "Set the pork in the Dutch oven, pour the vinegar around it, cover tightly and roast for {time 4 hr notimer}.", "uses": ["vinegar"]},
+    {"text": "Uncover and roast until the pork is dark, the bark is crusty and it pulls apart easily with a fork, {time 1.5-2 hr notimer}. It should be well above {temp 195F internal}.", "uses": []},
+    {"text": "Meanwhile simmer the ketchup, vinegar, brown sugar, Worcestershire and mustard in the saucepan for {time 10 min}.", "uses": ["ketchup", "svinegar", "brown", "worcestershire", "mustard"]},
+    {"text": "Rest the pork for {time 15 min}, then shred it with two forks, discarding any large pieces of fat. Toss with the pan juices and as much sauce as you like. Serve on buns with the extra sauce.", "uses": ["buns"]}
+  ],
+  "notes": [
+    "Pulled pork freezes beautifully for 3 months. Reheat with a splash of water or broth.",
+    "Coleslaw on top of the sandwich is traditional."
+  ]
+}

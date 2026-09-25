@@ -1,0 +1,37 @@
+{
+  "id": "butter-shortbread",
+  "title": "Butter Shortbread",
+  "description": "Crisp, melt-in-the-mouth Scottish-style shortbread made with just butter, sugar, flour and salt, baked low until pale golden.",
+  "added": "2026-09-25",
+  "servings": 16,
+  "servingsLabel": "pieces",
+  "scaleOptions": [16,32],
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "totalMinutes": 80,
+  "cuisine": "British",
+  "mealTypes": ["dessert", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "make-ahead"],
+  "equipment": ["{len 8x8 in} or {len 9 in} round pan", "Parchment paper"],
+  "image": {"file": "butter-shortbread.svg", "alt": "Pale golden shortbread cut into fingers"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "butter", "amount": "1", "unit": "cup", "item": "salted butter", "key": "salted butter", "prep": "softened"},
+    {"id": "sugar", "amount": "1/2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar", "note": "plus 1 tbsp for sprinkling"},
+    {"id": "vanilla", "amount": "1/2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract", "optional": true},
+    {"id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour"},
+    {"id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt"}
+  ],
+  "steps": [
+    {"text": "Heat the oven to {temp 325F oven} and line the pan with parchment.", "uses": []},
+    {"text": "Beat the butter, sugar and vanilla until smooth and creamy but not fluffy, {time 1-2 min}.", "uses": ["butter", "sugar", "vanilla"]},
+    {"text": "Add the flour and salt and mix on low just until the dough comes together in clumps.", "uses": ["flour", "salt"]},
+    {"text": "Press the dough evenly into the pan, prick it all over with a fork and score it into {count 16} pieces with a knife. Sprinkle with the extra sugar.", "uses": []},
+    {"text": "Bake until pale golden at the edges and set in the middle, {time 30-35 min}. Re-cut along the scores while warm, then cool completely in the pan before lifting out.", "uses": []}
+  ],
+  "notes": [
+    "Good butter makes all the difference here, since it’s the main flavor.",
+    "Keeps 2 weeks in an airtight tin."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "basil-pesto-pasta",
+  "title": "Basil Pesto Pasta",
+  "description": "Homemade basil pesto with pine nuts, garlic, Parmesan and olive oil, tossed with pasta and a splash of the cooking water.",
+  "added": "2026-09-25",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["Food processor or blender", "Large pot"],
+  "image": {"file": "basil-pesto-pasta.svg", "alt": "A plate of pasta tossed in green pesto with basil and Parmesan"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "water", "amount": "16", "unit": "cup", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "Use a big pot of water whatever the batch size."},
+    {"id": "pastasalt", "amount": "1", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water", "scale": "fixed", "scaleNote": "It seasons the pasta water, which stays the same amount."},
+    {"id": "pasta", "amount": "1", "unit": "lb", "item": "short pasta or spaghetti", "key": "short pasta"},
+    {"id": "basil", "amount": "3", "unit": "cup", "item": "fresh basil leaves", "key": "fresh basil", "note": "loosely packed"},
+    {"id": "pine", "amount": "1/3", "unit": "cup", "item": "pine nuts", "key": "pine nuts", "prep": "toasted"},
+    {"id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic"},
+    {"id": "cheese", "amount": "3/4", "unit": "cup", "item": "vegetarian hard cheese", "key": "vegetarian hard cheese", "prep": "finely grated", "note": "or Parmesan if not vegetarian"},
+    {"id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt"},
+    {"id": "oil", "amount": "1/2", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil"},
+    {"id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice", "optional": true}
+  ],
+  "steps": [
+    {"text": "Bring the water and salt to a boil for the pasta.", "uses": ["water", "pastasalt"]},
+    {"text": "Pulse the basil, pine nuts, garlic, cheese and salt in the food processor until finely chopped. With the machine running, pour in the oil until the pesto is fairly smooth. Stir in the lemon juice.", "uses": ["basil", "pine", "garlic", "cheese", "salt", "oil", "lemon"]},
+    {"text": "Cook the pasta until al dente. Save {qty 1 cup fixed} of the water, then drain.", "uses": ["pasta"]},
+    {"text": "Toss the pasta with the pesto and enough pasta water to make a glossy sauce that clings. Serve with extra cheese.", "uses": []}
+  ],
+  "notes": [
+    "Keep pesto green by pressing plastic wrap onto its surface. It keeps 5 days in the fridge or freezes for 3 months in ice-cube trays.",
+    "Walnuts or sunflower seeds can stand in for pine nuts."
+  ]
+}

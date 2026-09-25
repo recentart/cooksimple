@@ -1,0 +1,39 @@
+{
+  "id": "no-bake-energy-bites",
+  "title": "No-Bake Energy Bites",
+  "description": "Chewy oat, peanut butter and chocolate chip balls sweetened with honey. Stir, roll and chill: a snack to keep in the fridge all week.",
+  "added": "2026-09-25",
+  "servings": 20,
+  "servingsLabel": "bites",
+  "scaleOptions": [10,20,40],
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "totalMinutes": 45,
+  "cuisine": "American",
+  "mealTypes": ["snack"],
+  "diets": ["vegetarian"],
+  "tags": ["no-cook", "make-ahead", "freezer-friendly"],
+  "equipment": ["Bowl", "Tray or plate lined with parchment"],
+  "image": {"file": "no-bake-energy-bites.svg", "alt": "Oat and peanut butter energy bites with chocolate chips"},
+  "source": {"type": "original"},
+  "ingredients": [
+    {"id": "oats", "amount": "1 1/2", "unit": "cup", "item": "rolled oats", "key": "rolled oats"},
+    {"id": "pb", "amount": "1/2", "unit": "cup", "item": "creamy peanut butter", "key": "creamy peanut butter"},
+    {"id": "honey", "amount": "1/3", "unit": "cup", "item": "honey", "key": "honey"},
+    {"id": "chips", "amount": "1/3", "unit": "cup", "item": "mini chocolate chips", "key": "semisweet chocolate chips"},
+    {"id": "chia", "amount": "2", "unit": "tbsp", "item": "chia seeds", "key": "chia seeds", "optional": true},
+    {"id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract"},
+    {"id": "salt", "amount": "1", "unit": "pinch", "item": "fine salt", "key": "fine salt"}
+  ],
+  "steps": [
+    {"text": "Stir the oats, peanut butter, honey, chocolate chips, chia seeds, vanilla and salt together until evenly combined.", "uses": ["oats", "pb", "honey", "chips", "chia", "vanilla", "salt"]},
+    {"text": "Chill the mixture for {time 20 min} so it’s easier to shape.", "uses": []},
+    {"text": "Roll into {count 20} balls about {len 1 in} across, squeezing firmly so they hold together, and set them on the lined tray.", "uses": []},
+    {"text": "Chill until firm, about {time 30 min notimer}.", "uses": []}
+  ],
+  "notes": [
+    "If the mix is too dry to hold together, add a spoonful more peanut butter; if too sticky, a few more oats.",
+    "Keeps a week in the fridge or 3 months in the freezer.",
+    "Use maple syrup instead of honey for a vegan version, with dairy-free chocolate chips."
+  ]
+}
