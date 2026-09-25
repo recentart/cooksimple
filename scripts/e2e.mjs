@@ -425,7 +425,7 @@ try {
   await click('[data-day="2"] [data-act="more"]');
   check('planner: servings stepper', (await text('[data-day="2"] .plan-servings')).includes('7 servings'));
   await click('[data-action="plan-to-list"]');
-  await waitFor(`!document.querySelector('.toast').hidden`);
+  await waitFor(`/Added ingredients for 3 recipes/.test(document.querySelector('.toast')?.innerText || '')`, 15000);
   await go('/shopping-list/');
   const planShop = await evaluate(`({ recipes: document.querySelectorAll('.shop-recipe-list li').length, items: [...document.querySelectorAll('.shop-item .shop-text')].map(e => e.firstChild.textContent.trim()) })`);
   check('planner: whole week goes to the shopping list, scaled', planShop.recipes === 3 && planShop.items.some((t) => /^3½ lb bone-in chicken thighs/.test(t)), JSON.stringify(planShop).slice(0, 300));
