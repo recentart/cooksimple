@@ -35,7 +35,7 @@
     { "text": "Put the chickpeas in a medium bowl and pat off any extra water with a paper towel. Mash with a potato masher or fork until most are broken up but some chunky pieces remain.", "uses": ["chickpeas"] },
     { "text": "Add the smaller amount of mayonnaise with the mustard, lemon juice, salt and pepper. Stir until the chickpeas are evenly coated.", "uses": ["mayo", "mustard", "lemon", "salt", "pepper"] },
     { "text": "Fold in the celery, red onion and dill. Taste and add more salt, and the rest of the mayonnaise if you like it creamier.", "uses": ["celery", "onion", "dill", "mayo"] },
-    { "text": "Toast the bread if you like. Layer lettuce and tomato on half of the slices, spread the chickpea salad on top and cover with the remaining slices. Cut in half and serve.", "uses": ["bread", "lettuce", "tomato"] }
+    { "text": "Toast the bread if you like. Build each sandwich as lettuce, tomato, a thick layer of chickpea salad, then a second slice of bread. Slice corner to corner and eat right away, before the bread softens.", "uses": ["bread", "lettuce", "tomato"] }
   ],
   "notes": [
     "For a tahini version, replace the mayonnaise with {qty 1/4 cup} tahini whisked with {qty 2 tbsp} water and an extra squeeze of lemon.",
