@@ -1,0 +1,44 @@
+{
+  "id": "fudgy-brownies",
+  "title": "Fudgy Brownies",
+  "description": "Dense, fudgy cocoa brownies with a shiny crackled top, made in one saucepan with melted butter and a little dark chocolate.",
+  "added": "2026-09-24",
+  "servings": 16,
+  "servingsLabel": "brownies",
+  "scaleOptions": [16, 32],
+  "scaleNote": "A double batch fits a {len 9x13 in} pan. Start checking at 30 minutes; it may need up to 35.",
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "totalMinutes": 105,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["{len 8x8 in} metal baking pan", "Parchment paper", "Medium saucepan"],
+  "image": { "file": "fudgy-brownies.svg", "alt": "Illustration of a tray of brownies cut into squares" },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "butter", "amount": "8", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "cut into pieces" },
+    { "id": "chocolate", "amount": "2", "unit": "oz", "item": "bittersweet chocolate", "key": "bittersweet chocolate", "prep": "chopped" },
+    { "id": "sugar", "amount": "1", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar" },
+    { "id": "cocoa", "amount": "1/2", "unit": "cup", "item": "unsweetened cocoa powder", "key": "unsweetened cocoa powder" },
+    { "id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+    { "id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole", "note": "straight from the fridge" },
+    { "id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract" },
+    { "id": "flour", "amount": "1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled" }
+  ],
+  "steps": [
+    { "text": "Heat the oven to {temp 350F oven} with a rack in the middle. Line the pan with parchment, leaving some hanging over two sides so you can lift the brownies out later.", "uses": [] },
+    { "text": "Melt the butter and chocolate together in the saucepan over low heat, stirring often, until smooth. Take the pan off the heat.", "uses": ["butter", "chocolate"] },
+    { "text": "Whisk the sugar, cocoa and salt into the chocolate mixture. Let it cool until it is warm rather than hot, {time 5 min}, so the eggs don’t scramble.", "uses": ["sugar", "cocoa", "salt"] },
+    { "text": "Whisk in the eggs one at a time, then the vanilla. Keep whisking until the batter turns thick and glossy and pulls away from the side of the pan, about {time 1 min notimer}.", "uses": ["eggs", "vanilla"] },
+    { "text": "Fold in the flour with a spatula just until no dry streaks remain. Scrape the batter into the pan and spread it into the corners.", "uses": ["flour"] },
+    { "text": "Bake until the top is shiny and set and a toothpick in the center comes out with moist crumbs but no wet batter, {time 25-30 min}.", "uses": [] },
+    { "text": "Let the brownies cool completely in the pan on a rack, at least {time 1 hr notimer}. Lift them out by the parchment and cut into {count 16} squares with a sharp knife, wiping it clean between cuts.", "uses": [] }
+  ],
+  "notes": [
+    "Glass or ceramic pans hold heat longer and can overbake the edges. If that is all you have, lower the oven to {temp 325F oven} and check a few minutes later.",
+    "For cleaner squares, chill the cooled brownies for {time 30 min notimer} before cutting.",
+    "Keep brownies in an airtight container at room temperature for up to 3 days, or freeze them wrapped individually for up to 3 months."
+  ]
+}

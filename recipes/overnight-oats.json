@@ -1,0 +1,41 @@
+{
+  "id": "overnight-oats",
+  "title": "Overnight Oats",
+  "description": "Rolled oats and chia seeds soaked overnight in plant milk with maple syrup and vanilla, then topped with fresh fruit. No cooking needed.",
+  "added": "2026-09-24",
+  "servings": 2,
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "totalMinutes": 245,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegan"],
+  "tags": ["make-ahead", "no-cook"],
+  "equipment": ["Jars or small lidded containers"],
+  "image": {
+    "file": "overnight-oats.svg",
+    "alt": "Illustration of a jar of overnight oats topped with berries, beside a banana"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "oats", "amount": "1", "unit": "cup", "item": "rolled oats", "key": "rolled oats", "note": "not quick or steel-cut" },
+    { "id": "chia", "amount": "2", "unit": "tbsp", "item": "chia seeds", "key": "chia seeds" },
+    { "id": "salt", "amount": "1/8", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+    { "id": "milk", "amount": "1 1/2", "unit": "cup", "item": "unsweetened plant milk", "key": "plant milk", "note": "such as oat, soy or almond" },
+    { "id": "maple", "amount": "2", "unit": "tbsp", "item": "maple syrup", "key": "maple syrup" },
+    { "id": "vanilla", "amount": "1/2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract" },
+    { "id": "fruit", "amount": "1", "unit": "cup", "item": "mixed berries", "key": "mixed berries", "note": "or sliced banana" }
+  ],
+  "steps": [
+    { "text": "In a medium bowl or a large jar, stir together the oats, chia seeds and salt. Add the plant milk, maple syrup and vanilla and stir until no dry pockets remain.", "uses": ["oats", "chia", "salt", "milk", "maple", "vanilla"] },
+    { "text": "Let the mixture sit for {time 5 min}, then stir again. Chia seeds clump together as they start to swell, and this second stir breaks the clumps up.", "uses": [] },
+    { "text": "Spoon into jars or containers, cover and refrigerate for at least {time 4 hr notimer}, or overnight, until the oats are soft and the mixture is thick and spoonable.", "uses": [] },
+    { "text": "Stir before serving and loosen with a splash of plant milk if it is thicker than you like. Top with the berries or banana and eat cold.", "uses": ["fruit"] }
+  ],
+  "notes": [
+    "The oats keep covered in the fridge for up to 4 days, so a bigger batch covers several breakfasts. Add the fruit on the day you eat them.",
+    "Quick oats turn mushy and steel-cut oats stay hard after soaking, so use rolled (old-fashioned) oats.",
+    "To eat it warm, microwave a portion in a heat-safe bowl for {time 1 min notimer}, stirring halfway.",
+    "Dairy milk works in place of plant milk, though the oats are then no longer vegan."
+  ]
+}

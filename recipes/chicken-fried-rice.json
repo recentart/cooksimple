@@ -1,0 +1,50 @@
+{
+  "id": "chicken-fried-rice",
+  "title": "Chicken Fried Rice",
+  "description": "Cold cooked rice stir-fried with browned chicken, soft scrambled egg, peas and carrots, and green onions, seasoned with soy sauce and sesame oil.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet or wok holds 4 servings. For more, cook the rice in batches; an overfilled pan steams the rice instead of frying it.",
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "featured": true,
+  "equipment": ["12-inch skillet or wok"],
+  "image": {
+    "file": "chicken-fried-rice.svg",
+    "alt": "Illustration of a bowl of chicken fried rice with peas, carrot, egg and green onion"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "rice", "amount": "4", "unit": "cup", "item": "cooked white rice", "key": "cooked white rice", "prep": "cold", "note": "day-old rice fries best" },
+    { "id": "chicken", "amount": "1", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs", "prep": "cut into {len 1/2 in} pieces", "note": "or chicken breasts" },
+    { "id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+    { "id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "oil", "amount": "3", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "prep": "divided" },
+    { "id": "eggs", "amount": "3", "item": "large egg", "key": "eggs", "prep": "beaten", "scale": "whole" },
+    { "id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced" },
+    { "id": "green-onions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "thinly sliced, white and green parts kept separate" },
+    { "id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced" },
+    { "id": "peas-carrots", "amount": "1", "unit": "cup", "item": "frozen peas and carrots", "key": "frozen peas and carrots", "note": "no need to thaw" },
+    { "id": "soy", "amount": "3", "unit": "tbsp", "item": "soy sauce", "key": "soy sauce" },
+    { "id": "sesame-oil", "amount": "2", "unit": "tsp", "item": "toasted sesame oil", "key": "toasted sesame oil" }
+  ],
+  "steps": [
+    { "text": "Toss the chicken with the salt and pepper. Crumble the cold rice with your fingers so the grains are separate; clumps are hard to break up once they hit the hot pan.", "uses": ["chicken", "salt", "pepper", "rice"] },
+    { "text": "Heat {qty 1 tbsp} of the oil in the skillet over medium-high heat until it shimmers. Add the chicken in a single layer and cook, stirring now and then, until browned with no pink inside, {time 5-6 min}. A piece should read {temp 165F internal}. Move it to a plate.", "uses": ["oil", "chicken"] },
+    { "text": "Lower the heat to medium. Pour the eggs into the fat left in the pan and stir gently until softly set but still a little glossy, about {time 1 min}. Add them to the plate with the chicken.", "uses": ["eggs"] },
+    { "text": "Turn the heat back to medium-high and add {qty 1 tbsp} of the oil. Stir-fry the onion and the white parts of the green onions until the onion softens, {time 3 min}. Add the garlic and stir until fragrant, {time 30 sec}.", "uses": ["oil", "onion", "green-onions", "garlic"] },
+    { "text": "Add the rest of the oil, then the rice. Press it into an even layer and leave it until it sizzles and some grains start to crisp, {time 1-2 min}. Stir, spread it out again and keep going until the rice is hot all the way through, {time 3-4 min}.", "uses": ["oil", "rice"] },
+    { "text": "Stir in the peas and carrots, then return the chicken and eggs, breaking the eggs into small pieces. Drizzle the soy sauce around the edge of the pan and toss until the rice is evenly colored and the vegetables are hot, {time 2-3 min}.", "uses": ["peas-carrots", "chicken", "eggs", "soy"] },
+    { "text": "Take the pan off the heat. Drizzle with the sesame oil, scatter the green onion tops over and toss once more. Taste and add a splash more soy sauce if it needs it.", "uses": ["sesame-oil", "green-onions"] }
+  ],
+  "notes": [
+    "Freshly cooked rice turns gummy in the pan. If it is all you have, spread it on a sheet pan and refrigerate it uncovered for {time 30 min notimer} to dry the surface first.",
+    "About {qty 1 1/3 cup} of uncooked long-grain rice cooks up to the {qty 4 cup} used here.",
+    "Chicken breast works the same way and cooks a minute or two faster.",
+    "Refrigerate leftovers within 2 hours of cooking and eat within 3 days. Reheat until steaming hot all the way through."
+  ]
+}

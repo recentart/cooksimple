@@ -1,0 +1,47 @@
+{
+  "id": "lemon-garlic-chicken-thighs",
+  "title": "Lemon Garlic Chicken Thighs",
+  "description": "Crisp-skinned chicken thighs seared and roasted in one skillet with garlic, lemon and thyme, then finished with a quick pan sauce.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet holds about 2 pounds of thighs in one layer. For a bigger batch, use two skillets or finish everything on a rimmed sheet pan.",
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "cuisine": "Mediterranean",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "featured": true,
+  "equipment": ["12-inch oven-safe skillet", "Instant-read thermometer"],
+  "image": {
+    "file": "lemon-garlic-chicken-thighs.svg",
+    "alt": "Illustration of chicken thighs in a skillet with lemon, garlic and thyme"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "chicken", "amount": "2", "unit": "lb", "item": "bone-in, skin-on chicken thighs", "key": "bone-in chicken thighs", "note": "{count 6-8} thighs" },
+    { "id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+    { "id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil" },
+    { "id": "garlic", "amount": "6", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "lightly smashed and peeled" },
+    { "id": "thyme", "amount": "4", "unit": "sprig", "item": "fresh thyme", "key": "fresh thyme", "note": "or {qty 1/2 tsp} dried thyme" },
+    { "id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "thinly sliced, seeds removed" },
+    { "id": "broth", "amount": "1/2", "unit": "cup", "item": "chicken broth", "key": "chicken broth" },
+    { "id": "juice", "amount": "2", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice", "note": "a juicy lemon gives 2 to 3 tbsp" },
+    { "id": "butter", "amount": "1", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter" },
+    { "id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped", "optional": true }
+  ],
+  "steps": [
+    { "text": "Heat the oven to {temp 425F oven} with a rack in the middle. Pat the chicken very dry with paper towels, then season both sides with the salt and pepper.", "uses": ["chicken", "salt", "pepper"] },
+    { "text": "Heat the oil in the skillet over medium-high heat until it shimmers. Lay the thighs in skin side down and leave them alone until the skin is deep golden and lets go of the pan easily, {time 8-10 min}. Lower the heat a little if the fat starts to smoke.", "uses": ["oil", "chicken"] },
+    { "text": "Turn the thighs skin side up. Tuck the garlic, thyme and lemon slices into the gaps between them.", "uses": ["garlic", "thyme", "lemon"] },
+    { "text": "Move the skillet to the oven and roast until the thickest thigh reads {temp 175F internal} near the bone, {time 20-25 min}. Chicken is safe to eat from {temp 165F internal}, but thighs are juicier and more tender a little higher.", "uses": [] },
+    { "text": "Transfer the chicken to a plate. The skillet handle is now very hot, so grab it with an oven mitt. Pour off all but about {qty 1 tbsp fixed} of fat, set the skillet over medium heat and add the broth and lemon juice, scraping up the browned bits. Simmer until slightly reduced, {time 2-3 min}.", "uses": ["broth", "juice"] },
+    { "text": "Take the skillet off the heat and swirl in the butter until melted. Spoon the sauce, garlic and lemon slices over the chicken and scatter the parsley on top.", "uses": ["butter", "parsley"] }
+  ],
+  "notes": [
+    "Boneless thighs work too: sear them for {time 5 min} per side and roast for {time 10-12 min notimer}, until they reach {temp 175F internal}.",
+    "The roasted garlic cloves turn soft and sweet. Mash them into the sauce or spread them on bread.",
+    "Leftovers keep in a covered container in the fridge for up to 3 days."
+  ]
+}

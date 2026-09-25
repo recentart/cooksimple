@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cooksimple.freewebtoolss.workers.dev/sitemap.xml

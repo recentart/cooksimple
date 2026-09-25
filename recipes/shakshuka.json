@@ -1,0 +1,50 @@
+{
+  "id": "shakshuka",
+  "title": "Shakshuka",
+  "description": "Eggs gently cooked in a thick tomato and red pepper sauce spiced with cumin and paprika, served from the pan with bread for scooping.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet fits 8 eggs in the sauce. Use a 10-inch skillet for 2 servings. For more than 4 servings, use two skillets rather than crowding one.",
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "North African",
+  "mealTypes": ["breakfast", "lunch", "dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan"],
+  "equipment": ["12-inch skillet with a lid"],
+  "image": {
+    "file": "shakshuka.svg",
+    "alt": "Illustration of eggs baked in a red tomato and pepper sauce in a skillet, with herbs"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil" },
+    { "id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "chopped" },
+    { "id": "pepper", "amount": "1", "item": "large red bell pepper", "key": "red bell peppers", "prep": "chopped" },
+    { "id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced" },
+    { "id": "cumin", "amount": "1 1/2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin" },
+    { "id": "paprika", "amount": "2", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika", "note": "or smoked paprika" },
+    { "id": "flakes", "amount": "1/4", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes", "optional": true },
+    { "id": "tomatoes", "amount": "2", "unit": "can", "size": "14.5 oz", "item": "whole peeled tomatoes", "key": "canned whole tomatoes", "note": "or crushed tomatoes" },
+    { "id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+    { "id": "black-pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "eggs", "amount": "8", "item": "large egg", "key": "eggs", "scale": "whole" },
+    { "id": "feta", "amount": "1/2", "unit": "cup", "item": "feta cheese", "key": "feta cheese", "prep": "crumbled", "note": "check the label for non-animal rennet", "optional": true },
+    { "id": "herbs", "amount": "1/4", "unit": "cup", "item": "fresh cilantro or parsley", "key": "fresh cilantro", "prep": "chopped", "optional": true },
+    { "id": "bread", "amount": "8", "unit": "slice", "item": "crusty bread", "key": "crusty bread", "prep": "for serving", "optional": true }
+  ],
+  "steps": [
+    { "text": "Heat the oil in the skillet over medium heat. Add the onion and bell pepper and cook, stirring now and then, until very soft and the onion is golden at the edges, {time 8-10 min}.", "uses": ["oil", "onion", "pepper"] },
+    { "text": "Add the garlic, cumin, paprika and red pepper flakes and stir until fragrant, {time 1 min}. Don't let the garlic brown.", "uses": ["garlic", "cumin", "paprika", "flakes"] },
+    { "text": "Add the tomatoes and their juice, crushing the whole ones in the pan with a spoon or potato masher. Stir in {qty 1 tsp} of the salt and bring to a simmer.", "uses": ["tomatoes", "salt"] },
+    { "text": "Simmer, stirring occasionally, until the sauce is thick enough that a spoon dragged through it leaves a path that holds for a moment, {time 10-12 min}. Taste and add more salt if needed.", "uses": [] },
+    { "text": "Turn the heat to medium-low. Make a small well in the sauce for each egg with the back of a spoon and crack an egg into each one. Sprinkle the eggs with the rest of the salt and the black pepper.", "uses": ["eggs", "salt", "black-pepper"] },
+    { "text": "Cover the pan and cook until the egg whites are set and the yolks are still soft, {time 5-8 min}. Check often near the end; yolks go from runny to firm quickly.", "uses": [] },
+    { "text": "Take the pan off the heat. Scatter the feta and herbs over the top and serve straight from the pan with the bread for scooping.", "uses": ["feta", "herbs", "bread"] }
+  ],
+  "notes": [
+    "Runny yolks are traditional. For fully set yolks, which food-safety guidance recommends for young children, pregnant people and older adults, keep the pan covered for {time 3-4 min notimer} longer.",
+    "The sauce can be made up to 3 days ahead and refrigerated. Reheat it in the skillet until bubbling before adding the eggs.",
+    "A green bell pepper or a mix of colors works in place of the red, though red gives the sweetest sauce."
+  ]
+}

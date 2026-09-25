@@ -1,0 +1,51 @@
+{
+  "id": "one-pan-chicken-and-rice",
+  "title": "One-Pan Chicken and Rice",
+  "description": "Paprika-rubbed chicken thighs seared, then simmered on a bed of toasted rice and broth in one covered skillet, finished with peas and lemon.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "Written for a 12-inch skillet with a tight lid or a 3 1/2- to 4-quart braiser. Use a 10-inch pan for 2 servings. For 6 or more, use a wide Dutch oven and expect the covered cooking to take a few minutes longer.",
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "totalMinutes": 60,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["12-inch skillet with a tight-fitting lid, or a braiser", "Instant-read thermometer"],
+  "image": {
+    "file": "one-pan-chicken-and-rice.svg",
+    "alt": "Illustration of a pan of golden rice topped with chicken thighs, peas and a lemon wedge"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "chicken", "amount": "1 1/2", "unit": "lb", "item": "boneless, skinless chicken thighs", "key": "boneless chicken thighs", "note": "about {count 6} thighs" },
+    { "id": "paprika", "amount": "2", "unit": "tsp", "item": "sweet paprika", "key": "sweet paprika", "note": "or smoked paprika" },
+    { "id": "salt", "amount": "1 1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+    { "id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil" },
+    { "id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "diced" },
+    { "id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced" },
+    { "id": "rice", "amount": "1 1/2", "unit": "cup", "item": "long-grain white rice", "key": "long-grain white rice", "prep": "rinsed and drained well" },
+    { "id": "broth", "amount": "2 3/4", "unit": "cup", "item": "low-sodium chicken broth", "key": "chicken broth" },
+    { "id": "peas", "amount": "1", "unit": "cup", "item": "frozen peas", "key": "frozen peas" },
+    { "id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "zested, then cut into wedges" },
+    { "id": "parsley", "amount": "2", "unit": "tbsp", "item": "fresh parsley", "key": "fresh parsley", "prep": "chopped", "optional": true }
+  ],
+  "steps": [
+    { "text": "Stir together the paprika, salt and pepper. Pat the chicken dry with paper towels and rub half of the spice mix over both sides of the thighs.", "uses": ["paprika", "salt", "pepper", "chicken"] },
+    { "text": "Heat the oil in the skillet over medium-high heat until it shimmers. Lay the thighs in smooth side down and sear until deep golden, {time 4-5 min}. Flip and brown the other side for {time 3 min}. They will not be cooked through yet. Move them to a plate.", "uses": ["oil", "chicken"] },
+    { "text": "Lower the heat to medium. Add the onion to the fat in the pan and cook, stirring and scraping up the browned bits, until soft and lightly golden, {time 4-5 min}.", "uses": ["onion"] },
+    { "text": "Add the rice, garlic and the rest of the spice mix. Stir until every grain is coated in fat and the rice smells lightly toasted, {time 2 min}.", "uses": ["rice", "garlic"] },
+    { "text": "Pour in the broth, scrape the bottom of the pan and bring to a boil. Nestle the chicken into the rice, browned side up, and pour in any juices from the plate.", "uses": ["broth", "chicken"] },
+    { "text": "Cover tightly, turn the heat to low and cook without lifting the lid for {time 20 min}. The liquid should be absorbed, the top of the rice dotted with small steam holes, and the thickest thigh should read at least {temp 165F internal}.", "uses": [] },
+    { "text": "Take the pan off the heat. Scatter the peas over the rice, cover again and let it stand for {time 10 min}. The trapped steam finishes the rice and warms the peas through.", "uses": ["peas"] },
+    { "text": "Fluff the rice around the chicken with a fork. Scatter the lemon zest and parsley over the top and serve with the lemon wedges for squeezing.", "uses": ["lemon", "parsley"] }
+  ],
+  "notes": [
+    "Keep the lid on while the rice cooks; the steam does half the work. If your lid is loose, lay a sheet of foil over the pan before putting the lid on.",
+    "If the rice is still firm after resting, sprinkle {qty 1/4 cup} of water over it, cover and cook on low for {time 5 min notimer} more.",
+    "Brown rice needs more liquid and a much longer cook, so it is not a straight swap here. Chicken breasts tend to dry out during the long covered cook; thighs stay juicy.",
+    "Refrigerate leftovers within 2 hours and eat within 3 days. Sprinkle the rice with a little water before reheating so it steams instead of drying out."
+  ]
+}

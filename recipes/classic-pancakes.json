@@ -1,0 +1,49 @@
+{
+  "id": "classic-pancakes",
+  "title": "Classic Pancakes",
+  "description": "Fluffy, golden pancakes from a quick batter of flour, milk, eggs and melted butter, cooked on a griddle and served with maple syrup.",
+  "added": "2026-09-24",
+  "servings": 12,
+  "servingsLabel": "pancakes",
+  "scaleOptions": [6, 12, 18, 24],
+  "scaleNote": "A large skillet cooks about 3 pancakes at a time and a griddle about 6, so a bigger batch just means more rounds at the stove.",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["breakfast"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "featured": true,
+  "equipment": ["Large nonstick skillet or griddle", "Thin spatula"],
+  "image": {
+    "file": "classic-pancakes.svg",
+    "alt": "Illustration of a stack of pancakes with butter and maple syrup"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "flour", "amount": "2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled" },
+    { "id": "sugar", "amount": "2", "unit": "tbsp", "item": "granulated sugar", "key": "granulated sugar" },
+    { "id": "baking-powder", "amount": "4", "unit": "tsp", "item": "baking powder", "key": "baking powder" },
+    { "id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+    { "id": "butter", "amount": "4", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter" },
+    { "id": "milk", "amount": "1 3/4", "unit": "cup", "item": "milk", "key": "milk", "note": "whole or 2%" },
+    { "id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole" },
+    { "id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract" },
+    { "id": "pan-oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "prep": "for the pan", "scale": "fixed", "scaleNote": "Only a thin film is brushed on before each round, so this covers any batch size." },
+    { "id": "syrup", "amount": "1/2", "unit": "cup", "item": "maple syrup", "key": "maple syrup", "prep": "for serving", "optional": true }
+  ],
+  "steps": [
+    { "text": "Melt the butter in a small saucepan or in the microwave and set it aside to cool slightly. In a large bowl, whisk the flour, sugar, baking powder and salt until evenly combined.", "uses": ["butter", "flour", "sugar", "baking-powder", "salt"] },
+    { "text": "In a medium bowl, whisk the milk, eggs and vanilla until smooth. Pour in the melted butter slowly while whisking. A few small flecks of butter are fine.", "uses": ["milk", "eggs", "vanilla", "butter"] },
+    { "text": "Pour the milk mixture into the flour mixture and stir gently with a spatula just until no dry flour remains. Leave the lumps: overmixing makes flat, tough pancakes. Let the batter rest while the pan heats, {time 5 min}.", "uses": [] },
+    { "text": "Heat the skillet or griddle over medium heat, or set an electric griddle to {temp 375F}. Brush it lightly with oil. It is ready when a drop of water sizzles and skitters across the surface.", "uses": ["pan-oil"] },
+    { "text": "Pour about {qty 1/4 cup fixed} of batter per pancake, leaving room between them. Cook until bubbles cover the surface and the edges look dry and set, {time 2-3 min}.", "uses": [] },
+    { "text": "Flip with a thin spatula and cook until the underside is golden and the center springs back when pressed, {time 1-2 min}.", "uses": [] },
+    { "text": "Repeat with the remaining batter, brushing the pan with a little more oil between rounds. Lower the heat slightly if the pancakes brown before bubbles form. Serve hot with maple syrup.", "uses": ["pan-oil", "syrup"] }
+  ],
+  "notes": [
+    "To serve everything at once, keep finished pancakes in a single layer on a baking sheet in a {temp 200F oven} while you cook the rest.",
+    "For blueberry or chocolate chip pancakes, scatter a few berries or chips over each pancake right after pouring, instead of stirring them into the batter. They spread more evenly and burn less.",
+    "Cool leftover pancakes completely, then refrigerate for up to 3 days or freeze with parchment between them for up to 2 months. Reheat in a toaster."
+  ]
+}

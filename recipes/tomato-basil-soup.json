@@ -1,0 +1,47 @@
+{
+  "id": "tomato-basil-soup",
+  "title": "Tomato Basil Soup",
+  "description": "Canned whole tomatoes simmered with onion and garlic, blended smooth with fresh basil and finished with a splash of cream.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A large pot holds up to a double batch. Bigger batches take a few extra minutes to come to a boil and need more rounds in a countertop blender.",
+  "prepMinutes": 10,
+  "cookMinutes": 35,
+  "cuisine": "American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegetarian"],
+  "tags": ["one-pan", "freezer-friendly"],
+  "equipment": ["Large pot", "Immersion blender or countertop blender"],
+  "image": {
+    "file": "tomato-basil-soup.svg",
+    "alt": "Illustration of a bowl of tomato soup with a cream swirl and basil leaves"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "butter", "amount": "2", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter" },
+    { "id": "oil", "amount": "1", "unit": "tbsp", "item": "olive oil", "key": "olive oil" },
+    { "id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "chopped" },
+    { "id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "thinly sliced" },
+    { "id": "tomatoes", "amount": "1", "unit": "can", "size": "28 oz", "item": "whole peeled tomatoes", "key": "canned whole tomatoes" },
+    { "id": "broth", "amount": "1 1/2", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth" },
+    { "id": "salt", "amount": "1/2", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "prep": "plus more to taste" },
+    { "id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "basil", "amount": "1/2", "unit": "cup", "item": "fresh basil leaves", "key": "fresh basil", "prep": "loosely packed, plus a few small leaves for serving" },
+    { "id": "cream", "amount": "1/4", "unit": "cup", "item": "heavy cream", "key": "heavy cream" },
+    { "id": "sugar", "amount": "1/2", "unit": "tsp", "item": "granulated sugar", "key": "granulated sugar", "optional": true }
+  ],
+  "steps": [
+    { "text": "Melt the butter with the oil in a large pot over medium heat. Add the onion and a pinch of the salt and cook, stirring now and then, until soft and translucent but not browned, {time 8-10 min}.", "uses": ["butter", "oil", "onion", "salt"] },
+    { "text": "Add the garlic and cook, stirring, until fragrant and only just starting to color, about {time 1 min}. Keep it moving so it doesn't scorch.", "uses": ["garlic"] },
+    { "text": "Pour in the tomatoes and their juice, then break each tomato up against the side of the pot with a wooden spoon. Stir in the broth, the pepper and the rest of the salt, and bring to a boil.", "uses": ["tomatoes", "broth", "pepper", "salt"] },
+    { "text": "Lower the heat, partly cover and simmer, stirring once or twice, until the tomatoes have collapsed and the soup has thickened slightly, {time 15-20 min}.", "uses": [] },
+    { "text": "Turn off the heat and stir in the basil. Blend until smooth with an immersion blender, keeping the blade under the surface. With a countertop blender, work in batches with the jar no more than half full and the lid's center cap removed, holding a folded towel over the opening so steam can escape instead of forcing the lid off.", "uses": ["basil"] },
+    { "text": "Return the soup to the pot over low heat and stir in the cream. Warm it through without letting it boil, then taste and add more salt, plus the sugar if the soup tastes sharp. Serve topped with the reserved basil leaves.", "uses": ["cream", "sugar"] }
+  ],
+  "notes": [
+    "Use whole canned tomatoes rather than diced. Diced tomatoes are firmed with calcium chloride so they hold their shape, and they don't blend as smoothly.",
+    "For a dairy-free soup, use {qty 2 tbsp} more olive oil in place of the butter and leave out the cream.",
+    "To freeze, cool the soup before adding the cream and freeze for up to 3 months. Thaw overnight in the fridge, reheat gently and stir in the cream.",
+    "Keeps in a covered container in the fridge for up to 4 days."
+  ]
+}

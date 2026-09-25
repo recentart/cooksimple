@@ -1,0 +1,8 @@
+{
+  "name": "CookSimple",
+  "tagline": "Recipes without the clutter.",
+  "url": "https://cooksimple.freewebtoolss.workers.dev",
+  "description": "Clean, practical recipes designed for cooking, with serving scaling, US and metric units, Cook Mode with timers, shopping lists and no clutter.",
+  "repo": "https://github.com/recentart/cooksimple",
+  "ads": { "enabled": false }
+}

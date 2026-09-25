@@ -1,0 +1,48 @@
+{
+  "id": "coconut-chickpea-curry",
+  "title": "Coconut Chickpea Curry",
+  "description": "A weeknight curry of chickpeas and spinach simmered in spiced tomato and coconut milk, brightened with lime and cilantro.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A double batch needs a large pot or Dutch oven so the sauce can reduce; allow a few extra minutes of simmering.",
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "cuisine": "Global",
+  "mealTypes": ["dinner"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "make-ahead", "freezer-friendly"],
+  "equipment": ["Large deep skillet or wide pot"],
+  "image": { "file": "coconut-chickpea-curry.svg", "alt": "Illustration of a bowl of chickpea and spinach curry beside a bowl of rice" },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "oil", "amount": "2", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil" },
+    { "id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "finely chopped" },
+    { "id": "garlic", "amount": "3", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced" },
+    { "id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "finely grated" },
+    { "id": "curry", "amount": "1 1/2", "unit": "tbsp", "item": "curry powder", "key": "curry powder" },
+    { "id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin" },
+    { "id": "turmeric", "amount": "1/2", "unit": "tsp", "item": "ground turmeric", "key": "ground turmeric" },
+    { "id": "cayenne", "amount": "1/4", "unit": "tsp", "item": "cayenne pepper", "key": "cayenne pepper", "note": "for more heat", "optional": true },
+    { "id": "tomatoes", "amount": "1", "unit": "can", "size": "14.5 oz", "item": "diced tomatoes", "key": "canned diced tomatoes", "prep": "with their juice" },
+    { "id": "chickpeas", "amount": "2", "unit": "can", "size": "15 oz", "item": "chickpeas", "key": "canned chickpeas", "prep": "drained and rinsed" },
+    { "id": "coconut", "amount": "1", "unit": "can", "size": "13.5 oz", "item": "coconut milk", "key": "canned coconut milk", "note": "full-fat, shaken well" },
+    { "id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "note": "plus more to taste" },
+    { "id": "spinach", "amount": "4", "unit": "cup", "item": "baby spinach", "key": "spinach", "note": "about {qty 4 oz}, lightly packed" },
+    { "id": "lime", "amount": "1", "unit": "tbsp", "item": "fresh lime juice", "key": "lime juice" },
+    { "id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true },
+    { "id": "rice", "amount": "1 1/2", "unit": "cup", "item": "basmati rice", "key": "basmati rice", "prep": "cooked, for serving", "note": "measured before cooking", "optional": true }
+  ],
+  "steps": [
+    { "text": "If you are serving rice, start cooking it now. Heat the oil in the skillet over medium heat. Add the onion and cook, stirring now and then, until soft and turning golden, {time 6-8 min}.", "uses": ["rice", "oil", "onion"] },
+    { "text": "Add the garlic and ginger and stir for {time 1 min}, until fragrant. Add the curry powder, cumin, turmeric and cayenne and stir for {time 30 sec} more, until the spices smell toasty. Don’t let them burn.", "uses": ["garlic", "ginger", "curry", "cumin", "turmeric", "cayenne"] },
+    { "text": "Pour in the tomatoes with their juice and scrape up anything stuck to the pan. Simmer until slightly thickened, {time 3 min}.", "uses": ["tomatoes"] },
+    { "text": "Stir in the chickpeas, coconut milk and salt. Bring to a simmer, then cook uncovered, stirring now and then, until the sauce is thick enough to coat a spoon, {time 12-15 min}. Mash a few chickpeas against the side of the pan to help it thicken.", "uses": ["chickpeas", "coconut", "salt"] },
+    { "text": "Stir in the spinach a handful at a time until it wilts, {time 1-2 min}. Take the pan off the heat, add the lime juice, then taste and add more salt if it needs it.", "uses": ["spinach", "lime"] },
+    { "text": "Serve over the rice and scatter with cilantro.", "uses": ["rice", "cilantro"] }
+  ],
+  "notes": [
+    "Curry powders vary a lot in heat and salt. Start with the amount here and adjust at the end.",
+    "The curry tastes even better the next day. Refrigerate for up to 4 days or freeze (without rice) for up to 3 months.",
+    "Light coconut milk works, but the sauce will be thinner; simmer it a few minutes longer."
+  ]
+}

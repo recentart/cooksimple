@@ -1,0 +1,43 @@
+{
+  "id": "spaghetti-aglio-e-olio",
+  "title": "Spaghetti Aglio e Olio",
+  "description": "Spaghetti tossed with olive oil, gently toasted sliced garlic and red pepper flakes, with starchy pasta water pulling it into a glossy sauce.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet holds about 1 pound of spaghetti. For a bigger batch, cook the garlic and toss the pasta in a wide Dutch oven instead.",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "Italian",
+  "mealTypes": ["dinner"],
+  "diets": ["vegan"],
+  "tags": [],
+  "featured": true,
+  "equipment": ["Large pot", "{len 12 in} skillet", "Tongs"],
+  "image": {
+    "file": "spaghetti-aglio-e-olio.svg",
+    "alt": "Illustration of a plate of spaghetti with sliced garlic, parsley and chili flakes"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "water", "amount": "4", "unit": "quart", "item": "water", "key": "water", "prep": "for boiling the pasta", "scale": "fixed", "scaleNote": "A big pot of water cooks any batch size, so it stays the same." },
+    { "id": "salt", "amount": "1 1/2", "unit": "tbsp", "item": "kosher salt", "key": "kosher salt", "prep": "for the pasta water, plus more to taste", "scale": "fixed", "scaleNote": "Seasons the pot of water, which stays the same size at any batch." },
+    { "id": "spaghetti", "amount": "1", "unit": "lb", "item": "spaghetti", "key": "spaghetti" },
+    { "id": "oil", "amount": "1/2", "unit": "cup", "item": "extra-virgin olive oil", "key": "olive oil" },
+    { "id": "garlic", "amount": "8", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "peeled and thinly sliced" },
+    { "id": "flakes", "amount": "1/2", "unit": "tsp", "item": "red pepper flakes", "key": "red pepper flakes", "note": "up to {qty 1 tsp} for more heat" },
+    { "id": "parsley", "amount": "1/4", "unit": "cup", "item": "fresh parsley", "key": "fresh parsley", "prep": "finely chopped" }
+  ],
+  "steps": [
+    { "text": "Bring the water to a boil in a large covered pot, then uncover it and stir in the salt.", "uses": ["water", "salt"] },
+    { "text": "Add the spaghetti and cook, stirring now and then, until it bends easily but is still firm in the center, {time 7-8 min}, or about {time 2 min notimer} short of the package time. It finishes cooking in the sauce.", "uses": ["spaghetti"] },
+    { "text": "While the pasta cooks, put the oil and garlic in a {len 12 in} skillet over medium-low heat. Cook, stirring often, until the garlic is pale gold and fragrant, {time 4-6 min}. It keeps darkening off the heat, so stop at pale gold rather than brown.", "uses": ["oil", "garlic"] },
+    { "text": "Take the skillet off the heat and stir in the red pepper flakes. Scoop out {qty 1 cup} of the pasta water, then drain the spaghetti and add it to the skillet with {qty 1/2 cup} of the reserved water.", "uses": ["flakes", "spaghetti"] },
+    { "text": "Set the skillet over medium-high heat and toss constantly with tongs until the water and oil come together into a light, glossy sauce that clings to the pasta, {time 2-3 min}. Add more pasta water a splash at a time if it looks dry or oily.", "uses": [] },
+    { "text": "Take the pan off the heat and toss in the parsley. Taste, add a pinch of salt if needed and serve right away, because the sauce tightens as it cools.", "uses": ["parsley", "salt"] }
+  ],
+  "notes": [
+    "Slice the garlic as thin and even as you can so it all turns golden at the same time. Thick slices stay pale while thin ones burn.",
+    "If you're not cooking vegan, a little grated Parmesan or pecorino over each plate is a good addition.",
+    "Best eaten right away. Leftovers keep in the fridge for up to 3 days; warm them in a skillet with a splash of water."
+  ]
+}

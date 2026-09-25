@@ -1,0 +1,50 @@
+{
+  "id": "chocolate-chip-cookies",
+  "title": "Chocolate Chip Cookies",
+  "description": "Chewy chocolate chip cookies with golden, crisp edges and soft centers, made with brown sugar, vanilla and plenty of semisweet chips.",
+  "added": "2026-09-24",
+  "servings": 24,
+  "servingsLabel": "cookies",
+  "scaleOptions": [12, 24, 36, 48],
+  "scaleNote": "A large baking sheet holds about 12 cookies, so more cookies just means more rounds. The bake time per sheet stays the same.",
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "totalMinutes": 45,
+  "cuisine": "American",
+  "mealTypes": ["dessert", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "featured": true,
+  "equipment": ["2 large baking sheets", "Parchment paper", "Electric mixer"],
+  "image": {
+    "file": "chocolate-chip-cookies.svg",
+    "alt": "Illustration of chocolate chip cookies on a plate"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "flour", "amount": "2 1/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled" },
+    { "id": "soda", "amount": "1", "unit": "tsp", "item": "baking soda", "key": "baking soda" },
+    { "id": "salt", "amount": "1", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+    { "id": "butter", "amount": "1", "unit": "cup", "item": "unsalted butter", "key": "unsalted butter", "prep": "softened", "note": "it should dent easily when pressed but still hold its shape" },
+    { "id": "brown-sugar", "amount": "3/4", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed" },
+    { "id": "sugar", "amount": "1/2", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar" },
+    { "id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole", "prep": "at room temperature" },
+    { "id": "vanilla", "amount": "2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract" },
+    { "id": "chips", "amount": "2", "unit": "cup", "item": "semisweet chocolate chips", "key": "semisweet chocolate chips" }
+  ],
+  "steps": [
+    { "text": "Heat the oven to {temp 375F oven} with a rack in the middle. Line two baking sheets with parchment paper. In a medium bowl, whisk the flour, baking soda and salt.", "uses": ["flour", "soda", "salt"] },
+    { "text": "In a large bowl, beat the butter, brown sugar and granulated sugar with an electric mixer on medium speed until lighter in color and fluffy, {time 2-3 min}.", "uses": ["butter", "brown-sugar", "sugar"] },
+    { "text": "Beat in the eggs one at a time, then the vanilla, scraping down the sides of the bowl as needed. The mixture should look smooth, not curdled.", "uses": ["eggs", "vanilla"] },
+    { "text": "Add the flour mixture and mix on low speed just until no streaks of flour remain. Stir in the chocolate chips with a spatula.", "uses": ["chips"] },
+    { "text": "Scoop the dough into balls of about {qty 3 tbsp fixed} each and set them on the lined sheets with a {len 2 in} gap between them, about 12 per sheet.", "uses": [] },
+    { "text": "Bake one sheet at a time until the edges are golden but the centers still look pale and a little soft, {time 10-12 min}. The centers firm up as the cookies cool.", "uses": [] },
+    { "text": "Let the cookies cool on the sheet for {time 5 min}, then move them to a wire rack. Bake the remaining dough on a cool sheet; a hot sheet makes the cookies spread too much.", "uses": [] }
+  ],
+  "notes": [
+    "For thicker cookies with a deeper caramel flavor, cover and chill the scooped dough for at least {time 1 hr notimer} or up to 3 days. Bake straight from the fridge, adding {time 1-2 min notimer}.",
+    "To freeze, set scooped dough balls on a tray until firm, then keep them in a freezer bag for up to 3 months. Bake from frozen, adding {time 2-3 min notimer}.",
+    "If the butter is greasy or starting to melt, the cookies will spread thin. Chill the dough for {time 30 min notimer} before scooping.",
+    "Store cooled cookies in an airtight container at room temperature for up to 5 days."
+  ]
+}

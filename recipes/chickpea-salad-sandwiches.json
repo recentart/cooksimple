@@ -1,0 +1,45 @@
+{
+  "id": "chickpea-salad-sandwiches",
+  "title": "Chickpea Salad Sandwiches",
+  "description": "Mashed chickpeas stirred together with vegan mayo, crunchy celery, red onion, Dijon and dill, piled into sandwiches with lettuce and tomato.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "servingsLabel": "sandwiches",
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "cuisine": "American",
+  "mealTypes": ["lunch"],
+  "diets": ["vegan"],
+  "tags": ["no-cook", "make-ahead"],
+  "equipment": ["Potato masher or fork"],
+  "image": {
+    "file": "chickpea-salad-sandwiches.svg",
+    "alt": "Illustration of a chickpea salad sandwich cut in half on a plate"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "chickpeas", "amount": "2", "unit": "can", "size": "15 oz", "item": "chickpeas", "key": "canned chickpeas", "prep": "drained and rinsed" },
+    { "id": "mayo", "amount": "1/3-1/2", "unit": "cup", "item": "vegan mayonnaise", "key": "vegan mayonnaise" },
+    { "id": "mustard", "amount": "2", "unit": "tsp", "item": "Dijon mustard", "key": "dijon mustard" },
+    { "id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice" },
+    { "id": "salt", "amount": "1/4", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "prep": "plus more to taste" },
+    { "id": "pepper", "amount": "1/4", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "celery", "amount": "2", "unit": "stalk", "item": "celery", "key": "celery", "prep": "finely chopped" },
+    { "id": "onion", "amount": "1/4", "unit": "cup", "item": "red onion", "key": "red onions", "prep": "finely chopped" },
+    { "id": "dill", "amount": "2", "unit": "tbsp", "item": "fresh dill", "key": "fresh dill", "prep": "chopped", "note": "or flat-leaf parsley" },
+    { "id": "bread", "amount": "8", "unit": "slice", "item": "sandwich bread", "key": "sandwich bread" },
+    { "id": "lettuce", "amount": "4", "item": "lettuce leaf", "key": "romaine lettuce", "note": "romaine or green leaf" },
+    { "id": "tomato", "amount": "1", "item": "tomato", "key": "tomatoes", "prep": "thinly sliced" }
+  ],
+  "steps": [
+    { "text": "Put the chickpeas in a medium bowl and pat off any extra water with a paper towel. Mash with a potato masher or fork until most are broken up but some chunky pieces remain.", "uses": ["chickpeas"] },
+    { "text": "Add the smaller amount of mayonnaise with the mustard, lemon juice, salt and pepper. Stir until the chickpeas are evenly coated.", "uses": ["mayo", "mustard", "lemon", "salt", "pepper"] },
+    { "text": "Fold in the celery, red onion and dill. Taste and add more salt, and the rest of the mayonnaise if you like it creamier.", "uses": ["celery", "onion", "dill", "mayo"] },
+    { "text": "Toast the bread if you like. Layer lettuce and tomato on half of the slices, spread the chickpea salad on top and cover with the remaining slices. Cut in half and serve.", "uses": ["bread", "lettuce", "tomato"] }
+  ],
+  "notes": [
+    "For a tahini version, replace the mayonnaise with {qty 1/4 cup} tahini whisked with {qty 2 tbsp} water and an extra squeeze of lemon.",
+    "The chickpea salad keeps in a covered container in the fridge for up to 4 days. Assemble the sandwiches just before eating so the bread doesn't go soggy.",
+    "It also works in lettuce cups, in a wrap or scooped up with crackers."
+  ]
+}

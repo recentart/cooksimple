@@ -1,0 +1,67 @@
+{
+  "id": "three-bean-chili",
+  "title": "Three-Bean Vegetable Chili",
+  "description": "A hearty chili of kidney, black and pinto beans simmered with bell pepper, zucchini, tomatoes and warm spices.",
+  "added": "2026-09-24",
+  "servings": 6,
+  "scaleOptions": [3, 6, 9, 12],
+  "scaleNote": "A 5 to 6 quart pot holds this batch. For a double batch, use an 8-quart pot and allow a few extra minutes for it to come to a boil.",
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner", "lunch"],
+  "diets": ["vegan"],
+  "tags": ["one-pan", "make-ahead", "freezer-friendly"],
+  "equipment": ["Large pot or Dutch oven"],
+  "image": {
+    "file": "three-bean-chili.svg",
+    "alt": "Illustration of a bowl of bean chili with avocado and cilantro and a lime wedge"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    {
+      "group": "For the chili",
+      "items": [
+        { "id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil" },
+        { "id": "onion", "amount": "1", "item": "yellow onion", "key": "yellow onions", "prep": "chopped" },
+        { "id": "bell-pepper", "amount": "1", "item": "bell pepper", "key": "bell peppers", "prep": "chopped", "note": "any color" },
+        { "id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt", "prep": "plus more to taste" },
+        { "id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced" },
+        { "id": "chili-powder", "amount": "2", "unit": "tbsp", "item": "chili powder", "key": "chili powder" },
+        { "id": "cumin", "amount": "2", "unit": "tsp", "item": "ground cumin", "key": "ground cumin" },
+        { "id": "paprika", "amount": "1", "unit": "tsp", "item": "smoked paprika", "key": "smoked paprika" },
+        { "id": "oregano", "amount": "1", "unit": "tsp", "item": "dried oregano", "key": "dried oregano" },
+        { "id": "paste", "amount": "2", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste" },
+        { "id": "tomatoes", "amount": "1", "unit": "can", "size": "28 oz", "item": "diced tomatoes", "key": "canned diced tomatoes", "note": "or crushed tomatoes" },
+        { "id": "broth", "amount": "1 1/2", "unit": "cup", "item": "vegetable broth", "key": "vegetable broth" },
+        { "id": "kidney", "amount": "1", "unit": "can", "size": "15 oz", "item": "kidney beans", "key": "canned kidney beans", "prep": "drained and rinsed" },
+        { "id": "black", "amount": "1", "unit": "can", "size": "15 oz", "item": "black beans", "key": "canned black beans", "prep": "drained and rinsed" },
+        { "id": "pinto", "amount": "1", "unit": "can", "size": "15 oz", "item": "pinto beans", "key": "canned pinto beans", "prep": "drained and rinsed" },
+        { "id": "zucchini", "amount": "1", "item": "medium zucchini", "plural": "medium zucchini", "key": "zucchini", "prep": "diced" }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        { "id": "avocado", "amount": "1", "item": "avocado", "key": "avocados", "prep": "diced", "optional": true },
+        { "id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true },
+        { "id": "green-onions", "amount": "2", "item": "green onion", "key": "green onions", "prep": "thinly sliced", "optional": true },
+        { "id": "lime", "amount": "1", "item": "lime", "key": "limes", "prep": "cut into wedges", "optional": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Heat the oil in a large pot or Dutch oven over medium heat. Add the onion, bell pepper and a pinch of the salt, and cook, stirring now and then, until softened and starting to brown at the edges, {time 8-10 min}.", "uses": ["oil", "onion", "bell-pepper", "salt"] },
+    { "text": "Stir in the garlic, chili powder, cumin, smoked paprika, oregano and tomato paste. Cook, stirring constantly, until the spices smell toasty and the paste darkens a shade, {time 1-2 min}.", "uses": ["garlic", "chili-powder", "cumin", "paprika", "oregano", "paste"] },
+    { "text": "Add the tomatoes and their juice, the broth, all three kinds of beans, the zucchini and the rest of the salt. Stir well, scraping up anything stuck to the bottom of the pot, and bring to a boil.", "uses": ["tomatoes", "broth", "kidney", "black", "pinto", "zucchini", "salt"] },
+    { "text": "Lower the heat, partly cover and simmer, stirring every so often, until the chili has thickened and the zucchini is tender, {time 25-30 min}. If it gets thicker than you like, stir in a splash of water.", "uses": [] },
+    { "text": "For a thicker, creamier chili, mash a few spoonfuls of the beans against the side of the pot and stir them back in. Taste and add more salt if needed.", "uses": [] },
+    { "text": "Ladle into bowls and top with the avocado, cilantro and green onions. Serve with lime wedges for squeezing.", "uses": ["avocado", "cilantro", "green-onions", "lime"] }
+  ],
+  "notes": [
+    "Any mix of canned beans works, including all one kind, as long as the total number of cans stays the same.",
+    "For more heat, cook a chopped jalapeño with the onion or add a pinch of cayenne with the spices.",
+    "If you're not cooking vegan, shredded cheddar and a spoonful of sour cream are classic toppings.",
+    "Chili tastes even better the next day. Cool leftovers and refrigerate within 2 hours; they keep for up to 4 days in the fridge or 3 months in the freezer."
+  ]
+}

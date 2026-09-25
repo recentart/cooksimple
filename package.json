@@ -1,0 +1,17 @@
+{
+  "name": "cooksimple",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clean, practical recipes designed for cooking — with serving scaling, unit conversion, cook mode, shopping lists, and no clutter.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/validate.mjs",
+    "test": "node --test",
+    "serve": "node scripts/serve.mjs",
+    "deploy": "node scripts/build.mjs && npx wrangler deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

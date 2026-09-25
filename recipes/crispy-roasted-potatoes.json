@@ -1,0 +1,40 @@
+{
+  "id": "crispy-roasted-potatoes",
+  "title": "Crispy Roasted Potatoes",
+  "description": "Yukon Gold potato chunks roasted on a preheated pan in a hot oven until deep golden and crisp outside, with garlic and rosemary.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "One large rimmed sheet pan holds 2 pounds of potatoes with room between the pieces. For more, heat a second pan and swap the pans' positions when you flip the potatoes.",
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "cuisine": "American",
+  "mealTypes": ["side"],
+  "diets": ["vegan"],
+  "tags": [],
+  "equipment": ["Large rimmed sheet pan", "Thin metal spatula"],
+  "image": {
+    "file": "crispy-roasted-potatoes.svg",
+    "alt": "Illustration of golden roasted potato chunks with rosemary on a sheet pan"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "potatoes", "amount": "2", "unit": "lb", "item": "Yukon Gold potatoes", "key": "yukon gold potatoes", "prep": "scrubbed and cut into {len 1 1/2 in} chunks" },
+    { "id": "oil", "amount": "3", "unit": "tbsp", "item": "olive oil", "key": "olive oil" },
+    { "id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+    { "id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "garlic-powder", "amount": "1/2", "unit": "tsp", "item": "garlic powder", "key": "garlic powder" },
+    { "id": "rosemary", "amount": "2", "unit": "sprig", "item": "fresh rosemary", "key": "fresh rosemary", "prep": "leaves stripped and roughly chopped" }
+  ],
+  "steps": [
+    { "text": "Put a large rimmed sheet pan on the middle rack and heat the oven to {temp 450F oven}. Heating the pan with the oven means the potatoes start browning the moment they touch it.", "uses": [] },
+    { "text": "Pat the potato chunks very dry with a clean towel; water left on the surface turns to steam and keeps the outsides soft. Toss them in a large bowl with the oil, salt and pepper until every piece is coated.", "uses": ["potatoes", "oil", "salt", "pepper"] },
+    { "text": "Using oven mitts, take out the hot pan and tip the potatoes onto it; they will sizzle. Spread them in a single layer, cut sides down, with a little space between pieces. Crowded potatoes steam instead of crisping.", "uses": ["potatoes"] },
+    { "text": "Roast without stirring until the undersides are deep golden and release easily from the pan, {time 20-25 min}.", "uses": [] },
+    { "text": "Flip the potatoes with a thin metal spatula and sprinkle with the garlic powder and rosemary. Roast until crisp all over and tender when pierced with a knife, {time 15-20 min}. Taste and add a pinch more salt if needed.", "uses": ["garlic-powder", "rosemary"] }
+  ],
+  "notes": [
+    "If the potatoes stick when you try to flip them, give them {time 3-5 min notimer} more. They let go once a crust has formed.",
+    "Russet potatoes work too. They come out fluffier inside but break up more easily when you flip them.",
+    "Leftovers keep in the fridge for up to 4 days. Reheat them on a sheet pan in a {temp 425F oven} oven for {time 10 min notimer} to bring back the crunch; the microwave makes them soft."
+  ]
+}

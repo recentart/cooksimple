@@ -1,0 +1,45 @@
+{
+  "id": "black-bean-quesadillas",
+  "title": "Black Bean Quesadillas",
+  "description": "Crisp flour tortillas filled with mashed black beans, skillet-charred corn, green onions and melted Monterey Jack, served with salsa.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet cooks two quesadillas at a time, so every extra pair adds about 6 minutes at the stove.",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegetarian"],
+  "tags": [],
+  "equipment": ["{len 12 in} skillet", "Wide spatula"],
+  "image": {
+    "file": "black-bean-quesadillas.svg",
+    "alt": "Illustration of quesadilla wedges with melted cheese and black beans, with a bowl of salsa"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "beans", "amount": "1", "unit": "can", "size": "15 oz", "item": "black beans", "key": "canned black beans", "prep": "drained and rinsed" },
+    { "id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin" },
+    { "id": "salsa", "amount": "3/4", "unit": "cup", "item": "salsa", "key": "salsa", "prep": "divided" },
+    { "id": "salt", "item": "kosher salt", "key": "kosher salt", "scale": "taste" },
+    { "id": "oil", "amount": "1", "unit": "tbsp", "item": "neutral oil", "key": "neutral oil", "note": "or melted butter" },
+    { "id": "corn", "amount": "1", "unit": "cup", "item": "frozen corn", "key": "frozen corn" },
+    { "id": "green-onions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "thinly sliced" },
+    { "id": "cheese", "amount": "8", "unit": "oz", "item": "Monterey Jack cheese", "key": "monterey jack cheese", "prep": "shredded", "note": "or cheddar, or a mix" },
+    { "id": "tortillas", "amount": "4", "item": "large flour tortilla", "key": "flour tortillas", "note": "{len 10 in} or burrito size" },
+    { "id": "sour-cream", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream", "prep": "for serving", "optional": true }
+  ],
+  "steps": [
+    { "text": "Put the beans, cumin and {qty 1/4 cup} of the salsa in a medium bowl. Mash with a fork or potato masher until mostly smooth, with a few whole beans left. Season with salt to taste.", "uses": ["beans", "cumin", "salsa", "salt"] },
+    { "text": "Heat {qty 1 tsp} of the oil in a large skillet over medium-high heat. Add the corn and cook, stirring now and then, until thawed and browned in spots, {time 4-5 min}. Stir the corn and green onions into the beans.", "uses": ["oil", "corn", "green-onions"] },
+    { "text": "Lay the tortillas flat. Sprinkle a little cheese over one half of each, spread the bean mixture on top and cover with the rest of the cheese, dividing everything evenly. Fold the bare half over and press down gently.", "uses": ["tortillas", "cheese"] },
+    { "text": "Wipe out the skillet, set it over medium heat and brush it with a little of the remaining oil. Cook the quesadillas two at a time until the undersides are golden and crisp, {time 2-3 min}.", "uses": ["oil"] },
+    { "text": "Flip them with a wide spatula and cook until the second side is golden and the cheese has melted, {time 2-3 min} more. Repeat with the rest, brushing the pan with a little more oil each time.", "uses": [] },
+    { "text": "Let the quesadillas rest on a cutting board for {time 1 min} so the cheese sets slightly, then cut each into wedges. Serve with the rest of the salsa and the sour cream.", "uses": ["salsa", "sour-cream"] }
+  ],
+  "notes": [
+    "For more heat, stir a finely chopped jalapeño or a pinch of chili powder into the beans.",
+    "The bean filling keeps in the fridge for up to 3 days, so you can make it ahead and cook quesadillas to order.",
+    "Reheat leftover quesadillas in a dry skillet over medium-low heat until crisp again, {time 2-3 min} per side."
+  ]
+}

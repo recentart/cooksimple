@@ -1,0 +1,62 @@
+{
+  "id": "weeknight-beef-tacos",
+  "title": "Weeknight Beef Tacos",
+  "description": "Ground beef simmered with onion, garlic, chili powder, cumin and tomato paste, spooned into warm tortillas with your choice of toppings.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "A 12-inch skillet handles up to 2 pounds of beef. For more, brown the meat in batches so it browns instead of steaming.",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "Tex-Mex",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": [],
+  "featured": true,
+  "equipment": ["12-inch skillet", "Second skillet for warming tortillas"],
+  "image": {
+    "file": "weeknight-beef-tacos.svg",
+    "alt": "Illustration of three beef tacos with lettuce and cheese and a lime wedge on a board"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    {
+      "group": "For the filling",
+      "items": [
+        { "id": "beef", "amount": "1", "unit": "lb", "item": "ground beef", "key": "ground beef", "note": "85% lean works well" },
+        { "id": "onion", "amount": "1", "item": "small yellow onion", "key": "yellow onions", "prep": "finely chopped" },
+        { "id": "garlic", "amount": "4", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced" },
+        { "id": "chili", "amount": "1", "unit": "tbsp", "item": "chili powder", "key": "chili powder" },
+        { "id": "cumin", "amount": "1", "unit": "tsp", "item": "ground cumin", "key": "ground cumin" },
+        { "id": "oregano", "amount": "1/2", "unit": "tsp", "item": "dried oregano", "key": "dried oregano" },
+        { "id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+        { "id": "tomato-paste", "amount": "1", "unit": "tbsp", "item": "tomato paste", "key": "tomato paste" },
+        { "id": "water", "amount": "1/2", "unit": "cup", "item": "water", "key": "water", "note": "or beef or chicken broth" }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        { "id": "tortillas", "amount": "8", "item": "small corn or flour tortilla", "key": "corn tortillas", "note": "{len 6 in}" },
+        { "id": "lettuce", "amount": "1 1/2", "unit": "cup", "item": "shredded romaine lettuce", "key": "romaine lettuce", "optional": true },
+        { "id": "cheese", "amount": "1", "unit": "cup", "item": "shredded cheddar cheese", "key": "cheddar cheese", "optional": true },
+        { "id": "salsa", "amount": "1/2", "unit": "cup", "item": "salsa", "key": "salsa", "optional": true },
+        { "id": "sour-cream", "amount": "1/2", "unit": "cup", "item": "sour cream", "key": "sour cream", "optional": true },
+        { "id": "cilantro", "amount": "1/4", "unit": "cup", "item": "fresh cilantro", "key": "fresh cilantro", "prep": "chopped", "optional": true },
+        { "id": "lime", "amount": "1", "item": "lime", "key": "limes", "prep": "cut into wedges", "optional": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "Set the skillet over medium-high heat and add the beef. Cook, breaking it into small crumbles with a spatula, until browned in spots with no pink left, {time 6-8 min}.", "uses": ["beef"] },
+    { "text": "Tilt the pan and spoon off all but about {qty 1 tbsp} of the fat. Add the onion and cook, stirring, until softened, {time 3-4 min}.", "uses": ["onion"] },
+    { "text": "Add the garlic, chili powder, cumin, oregano and salt and stir until fragrant, {time 30 sec}. Stir in the tomato paste and cook until it darkens slightly and coats the meat, {time 1 min}.", "uses": ["garlic", "chili", "cumin", "oregano", "salt", "tomato-paste"] },
+    { "text": "Pour in the water and scrape up the browned bits. Simmer, stirring now and then, until the liquid thickens and clings to the meat, {time 4-5 min}. A thermometer pushed into a mound of the meat should read at least {temp 160F internal}.", "uses": ["water"] },
+    { "text": "While the filling simmers, warm the tortillas one or two at a time in a dry skillet over medium-high heat until soft and lightly spotted, {time 30-60 sec} per side. Stack them in a clean kitchen towel to keep warm.", "uses": ["tortillas"] },
+    { "text": "Taste the filling and add more salt if needed. Spoon it into the tortillas and top with lettuce, cheese, salsa, sour cream and cilantro, with lime wedges for squeezing.", "uses": ["tortillas", "lettuce", "cheese", "salsa", "sour-cream", "cilantro", "lime"] }
+  ],
+  "notes": [
+    "Chili powder here means the American spice blend, not pure ground chile, which is much hotter.",
+    "Ground turkey works too. It is leaner, so cook it in {qty 1 tbsp} of oil, skip spooning off the fat, and cook it to {temp 165F internal}.",
+    "Refrigerate leftover filling within 2 hours and use it within 3 days, or freeze it for up to 3 months. Reheat until steaming hot."
+  ]
+}

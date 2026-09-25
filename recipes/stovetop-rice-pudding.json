@@ -1,0 +1,37 @@
+{
+  "id": "stovetop-rice-pudding",
+  "title": "Stovetop Rice Pudding",
+  "description": "Creamy, gently sweet rice pudding simmered slowly in milk on the stove, finished with vanilla and a dusting of cinnamon.",
+  "added": "2026-09-24",
+  "servings": 6,
+  "prepMinutes": 5,
+  "cookMinutes": 45,
+  "cuisine": "British",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["make-ahead"],
+  "equipment": ["Heavy-bottomed medium saucepan", "Heatproof spatula"],
+  "image": { "file": "stovetop-rice-pudding.svg", "alt": "Illustration of a bowl of creamy rice pudding dusted with cinnamon, with a spoon" },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "rice", "amount": "1/2", "unit": "cup", "item": "arborio rice", "key": "arborio rice", "note": "or another short- or medium-grain rice" },
+    { "id": "milk", "amount": "4", "unit": "cup", "item": "whole milk", "key": "whole milk", "note": "plus a splash more to loosen" },
+    { "id": "sugar", "amount": "1/3", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar" },
+    { "id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+    { "id": "raisins", "amount": "1/3", "unit": "cup", "item": "raisins", "key": "raisins", "optional": true },
+    { "id": "vanilla", "amount": "1 1/2", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract" },
+    { "id": "cinnamon", "amount": "1/4", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon", "prep": "for dusting" }
+  ],
+  "steps": [
+    { "text": "Put the rice, milk, sugar and salt in the saucepan. Bring to a gentle simmer over medium heat, stirring often so the rice doesn’t stick, {time 8-10 min}.", "uses": ["rice", "milk", "sugar", "salt"] },
+    { "text": "Turn the heat to low so the milk barely bubbles. Cook uncovered, stirring every few minutes and scraping the bottom and corners, until the rice is soft and the pudding looks like loose porridge, {time 30-35 min}.", "uses": [] },
+    { "text": "If you are using raisins, stir them in for the last {time 10 min notimer} of cooking so they plump up.", "uses": ["raisins"] },
+    { "text": "Take the pan off the heat and stir in the vanilla. The pudding should still be looser than you want to eat it: it thickens a lot as it cools.", "uses": ["vanilla"] },
+    { "text": "Let it rest for {time 10 min}, then spoon into bowls and dust with the cinnamon. Serve warm, or chill it (see notes).", "uses": ["cinnamon"] }
+  ],
+  "notes": [
+    "To serve cold, press plastic wrap onto the surface to stop a skin forming and refrigerate for at least {time 2 hr notimer}. Stir in a splash of milk to loosen it before serving.",
+    "If the pudding gets too thick while cooking, stir in more milk a little at a time.",
+    "Keeps in a covered container in the fridge for up to 4 days."
+  ]
+}

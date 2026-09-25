@@ -1,0 +1,49 @@
+{
+  "id": "peanut-sesame-noodles",
+  "title": "Peanut Sesame Noodles",
+  "description": "Cool noodles tossed in a creamy peanut, soy and sesame sauce with crisp cucumber, carrot and green onions. Served cold or at room temperature.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "cuisine": "Chinese-American",
+  "mealTypes": ["lunch", "dinner"],
+  "diets": ["vegan"],
+  "tags": [],
+  "equipment": ["Large pot", "Colander", "Large mixing bowl", "Tongs"],
+  "image": {
+    "file": "peanut-sesame-noodles.svg",
+    "alt": "Illustration of a bowl of peanut noodles with cucumber, carrot, sesame seeds and chopsticks"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "water", "amount": "4", "unit": "quart", "item": "water", "key": "water", "prep": "for boiling", "scale": "fixed", "scaleNote": "A big pot of water cooks any batch size, so it stays the same." },
+    { "id": "spaghetti", "amount": "12", "unit": "oz", "item": "spaghetti", "key": "spaghetti", "note": "or rice noodles" },
+    { "id": "peanut-butter", "amount": "1/2", "unit": "cup", "item": "creamy peanut butter", "key": "creamy peanut butter" },
+    { "id": "soy", "amount": "1/4", "unit": "cup", "item": "soy sauce", "key": "soy sauce" },
+    { "id": "vinegar", "amount": "3", "unit": "tbsp", "item": "rice vinegar", "key": "rice vinegar" },
+    { "id": "sesame-oil", "amount": "2", "unit": "tbsp", "item": "toasted sesame oil", "key": "toasted sesame oil" },
+    { "id": "maple", "amount": "2", "unit": "tbsp", "item": "maple syrup", "key": "maple syrup" },
+    { "id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "finely grated" },
+    { "id": "ginger", "amount": "1", "unit": "tbsp", "item": "fresh ginger", "key": "fresh ginger", "prep": "peeled and finely grated" },
+    { "id": "sriracha", "amount": "2", "unit": "tsp", "item": "sriracha", "key": "sriracha", "prep": "plus more to taste" },
+    { "id": "cucumber", "amount": "1", "item": "English cucumber", "key": "cucumbers", "prep": "cut into thin matchsticks" },
+    { "id": "carrots", "amount": "2", "item": "carrot", "key": "carrots", "prep": "peeled and cut into thin matchsticks or coarsely grated" },
+    { "id": "green-onions", "amount": "4", "item": "green onion", "key": "green onions", "prep": "thinly sliced" },
+    { "id": "sesame", "amount": "2", "unit": "tbsp", "item": "sesame seeds", "key": "sesame seeds", "prep": "toasted" },
+    { "id": "peanuts", "amount": "1/4", "unit": "cup", "item": "roasted peanuts", "key": "roasted peanuts", "prep": "chopped", "optional": true }
+  ],
+  "steps": [
+    { "text": "Bring the water to a boil in a large pot. While it heats, whisk the peanut butter, soy sauce, vinegar, sesame oil, maple syrup, garlic, ginger and sriracha in a large bowl until smooth. The sauce will be thick.", "uses": ["water", "peanut-butter", "soy", "vinegar", "sesame-oil", "maple", "garlic", "ginger", "sriracha"] },
+    { "text": "Add the spaghetti and cook, stirring often at first, until fully tender, {time 9-11 min}. Cook it a little past al dente, because the noodles firm up as they cool. Before draining, scoop out {qty 1/2 cup} of the cooking water.", "uses": ["spaghetti"] },
+    { "text": "Whisk {qty 1/4 cup} of the hot cooking water into the sauce until it is smooth and pourable, like heavy cream. Drain the noodles and rinse them under cold running water until cool, then shake off as much water as you can.", "uses": [] },
+    { "text": "Add the noodles, cucumber, carrots and most of the green onions to the sauce. Toss with tongs until every strand is coated, loosening with a little more of the reserved water if the sauce seems thick.", "uses": ["cucumber", "carrots", "green-onions"] },
+    { "text": "Pile into bowls and top with the remaining green onions, the sesame seeds and the peanuts. Serve cold or at room temperature, with more sriracha on the side.", "uses": ["green-onions", "sesame", "peanuts", "sriracha"] }
+  ],
+  "notes": [
+    "The cooking water isn't salted because the soy sauce seasons the noodles.",
+    "Rice noodles work in place of spaghetti. Cook them as the package directs, then rinse and drain the same way.",
+    "For colder noodles, chill the dressed noodles for {time 30 min} and add the cucumber just before serving so it stays crisp.",
+    "Keeps in the fridge for up to 3 days. The noodles soak up the sauce, so loosen leftovers with a splash of water and a little soy sauce."
+  ]
+}

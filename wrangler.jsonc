@@ -1,0 +1,14 @@
+{
+  // CookSimple is a static site. `npm run build` writes the finished site to
+  // ./public (committed to the repo); Cloudflare Workers static assets serves
+  // it as-is. There is no Worker script and no backend.
+  "name": "cooksimple",
+  "compatibility_date": "2026-09-20",
+  "assets": {
+    "directory": "./public",
+    // /recipes/x/ serves recipes/x/index.html; /recipes/x redirects to /recipes/x/.
+    "html_handling": "auto-trailing-slash",
+    // Unknown paths get public/404.html with a 404 status.
+    "not_found_handling": "404-page"
+  }
+}

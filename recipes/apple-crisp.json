@@ -1,0 +1,51 @@
+{
+  "id": "apple-crisp",
+  "title": "Apple Crisp",
+  "description": "Tender cinnamon apples baked under a crunchy oat and brown sugar topping until the juices bubble and thicken.",
+  "added": "2026-09-24",
+  "servings": 8,
+  "scaleNote": "This fills a {len 9x9 in} or 2-quart baking dish. For 16 servings use a {len 9x13 in} dish and bake 5 to 10 minutes longer.",
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "totalMinutes": 80,
+  "cuisine": "American",
+  "mealTypes": ["dessert"],
+  "diets": ["vegetarian"],
+  "tags": ["baking"],
+  "equipment": ["{len 9x9 in} or 2-quart baking dish", "Rimmed baking sheet"],
+  "image": { "file": "apple-crisp.svg", "alt": "Illustration of a baking dish of apple crisp with a crumbly golden topping, beside an apple" },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "group": "For the filling", "items": [
+      { "id": "apples", "amount": "6", "item": "medium apple", "key": "apples", "prep": "peeled, cored and sliced {len 1/4 in} thick", "note": "about {qty 2 1/2 lb}; a mix of tart and sweet is best" },
+      { "id": "lemon", "amount": "1", "unit": "tbsp", "item": "fresh lemon juice", "key": "lemon juice" },
+      { "id": "sugar", "amount": "1/3", "unit": "cup", "item": "granulated sugar", "key": "granulated sugar" },
+      { "id": "cinnamon", "amount": "1", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon" },
+      { "id": "cornstarch", "amount": "1", "unit": "tbsp", "item": "cornstarch", "key": "cornstarch" }
+    ] },
+    { "group": "For the topping", "items": [
+      { "id": "flour", "amount": "3/4", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour" },
+      { "id": "oats", "amount": "3/4", "unit": "cup", "item": "rolled oats", "key": "rolled oats" },
+      { "id": "brown-sugar", "amount": "1/2", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed" },
+      { "id": "cinnamon-top", "amount": "1/2", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon" },
+      { "id": "salt", "amount": "1/4", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+      { "id": "butter", "amount": "6", "unit": "tbsp", "item": "unsalted butter", "key": "unsalted butter", "prep": "melted" }
+    ] },
+    { "group": "To serve", "items": [
+      { "id": "ice-cream", "amount": "1", "unit": "pint", "item": "vanilla ice cream", "key": "vanilla ice cream", "optional": true }
+    ] }
+  ],
+  "steps": [
+    { "text": "Heat the oven to {temp 375F oven} with a rack in the middle. Set the baking dish on the rimmed baking sheet to catch any drips.", "uses": [] },
+    { "text": "In a large bowl, toss the apple slices with the lemon juice, then with the sugar, cinnamon and cornstarch until evenly coated. Spread them in the baking dish.", "uses": ["apples", "lemon", "sugar", "cinnamon", "cornstarch"] },
+    { "text": "In another bowl, mix the flour, oats, brown sugar, cinnamon and salt. Pour in the melted butter and stir with a fork until everything is moist and forms small clumps.", "uses": ["flour", "oats", "brown-sugar", "cinnamon-top", "salt", "butter"] },
+    { "text": "Scatter the topping evenly over the apples, squeezing some of it into larger clumps as you go.", "uses": [] },
+    { "text": "Bake until the topping is deep golden and the juices bubble thickly around the edges, {time 40-45 min}. If the topping browns before the juices bubble, lay a sheet of foil loosely over the dish.", "uses": [] },
+    { "text": "Let the crisp cool for {time 15 min} so the juices thicken. Serve warm, with a scoop of ice cream if you like.", "uses": ["ice-cream"] }
+  ],
+  "notes": [
+    "Good baking apples hold their shape: Granny Smith and Honeycrisp are a reliable pair.",
+    "Make ahead: mix the topping and refrigerate it in a covered container for up to 3 days, then assemble and bake.",
+    "Leftovers keep, covered, in the fridge for up to 4 days. Rewarm in a {temp 350F oven} for about {time 15 min notimer} to re-crisp the top."
+  ]
+}

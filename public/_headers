@@ -1,0 +1,15 @@
+# Security and caching headers, applied by Cloudflare Workers static assets.
+# The one inline script (sets the js class and the saved unit choice) is allowed by its hash.
+# Adding ads or any third-party script later means widening this policy (see ADS.md).
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-WwCtrqYHBh33w5j1YVgMXvq+JeAEpvqhDAPkeg4VRpg='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  X-Frame-Options: DENY
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=86400

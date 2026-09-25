@@ -1,0 +1,45 @@
+{
+  "id": "sheet-pan-salmon-and-green-beans",
+  "title": "Sheet-Pan Salmon and Green Beans",
+  "description": "Salmon fillets brushed with a Dijon, garlic and lemon zest mixture and roasted on one sheet pan with blistered green beans.",
+  "added": "2026-09-24",
+  "servings": 4,
+  "scaleNote": "One large rimmed sheet pan holds 4 fillets and 1 pound of green beans. For more, use two pans on the upper and lower racks, swap them when you add the salmon, and allow a few extra minutes.",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "cuisine": "American",
+  "mealTypes": ["dinner"],
+  "diets": [],
+  "tags": ["one-pan"],
+  "equipment": ["Large rimmed sheet pan", "Instant-read thermometer"],
+  "image": {
+    "file": "sheet-pan-salmon-and-green-beans.svg",
+    "alt": "Illustration of two salmon fillets with green beans and lemon on a sheet pan"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "beans", "amount": "1", "unit": "lb", "item": "green beans", "key": "green beans", "prep": "trimmed" },
+    { "id": "oil", "amount": "2", "unit": "tbsp", "item": "olive oil", "key": "olive oil", "prep": "divided" },
+    { "id": "salt", "amount": "1", "unit": "tsp", "item": "kosher salt", "key": "kosher salt" },
+    { "id": "pepper", "amount": "1/2", "unit": "tsp", "item": "black pepper", "key": "black pepper" },
+    { "id": "mustard", "amount": "2", "unit": "tbsp", "item": "Dijon mustard", "key": "dijon mustard" },
+    { "id": "garlic", "amount": "2", "unit": "clove", "item": "garlic", "key": "garlic", "prep": "minced" },
+    { "id": "lemon", "amount": "1", "item": "lemon", "key": "lemons", "prep": "zested, then cut into wedges" },
+    { "id": "salmon", "amount": "4", "item": "salmon fillet", "key": "salmon fillets", "note": "about {qty 6 oz fixed} each, skin on or off" },
+    { "id": "dill", "amount": "2", "unit": "tbsp", "item": "fresh dill or parsley", "key": "fresh dill", "prep": "chopped", "optional": true }
+  ],
+  "steps": [
+    { "text": "Heat the oven to {temp 425F oven} with a rack in the middle. Pile the green beans on a large rimmed sheet pan, toss them with {qty 1 tbsp} of the oil and half the salt and pepper, and spread them out.", "uses": ["beans", "oil", "salt", "pepper"] },
+    { "text": "Once the oven is hot, roast the beans on their own to give them a head start, until they begin to soften and brown in a few spots, {time 8 min}.", "uses": ["beans"] },
+    { "text": "While the beans roast, stir together the mustard, garlic, lemon zest, the rest of the oil and the rest of the salt and pepper. Pat the salmon dry with paper towels.", "uses": ["mustard", "garlic", "lemon", "oil", "salt", "pepper", "salmon"] },
+    { "text": "Push the beans to the edges of the pan. Lay the salmon in the middle, skin side down if it has skin, and spread the mustard mixture over the tops of the fillets.", "uses": ["salmon", "beans"] },
+    { "text": "Roast until the salmon flakes easily with a fork and the thickest part reads {temp 145F internal}, {time 10-14 min}. The beans should be tender and blistered.", "uses": [] },
+    { "text": "Squeeze a couple of lemon wedges over the salmon and beans, scatter with the dill and serve with the remaining wedges.", "uses": ["lemon", "dill"] }
+  ],
+  "notes": [
+    "{temp 145F internal} is the USDA safe temperature for fish. Some cooks take salmon out around {temp 125F internal} for a softer, more translucent center, but the USDA figure is the safe one.",
+    "Thin fillets and tail pieces cook faster. Start checking them {time 7 min notimer} after they go into the oven.",
+    "Thin French green beans (haricots verts) can go in with the salmon from the start; they don't need the head start.",
+    "Refrigerate leftovers within 2 hours and eat within 3 days. Cold leftover salmon is good flaked over a salad."
+  ]
+}

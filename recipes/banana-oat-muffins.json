@@ -1,0 +1,53 @@
+{
+  "id": "banana-oat-muffins",
+  "title": "Banana Oat Muffins",
+  "description": "Soft, moist muffins made with very ripe bananas, rolled oats and a little cinnamon. Add walnuts for crunch, and freeze extras for later.",
+  "added": "2026-09-24",
+  "servings": 12,
+  "servingsLabel": "muffins",
+  "scaleOptions": [6, 12, 24],
+  "scaleNote": "One batch fills a standard 12-cup muffin tin. For 6, fill half the cups. For 24, bake two tins on racks in the upper and lower thirds of the oven, swapping them halfway, and allow a few extra minutes.",
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "totalMinutes": 40,
+  "cuisine": "American",
+  "mealTypes": ["breakfast", "snack"],
+  "diets": ["vegetarian"],
+  "tags": ["baking", "freezer-friendly"],
+  "equipment": ["12-cup muffin tin", "Paper liners"],
+  "image": {
+    "file": "banana-oat-muffins.svg",
+    "alt": "Illustration of three banana oat muffins with a banana"
+  },
+  "source": { "type": "original" },
+  "ingredients": [
+    { "id": "oats", "amount": "1", "unit": "cup", "item": "rolled oats", "key": "rolled oats" },
+    { "id": "milk", "amount": "1/2", "unit": "cup", "item": "milk", "key": "milk" },
+    { "id": "flour", "amount": "1 1/2", "unit": "cup", "item": "all-purpose flour", "key": "all-purpose flour", "prep": "spooned and leveled" },
+    { "id": "soda", "amount": "1/2", "unit": "tsp", "item": "baking soda", "key": "baking soda" },
+    { "id": "powder", "amount": "1", "unit": "tsp", "item": "baking powder", "key": "baking powder" },
+    { "id": "salt", "amount": "1/2", "unit": "tsp", "item": "fine salt", "key": "fine salt" },
+    { "id": "cinnamon", "amount": "1", "unit": "tsp", "item": "ground cinnamon", "key": "ground cinnamon" },
+    { "id": "bananas", "amount": "3", "item": "medium ripe banana", "key": "bananas", "prep": "well speckled", "note": "about {qty 1 1/3 cup} mashed" },
+    { "id": "sugar", "amount": "2/3", "unit": "cup", "item": "light brown sugar", "key": "light brown sugar", "prep": "packed" },
+    { "id": "eggs", "amount": "2", "item": "large egg", "key": "eggs", "scale": "whole" },
+    { "id": "oil", "amount": "1/3", "unit": "cup", "item": "neutral oil", "key": "neutral oil", "note": "or melted unsalted butter" },
+    { "id": "vanilla", "amount": "1", "unit": "tsp", "item": "vanilla extract", "key": "vanilla extract" },
+    { "id": "walnuts", "amount": "1/2", "unit": "cup", "item": "walnuts", "key": "walnuts", "prep": "chopped", "optional": true }
+  ],
+  "steps": [
+    { "text": "Heat the oven to {temp 375F oven} with a rack in the middle. Line the muffin tin with paper liners, or grease the cups well.", "uses": [] },
+    { "text": "Stir the oats into the milk in a small bowl and let them soak while you mix everything else, about {time 10 min}. Soaking softens the oats so the muffins bake up tender rather than chewy.", "uses": ["oats", "milk"] },
+    { "text": "In a medium bowl, whisk the flour, baking soda, baking powder, salt and cinnamon until evenly combined, so the leaveners are spread through the flour.", "uses": ["flour", "soda", "powder", "salt", "cinnamon"] },
+    { "text": "In a large bowl, mash the bananas with a fork until mostly smooth, with a few small lumps left. Whisk in the brown sugar, eggs, oil and vanilla until well combined.", "uses": ["bananas", "sugar", "eggs", "oil", "vanilla"] },
+    { "text": "Add the flour mixture and the soaked oats, along with any milk left in their bowl. Fold with a spatula just until no dry flour shows, then fold in the walnuts, if using. A lumpy batter bakes into tender muffins.", "uses": ["walnuts"] },
+    { "text": "Divide the batter evenly among the muffin cups; they will be nearly full. Bake until the tops are golden and spring back when pressed and a toothpick in the center comes out clean or with a few moist crumbs, {time 18-22 min}.", "uses": [] },
+    { "text": "Let the muffins cool in the tin for {time 5 min}, then lift them onto a wire rack. Left in the hot tin, they steam and turn soggy underneath.", "uses": [] }
+  ],
+  "notes": [
+    "The riper the bananas, the sweeter the muffins. Peels that are heavily speckled or even mostly black are ideal.",
+    "Store cooled muffins covered at room temperature for up to 2 days or in the fridge for up to 5 days.",
+    "To freeze, wrap cooled muffins or pack them in a freezer bag for up to 3 months. Thaw at room temperature, or warm one in the microwave for {time 20-30 sec notimer}.",
+    "Butter gives a slightly richer flavor; oil keeps the muffins moist for longer."
+  ]
+}
