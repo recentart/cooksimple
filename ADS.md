@@ -1,26 +1,50 @@
-# Advertising policy (not active)
+# Advertising
 
-CookSimple has **no advertising** in V1. Its advantage is a clean cooking experience, so any future ads must fit around the recipe, never in front of it.
+CookSimple can show **one slim Google AdSense banner below each recipe**. It is
+built and tested but **off** until you add your AdSense IDs. The site's advantage
+is a clean cooking experience, so ads fit around the recipe, never in front of it.
 
-## Reserved positions
+## Turning ads on
 
-`adSlot(site, position)` in `src/templates/components.js` renders nothing while `site.config.json` has `"ads": { "enabled": false }`. The allowed positions are:
+1. Sign up at <https://adsense.google.com> with the site URL and wait for approval.
+2. In AdSense, create a **Display ad** unit (fixed size is fine) and copy its
+   **ad unit ID** (the `data-ad-slot` number). Your **publisher ID** looks like
+   `ca-pub-1234567890123456`.
+3. In AdSense → **Privacy & messaging**, publish the **European regulations**
+   (GDPR) consent message. Google shows it to visitors in the EU, UK and
+   Switzerland; no extra code is needed on the site.
+4. Edit `site.config.json`:
 
-| Position | Where |
-| --- | --- |
-| `home-between-sections` | Home page, between recipe rows |
-| `below-recipe` | Recipe page, after the recipe and its notes, before "More to cook" |
-| desktop sidebar (not built yet) | Beside the recipe on wide screens only, never overlapping it |
+   ```json
+   "ads": { "enabled": true, "client": "ca-pub-1234567890123456", "slots": { "below-recipe": "1234567890" } }
+   ```
 
-Each slot must reserve its height in CSS before the ad loads, so nothing on the page moves.
+5. `npm run build`, `npm test`, commit, `npx wrangler deploy`.
+
+The build then adds the slot and AdSense's script to recipe pages only, writes
+`/ads.txt`, widens the Content Security Policy to Google's ad origins, and
+switches the About page's privacy and advertising text to describe the ads.
+A half-filled config (enabled but no valid IDs) stops the build with a clear
+error instead of shipping a broken slot. After deploying, open a recipe page
+with the browser console open and check for "Refused to load" CSP messages;
+if Google adds a new origin, add it to the `G` list in `scripts/build.mjs`.
+
+## Size and placement
+
+| Position | Where | Size |
+| --- | --- | --- |
+| `below-recipe` | Recipe page, after the recipe and its notes, before "More to cook" | 320×100 on phones, 728×90 from 768 px wide |
+| `home-between-sections` | Home page between recipe rows (supported, not used) | same |
+
+The box has a fixed size in CSS, so its space is reserved before the ad loads
+and nothing on the page moves. It is labelled "Advertisement". If Google has no
+ad to show, the slot hides itself. It never appears in the print view.
 
 ## Never
 
 - Cover or split the ingredients or the instructions.
 - Appear in Cook Mode or on the print view.
 - Autoplay video or sound.
-- Use pop-ups, interstitials, sticky overlays or anything that blocks the page.
-- Look like site buttons or content ("fake download buttons", disguised links).
-- Load trackers beyond what the ad itself strictly needs, and never without a clear privacy notice.
-
-Turning ads on also means widening the Content Security Policy in `scripts/build.mjs` (it currently allows only same-origin scripts) and updating the privacy section of the About page.
+- Use pop-ups, interstitials, sticky overlays, anchor or vignette ads (turn
+  **Auto ads off** in AdSense so Google doesn't add its own).
+- Look like site buttons or content.

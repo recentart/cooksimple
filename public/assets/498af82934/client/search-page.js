@@ -105,6 +105,7 @@ loadData('index.json')
   .then((entries) => {
     index = prepareIndex(entries);
     run(fromForm());
+    grid.dataset.ready = '';
   })
   .catch(() => {
     note.hidden = false;

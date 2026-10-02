@@ -2162,6 +2162,18 @@ dialog.cook::backdrop {
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  overflow-wrap: normal;
+}
+
+@media (max-width: 420px) {
+  .nutri div {
+    padding: 8px 4px;
+  }
+
+  .nutri dt {
+    font-size: 0.625rem;
+    letter-spacing: 0.02em;
+  }
 }
 
 .nutri dd {
@@ -2331,6 +2343,40 @@ dialog.cook::backdrop {
 }
 
 /* ---------- Print ---------- */
+
+/* Ads (off unless site.config.json turns them on; rules in ADS.md).
+   One slim, labelled banner below the recipe. The box has a fixed size so
+   the space is reserved before the ad loads and nothing moves; an unfilled
+   slot hides itself. */
+.ad-slot {
+  margin: 8px auto 28px;
+  padding: 0 16px;
+  text-align: center;
+}
+.ad-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ad-slot .adsbygoogle {
+  display: inline-block;
+  width: 320px;
+  height: 100px;
+  max-width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .ad-slot .adsbygoogle {
+    width: 728px;
+    height: 90px;
+  }
+}
+.ad-slot:has(.adsbygoogle[data-ad-status='unfilled']) {
+  display: none;
+}
 
 @media print {
   :root {

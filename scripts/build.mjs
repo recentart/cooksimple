@@ -9,6 +9,7 @@ import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { loadAll, ROOT } from './lib/recipes.mjs';
 import { homePage, recipePage, searchPage, discoverPage, shoppingPage, allRecipesPage, aboutPage, notFoundPage, searchEntry, clientRecipe } from '../src/templates/pages.js';
+import { adsConfig } from '../src/templates/components.js';
 import { collectionsIndexPage, collectionPage, savedPage, plannerPage, offlinePage, collectionRecipes, MIN_COLLECTION } from '../src/templates/extra-pages.js';
 
 const HEAD_SCRIPT = "document.documentElement.classList.add('js');try{if(localStorage.getItem('cs-units')==='metric')document.documentElement.setAttribute('data-units','metric')}catch(e){}";
@@ -38,8 +39,9 @@ function copyTree(from, to, filter = () => true) {
   }
 }
 
-export function build(outDir) {
-  const site = JSON.parse(readFileSync(join(ROOT, 'site.config.json'), 'utf8'));
+export function build(outDir, { site: siteOverride } = {}) {
+  const site = siteOverride || JSON.parse(readFileSync(join(ROOT, 'site.config.json'), 'utf8'));
+  const ads = adsConfig(site);
   const { vocab, recipes, errors, warnings } = loadAll({ illustrations: true });
   for (const w of warnings) console.warn(`warning  ${w}`);
   if (errors.length) {
@@ -120,13 +122,19 @@ export function build(outDir) {
   write(join(outDir, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
 
   const scriptHash = createHash('sha256').update(HEAD_SCRIPT).digest('base64');
+  // Google AdSense (and its consent message) needs these origins; without ads the policy stays same-origin only.
+  const G = 'https://*.googlesyndication.com https://*.google.com https://*.googleadservices.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com';
+  const csp = ads
+    ? `default-src 'none'; script-src 'self' 'sha256-${scriptHash}' ${G}; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://*.gstatic.com; connect-src 'self' ${G}; frame-src ${G}; fenced-frame-src ${G}; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`
+    : `default-src 'none'; script-src 'self' 'sha256-${scriptHash}'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
+  if (ads) write(join(outDir, 'ads.txt'), `google.com, ${ads.client.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
   write(
     join(outDir, '_headers'),
     `# Security and caching headers, applied by Cloudflare Workers static assets.
 # The one inline script (sets the js class and the saved unit choice) is allowed by its hash.
-# Adding ads or any third-party script later means widening this policy (see ADS.md).
+# With ads on (site.config.json) the policy also allows Google AdSense's origins (see ADS.md).
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-${scriptHash}'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: ${csp}
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()

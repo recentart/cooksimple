@@ -10,6 +10,11 @@ import * as timers from './timers.js';
 import * as cook from './cook-mode.js';
 
 initPage();
+
+// Small ad below the recipe, only when the build added one (see ADS.md).
+for (const slot of document.querySelectorAll('ins.adsbygoogle')) {
+  if (!slot.dataset.adsbygoogleStatus) (window.adsbygoogle = window.adsbygoogle || []).push({});
+}
 const recipe = readJSON('recipe-data');
 if (recipe) setup(recipe);
 

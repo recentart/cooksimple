@@ -67,7 +67,7 @@ npx wrangler deploy                   # deploy public/ to Cloudflare
 
 ## Ads
 
-There are no ads. The templates reserve positions that could hold them later without hurting the experience; the rules are in [ADS.md](ADS.md).
+One slim Google AdSense banner below each recipe (320×100 on phones, 728×90 wider), never inside the ingredients or steps, in Cook Mode or in print. It is off until AdSense IDs are added to `site.config.json`; how to switch it on is in [ADS.md](ADS.md).
 
 ## License
 

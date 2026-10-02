@@ -1,6 +1,6 @@
 import { html, raw, jsonScript } from './html.js';
 import { layout } from './layout.js';
-import { recipeCard, cardGrid, adSlot, minutes, servingsText, isoDuration, MEAL_LABELS, DIET_LABELS, TAG_LABELS } from './components.js';
+import { recipeCard, cardGrid, adSlot, minutes, servingsText, isoDuration, MEAL_LABELS, DIET_LABELS, TAG_LABELS, adsConfig } from './components.js';
 import { ingredientParts, ingredientHTML, ingredientText } from '../lib/ingredient.js';
 import { renderStep, formatTemp, clock } from '../lib/tokens.js';
 
@@ -340,6 +340,7 @@ ${adSlot(site, 'below-recipe')}
     ogType: 'article',
     body,
     script: 'recipe-page.js',
+    adClient: adsConfig(site)?.slots['below-recipe'] ? adsConfig(site).client : '',
     bodyClass: 'page-recipe',
     jsonld: [
       recipeJsonLd(r, site, ctx.photos[r.id]),
@@ -610,10 +611,13 @@ export function aboutPage(ctx) {
   <p>Some recipes show a photo of the dish alongside our illustration. The photos come from Wikimedia Commons under free licences and are credited on each page; they show the dish in general, not the exact recipe on the page.</p>
 
   <h2 id="privacy">Privacy</h2>
-  <p>There are no accounts, no analytics, no tracking pixels, no advertising networks and no cookies. Your unit choice, ingredient checklists, timers and shopping list are stored with your browser’s local storage on your device. They are never sent to us or anyone else. Clearing your browser data removes them.</p>
+${adsConfig(site)
+    ? html`<p>There are no accounts and no analytics. Your unit choice, ingredient checklists, timers, saved recipes, notes, meal plan and shopping list are stored with your browser’s local storage on your device. They are never sent to us or anyone else. Clearing your browser data removes them.</p>
+  <p>The one exception is advertising: recipe pages show a small ad from Google AdSense below the recipe. Google and its partners use cookies to show and measure ads, and may personalise them. Visitors in the EU, UK and Switzerland are asked for consent first, and can change their choice at any time through the privacy settings link Google shows. You can read <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from sites that use its services</a> and manage ad personalisation in <a href="https://myadcenter.google.com/" rel="noopener">My Ad Center</a>.</p>`
+    : html`<p>There are no accounts, no analytics, no tracking pixels, no advertising networks and no cookies. Your unit choice, ingredient checklists, timers and shopping list are stored with your browser’s local storage on your device. They are never sent to us or anyone else. Clearing your browser data removes them.</p>`}
 
   <h2 id="ads">Advertising</h2>
-  <p>${site.name} has no ads today. If ads are ever added, they will stay out of the way: never covering or interrupting ingredients or instructions, never in Cook Mode, no autoplay video, no pop-ups and nothing designed to be clicked by mistake.</p>
+  <p>${adsConfig(site) ? 'Ads keep ' + site.name + ' free. They' : site.name + ' has no ads today. If ads are ever added, they will'} stay small and out of the way: one slim, labelled banner below the recipe, never covering or interrupting ingredients or instructions, never in Cook Mode or the print view, no autoplay video, no pop-ups and nothing designed to be clicked by mistake.</p>
 
   <h2 id="source-code">Source code</h2>
   <p>${site.name} is a small static website. The code is on <a href="${site.repo}">GitHub</a>.</p>

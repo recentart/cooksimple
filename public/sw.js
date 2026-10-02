@@ -4,11 +4,11 @@
 //   - /assets/ (content-hashed) and /images/: cache first
 // Nothing is sent anywhere; this only caches files from this site.
 
-const VERSION = 'ce56fe8103';
+const VERSION = '498af82934';
 const STATIC = `cs-static-${VERSION}`;
 const PAGES = 'cs-pages';
 const IMAGES = 'cs-images';
-const PRECACHE = ["/","/offline/","/search/","/saved/","/meal-planner/","/shopping-list/","/what-can-i-make/","/collections/","/favicon.svg","/manifest.webmanifest","/assets/ce56fe8103/client/cook-mode.js","/assets/ce56fe8103/client/core.js","/assets/ce56fe8103/client/discover-page.js","/assets/ce56fe8103/client/home.js","/assets/ce56fe8103/client/offline-page.js","/assets/ce56fe8103/client/planner-page.js","/assets/ce56fe8103/client/recipe-page.js","/assets/ce56fe8103/client/saved-page.js","/assets/ce56fe8103/client/search-page.js","/assets/ce56fe8103/client/shopping-page.js","/assets/ce56fe8103/client/timers.js","/assets/ce56fe8103/data/index.json","/assets/ce56fe8103/data/vocab.json","/assets/ce56fe8103/lib/card.js","/assets/ce56fe8103/lib/discover.js","/assets/ce56fe8103/lib/format.js","/assets/ce56fe8103/lib/ingredient.js","/assets/ce56fe8103/lib/quantity.js","/assets/ce56fe8103/lib/search.js","/assets/ce56fe8103/lib/shopping.js","/assets/ce56fe8103/lib/text.js","/assets/ce56fe8103/lib/tokens.js","/assets/ce56fe8103/lib/units.js","/assets/ce56fe8103/lib/vocab.js","/assets/ce56fe8103/styles/site.css"];
+const PRECACHE = ["/","/offline/","/search/","/saved/","/meal-planner/","/shopping-list/","/what-can-i-make/","/collections/","/favicon.svg","/manifest.webmanifest","/assets/498af82934/client/cook-mode.js","/assets/498af82934/client/core.js","/assets/498af82934/client/discover-page.js","/assets/498af82934/client/home.js","/assets/498af82934/client/offline-page.js","/assets/498af82934/client/planner-page.js","/assets/498af82934/client/recipe-page.js","/assets/498af82934/client/saved-page.js","/assets/498af82934/client/search-page.js","/assets/498af82934/client/shopping-page.js","/assets/498af82934/client/timers.js","/assets/498af82934/data/index.json","/assets/498af82934/data/vocab.json","/assets/498af82934/lib/card.js","/assets/498af82934/lib/discover.js","/assets/498af82934/lib/format.js","/assets/498af82934/lib/ingredient.js","/assets/498af82934/lib/quantity.js","/assets/498af82934/lib/search.js","/assets/498af82934/lib/shopping.js","/assets/498af82934/lib/text.js","/assets/498af82934/lib/tokens.js","/assets/498af82934/lib/units.js","/assets/498af82934/lib/vocab.js","/assets/498af82934/styles/site.css"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

@@ -23,11 +23,34 @@ export function cardGrid(recipes, opts) {
 }
 
 /**
- * Reserved advertising position. Ads are OFF in V1, so this renders only a
- * comment. Allowed positions and rules are in ADS.md: never inside the
- * ingredients, the instructions or Cook Mode, never covering content.
+ * Google AdSense settings from site.config.json, or null when ads are off.
+ * Ads switch on only with "enabled": true, a publisher ID (ca-pub-...) and
+ * at least one ad unit ID; a half-filled config fails the build instead of
+ * shipping a broken slot. Rules for placement are in ADS.md.
+ */
+export function adsConfig(site) {
+  const a = site.ads || {};
+  if (!a.enabled) return null;
+  if (!/^ca-pub-\d{10,20}$/.test(a.client || '')) throw new Error('site.config.json: ads.client must be your AdSense publisher ID, e.g. "ca-pub-1234567890123456"');
+  const slots = Object.fromEntries(Object.entries(a.slots || {}).filter(([, id]) => id));
+  for (const [pos, id] of Object.entries(slots)) {
+    if (!AD_POSITIONS.includes(pos)) throw new Error(`site.config.json: unknown ad position "${pos}" (allowed: ${AD_POSITIONS.join(', ')})`);
+    if (!/^\d{6,20}$/.test(id)) throw new Error(`site.config.json: ads.slots["${pos}"] must be an AdSense ad unit ID (digits only)`);
+  }
+  if (!Object.keys(slots).length) throw new Error('site.config.json: ads are enabled but no ads.slots ad unit ID is set');
+  return { client: a.client, slots };
+}
+
+export const AD_POSITIONS = ['below-recipe', 'home-between-sections'];
+
+/**
+ * One small, labelled ad. Renders only a comment unless that position has an
+ * ad unit ID. The size is fixed in CSS (320x100 on phones, 728x90 wider) so
+ * the space is reserved before the ad loads and nothing on the page moves.
  */
 export function adSlot(site, position) {
-  if (!site.ads || !site.ads.enabled) return raw(`<!-- ad position reserved: ${position} (ads disabled) -->`);
-  return html`<aside class="ad-slot ad-${position}" aria-label="Advertisement"><span class="ad-label">Advertisement</span></aside>`;
+  const ads = adsConfig(site);
+  const slot = ads && ads.slots[position];
+  if (!slot) return raw(`<!-- ad position reserved: ${position} (no ad) -->`);
+  return html`<aside class="ad-slot ad-${position}" aria-label="Advertisement"><span class="ad-label">Advertisement</span><ins class="adsbygoogle" data-ad-client="${ads.client}" data-ad-slot="${slot}"></ins></aside>`;
 }

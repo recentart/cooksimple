@@ -102,3 +102,32 @@ test('public/ is up to date with the source', () => {
     assert.ok(readFileSync(join(pub, f)).equals(readFileSync(join(out, f))), `public/${f} is stale — run npm run build`);
   }
 });
+
+test('ads: off by default, no ad code or third-party origins anywhere', () => {
+  if (site.ads?.enabled) return;
+  assert.ok(!existsSync(join(out, 'ads.txt')));
+  assert.ok(!read('_headers').includes('googlesyndication'));
+  for (const p of ['index.html', `recipes/${recipes[0].id}/index.html`, 'about/index.html']) assert.ok(!read(p).includes('adsbygoogle'), p);
+});
+
+test('ads: when switched on, one small slot below the recipe and nowhere else', () => {
+  const adsOut = mkdtempSync(join(tmpdir(), 'cooksimple-ads-'));
+  try {
+    const on = { ...site, ads: { enabled: true, client: 'ca-pub-0000000000000000', slots: { 'below-recipe': '1234567890' } } };
+    build(adsOut, { site: on });
+    const r = (p) => readFileSync(join(adsOut, p), 'utf8');
+    const page = r(`recipes/${recipes[0].id}/index.html`);
+    assert.equal((page.match(/<ins class="adsbygoogle"/g) || []).length, 1);
+    assert.match(page, /data-ad-client="ca-pub-0000000000000000" data-ad-slot="1234567890"/);
+    assert.equal((page.match(/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-0000000000000000/g) || []).length, 1);
+    // The slot sits after the recipe article, never inside ingredients or steps.
+    assert.ok(page.indexOf('class="ad-slot') > page.indexOf('</article>'));
+    for (const p of ['index.html', 'search/index.html', 'shopping-list/index.html', 'meal-planner/index.html']) assert.ok(!r(p).includes('adsbygoogle'), p);
+    assert.equal(r('ads.txt'), 'google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0\n');
+    assert.match(r('_headers'), /script-src 'self' 'sha256-[^']+' https:\/\/\*\.googlesyndication\.com/);
+    assert.match(r('about/index.html'), /Google AdSense/);
+  } finally {
+    rmSync(adsOut, { recursive: true, force: true });
+  }
+  assert.throws(() => build(mkdtempSync(join(tmpdir(), 'cooksimple-bad-')), { site: { ...site, ads: { enabled: true, client: 'pub-123', slots: {} } } }), /publisher ID/);
+});

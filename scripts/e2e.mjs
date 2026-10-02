@@ -316,7 +316,7 @@ try {
   await send('Emulation.setEmulatedMedia', { media: '' });
 
   // ---------- Search ----------
-  const searchResults = () => evaluate(`[...document.querySelectorAll('[data-results] .card-title a')].map(a => a.getAttribute('href').split('/')[2])`);
+  const searchResults = async () => (await waitFor(`document.querySelector('[data-results]')?.hasAttribute('data-ready')`, 10000), evaluate(`[...document.querySelectorAll('[data-results] .card-title a')].map(a => a.getAttribute('href').split('/')[2])`));
   await go('/search/?q=chicken');
   let found = await searchResults();
   check('search: by name/ingredient "chicken"', found.length >= 3 && found.every((id) => JSON.stringify(recipesData[id]).toLowerCase().includes('chicken')), found.join(','));
