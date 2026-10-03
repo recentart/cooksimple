@@ -85,7 +85,7 @@ ${ctx.collections.length ? html`<section class="home-section" aria-labelledby="s
       <div><h2 id="sec-collections">Collections</h2><p class="section-note">Recipes grouped by what you need tonight.</p></div>
       <a class="more-link" href="/collections/">All collections <span aria-hidden="true">→</span></a>
     </div>
-    <ul class="pill-list">${ctx.collections.map((c) => html`<li><a class="pill-link" href="/collections/${c.slug}/">${c.title} <span class="muted">${c.recipes.length}</span></a></li>`)}</ul>
+    <ul class="pill-list">${ctx.collections.map((c) => html`<li><a class="pill-link" href="/collections/${c.slug}/">${c.title}<span class="pill-count">${c.recipes.length}<span class="pill-count-label"> recipes</span></span></a></li>`)}</ul>
   </div>
 </section>` : ''}
 <section class="home-promise">
