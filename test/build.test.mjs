@@ -10,6 +10,7 @@ const out = mkdtempSync(join(tmpdir(), 'cooksimple-test-'));
 const summary = build(out);
 const { recipes } = loadAll();
 const site = JSON.parse(readFileSync(join(ROOT, 'site.config.json'), 'utf8'));
+const adsOn = Object.values(site.ads?.banners || {}).some(Boolean);
 const read = (p) => readFileSync(join(out, p), 'utf8');
 const ldBlocks = (h) => [...h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => JSON.parse(m[1]));
 
@@ -103,31 +104,36 @@ test('public/ is up to date with the source', () => {
   }
 });
 
-test('ads: off by default, no ad code or third-party origins anywhere', () => {
-  if (site.ads?.enabled) return;
-  assert.ok(!existsSync(join(out, 'ads.txt')));
-  assert.ok(!read('_headers').includes('googlesyndication'));
-  for (const p of ['index.html', `recipes/${recipes[0].id}/index.html`, 'about/index.html']) assert.ok(!read(p).includes('adsbygoogle'), p);
+test('ads: off by default, no ad code or frames anywhere', () => {
+  if (adsOn) return;
+  assert.ok(!existsSync(join(out, 'ad')));
+  assert.ok(!read('_headers').includes('/ad/*'));
+  assert.ok(!read('_headers').includes('frame-src'));
+  for (const p of ['index.html', `recipes/${recipes[0].id}/index.html`]) assert.ok(!read(p).includes('data-ad-sizes'), p);
 });
 
-test('ads: when switched on, one small slot below the recipe and nowhere else', () => {
+test('ads: when switched on, one small sandboxed banner below the recipe and nowhere else', () => {
   const adsOut = mkdtempSync(join(tmpdir(), 'cooksimple-ads-'));
+  const code = (k) => `//www.highperformanceformat.com/${k}/invoke.js`;
   try {
-    const on = { ...site, ads: { enabled: true, client: 'ca-pub-0000000000000000', slots: { 'below-recipe': '1234567890' } } };
+    const on = { ...site, ads: { network: 'adsterra', banners: { '728x90': code('a'.repeat(32)), '320x50': code('b'.repeat(32)) } } };
     build(adsOut, { site: on });
     const r = (p) => readFileSync(join(adsOut, p), 'utf8');
     const page = r(`recipes/${recipes[0].id}/index.html`);
-    assert.equal((page.match(/<ins class="adsbygoogle"/g) || []).length, 1);
-    assert.match(page, /data-ad-client="ca-pub-0000000000000000" data-ad-slot="1234567890"/);
-    assert.equal((page.match(/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=ca-pub-0000000000000000/g) || []).length, 1);
+    assert.equal((page.match(/data-ad-sizes="728x90 320x50"/g) || []).length, 1);
     // The slot sits after the recipe article, never inside ingredients or steps.
     assert.ok(page.indexOf('class="ad-slot') > page.indexOf('</article>'));
-    for (const p of ['index.html', 'search/index.html', 'shopping-list/index.html', 'meal-planner/index.html']) assert.ok(!r(p).includes('adsbygoogle'), p);
-    assert.equal(r('ads.txt'), 'google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0\n');
-    assert.match(r('_headers'), /script-src 'self' 'sha256-[^']+' https:\/\/\*\.googlesyndication\.com/);
-    assert.match(r('about/index.html'), /Google AdSense/);
+    // No third-party script on the page itself.
+    assert.ok(!/<script[^>]+src="(https?:)?\/\//.test(page));
+    for (const p of ['index.html', 'search/index.html', 'shopping-list/index.html', 'meal-planner/index.html']) assert.ok(!r(p).includes('data-ad-sizes'), p);
+    assert.match(r('ad/728x90.html'), /key: 'a{32}', format: 'iframe', height: 90, width: 728/);
+    assert.match(r('ad/320x50.html'), /<script src="https:\/\/www\.highperformanceformat\.com\/b{32}\/invoke\.js"><\/script>/);
+    const headers = r('_headers');
+    assert.match(headers, /\/\*\n  Content-Security-Policy: [^\n]*frame-src 'self'/);
+    assert.match(headers, /\/ad\/\*\n  ! Content-Security-Policy\n  Content-Security-Policy: sandbox allow-scripts/);
+    assert.match(r('about/index.html'), /Adsterra/);
   } finally {
     rmSync(adsOut, { recursive: true, force: true });
   }
-  assert.throws(() => build(mkdtempSync(join(tmpdir(), 'cooksimple-bad-')), { site: { ...site, ads: { enabled: true, client: 'pub-123', slots: {} } } }), /publisher ID/);
+  assert.throws(() => build(mkdtempSync(join(tmpdir(), 'cooksimple-bad-')), { site: { ...site, ads: { banners: { '728x90': '<script>bad</script>' } } } }), /invoke\.js/);
 });

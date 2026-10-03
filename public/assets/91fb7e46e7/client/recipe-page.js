@@ -11,9 +11,23 @@ import * as cook from './cook-mode.js';
 
 initPage();
 
-// Small ad below the recipe, only when the build added one (see ADS.md).
-for (const slot of document.querySelectorAll('ins.adsbygoogle')) {
-  if (!slot.dataset.adsbygoogleStatus) (window.adsbygoogle = window.adsbygoogle || []).push({});
+// Small ad below the recipe, only when the build added one (see ADS.md). It
+// loads in a sandboxed frame with no access to this page or its storage.
+for (const slot of document.querySelectorAll('[data-ad-sizes]')) {
+  const sizes = slot.dataset.adSizes.split(' ');
+  const size = sizes.find((s) => parseInt(s, 10) <= slot.clientWidth) || sizes[sizes.length - 1];
+  const [width, height] = size.split('x');
+  const box = slot.querySelector('.ad-box');
+  box.style.width = `${width}px`;
+  box.style.height = `${height}px`;
+  const frame = document.createElement('iframe');
+  frame.title = 'Advertisement';
+  frame.width = width;
+  frame.height = height;
+  frame.loading = 'lazy';
+  frame.setAttribute('sandbox', 'allow-scripts allow-popups allow-popups-to-escape-sandbox');
+  frame.src = `/ad/${size}`;
+  box.append(frame);
 }
 const recipe = readJSON('recipe-data');
 if (recipe) setup(recipe);

@@ -23,34 +23,36 @@ export function cardGrid(recipes, opts) {
 }
 
 /**
- * Google AdSense settings from site.config.json, or null when ads are off.
- * Ads switch on only with "enabled": true, a publisher ID (ca-pub-...) and
- * at least one ad unit ID; a half-filled config fails the build instead of
- * shipping a broken slot. Rules for placement are in ADS.md.
+ * Adsterra banner settings from site.config.json, or null while ads are off.
+ * Ads are on when at least one banner has its Adsterra code: the invoke.js
+ * address from the unit's snippet, e.g.
+ * "//www.highperformanceformat.com/0123456789abcdef0123456789abcdef/invoke.js".
+ * A mistyped code stops the build instead of shipping a broken slot.
  */
+export const AD_SIZES = ['728x90', '320x50'];
+const INVOKE = /^(?:https?:)?\/\/([a-z0-9.-]+)\/([a-z0-9]+)\/invoke\.js$/i;
+
 export function adsConfig(site) {
-  const a = site.ads || {};
-  if (!a.enabled) return null;
-  if (!/^ca-pub-\d{10,20}$/.test(a.client || '')) throw new Error('site.config.json: ads.client must be your AdSense publisher ID, e.g. "ca-pub-1234567890123456"');
-  const slots = Object.fromEntries(Object.entries(a.slots || {}).filter(([, id]) => id));
-  for (const [pos, id] of Object.entries(slots)) {
-    if (!AD_POSITIONS.includes(pos)) throw new Error(`site.config.json: unknown ad position "${pos}" (allowed: ${AD_POSITIONS.join(', ')})`);
-    if (!/^\d{6,20}$/.test(id)) throw new Error(`site.config.json: ads.slots["${pos}"] must be an AdSense ad unit ID (digits only)`);
+  const banners = (site.ads && site.ads.banners) || {};
+  const live = {};
+  for (const [size, code] of Object.entries(banners)) {
+    if (!code) continue;
+    if (!AD_SIZES.includes(size)) throw new Error(`site.config.json: unknown banner size "${size}" (allowed: ${AD_SIZES.join(', ')})`);
+    const m = INVOKE.exec(code);
+    if (!m) throw new Error(`site.config.json: ads.banners["${size}"] must be the invoke.js address from Adsterra's banner code`);
+    live[size] = { host: m[1], key: m[2] };
   }
-  if (!Object.keys(slots).length) throw new Error('site.config.json: ads are enabled but no ads.slots ad unit ID is set');
-  return { client: a.client, slots };
+  return Object.keys(live).length ? live : null;
 }
 
-export const AD_POSITIONS = ['below-recipe', 'home-between-sections'];
-
 /**
- * One small, labelled ad. Renders only a comment unless that position has an
- * ad unit ID. The size is fixed in CSS (320x100 on phones, 728x90 wider) so
- * the space is reserved before the ad loads and nothing on the page moves.
+ * One small, labelled ad below the recipe. Renders only a comment while ads
+ * are off. The box has a fixed size in CSS (320x50 on phones, 728x90 from
+ * 768px) so the space is reserved and nothing moves; recipe-page.js loads
+ * the matching banner in a sandboxed frame (/ad/<size>).
  */
 export function adSlot(site, position) {
   const ads = adsConfig(site);
-  const slot = ads && ads.slots[position];
-  if (!slot) return raw(`<!-- ad position reserved: ${position} (no ad) -->`);
-  return html`<aside class="ad-slot ad-${position}" aria-label="Advertisement"><span class="ad-label">Advertisement</span><ins class="adsbygoogle" data-ad-client="${ads.client}" data-ad-slot="${slot}"></ins></aside>`;
+  if (!ads || position !== 'below-recipe') return raw(`<!-- ad position reserved: ${position} (no ad) -->`);
+  return html`<aside class="ad-slot ad-${position}" aria-label="Advertisement" data-ad-sizes="${AD_SIZES.filter((s) => ads[s]).join(' ')}"><span class="ad-label">Advertisement</span><div class="ad-box"></div></aside>`;
 }

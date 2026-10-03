@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin || url.pathname.startsWith('/ad/')) return;
   if (request.mode === 'navigate') {
     event.respondWith(networkFirst(request));
   } else if (url.pathname.startsWith('/assets/')) {

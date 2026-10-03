@@ -67,7 +67,7 @@ npx wrangler deploy                   # deploy public/ to Cloudflare
 
 ## Ads
 
-One slim Google AdSense banner below each recipe (320×100 on phones, 728×90 wider), never inside the ingredients or steps, in Cook Mode or in print. It is off until AdSense IDs are added to `site.config.json`; how to switch it on is in [ADS.md](ADS.md).
+One slim Adsterra banner below each recipe (320×50 on phones, 728×90 wider), in a sandboxed frame that can't read the page or your saved data, never inside the ingredients or steps, in Cook Mode or in print. It is off until Adsterra banner codes are added to `site.config.json`; how to switch it on is in [ADS.md](ADS.md).
 
 ## License
 

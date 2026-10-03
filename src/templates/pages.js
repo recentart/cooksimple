@@ -340,7 +340,6 @@ ${adSlot(site, 'below-recipe')}
     ogType: 'article',
     body,
     script: 'recipe-page.js',
-    adClient: adsConfig(site)?.slots['below-recipe'] ? adsConfig(site).client : '',
     bodyClass: 'page-recipe',
     jsonld: [
       recipeJsonLd(r, site, ctx.photos[r.id]),
@@ -613,7 +612,7 @@ export function aboutPage(ctx) {
   <h2 id="privacy">Privacy</h2>
 ${adsConfig(site)
     ? html`<p>There are no accounts and no analytics. Your unit choice, ingredient checklists, timers, saved recipes, notes, meal plan and shopping list are stored with your browser’s local storage on your device. They are never sent to us or anyone else. Clearing your browser data removes them.</p>
-  <p>The one exception is advertising: recipe pages show a small ad from Google AdSense below the recipe. Google and its partners use cookies to show and measure ads, and may personalise them. Visitors in the EU, UK and Switzerland are asked for consent first, and can change their choice at any time through the privacy settings link Google shows. You can read <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from sites that use its services</a> and manage ad personalisation in <a href="https://myadcenter.google.com/" rel="noopener">My Ad Center</a>.</p>`
+  <p>The one exception is advertising: recipe pages show a small banner ad from the Adsterra network below the recipe. The ad runs in a separate, locked-down frame (a sandbox), so it can’t read this page, your saved recipes, notes or lists. The ad network still receives the usual information any web request carries, such as your IP address and browser type, to choose and count ads. See <a href="https://adsterra.com/privacy-policy/" rel="noopener">Adsterra’s privacy policy</a>.</p>`
     : html`<p>There are no accounts, no analytics, no tracking pixels, no advertising networks and no cookies. Your unit choice, ingredient checklists, timers and shopping list are stored with your browser’s local storage on your device. They are never sent to us or anyone else. Clearing your browser data removes them.</p>`}
 
   <h2 id="ads">Advertising</h2>

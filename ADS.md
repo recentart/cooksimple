@@ -1,50 +1,63 @@
 # Advertising
 
-CookSimple can show **one slim Google AdSense banner below each recipe**. It is
-built and tested but **off** until you add your AdSense IDs. The site's advantage
-is a clean cooking experience, so ads fit around the recipe, never in front of it.
+CookSimple can show **one slim Adsterra banner below each recipe**. It is built
+and tested but **off** until you paste your Adsterra banner codes into
+`site.config.json`. The site's advantage is a clean cooking experience, so the
+ad fits around the recipe, never in front of it.
+
+Adsterra was picked because it is the fastest to start: instant sign-up, no
+minimum traffic, sites usually approved within minutes to a day, and it accepts
+a `workers.dev` address (Google AdSense needs your own domain).
 
 ## Turning ads on
 
-1. Sign up at <https://adsense.google.com> with the site URL and wait for approval.
-2. In AdSense, create a **Display ad** unit (fixed size is fine) and copy its
-   **ad unit ID** (the `data-ad-slot` number). Your **publisher ID** looks like
-   `ca-pub-1234567890123456`.
-3. In AdSense → **Privacy & messaging**, publish the **European regulations**
-   (GDPR) consent message. Google shows it to visitors in the EU, UK and
-   Switzerland; no extra code is needed on the site.
-4. Edit `site.config.json`:
+1. Sign up at <https://adsterra.com> as a **Publisher** and add the site
+   `https://cooksimple.freewebtoolss.workers.dev`.
+2. Create two **Banner** ad units: **728×90** and **320×50**. Use banners only;
+   never Popunder, Social Bar, Direct Link or Native/interstitial formats.
+3. Each unit's code contains a line like
+   `<script src="//www.highperformanceformat.com/0123456789abcdef0123456789abcdef/invoke.js"></script>`.
+   Copy just the `src` address into `site.config.json`:
 
    ```json
-   "ads": { "enabled": true, "client": "ca-pub-1234567890123456", "slots": { "below-recipe": "1234567890" } }
+   "ads": {
+     "network": "adsterra",
+     "banners": {
+       "728x90": "//www.highperformanceformat.com/0123…/invoke.js",
+       "320x50": "//www.highperformanceformat.com/4567…/invoke.js"
+     }
+   }
    ```
 
-5. `npm run build`, `npm test`, commit, `npx wrangler deploy`.
+4. `npm run build`, `npm test`, commit, `npx wrangler deploy`.
 
-The build then adds the slot and AdSense's script to recipe pages only, writes
-`/ads.txt`, widens the Content Security Policy to Google's ad origins, and
-switches the About page's privacy and advertising text to describe the ads.
-A half-filled config (enabled but no valid IDs) stops the build with a clear
-error instead of shipping a broken slot. After deploying, open a recipe page
-with the browser console open and check for "Refused to load" CSP messages;
-if Google adds a new origin, add it to the `G` list in `scripts/build.mjs`.
+A mistyped code stops the build with a clear error instead of shipping a broken
+slot. With one size filled in, that size is used on every screen.
 
-## Size and placement
+## How it works
 
-| Position | Where | Size |
-| --- | --- | --- |
-| `below-recipe` | Recipe page, after the recipe and its notes, before "More to cook" | 320×100 on phones, 728×90 from 768 px wide |
-| `home-between-sections` | Home page between recipe rows (supported, not used) | same |
+- Recipe pages get a labelled "Advertisement" box after the recipe and its
+  notes, before "More to cook": **320×50 on phones, 728×90 from 768 px wide**.
+  The box size is reserved in CSS, so nothing on the page moves.
+- `src/client/recipe-page.js` puts a sandboxed `<iframe>` in the box pointing at
+  `/ad/728x90` or `/ad/320x50`. The build writes those small pages; each holds
+  one Adsterra banner snippet (one per page, because the snippet uses a global
+  `atOptions` variable).
+- The frames are sandboxed without `allow-same-origin`, so the ad code can't
+  read the page, local storage (saved recipes, notes, meal plan, shopping list)
+  or cookies. The site's own pages still load no third-party scripts at all; the
+  only change to their security policy is `frame-src 'self'`.
+- `/ad/*` gets its own policy in `_headers` (sandbox, may only be framed by this
+  site) and is skipped by the service worker.
+- The About page's privacy and advertising text switch to describe the ads.
 
-The box has a fixed size in CSS, so its space is reserved before the ad loads
-and nothing on the page moves. It is labelled "Advertisement". If Google has no
-ad to show, the slot hides itself. It never appears in the print view.
+If real ads stay blank after switching on, check the browser console inside the
+ad frame first: some ad code expects cookies or storage, which the sandbox blocks.
 
 ## Never
 
 - Cover or split the ingredients or the instructions.
 - Appear in Cook Mode or on the print view.
 - Autoplay video or sound.
-- Use pop-ups, interstitials, sticky overlays, anchor or vignette ads (turn
-  **Auto ads off** in AdSense so Google doesn't add its own).
+- Use pop-unders, pop-ups, interstitials, sticky overlays or social-bar units.
 - Look like site buttons or content.

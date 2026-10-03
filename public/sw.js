@@ -4,11 +4,11 @@
 //   - /assets/ (content-hashed) and /images/: cache first
 // Nothing is sent anywhere; this only caches files from this site.
 
-const VERSION = 'bcb1191c8b';
+const VERSION = '91fb7e46e7';
 const STATIC = `cs-static-${VERSION}`;
 const PAGES = 'cs-pages';
 const IMAGES = 'cs-images';
-const PRECACHE = ["/","/offline/","/search/","/saved/","/meal-planner/","/shopping-list/","/what-can-i-make/","/collections/","/favicon.svg","/manifest.webmanifest","/assets/bcb1191c8b/client/cook-mode.js","/assets/bcb1191c8b/client/core.js","/assets/bcb1191c8b/client/discover-page.js","/assets/bcb1191c8b/client/home.js","/assets/bcb1191c8b/client/offline-page.js","/assets/bcb1191c8b/client/planner-page.js","/assets/bcb1191c8b/client/recipe-page.js","/assets/bcb1191c8b/client/saved-page.js","/assets/bcb1191c8b/client/search-page.js","/assets/bcb1191c8b/client/shopping-page.js","/assets/bcb1191c8b/client/timers.js","/assets/bcb1191c8b/data/index.json","/assets/bcb1191c8b/data/vocab.json","/assets/bcb1191c8b/lib/card.js","/assets/bcb1191c8b/lib/discover.js","/assets/bcb1191c8b/lib/format.js","/assets/bcb1191c8b/lib/ingredient.js","/assets/bcb1191c8b/lib/quantity.js","/assets/bcb1191c8b/lib/search.js","/assets/bcb1191c8b/lib/shopping.js","/assets/bcb1191c8b/lib/text.js","/assets/bcb1191c8b/lib/tokens.js","/assets/bcb1191c8b/lib/units.js","/assets/bcb1191c8b/lib/vocab.js","/assets/bcb1191c8b/styles/site.css"];
+const PRECACHE = ["/","/offline/","/search/","/saved/","/meal-planner/","/shopping-list/","/what-can-i-make/","/collections/","/favicon.svg","/manifest.webmanifest","/assets/91fb7e46e7/client/cook-mode.js","/assets/91fb7e46e7/client/core.js","/assets/91fb7e46e7/client/discover-page.js","/assets/91fb7e46e7/client/home.js","/assets/91fb7e46e7/client/offline-page.js","/assets/91fb7e46e7/client/planner-page.js","/assets/91fb7e46e7/client/recipe-page.js","/assets/91fb7e46e7/client/saved-page.js","/assets/91fb7e46e7/client/search-page.js","/assets/91fb7e46e7/client/shopping-page.js","/assets/91fb7e46e7/client/timers.js","/assets/91fb7e46e7/data/index.json","/assets/91fb7e46e7/data/vocab.json","/assets/91fb7e46e7/lib/card.js","/assets/91fb7e46e7/lib/discover.js","/assets/91fb7e46e7/lib/format.js","/assets/91fb7e46e7/lib/ingredient.js","/assets/91fb7e46e7/lib/quantity.js","/assets/91fb7e46e7/lib/search.js","/assets/91fb7e46e7/lib/shopping.js","/assets/91fb7e46e7/lib/text.js","/assets/91fb7e46e7/lib/tokens.js","/assets/91fb7e46e7/lib/units.js","/assets/91fb7e46e7/lib/vocab.js","/assets/91fb7e46e7/styles/site.css"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin || url.pathname.startsWith('/ad/')) return;
   if (request.mode === 'navigate') {
     event.respondWith(networkFirst(request));
   } else if (url.pathname.startsWith('/assets/')) {

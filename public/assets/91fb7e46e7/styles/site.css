@@ -2366,8 +2366,7 @@ dialog.cook::backdrop {
 
 /* Ads (off unless site.config.json turns them on; rules in ADS.md).
    One slim, labelled banner below the recipe. The box has a fixed size so
-   the space is reserved before the ad loads and nothing moves; an unfilled
-   slot hides itself. */
+   the space is reserved before the ad loads and nothing moves. */
 .ad-slot {
   margin: 8px auto 28px;
   padding: 0 16px;
@@ -2381,21 +2380,23 @@ dialog.cook::backdrop {
   text-transform: uppercase;
   color: var(--muted);
 }
-.ad-slot .adsbygoogle {
+.ad-box {
   display: inline-block;
   width: 320px;
-  height: 100px;
+  height: 50px;
   max-width: 100%;
   overflow: hidden;
+  vertical-align: top;
 }
 @media (min-width: 768px) {
-  .ad-slot .adsbygoogle {
+  .ad-box {
     width: 728px;
     height: 90px;
   }
 }
-.ad-slot:has(.adsbygoogle[data-ad-status='unfilled']) {
-  display: none;
+.ad-box iframe {
+  display: block;
+  border: 0;
 }
 
 @media print {

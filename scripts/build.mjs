@@ -122,17 +122,26 @@ export function build(outDir, { site: siteOverride } = {}) {
   write(join(outDir, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
 
   const scriptHash = createHash('sha256').update(HEAD_SCRIPT).digest('base64');
-  // Google AdSense (and its consent message) needs these origins; without ads the policy stays same-origin only.
-  const G = 'https://*.googlesyndication.com https://*.google.com https://*.googleadservices.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com';
-  const csp = ads
-    ? `default-src 'none'; script-src 'self' 'sha256-${scriptHash}' ${G}; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://*.gstatic.com; connect-src 'self' ${G}; frame-src ${G}; fenced-frame-src ${G}; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`
-    : `default-src 'none'; script-src 'self' 'sha256-${scriptHash}'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
-  if (ads) write(join(outDir, 'ads.txt'), `google.com, ${ads.client.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
+  // Pages never load third-party scripts. With ads on they may embed /ad/ frames (same site), and
+  // each frame page loads one Adsterra banner under its own sandboxed policy (see ADS.md).
+  const csp = `default-src 'none'; script-src 'self' 'sha256-${scriptHash}'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; ${ads ? "frame-src 'self'; " : ''}manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
+  if (ads) {
+    for (const [size, { host, key }] of Object.entries(ads)) {
+      const [width, height] = size.split('x').map(Number);
+      // One banner per document: Adsterra's snippet uses a page-wide atOptions variable.
+      write(join(outDir, 'ad', `${size}.html`), `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Advertisement</title>
+<style>html,body{margin:0;padding:0;overflow:hidden;background:transparent}</style></head>
+<body><script>atOptions = { key: '${key}', format: 'iframe', height: ${height}, width: ${width}, params: {} };</script>
+<script src="https://${host}/${key}/invoke.js"></script></body></html>
+`);
+    }
+  }
   write(
     join(outDir, '_headers'),
     `# Security and caching headers, applied by Cloudflare Workers static assets.
 # The one inline script (sets the js class and the saved unit choice) is allowed by its hash.
-# With ads on (site.config.json) the policy also allows Google AdSense's origins (see ADS.md).
+# Ads (site.config.json, ADS.md) load only inside sandboxed /ad/ frames with their own policy below.
 /*
   Content-Security-Policy: ${csp}
   X-Content-Type-Options: nosniff
@@ -148,7 +157,14 @@ export function build(outDir, { site: siteOverride } = {}) {
 
 /sw.js
   Cache-Control: no-cache
-`,
+${ads ? `
+# Ad frames: always sandboxed (opaque origin), so the ad network's scripts can't reach the site.
+/ad/*
+  ! Content-Security-Policy
+  Content-Security-Policy: sandbox allow-scripts allow-popups allow-popups-to-escape-sandbox; frame-ancestors 'self'
+  ! X-Frame-Options
+  Cache-Control: no-cache
+` : ''}`,
   );
 
   write(

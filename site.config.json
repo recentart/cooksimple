@@ -5,10 +5,10 @@
   "description": "Clean, practical recipes designed for cooking, with serving scaling, US and metric units, Cook Mode with timers, shopping lists and no clutter.",
   "repo": "https://github.com/recentart/cooksimple",
   "ads": {
-    "enabled": false,
-    "client": "",
-    "slots": {
-      "below-recipe": ""
+    "network": "adsterra",
+    "banners": {
+      "728x90": "",
+      "320x50": ""
     }
   }
 }

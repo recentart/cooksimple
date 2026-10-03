@@ -47,7 +47,6 @@ ${page.noindex ? html`<meta name="robots" content="noindex">` : ''}
 <link rel="stylesheet" href="${assets}/styles/site.css">
 <script>${raw(ctx.headScript)}</script>
 <script type="module" src="${assets}/client/${page.script || 'home.js'}"></script>
-${page.adClient ? html`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${page.adClient}" crossorigin="anonymous"></script>` : ''}
 ${(page.jsonld || []).map((d) => html`<script type="application/ld+json">${jsonScript(d)}</script>\n`)}
 </head>
 <body${page.bodyClass ? html` class="${page.bodyClass}"` : ''}>
