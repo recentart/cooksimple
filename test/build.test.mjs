@@ -84,7 +84,8 @@ test('no ads, trackers, third-party scripts or autoplay media', () => {
     assert.ok(!/<script[^>]+src="https?:/i.test(h));
     assert.ok(!/<(video|audio|iframe)/i.test(h));
     assert.ok(!/google-analytics|gtag|googletagmanager|doubleclick|facebook\.net/i.test(h));
-    assert.ok(!/<aside class="ad-slot/.test(h), 'ads are disabled in V1');
+    // Ads (when on) live only below recipes, inside a same-site frame added by script.
+    assert.equal(/<aside class="ad-slot/.test(h), adsOn && p.startsWith('recipes/'), p);
   }
 });
 
@@ -112,7 +113,7 @@ test('ads: off by default, no ad code or frames anywhere', () => {
   for (const p of ['index.html', `recipes/${recipes[0].id}/index.html`]) assert.ok(!read(p).includes('data-ad-sizes'), p);
 });
 
-test('ads: when switched on, one small sandboxed banner below the recipe and nowhere else', () => {
+test('ads: when switched on, one small framed banner below the recipe and nowhere else', () => {
   const adsOut = mkdtempSync(join(tmpdir(), 'cooksimple-ads-'));
   const code = (k) => `//www.highperformanceformat.com/${k}/invoke.js`;
   try {
@@ -130,10 +131,22 @@ test('ads: when switched on, one small sandboxed banner below the recipe and now
     assert.match(r('ad/320x50.html'), /<script src="https:\/\/www\.highperformanceformat\.com\/b{32}\/invoke\.js"><\/script>/);
     const headers = r('_headers');
     assert.match(headers, /\/\*\n  Content-Security-Policy: [^\n]*frame-src 'self'/);
-    assert.match(headers, /\/ad\/\*\n  ! Content-Security-Policy\n  Content-Security-Policy: sandbox allow-scripts/);
+    assert.match(headers, /\/ad\/\*\n  ! Content-Security-Policy\n  Content-Security-Policy: sandbox allow-scripts allow-same-origin allow-popups/);
     assert.match(r('about/index.html'), /Adsterra/);
   } finally {
     rmSync(adsOut, { recursive: true, force: true });
   }
-  assert.throws(() => build(mkdtempSync(join(tmpdir(), 'cooksimple-bad-')), { site: { ...site, ads: { banners: { '728x90': '<script>bad</script>' } } } }), /invoke\.js/);
+  // Adsterra's newer code format (script src without invoke.js).
+  const newOut = mkdtempSync(join(tmpdir(), 'cooksimple-ads2-'));
+  try {
+    build(newOut, { site: { ...site, ads: { network: 'adsterra', banners: { '728x90': 'https://bauval.org/22/' + 'c'.repeat(32) } } } });
+    const frame = readFileSync(join(newOut, 'ad/728x90.html'), 'utf8');
+    assert.match(frame, /key: 'c{32}'/);
+    assert.match(frame, /<script src="https:\/\/bauval\.org\/22\/c{32}"><\/script>/);
+    assert.ok(!existsSync(join(newOut, 'ad/320x50.html')));
+  } finally {
+    rmSync(newOut, { recursive: true, force: true });
+  }
+  assert.throws(() => build(mkdtempSync(join(tmpdir(), 'cooksimple-bad-')), { site: { ...site, ads: { banners: { '728x90': '<script>bad</script>' } } } }), /32-character key/);
+  assert.throws(() => build(mkdtempSync(join(tmpdir(), 'cooksimple-bad-')), { site: { ...site, ads: { banners: { '728x90': 'https://evil.example/x" onload="alert(1)/' + 'c'.repeat(32) } } } }), /32-character key/);
 });

@@ -12,10 +12,17 @@ import * as cook from './cook-mode.js';
 initPage();
 
 // Small ad below the recipe, only when the build added one (see ADS.md). It
-// loads in a sandboxed frame with no access to this page or its storage.
+// loads in its own frame (/ad/<size>), so the ad code never runs in this page's
+// document. Adsterra's script reads cookies, so the frame keeps the site's
+// origin (allow-same-origin); the sandbox still blocks top-page navigation,
+// forms and downloads.
 for (const slot of document.querySelectorAll('[data-ad-sizes]')) {
   const sizes = slot.dataset.adSizes.split(' ');
-  const size = sizes.find((s) => parseInt(s, 10) <= slot.clientWidth) || sizes[sizes.length - 1];
+  const size = sizes.find((s) => parseInt(s, 10) <= slot.clientWidth);
+  if (!size) {
+    slot.hidden = true; // no banner size fits this screen
+    continue;
+  }
   const [width, height] = size.split('x');
   const box = slot.querySelector('.ad-box');
   box.style.width = `${width}px`;
@@ -25,7 +32,7 @@ for (const slot of document.querySelectorAll('[data-ad-sizes]')) {
   frame.width = width;
   frame.height = height;
   frame.loading = 'lazy';
-  frame.setAttribute('sandbox', 'allow-scripts allow-popups allow-popups-to-escape-sandbox');
+  frame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox');
   frame.src = `/ad/${size}`;
   box.append(frame);
 }

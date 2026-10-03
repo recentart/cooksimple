@@ -15,16 +15,17 @@ a `workers.dev` address (Google AdSense needs your own domain).
    `https://cooksimple.freewebtoolss.workers.dev`.
 2. Create two **Banner** ad units: **728×90** and **320×50**. Use banners only;
    never Popunder, Social Bar, Direct Link or Native/interstitial formats.
-3. Each unit's code contains a line like
-   `<script src="//www.highperformanceformat.com/0123456789abcdef0123456789abcdef/invoke.js"></script>`.
+3. Each unit's code ends with a line like
+   `<script src="https://bauval.org/22/0123456789abcdef0123456789abcdef"></script>`
+   (older codes look like `//www.highperformanceformat.com/<key>/invoke.js`).
    Copy just the `src` address into `site.config.json`:
 
    ```json
    "ads": {
      "network": "adsterra",
      "banners": {
-       "728x90": "//www.highperformanceformat.com/0123…/invoke.js",
-       "320x50": "//www.highperformanceformat.com/4567…/invoke.js"
+       "728x90": "https://bauval.org/22/0123…",
+       "320x50": "https://bauval.org/22/4567…"
      }
    }
    ```
@@ -32,7 +33,7 @@ a `workers.dev` address (Google AdSense needs your own domain).
 4. `npm run build`, `npm test`, commit, `npx wrangler deploy`.
 
 A mistyped code stops the build with a clear error instead of shipping a broken
-slot. With one size filled in, that size is used on every screen.
+slot. A screen too narrow for every configured size shows no ad (a 728×90 is never squeezed onto a phone), so add the 320×50 unit to earn on phones.
 
 ## How it works
 
@@ -43,16 +44,20 @@ slot. With one size filled in, that size is used on every screen.
   `/ad/728x90` or `/ad/320x50`. The build writes those small pages; each holds
   one Adsterra banner snippet (one per page, because the snippet uses a global
   `atOptions` variable).
-- The frames are sandboxed without `allow-same-origin`, so the ad code can't
-  read the page, local storage (saved recipes, notes, meal plan, shopping list)
-  or cookies. The site's own pages still load no third-party scripts at all; the
-  only change to their security policy is `frame-src 'self'`.
+- The ad code runs only inside that frame, never in the recipe page itself: the
+  site's pages still load no third-party scripts, and the only change to their
+  security policy is `frame-src 'self'`. Adsterra's script reads
+  `document.cookie` on load and crashes in an opaque-origin sandbox (tested
+  2026-10-03), so the frame is sandboxed **with** `allow-same-origin`. The
+  sandbox still blocks top-page navigation, forms and downloads, but the ad code
+  could reach the site's own storage, like any normally embedded ad.
 - `/ad/*` gets its own policy in `_headers` (sandbox, may only be framed by this
   site) and is skipped by the service worker.
 - The About page's privacy and advertising text switch to describe the ads.
 
-If real ads stay blank after switching on, check the browser console inside the
-ad frame first: some ad code expects cookies or storage, which the sandbox blocks.
+If ads stay blank, check that your network isn't blocking the ad host: some DNS
+services and ad blockers do (Ashton's home network blocks `bauval.org`). Test on
+mobile data or another network.
 
 ## Never
 

@@ -1,8 +1,8 @@
 # Security and caching headers, applied by Cloudflare Workers static assets.
 # The one inline script (sets the js class and the saved unit choice) is allowed by its hash.
-# Ads (site.config.json, ADS.md) load only inside sandboxed /ad/ frames with their own policy below.
+# Ads (site.config.json, ADS.md) load only inside /ad/ frames with their own policy below.
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-WwCtrqYHBh33w5j1YVgMXvq+JeAEpvqhDAPkeg4VRpg='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-WwCtrqYHBh33w5j1YVgMXvq+JeAEpvqhDAPkeg4VRpg='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
@@ -15,4 +15,12 @@
   Cache-Control: public, max-age=86400
 
 /sw.js
+  Cache-Control: no-cache
+
+# Ad frames: the ad network's script runs here, never in the site's pages. It reads cookies, so the
+# frame keeps the site's origin; the sandbox still blocks top navigation, forms and downloads.
+/ad/*
+  ! Content-Security-Policy
+  Content-Security-Policy: sandbox allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox; frame-ancestors 'self'
+  ! X-Frame-Options
   Cache-Control: no-cache

@@ -123,17 +123,17 @@ export function build(outDir, { site: siteOverride } = {}) {
 
   const scriptHash = createHash('sha256').update(HEAD_SCRIPT).digest('base64');
   // Pages never load third-party scripts. With ads on they may embed /ad/ frames (same site), and
-  // each frame page loads one Adsterra banner under its own sandboxed policy (see ADS.md).
+  // each frame page loads one Adsterra banner under its own policy (see ADS.md).
   const csp = `default-src 'none'; script-src 'self' 'sha256-${scriptHash}'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; ${ads ? "frame-src 'self'; " : ''}manifest-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
   if (ads) {
-    for (const [size, { host, key }] of Object.entries(ads)) {
+    for (const [size, { src, key }] of Object.entries(ads)) {
       const [width, height] = size.split('x').map(Number);
       // One banner per document: Adsterra's snippet uses a page-wide atOptions variable.
       write(join(outDir, 'ad', `${size}.html`), `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Advertisement</title>
 <style>html,body{margin:0;padding:0;overflow:hidden;background:transparent}</style></head>
 <body><script>atOptions = { key: '${key}', format: 'iframe', height: ${height}, width: ${width}, params: {} };</script>
-<script src="https://${host}/${key}/invoke.js"></script></body></html>
+<script src="${src}"></script></body></html>
 `);
     }
   }
@@ -141,7 +141,7 @@ export function build(outDir, { site: siteOverride } = {}) {
     join(outDir, '_headers'),
     `# Security and caching headers, applied by Cloudflare Workers static assets.
 # The one inline script (sets the js class and the saved unit choice) is allowed by its hash.
-# Ads (site.config.json, ADS.md) load only inside sandboxed /ad/ frames with their own policy below.
+# Ads (site.config.json, ADS.md) load only inside /ad/ frames with their own policy below.
 /*
   Content-Security-Policy: ${csp}
   X-Content-Type-Options: nosniff
@@ -158,10 +158,11 @@ export function build(outDir, { site: siteOverride } = {}) {
 /sw.js
   Cache-Control: no-cache
 ${ads ? `
-# Ad frames: always sandboxed (opaque origin), so the ad network's scripts can't reach the site.
+# Ad frames: the ad network's script runs here, never in the site's pages. It reads cookies, so the
+# frame keeps the site's origin; the sandbox still blocks top navigation, forms and downloads.
 /ad/*
   ! Content-Security-Policy
-  Content-Security-Policy: sandbox allow-scripts allow-popups allow-popups-to-escape-sandbox; frame-ancestors 'self'
+  Content-Security-Policy: sandbox allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox; frame-ancestors 'self'
   ! X-Frame-Options
   Cache-Control: no-cache
 ` : ''}`,
